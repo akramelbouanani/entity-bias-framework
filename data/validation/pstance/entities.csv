@@ -1,0 +1,1320 @@
+Entity_ID,Entity_Name,Occurrences,name_en,Language,Gender,Birth_Year,Death_Year,Country,Occupations,Party,Grouped Alignment,name_zh,name_ru
+Q22686,Donald Trump >> en,11867656,Donald Trump,en,Male,1946.0,,Q30,"Q911554, Q557880, Q3427922, Q82955, Q22662561, Q7301138, Q578109, Q3282637, Q36180, Q33999, Q484876, Q19831149, Q215536, Q43845, Q131524",Q29468,RR,唐纳德·特朗普,Дональд Трамп
+Q6279,Joe Biden >> en,5664277,Joe Biden,en,Male,1942.0,,Q30,"Q82955, Q40348, Q1622272, Q36180, Q193391, Q185351",Q29552,CC,乔·拜登,Джо Байден
+Q7747,Vladimir Putin >> en,4814411,Vladimir Putin,en,Male,1952.0,,Q159,"Q82955, Q6665249, Q465501, Q392651, Q248577",Q151469,BT,弗拉基米尔·普京,Владимир Путин
+Q3052772,Emmanuel Macron >> en,1511374,Emmanuel Macron,en,Male,1977.0,,Q142,"Q2883465, Q372436, Q599151, Q82955, Q806798",Q23731823,CC,埃马纽埃尔·马克龙,Эммануэль Макрон
+Q180589,Boris Johnson >> en,1422577,Boris Johnson,en,Male,1964.0,,Q145,"Q1930187, Q82955, Q1607826, Q36180, Q11774202, Q8246794, Q201788",Q9626,CR,鲍里斯·约翰逊,Борис Джонсон
+Q567,Angela Merkel >> en,1104073,Angela Merkel,en,Female,1954.0,,Q183,"Q82955, Q169470, Q372436, Q593644",Q49762,CR,安格拉·默克尔,Ангела Меркель
+Q1055449,Matteo Salvini >> en,802121,Matteo Salvini,en,Male,1973.0,,Q38,"Q1930187, Q82955",Q47750,RR,马泰奥·萨尔维尼,Матео Сальвини
+Q6070218,Pedro Sánchez >> en,736071,Pedro Sánchez,en,Male,1972.0,,Q29,"Q82955, Q188094, Q1622272",Q138198,CL,佩德罗·桑切斯,Педро Санчес
+Q43723,Benjamin Netanyahu >> en,500873,Benjamin Netanyahu,en,Male,1949.0,,Q801,"Q82955, Q193391, Q372436, Q47064, Q15958642, Q1238570",Q187009,RR,本杰明·内塔尼亚胡,Биньямин Нетаньяху
+Q61053,Olaf Scholz >> en,480231,Olaf Scholz,en,Male,1958.0,,Q183,"Q82955, Q40348",Q49768,CL,奥拉夫·朔尔茨,Олаф Шольц
+Q170581,Nancy Pelosi >> en,414427,Nancy Pelosi,en,Female,1940.0,,Q30,Q82955,Q29552,CC,南希·佩洛西,Нэнси Пелоси
+Q10304982,Jair Bolsonaro >> en,388642,Jair Bolsonaro,en,Male,1955.0,,Q155,"Q82955, Q3562775",Q2731720,FR,雅伊尔·博索纳罗,Жаир Болсонару
+Q9640,Lyndon B. Johnson >> en,387954,Lyndon B. Johnson,en,Male,1908.0,1973.0,Q30,"Q82955, Q37226, Q1524582, Q372436",Q29552,CC,林登·约翰逊,Линдон Б. Джонсон
+Q58132,Nicolás Maduro >> en,386007,Nicolás Maduro,en,Male,1962.0,,Q717,"Q193391, Q82955, Q15627169, Q829020",Q197864,LL,尼古拉斯·马杜罗,Николас Мадуро
+Q24313,Mike Pence >> en,346735,Mike Pence,en,Male,1959.0,,Q30,"Q82955, Q40348, Q2722764",Q29468,RR,迈克·彭斯,Майк Пенс
+Q60772,Ursula von der Leyen >> en,338286,Ursula von der Leyen,en,Female,1958.0,,Q183,"Q39631, Q82955, Q2730732",Q49762,CR,乌尔苏拉·冯德莱恩,Урсула фон дер Ляйен
+Q155979,Alexei Navalny >> en,333792,Alexei Navalny,en,Male,1976.0,2024.0,Q159,"Q82955, Q40348, Q15253558, Q8246794, Q662729, Q2823717, Q17125263, Q2526255, Q28389, Q131524, Q217105, Q185351, Q4667873",Q15332,CC,阿列克谢·纳瓦尔尼,Алексей Навальный
+Q58077,Petro Poroshenko >> en,331824,Petro Poroshenko,en,Male,1965.0,,Q212,"Q43845, Q82955, Q193391, Q188094, Q131524",Q2299546,CR,彼得罗·波罗申科,Пётр Порошенко
+Q53844829,Giuseppe Conte >> en,322472,Giuseppe Conte,en,Male,1964.0,,Q38,"Q185351, Q82955, Q3400985, Q40348",Q47817,BT,朱塞佩·孔特,Джузеппе Конте
+Q11860,Silvio Berlusconi >> en,306533,Silvio Berlusconi,en,Male,1936.0,2023.0,Q38,"Q82955, Q131524, Q1420621, Q111398859",Q14924303,CR,西尔维奥·贝卢斯科尼,Сильвио Берлускони
+Q58217,Sergey Lavrov >> en,299075,Sergey Lavrov,en,Male,1950.0,,Q159,"Q193391, Q82955, Q83307",Q79854,FL,谢尔盖·拉夫罗夫,Сергей Лавров
+Q264766,Theresa May >> en,296279,Theresa May,en,Female,1956.0,,Q145,Q82955,Q9626,CR,特蕾莎·梅,Тереза Мэй
+Q47563,Matteo Renzi >> en,291093,Matteo Renzi,en,Male,1975.0,,Q38,"Q82955, Q202648",Q67785862,CC,马泰奥·伦齐,Маттео Ренци
+Q291169,Jeremy Corbyn >> en,274418,Jeremy Corbyn,en,Male,1949.0,,Q145,"Q15627169, Q82955",Q9630,CL,杰里米·科尔宾,Джереми Корбин
+Q57641,Viktor Orbán >> en,265588,Viktor Orbán,en,Male,1963.0,,Q28,"Q185351, Q937857, Q40348, Q82955",Q387006,CR,维克多·欧尔班,Виктор Орбан
+Q10853588,Kamala Harris >> en,249144,Kamala Harris,en,Female,1964.0,,Q30,"Q82955, Q40348, Q600751, Q36180, Q2380299, Q185351",Q29552,CC,卡马拉·哈里斯,Камала Харрис
+Q1124,Bill Clinton >> en,248430,Bill Clinton,en,Male,1946.0,,Q30,"Q82955, Q40348, Q193391, Q18814623, Q36180, Q37226, Q372436, Q12800682, Q132050, Q185351",Q29552,CC,比尔·克林顿,Билл Клинтон
+Q20055561,Rishi Sunak >> en,246907,Rishi Sunak,en,Male,1980.0,,Q145,"Q82955, Q1416279",Q9626,CR,里希·苏纳克,Риши Сунак
+Q352,Adolf Hitler >> en,244384,Adolf Hitler,en,Male,1889.0,1945.0,Q7318,"Q4991371, Q1028181, Q15958642, Q82955, Q11545923, Q36180",Q7320,FR,阿道夫·希特勒,Адольф Гитлер
+Q451791,Giorgia Meloni >> en,242490,Giorgia Meloni,en,Female,1977.0,,Q38,"Q82955, Q1930187",Q1757843,FR,乔治娅·梅洛尼,Джорджия Мелони
+Q23530,Dmitry Medvedev >> en,237747,Dmitry Medvedev,en,Male,1965.0,,Q159,"Q185351, Q82955, Q43845",Q151469,BT,德米特里·梅德韦杰夫,Дмитрий Медведев
+Q3956186,Sergio Mattarella >> en,236914,Sergio Mattarella,en,Male,1941.0,,Q38,"Q82955, Q40348, Q1622272, Q16533",Q47729,CL,塞尔焦·马塔雷拉,Серджо Маттарелла
+Q207,George W. Bush >> en,203247,George W. Bush,en,Male,1946.0,,Q30,"Q82955, Q15982858, Q18814623, Q1028181, Q14089670, Q189290, Q372436, Q43845, Q1979607",Q29468,RR,乔治·W·布什,Джордж Буш-младший
+Q6294,Hillary Clinton >> en,202413,Hillary Clinton,en,Female,1947.0,,Q30,"Q82955, Q40348, Q193391, Q18814623, Q1622272, Q15077007, Q185351, Q3282637",Q29552,CC,希拉里·克林顿,Хиллари Клинтон
+Q461391,Gavin Newsom >> en,202252,Gavin Newsom,en,Male,1967.0,,Q30,"Q82955, Q3427922, Q43845, Q947873, Q36180",Q29552,CC,加文·纽瑟姆,Гэвин Ньюсом
+Q473239,Mike Pompeo >> en,194816,Mike Pompeo,en,Male,1963.0,,Q30,"Q40348, Q43845, Q2961975, Q189290, Q82955",Q29468,RR,迈克·蓬佩奥,Майк Помпео
+Q272201,Liz Truss >> en,190207,Liz Truss,en,Female,1975.0,,Q145,"Q82955, Q326653",Q9626,CR,莉兹·特拉斯,Лиз Трасс
+Q50664,Markus Söder >> en,189552,Markus Söder,en,Male,1967.0,,Q183,"Q82955, Q1930187",Q49763,CR,马库斯·索德,Маркус Зёдер
+Q13581225,Luigi Di Maio >> en,185471,Luigi Di Maio,en,Male,1986.0,,Q38,"Q82955, Q3765897",Q47817,BT,路易吉·迪马伊奥,Луиджи Ди Майо
+Q467112,Nicola Sturgeon >> en,182472,Nicola Sturgeon,en,Female,1970.0,,Q145,"Q82955, Q40348",Q10658,CL,尼古拉·斯特金,Никола Стерджен
+Q11771436,Mateusz Morawiecki >> en,180136,Mateusz Morawiecki,en,Male,1968.0,,Q36,"Q82955, Q2462658, Q201788, Q188094",Q156874,RR,马泰乌什·莫拉维茨基,Матеуш Моравецкий
+Q78205,Armin Laschet >> en,176440,Armin Laschet,en,Male,1961.0,,Q183,"Q1930187, Q82955, Q1622272, Q185351, Q589298",Q49762,CR,阿明·拉舍特,Армин Лашет
+Q212648,Rudy Giuliani >> en,173745,Rudy Giuliani,en,Male,1944.0,,Q30,"Q40348, Q82955, Q36180, Q131524",Q29468,RR,鲁迪·朱利安尼,Руди Джулиани
+Q6055866,Pablo Casado >> en,171357,Pablo Casado,en,Male,1981.0,,Q29,"Q82955, Q40348",Q185088,RR,巴勃罗·卡萨多,Пабло Касадо
+Q319497,Sergey Sobyanin >> en,164723,Sergey Sobyanin,en,Male,1958.0,,Q159,"Q81096, Q185351, Q82955, Q372436",Q151469,BT,谢尔盖·索比亚宁,Сергей Собянин
+Q355522,Mitch McConnell >> en,158509,Mitch McConnell,en,Male,1942.0,,Q30,"Q82955, Q40348, Q16533, Q1450482",Q29468,RR,米奇·麦康奈尔,Митч Макконнелл
+Q1332769,Nicola Zingaretti >> en,157541,Nicola Zingaretti,en,Male,1965.0,,Q38,Q82955,Q47729,CL,尼科拉·津加雷蒂,Никола Зингаретти
+Q9696,John F. Kennedy >> en,157136,John F. Kennedy,en,Male,1917.0,1963.0,Q30,"Q82955, Q1930187, Q372436, Q36180, Q10669499, Q120115224",Q29552,CC,约翰·F·肯尼迪,Джон Ф. Кеннеди
+Q86294,Jens Spahn >> en,154670,Jens Spahn,en,Male,1980.0,,Q183,"Q82955, Q1238570",Q49762,CR,延斯·施潘,Йенс Шпан
+Q13989269,Pablo Iglesias Turrión >> en,153397,Pablo Iglesias Turrión,en,Male,1978.0,,Q29,"Q82955, Q1238570, Q11499163, Q1622272, Q947873",Q16059622,FL,巴勃罗·伊格莱西亚斯·图里翁,Пабло Иглесиас Туррион
+Q318508,Andrés Manuel López Obrador >> en,152378,Andrés Manuel López Obrador,en,Male,1953.0,,Q96,"Q82955, Q36180, Q1238570",Q15717618,CL,安德烈斯·曼努埃尔·洛佩斯·奥夫拉多尔,Андрес Мануэль Лопес Обрадор
+Q855,Joseph Stalin >> en,151345,Joseph Stalin,en,Male,1879.0,1953.0,Q15180,"Q82955, Q3242115, Q6051619, Q372436, Q14467526",Q79854,FL,约瑟夫·斯大林,Иосиф Сталин
+Q1058,Narendra Modi >> en,149771,Narendra Modi,en,Male,1950.0,,Q668,"Q82955, Q36180, Q7019111, Q10429346",Q10230,RR,纳伦德拉·莫迪,Нарендра Моди
+Q55917,Jarosław Kaczyński >> en,142168,Jarosław Kaczyński,en,Male,1949.0,,Q36,"Q82955, Q33999, Q185351, Q15627169",Q156874,RR,雅罗斯瓦夫·卡钦斯基,Ярослав Качиньский
+Q478161,Matt Hancock >> en,141784,Matt Hancock,en,Male,1978.0,,Q145,"Q82955, Q188094",Q9626,CR,马特·汉考克,Мэтт Хэнкок
+Q946,Donald Tusk >> en,140657,Donald Tusk,en,Male,1957.0,,Q36,"Q82955, Q201788, Q2285706",Q156868,CC,唐纳德·图斯克,Дональд Туск
+Q380900,Chuck Schumer >> en,137823,Chuck Schumer,en,Male,1950.0,,Q30,"Q82955, Q36180",Q29552,CC,查克·舒默,Чак Шумер
+Q109943,Robert Habeck >> en,134597,Robert Habeck,en,Male,1969.0,,Q183,"Q82955, Q36180, Q3578589, Q28389",Q49766,CL,罗伯特·哈贝克,Роберт Хабек
+Q6182718,Jerome Powell >> en,134161,Jerome Powell,en,Male,1953.0,,Q30,"Q40348, Q2883465, Q82955",Q29468,RR,杰罗姆·鲍威尔,Джером Пауэлл
+Q312901,Josep Borrell >> en,131463,Josep Borrell,en,Male,1947.0,,Q414,"Q82955, Q188094, Q15627169, Q81096",Q138198,CL,何塞普·博雷利,Жозеп Боррель
+Q564328,Annalena Baerbock >> en,130469,Annalena Baerbock,en,Female,1980.0,,Q183,Q82955,Q49766,CL,安娜莱娜·贝尔博克,Анналена Бербок
+Q50634772,Isabel Díaz Ayuso >> en,129794,Isabel Díaz Ayuso,en,Female,1978.0,,Q29,"Q82955, Q2557481",Q185088,RR,伊莎贝尔·迪亚斯·阿尤索,Исабель Диас Айусо
+Q10819,Mariano Rajoy >> en,129706,Mariano Rajoy,en,Male,1955.0,,Q29,"Q82955, Q30571034",Q185088,RR,马里亚诺·拉霍伊,Мариано Рахой
+Q32024,Sergey Shoygu >> en,129252,Sergey Shoygu,en,Male,1955.0,,Q159,"Q82955, Q47064, Q188094, Q13582652",Q151469,BT,谢尔盖·绍伊古,Сергей Шойгу
+Q4740163,Puigdemont >> en,128621,Puigdemont,en,Male,1962.0,,Q29,"Q11499147, Q1930187, Q82955, Q10800557",Q97155800,CC,普伊格德蒙特,Пучдемон
+Q9960,Ronald Reagan >> en,127314,Ronald Reagan,en,Male,1911.0,2004.0,Q30,"Q10798782, Q10800557, Q82955, Q18814623, Q948329, Q28389, Q189290, Q33999, Q15627169, Q1371925, Q372436, Q2405480, Q18939491, Q259327, Q120115224, Q22662561, Q10732476",Q29468,RR,罗纳德·里根,Рональд Рейган
+Q12927,Marine Le Pen >> en,124280,Marine Le Pen,en,Female,1968.0,,Q142,"Q82955, Q40348, Q97768154, Q97767907",Q205150,FR,玛丽娜·勒庞,Марин Ле Пен
+Q132345,Shinzō Abe >> en,124161,Shinzō Abe,en,Male,1954.0,2022.0,Q17,"Q372436, Q82955",Q232595,RR,安倍晋三,Синдзо Абэ
+Q329,Nicolas Sarkozy >> en,120669,Nicolas Sarkozy,en,Male,1955.0,,Q142,"Q82955, Q40348, Q372436, Q185351",Q20012759,RR,尼古拉·萨科齐,Николя Саркози
+Q3105215,Ron DeSantis >> en,120235,Ron DeSantis,en,Male,1978.0,,Q30,"Q82955, Q47064, Q4114562, Q36180",Q29468,RR,罗恩·德桑蒂斯,Рон ДеСантис
+Q29179,Francisco Franco >> en,119692,Francisco Franco,en,Male,1892.0,1975.0,Q29,"Q189290, Q93470005, Q47064, Q82955, Q1097498, Q28389",Q1249339,FR,弗朗西斯科·佛朗哥,Франсиско Франко
+Q6383803,Keir Starmer >> en,116850,Keir Starmer,en,Male,1962.0,,Q145,"Q808967, Q82955, Q185351",Q9630,CL,基尔·斯塔默,Кир Стармер
+Q43330,Mikheil Saakashvili >> en,116420,Mikheil Saakashvili,en,Male,1967.0,,Q212,"Q185351, Q82955, Q40348, Q947873",Q1057495,CR,米哈伊尔·萨卡什维利,Михаил Саакашвили
+Q9588,Richard Nixon >> en,115851,Richard Nixon,en,Male,1913.0,1994.0,Q30,"Q82955, Q189290, Q40348, Q18814623, Q372436",Q29468,RR,理查德·尼克松,Ричард Никсон
+Q950958,Charles Michel >> en,114928,Charles Michel,en,Male,1975.0,,Q31,"Q82955, Q40348",Q533384,CR,查尔斯·米歇尔,Шарль Мишель
+Q3579995,Édouard Philippe >> en,109129,Édouard Philippe,en,Male,1970.0,,Q142,"Q82955, Q40348",Q108846587,CR,爱德华·菲利普,Эдуар Филипп
+Q8220404,Roberto Speranza >> en,104710,Roberto Speranza,en,Male,1979.0,,Q38,Q82955,Q47729,CL,罗伯托·斯佩兰扎,Роберто Сперанца
+Q2457783,Alberto Núñez Feijóo >> en,100730,Alberto Núñez Feijóo,en,Male,1961.0,,Q29,"Q82955, Q185351",Q185088,RR,阿尔贝托·努涅斯·费霍奥,Альберто Нуньес Фейхоо
+Q674957,Enrico Letta >> en,100399,Enrico Letta,en,Male,1966.0,,Q38,"Q82955, Q3400985, Q15980158",Q47729,CL,恩里科·莱塔,Энрико Летта
+Q31919,Vitali Klitschko >> en,100386,Vitali Klitschko,en,Male,1971.0,,Q212,"Q82955, Q11338576, Q11296761, Q2066131, Q30185",Q4349891,CR,维塔利·克里琴科,Виталий Кличко
+Q85806,Christian Lindner >> en,99879,Christian Lindner,en,Male,1979.0,,Q183,"Q82955, Q36180, Q15077007",Q13124,CR,克里斯蒂安·林德纳,Кристиан Линднер
+Q566257,Friedrich Merz >> en,97706,Friedrich Merz,en,Male,1955.0,,Q183,"Q40348, Q82955, Q2151302, Q11986654",Q49762,CR,弗里德里希·梅尔茨,Фридрих Мерц
+Q3099714,Justin Trudeau >> en,97588,Justin Trudeau,en,Male,1971.0,,Q16,"Q82955, Q83307, Q40348, Q185351, Q37226, Q33999",Q138345,CL,贾斯廷·特鲁多,Джастин Трюдо
+Q993472,Bruno Le Maire >> en,96734,Bruno Le Maire,en,Male,1969.0,,Q142,"Q82955, Q193391",Q23731823,CC,布鲁诺·勒梅尔,Бруно Ле Мэр
+Q3171170,Jean Castex >> en,92438,Jean Castex,en,Male,1965.0,,Q142,"Q372436, Q82955",Q23731823,CC,让·卡斯泰克斯,Жан Кастекс
+Q727798,Sajid Javid >> en,91503,Sajid Javid,en,Male,1969.0,,Q145,"Q82955, Q806798, Q188094",Q9626,CR,萨吉德·贾维德,Саджид Джавид
+Q105676,Karl Lauterbach >> en,91458,Karl Lauterbach,en,Male,1963.0,,Q183,"Q82955, Q39631, Q1622272, Q15980158, Q12765408, Q38383816",Q49768,CL,卡尔·劳特巴赫,Карл Лаутербах
+Q108447,Heiko Maas >> en,91036,Heiko Maas,en,Male,1966.0,,Q183,"Q82955, Q15306067, Q185351, Q83307, Q7330070",Q49768,CL,海科·马斯,Хайко Маас
+Q333533,Jeremy Hunt >> en,89972,Jeremy Hunt,en,Male,1966.0,,Q145,"Q82955, Q2516866",Q9626,CR,杰里米·亨特,Джереми Хант
+Q217115,Ramzan Kadyrov >> en,89445,Ramzan Kadyrov,en,Male,1976.0,,Q159,"Q82955, Q47064",Q151469,BT,拉姆赞·卡德罗夫,Рамзан Кадыров
+Q7436908,Scott Morrison >> en,88559,Scott Morrison,en,Male,1968.0,,Q408,Q82955,Q241149,CR,斯科特·莫里森,Скотт Моррисон
+Q1859524,Viktor Medvedchuk >> en,86211,Viktor Medvedchuk,en,Male,1954.0,,Q212,"Q82955, Q185351, Q43845, Q40348",Q1499300,CL,维克多·梅德韦丘克,Виктор Медведчук
+Q8619,Pierre Trudeau >> en,84609,Pierre Trudeau,en,Male,1919.0,2000.0,Q16,"Q82955, Q40348, Q1930187, Q16533, Q18939491, Q11774156, Q185351, Q37226",Q138345,CL,皮埃尔·特鲁多,Пьер Трюдо
+Q3123610,Gérald Darmanin >> en,82224,Gérald Darmanin,en,Male,1982.0,,Q142,"Q82955, Q4359236, Q97768164, Q97768154",Q20012759,RR,杰拉尔德·达尔马宁,Жеральд Дарманен
+Q484605,Christine Lagarde >> en,81775,Christine Lagarde,en,Female,1956.0,,Q142,"Q188094, Q40348, Q193391, Q82955, Q806798, Q2066131",Q173152,RR,克里斯蒂娜·拉加德,Кристин Лагард
+Q11703587,Santiago Abascal >> en,79497,Santiago Abascal,en,Male,1976.0,,Q29,"Q82955, Q2306091, Q11774202",Q15630787,FR,圣地亚哥·阿巴斯卡尔,Сантьяго Абаскаль
+Q2262885,Sebastian Kurz >> en,79404,Sebastian Kurz,en,Male,1986.0,,Q40,Q82955,Q186867,CR,塞巴斯蒂安·库尔茨,Зебастьян Курц
+Q20020731,Élisabeth Borne >> en,78444,Élisabeth Borne,en,Female,1961.0,,Q142,"Q82955, Q81096, Q599151, Q97768167",Q23731823,CC,伊丽莎白·博恩,Элизабет Борн
+Q157,François Hollande >> en,78102,François Hollande,en,Male,1954.0,,Q142,"Q4594605, Q40348, Q599151, Q372436, Q82955, Q97768274",Q170972,LL,弗朗索瓦·奥朗德,Франсуа Олланд
+Q3332699,Olivier Veran >> en,76668,Olivier Veran,en,Male,1980.0,,Q142,"Q82955, Q783906, Q97768154",Q23731823,CC,奥利维耶·韦兰,Оливье Веран
+Q3393973,Yolanda Díaz >> en,76496,Yolanda Díaz,en,Female,1971.0,,Q29,"Q82955, Q40348",Q119458764,FL,约兰达·迪亚斯,Йоланда Диас
+Q288477,Éric Zemmour >> en,76403,Éric Zemmour,en,Male,1958.0,,Q142,"Q36180, Q17342450, Q1930187, Q1086863, Q1642960, Q15253558, Q82955, Q97768160",Q109932430,FR,埃里克·泽穆尔,Эрик Земмур
+Q2530,Gerhard Schröder >> en,74500,Gerhard Schröder,en,Male,1944.0,,Q183,"Q40348, Q82955, Q15978655, Q15980158, Q11986654, Q56022",Q49768,CL,格哈德·施罗德,Герхард Шрёдер
+Q2851133,Anne Hidalgo >> en,73074,Anne Hidalgo,en,Female,1959.0,,Q142,"Q82955, Q97767991",Q170972,LL,安妮·伊达尔戈,Анн Идальго
+Q1459658,Viktor Yanukovych >> en,72914,Viktor Yanukovych,en,Male,1950.0,,Q159,"Q81096, Q188094, Q82955, Q185351, Q193391, Q1569495",Q4266,CC,维克多·亚努科维奇,Виктор Янукович
+Q21706297,Irene Montero >> en,70085,Irene Montero,en,Female,1988.0,,Q29,"Q82955, Q212980, Q15253558",Q16059622,FL,伊雷内·蒙特罗,Ирене Монтеро
+Q508338,Luca Zaia >> en,69819,Luca Zaia,en,Male,1968.0,,Q38,Q82955,Q958419,RR,卢卡·扎亚,Лука Дзаия
+Q9545,Tony Blair >> en,69145,Tony Blair,en,Male,1953.0,,Q145,"Q82955, Q193391, Q18814623, Q40348",Q9630,CL,托尼·布莱尔,Тони Блэр
+Q2105,Jacques Chirac >> en,67382,Jacques Chirac,en,Male,1932.0,2019.0,Q142,"Q599151, Q82955",Q20012759,RR,雅克·希拉克,Жак Ширак
+Q3768253,Giovanni Toti >> en,66278,Giovanni Toti,en,Male,1968.0,,Q38,"Q1930187, Q82955",Q107017274,CR,乔瓦尼·托蒂,Джованни Тоти
+Q318471,Nigel Farage >> en,65048,Nigel Farage,en,Male,1964.0,,Q145,"Q82955, Q18814623, Q5153156, Q17221, Q15958754, Q12414919",Q104721252,RR,奈杰尔·法拉奇,Найджел Фарадж
+Q9061,Karl Marx >> en,62994,Karl Marx,en,Male,1818.0,1883.0,Q145,"Q188094, Q1930187, Q201788, Q4964182, Q2306091, Q3242115, Q49757, Q82955, Q36180, Q482980, Q15319501, Q69423232, Q73306227",Q642562,FL,卡尔·马克思,Карл Маркс
+Q41395,José Luis Rodríguez Zapatero >> en,60110,José Luis Rodríguez Zapatero,en,Male,1960.0,,Q29,"Q82955, Q372436",Q138198,CL,何塞·路易斯·罗德里格斯·萨帕特罗,Хосе Луис Родригес Сапатеро
+Q4013216,Vincenzo De Luca >> en,59677,Vincenzo De Luca,en,Male,1949.0,,Q38,Q82955,Q47729,CL,文森佐·德卢卡,Винченцо Де Лука
+Q6003983,María Jesús Montero >> en,58662,María Jesús Montero,en,Female,1966.0,,Q29,"Q82955, Q39631",Q138198,CL,玛丽亚·赫苏斯·蒙特罗,Мария Хесус Монтера
+Q2036942,Ted Cruz >> en,58011,Ted Cruz,en,Male,1970.0,,Q16,"Q82955, Q40348, Q883231",Q29468,RR,特德·克鲁兹,Тед Круз
+Q23766020,Virginia Raggi >> en,57862,Virginia Raggi,en,Female,1978.0,,Q38,"Q82955, Q40348",Q47817,BT,维吉尼亚·拉吉,Вирджиния Раджи
+Q438465,Michel Barnier >> en,57606,Michel Barnier,en,Male,1951.0,,Q142,"Q82955, Q193391",Q173152,RR,米歇尔·巴尼耶,Мишель Барнье
+Q2002390,Nello Musumeci >> en,57078,Nello Musumeci,en,Male,1955.0,,Q38,"Q82955, Q201788, Q806805, Q1930187",Q662849,FR,内洛·穆苏梅奇,Нелло Музумечи
+Q2424274,Albert Rivera >> en,57078,Albert Rivera,en,Male,1979.0,,Q29,"Q82955, Q40348",Q1393123,CC,阿尔伯特·里韦拉,Альберт Ривера
+Q982461,Vyacheslav Volodin >> en,56400,Vyacheslav Volodin,en,Male,1964.0,,Q159,"Q82955, Q212238, Q17276321",Q151469,BT,维亚切斯拉夫·沃洛丁,Вячеслав Володин
+Q455023,Valérie Pécresse >> en,55954,Valérie Pécresse,en,Female,1967.0,,Q142,"Q82955, Q83307, Q4594605",Q20012759,RR,瓦莱丽·佩克雷斯,Валери Пекресс
+Q9096682,Ximo Puig >> en,55590,Ximo Puig,en,Male,1959.0,,Q29,"Q82955, Q1930187",Q138198,CL,希门·普伊格,Химо Пуч
+Q76658,Frank-Walter Steinmeier >> en,54887,Frank-Walter Steinmeier,en,Male,1956.0,,Q183,"Q82955, Q40348",Q49768,CL,弗兰克-瓦尔特·施泰因迈尔,Франк-Вальтер Штайнмайер
+Q25864587,Giovanni Falcone >> fr,53573,Giovanni Falcone,fr,Male,1965.0,,Q38,Q82955,Q2792033,CC,乔瓦尼·法尔科内,Джованни Фальконе
+Q48283,Yulia Tymoshenko >> en,52753,Yulia Tymoshenko,en,Female,1960.0,,Q212,"Q188094, Q82955, Q131524",Q45376,CR,尤利娅·季莫申科,Юлия Тимошенко
+Q334155,Sadiq Khan >> en,52737,Sadiq Khan,en,Male,1970.0,,Q145,"Q82955, Q40348, Q14284",Q9630,CL,萨迪克·汗,Садик Хан
+Q3629240,Attilio Fontana >> en,52117,Attilio Fontana,en,Male,1952.0,,Q38,Q82955,Q47750,RR,阿蒂利奥·丰塔纳,Аттилио Фонтана
+Q18590052,Stefano Bonaccini >> en,50128,Stefano Bonaccini,en,Male,1967.0,,Q38,Q82955,Q47729,CL,斯特法诺·博纳奇尼,Стефано Боначчини
+Q9303115,Rafał Trzaskowski >> en,49700,Rafał Trzaskowski,en,Male,1972.0,,Q36,"Q82955, Q1238570, Q333634",Q156868,CC,拉法乌·特沙斯基,Рафаł Тшасковский
+Q1105049,Gergely Karacsony >> en,49179,Gergely Karacsony,en,Male,1975.0,,Q28,"Q82955, Q1238570, Q2306091",Q15177537,CL,卡拉乔尼·盖尔盖,Гергей Карачонь
+Q704389,Avakov >> en,49041,Avakov,en,Male,1964.0,,Q212,"Q82955, Q806798",Q45376,CR,阿瓦科夫,Аваков
+Q191337,Ferenc Gyurcsány >> en,49011,Ferenc Gyurcsány,en,Male,1961.0,,Q28,"Q82955, Q188094, Q1231865",Q847504,CL,费伦茨·居尔恰尼,Ференц Дьюрчань
+Q16169026,Pere Aragonès >> en,48823,Pere Aragonès,en,Male,1982.0,,Q29,"Q82955, Q1622272, Q185351",Q150068,CL,佩雷·阿拉戈内斯,Пере Арагонес
+Q3606816,Jacinda Ardern >> en,48760,Jacinda Ardern,en,Female,1980.0,,Q664,Q82955,Q1048192,CL,杰辛达·阿德恩,Джасинда Ардерн
+Q200015,Vladimir Zhirinovsky >> en,48723,Vladimir Zhirinovsky,en,Male,1946.0,2022.0,Q159,"Q82955, Q40348, Q47064",Q212115,FR,弗拉基米尔·日里诺夫斯基,Владимир Жириновский
+Q64577417,Salvador Illa >> en,48711,Salvador Illa,en,Male,1966.0,,Q29,Q82955,Q138198,CL,萨尔瓦多·伊利亚,Сальвадор Илья
+Q116812,Oriol Junqueras >> en,48618,Oriol Junqueras,en,Male,1969.0,,Q29,"Q82955, Q201788, Q1622272, Q36180, Q28389",Q150068,CL,奥里奥尔·洪克拉斯,Ориоль Жункерас
+Q47683,Beppe Grillo >> en,48453,Beppe Grillo,en,Male,1948.0,,Q38,"Q33999, Q245068, Q82955, Q36180, Q15253558",Q47817,BT,贝佩·格里洛,Беппе Грилло
+Q12467437,Carlo Calenda >> en,48325,Carlo Calenda,en,Male,1973.0,,Q38,"Q82955, Q832136, Q193391",Q47729,CL,卡洛·卡伦达,Карло Календа
+Q55637,José María Aznar >> en,47764,José María Aznar,en,Male,1953.0,,Q29,"Q82955, Q43845, Q27214348",Q185088,RR,何塞·玛丽亚·阿斯纳尔,Хосе Мария Аснар
+Q685293,Péter Szijjártó >> en,47672,Péter Szijjártó,en,Male,1978.0,,Q28,"Q82955, Q193391",Q387006,CR,塞尔吉奥·彼得,Петер Сийярто
+Q13786674,Inés Arrimadas >> en,45742,Inés Arrimadas,en,Female,1981.0,,Q29,"Q82955, Q40348, Q15978655",Q1393123,CC,伊内斯·阿里马达斯,Инес Арримадас
+Q557436,Benny Gantz >> en,44029,Benny Gantz,en,Male,1959.0,,Q801,"Q47064, Q82955",Q60198488,CC,本尼·甘茨,Бени Ганц
+Q16584928,Juan Manuel Moreno >> en,43902,Juan Manuel Moreno,en,Male,1970.0,,Q29,Q82955,Q185088,RR,胡安·曼努埃尔·莫雷诺,Хуан Мануэль Морено
+Q1485118,Alexander Bastrykin >> en,43548,Alexander Bastrykin,en,Male,1953.0,,Q15180,Q82955,Q79854,FL,亚历山大·巴斯特里金,Александр Бастрыкин
+Q104678,Bodo Ramelow >> en,43258,Bodo Ramelow,en,Male,1956.0,,Q183,"Q82955, Q15627169",Q49764,FL,博多·拉梅洛夫,Бодо Рамелов
+Q1960874,Alexander Beglov >> en,42170,Alexander Beglov,en,Male,1956.0,,Q159,Q82955,Q151469,BT,亚历山大·别格洛夫,Александр Беглов
+Q260432,Tatyana Golikova >> en,41052,Tatyana Golikova,en,Female,1966.0,,Q159,"Q188094, Q82955",Q151469,BT,塔季扬娜·戈利科娃,Татьяна Голикова
+Q182654,Valentina Matviyenko >> en,41022,Valentina Matviyenko,en,Female,1949.0,,Q159,"Q4379628, Q193391, Q82955, Q372436",Q151469,BT,瓦莲京娜·马特维延科,Валентина Матвиенко
+Q440710,Antonio Tajani >> en,40146,Antonio Tajani,en,Male,1953.0,,Q38,"Q82955, Q185351, Q1930187",Q14924303,CR,安东尼奥·塔亚尼,Антонио Таяни
+Q7317,Giuseppe Verdi >> en,40129,Giuseppe Verdi,en,Male,1813.0,1901.0,Q172579,"Q36834, Q158852, Q36180, Q82955",Q2949884,CR,朱塞佩·威尔第,Джузеппе Верди
+Q1726930,Christophe Castaner >> en,38953,Christophe Castaner,en,Male,1966.0,,Q142,"Q82955, Q185351, Q40348, Q97768154, Q97767869",Q170972,LL,克里斯托夫·卡斯塔纳尔,Кристоф Кастанер
+Q159472,Zbigniew Ziobro >> en,38831,Zbigniew Ziobro,en,Male,1970.0,,Q36,"Q82955, Q185351, Q40348",Q1337891,RR,兹比格涅夫·乔布罗,Збигнев Зиобро
+Q983503,Rustam Minnikhanov >> en,37785,Rustam Minnikhanov,en,Male,1957.0,,Q159,"Q82955, Q20726593, Q188094, Q10349745",Q151469,BT,鲁斯塔姆·明尼哈诺夫,Рустам Минниханов
+Q359480,Fumio Kishida >> en,37541,Fumio Kishida,en,Male,1957.0,,Q17,"Q193391, Q82955",Q232595,RR,岸田文雄,Фумио Кисида
+Q659163,Giancarlo Giorgetti >> en,36735,Giancarlo Giorgetti,en,Male,1966.0,,Q38,Q82955,Q47750,RR,詹卡洛·乔尔杰蒂,Джанкарло Джорджетти
+Q101410,François Fillon >> en,36309,François Fillon,en,Male,1954.0,,Q142,"Q82955, Q40348, Q1450482",Q20012759,RR,弗朗索瓦·菲永,Франсуа Фийон
+Q737463,Dmitry Rogozin >> en,35664,Dmitry Rogozin,en,Male,1963.0,,Q159,"Q1930187, Q82955, Q193391, Q17276321",Q2394353,FR,德米特里·罗戈津,Дмитрий Рогозин
+Q30339350,Gabriel Attal >> en,34751,Gabriel Attal,en,Male,1989.0,,Q142,"Q82955, Q97768154",Q23731823,CC,加布里埃尔·阿塔尔,Габриэль Атталь
+Q1396120,Yair Lapid >> en,34306,Yair Lapid,en,Male,1963.0,,Q801,"Q1930187, Q36180, Q82955, Q33999, Q947873, Q17351648, Q10800557, Q6051619",Q622716,CC,亚伊尔·拉皮德,Яир Лапид
+Q3820056,José Luis Ábalos >> en,33919,José Luis Ábalos,en,Male,1959.0,,Q29,"Q82955, Q2251335",Q478811,FL,何塞·路易斯·阿巴洛斯,Хосе Луис Абалос
+Q5666820,Alfonso Fernández Mañueco >> en,33750,Alfonso Fernández Mañueco,en,Male,1965.0,,Q29,Q82955,Q185088,RR,阿方索·费尔南德斯·马纽埃科,Альфонсо Фернандес Маньюэко
+Q222905,Gowin >> en,32929,Gowin,en,Male,1961.0,,Q36,"Q4964182, Q1622272, Q82955, Q6051619",Q15303489,CR,戈温,Говин
+Q671955,Ludovic Orban >> en,32880,Ludovic Orban,en,Male,1963.0,,Q218,"Q82955, Q81096",Q109126919,CR,卢多维克·奥尔班,Лудовик Орбан
+Q15838823,Sergey Aksyonov >> en,32583,Sergey Aksyonov,en,Male,1972.0,,Q212,Q82955,Q151469,BT,谢尔盖·阿克肖诺夫,Сергей Аксёнов
+Q6533414,Letitia James >> en,32156,Letitia James,en,Female,1958.0,,Q30,"Q40348, Q82955, Q1930187",Q2741156,LL,莱蒂西亚·詹姆斯,Летития Джеймс
+Q122465,Yoshihide Suga >> en,32068,Yoshihide Suga,en,Male,1948.0,,Q17,Q82955,Q232595,RR,菅义伟,Ёсихидэ Суга
+Q17045132,Íñigo Errejón >> en,31387,Íñigo Errejón,en,Male,1983.0,,Q29,"Q82955, Q1238570",Q68609827,LL,伊尼戈·埃雷洪,Иньиго Эррехон
+Q171834,Aldo Moro >> en,31173,Aldo Moro,en,Male,1916.0,1978.0,Q172579,"Q82955, Q193391, Q121594",Q815348,CC,阿尔多·莫罗,Альдо Моро
+Q476596,Alexander De Croo >> en,30982,Alexander De Croo,en,Male,1975.0,,Q31,Q82955,Q1160192,CR,亚历山大·德克鲁,Александр Де Кроо
+Q7327,Yuri Gagarin >> en,30972,Yuri Gagarin,en,Male,1934.0,1968.0,Q15180,"Q2095549, Q11631, Q189290, Q82955, Q11900058",Q79854,FL,尤里·加加林,Юрий Гагарин
+Q7484547,Roberto Fico >> en,30939,Roberto Fico,en,Male,1974.0,,Q38,Q82955,Q47817,BT,罗伯托·菲科,Роберто Фико
+Q4321847,Alexander Novak >> en,30293,Alexander Novak,en,Male,1971.0,,Q159,Q82955,Q151469,BT,亚历山大·诺瓦克,Александр Новак
+Q40649,Cristina Fernández de Kirchner >> en,29842,Cristina Fernández de Kirchner,en,Female,1953.0,,Q414,"Q82955, Q40348",Q1053668,BT,克里斯蒂娜·费尔南德斯·德基什内尔,Кристина Фернандес де Киршнер
+Q502185,Andrei Jurjewitsch Worobjow >> de,29469,Andrei Jurjewitsch Worobjow,de,Male,1970.0,,Q159,"Q82955, Q188094, Q43845, Q372436, Q17276321",Q151469,BT,安德烈·尤里耶维奇·沃罗比约夫,Андрей Юрьевич Воробьёв
+Q4779594,Ada Colau >> en,29312,Ada Colau,en,Female,1974.0,,Q29,"Q82955, Q8359428, Q19509201",Q28043093,LL,阿达·科劳,Ада Колау
+Q1728820,Leo Varadkar >> en,28981,Leo Varadkar,en,Male,1979.0,,Q27,"Q82955, Q39631",Q247135,CR,利奥·瓦拉德卡尔,Лео Варадкар
+Q441791,Yannick Jadot >> en,28928,Yannick Jadot,en,Male,1967.0,,Q142,"Q82955, Q3578589",Q613786,LL,雅尼克·雅多,Янник Жадо
+Q351014,Alexei Kudrin >> en,28465,Alexei Kudrin,en,Male,1960.0,,Q159,"Q82955, Q188094, Q7614320",Q79854,FL,阿列克谢·库德林,Алексей Кудрин
+Q24524789,Ione Belarra >> en,28404,Ione Belarra,en,Female,1987.0,,Q29,"Q82955, Q212980",Q16059622,FL,伊奥内·贝拉拉,Ионе Беларра
+Q589645,Anton Siluanov >> en,28123,Anton Siluanov,en,Male,1963.0,,Q159,"Q1979607, Q82955, Q188094",Q151469,BT,安东·西卢阿诺夫,Антон Силуанов
+Q4120816,Luis Bárcenas >> en,27738,Luis Bárcenas,en,Male,1957.0,,Q29,"Q82955, Q43845, Q173950",Q185088,RR,路易斯·巴尔塞纳斯,Луис Барсенас
+Q2426702,Vittorio Sgarbi >> en,27701,Vittorio Sgarbi,en,Male,1952.0,,Q38,"Q82955, Q4164507, Q1792450",Q47720,CR,维托里奥·斯加尔比,Витторио Сгарби
+Q189732,Leonid Kravchuk >> en,27471,Leonid Kravchuk,en,Male,1934.0,2022.0,Q36,"Q82955, Q188094",Q79854,FL,列昂尼德·克拉夫丘克,Леонид Кравчук
+Q10287,Manuel Valls >> en,27254,Manuel Valls,en,Male,1962.0,,Q142,"Q82955, Q97767907",Q64728958,RR,曼努埃尔·瓦尔斯,Мануэль Вальс
+Q35314,Nikita Khrushchev >> en,26668,Nikita Khrushchev,en,Male,1894.0,1971.0,Q15180,"Q82955, Q47064, Q3242115",Q79854,FL,尼基塔·赫鲁晓夫,Никита Хрущёв
+Q63184986,Dmytro Razumkov >> en,26663,Dmytro Razumkov,en,Male,1983.0,,Q212,"Q8125919, Q82955",Q52292915,CC,德米特罗·拉祖姆科夫,Дмитрий Разумков
+Q561837,Mauricio Macri >> en,26560,Mauricio Macri,en,Male,1959.0,,Q38,"Q43845, Q82955, Q13582652, Q26481809",Q1507720,CR,毛里西奥·马克里,Маурисио Макри
+Q19722022,Juan Marín >> en,26510,Juan Marín,en,Male,1962.0,,Q29,"Q82955, Q43845",Q1393123,CC,胡安·马林,Хуан Марин
+Q245207,Florentino Pérez >> en,26332,Florentino Pérez,en,Male,1947.0,,Q29,"Q43845, Q82955, Q13582652, Q26481809",Q3395147,CC,弗洛伦蒂诺·佩雷斯,Флорентино Перес
+Q18176756,Björn Höcke >> en,25960,Björn Höcke,en,Male,1972.0,,Q183,"Q37226, Q82955, Q928764",Q6721203,FR,比约恩·赫克,Бьорн Хёке
+Q55280662,Lucia Azzolina >> en,25587,Lucia Azzolina,en,Female,1982.0,,Q38,"Q82955, Q37226",Q47817,BT,卢西亚·阿佐利纳,Лучия Аззолина
+Q1961896,Urkullu >> en,25540,Urkullu,en,Male,1961.0,,Q29,"Q82955, Q37226",Q43093,CC,乌尔库鲁,Уркуллу
+Q123939,Alain Berset >> en,25277,Alain Berset,en,Male,1972.0,,Q39,"Q188094, Q82955",Q303745,LL,阿兰·贝尔塞,Ален Берсе
+Q5550584,Gergely Gulyas >> en,25147,Gergely Gulyas,en,Male,1981.0,,Q28,"Q82955, Q40348",Q387006,CR,盖尔盖·古利亚什,Гергей Гуляш
+Q55281792,Stefano Patuanelli >> en,25140,Stefano Patuanelli,en,Male,1974.0,,Q38,Q82955,Q47817,BT,斯特法诺·帕图阿内利,Стефано Патуанелли
+Q335697,Anthony Albanese >> en,24893,Anthony Albanese,en,Male,1963.0,,Q408,Q82955,Q216082,CL,安东尼·阿尔巴尼斯,Энтони Албанизе
+Q3327963,Alberto Garzón >> en,24890,Alberto Garzón,en,Male,1985.0,,Q29,"Q82955, Q188094, Q83307",Q623740,LL,阿尔贝托·加尔松,Альберто Гарсон
+Q1748055,Mariusz Blaszczak >> en,24609,Mariusz Blaszczak,en,Male,1969.0,,Q36,Q82955,Q156874,RR,马留什·布瓦什查克,Мариуш Блащак
+Q60805,Rinat Akhmetov >> en,24604,Rinat Akhmetov,en,Male,1966.0,,Q212,"Q43845, Q82955, Q131524, Q188094, Q806798, Q6606110",Q4266,CC,里纳特·阿赫梅托夫,Ринат Ахметов
+Q17266671,Alberto Cirio >> en,24039,Alberto Cirio,en,Male,1972.0,,Q38,Q82955,Q14924303,CR,阿尔贝托·奇里奥,Альберто Чирио
+Q2223490,Cuca Gamarra >> en,23713,Cuca Gamarra,en,Female,1974.0,,Q29,"Q82955, Q40348",Q185088,RR,库卡·加马拉,Кука Гамарра
+Q10652,Alex Salmond >> en,23601,Alex Salmond,en,Male,1954.0,2024.0,Q145,"Q188094, Q82955, Q18814623",Q10658,CL,亚历克斯·萨尔蒙德,Алекс Салмонд
+Q5809,Che Guevara >> en,23495,Che Guevara,en,Male,1928.0,1967.0,Q414,"Q82955, Q39631, Q49757, Q193391, Q11774202, Q3242115, Q212948, Q47064, Q36180, Q6051619",Q371402,FL,切·格瓦拉,Че Гевара
+Q10648,Gordon Brown >> en,23468,Gordon Brown,en,Male,1951.0,,Q145,"Q82955, Q1930187, Q864380, Q18814623, Q3400985, Q201788",Q9630,CL,戈登·布朗,Гордон Браун
+Q19592761,Manuela Carmena >> en,23295,Manuela Carmena,en,Female,1944.0,,Q29,"Q16533, Q82955, Q36180, Q40348",Q19587806,LL,马努埃拉·卡尔梅纳,Мануэла Кармена
+Q5829,Jean-Luc Mélenchon >> en,22455,Jean-Luc Mélenchon,en,Male,1951.0,,Q142,"Q82955, Q1930187, Q539371, Q5758653, Q3024627",Q27978402,FL,让-吕克·梅朗雄,Жан-Люк Меланшон
+Q99450,Dietmar Bartsch >> en,22065,Dietmar Bartsch,en,Male,1958.0,,Q183,"Q188094, Q82955",Q49764,FL,迪特马尔·巴尔施,Дитмар Барч
+Q15705335,Alessandro Di Battista >> en,21894,Alessandro Di Battista,en,Male,1978.0,,Q38,"Q82955, Q15253558, Q36180",Q47817,BT,亚历山德罗·迪·巴蒂斯塔,Алессандро Ди Баттиста
+Q239024,Letizia Moratti >> en,21883,Letizia Moratti,en,Female,1949.0,,Q38,"Q82955, Q43845",Q47720,CR,莱蒂齐娅·莫拉蒂,Летиция Моратти
+Q203793,Xavier Bertrand >> en,21397,Xavier Bertrand,en,Male,1965.0,,Q142,"Q82955, Q2826758",Q173152,RR,泽维尔·贝特朗,Ксавье Бертран
+Q3067773,Mónica Oltra >> en,21318,Mónica Oltra,en,Female,1969.0,,Q29,"Q40348, Q82955",Q11683233,LL,莫妮卡·奥尔特拉,Моника Ольтра
+Q182452,Gennady Zyuganov >> en,20790,Gennady Zyuganov,en,Male,1944.0,,Q159,"Q82955, Q1978560, Q47064, Q169470, Q17276321",Q192187,LL,根纳季·久加诺夫,Геннадий Зюганов
+Q29168668,Fernando López Miras >> en,20406,Fernando López Miras,en,Male,1983.0,,Q29,"Q82955, Q40348",Q185088,RR,费尔南多·洛佩斯·米拉斯,Фернандо Лопес Мирас
+Q16525358,Alfonso Bonafede >> en,20313,Alfonso Bonafede,en,Male,1976.0,,Q38,"Q82955, Q40348",Q47817,BT,阿方索·博纳费德,Альфонсо Бонафеде
+Q11778705,Michał Dworczyk >> en,20184,Michał Dworczyk,en,Male,1975.0,,Q36,"Q82955, Q201788",Q156874,RR,米哈乌·德沃尔奇克,Михал Дворчик
+Q6659788,Liviu Dragnea >> en,20182,Liviu Dragnea,en,Male,1962.0,,Q218,"Q82955, Q386854, Q156839, Q17125263, Q94791573, Q2906862, Q3430775",Q108612808,FR,利维乌·德拉格内亚,Ливиу Драгня
+Q984375,Laurent Wauquiez >> en,19962,Laurent Wauquiez,en,Male,1975.0,,Q142,"Q82955, Q83307, Q97768154",Q173152,RR,洛朗·沃基耶,Лоран Вокье
+Q1148719,Luigi de Magistris (politician) >> en,19765,Luigi de Magistris,en,Male,1967.0,,Q38,Q82955,Q30594836,LL,路易吉·德·马焦里斯,Луиджи де Магистрис
+Q458282,Yuriy Lutsenko >> en,19747,Yuriy Lutsenko,en,Male,1964.0,,Q212,Q82955,Q2630367,CL,尤里·卢岑科,Юрий Луценко
+Q21095867,Sorin Cimpeanu >> en,19456,Sorin Cimpeanu,en,Male,1968.0,,Q218,"Q82955, Q1622272, Q81096",Q686228,CR,索林·钦佩亚努,Сорин Чимпеану
+Q458100,Ella Pamfilova >> en,19454,Ella Pamfilova,en,Female,1953.0,,Q159,"Q82955, Q81096, Q17276321",Q79854,FL,埃拉·潘菲洛娃,Элла Памфилова
+Q43590358,Leonid Pasechnik >> en,18960,Leonid Pasechnik,en,Male,1970.0,,Q159,"Q82955, Q47064, Q19614488",Q18603146,CC,列昂尼德·帕谢尼克,Леонид Пасечник
+Q22083531,Francisco Igea >> fr,18845,Francisco Igea,fr,Male,1963.0,,Q29,"Q39631, Q82955",Q1393123,CC,弗朗西斯科·伊赫亚,Франсиско Игэа
+Q124617,Georgy Zhukov >> en,18831,Georgy Zhukov,en,Male,1896.0,1974.0,Q15180,"Q189290, Q82955",Q79854,FL,格奥尔基·朱可夫,Георгий Жуков
+Q9352644,Szymon Hołownia >> en,18713,Szymon Hołownia,en,Male,1976.0,,Q36,"Q1930187, Q82955, Q44508716, Q36180, Q6051619, Q13590141, Q8359428, Q2462658",Q100979832,CC,希蒙·霍沃尼亚,Шимон Холовня
+Q3984267,Teresa Bellanova >> en,18698,Teresa Bellanova,en,Female,1958.0,,Q38,Q82955,Q67785862,CC,特雷莎·贝拉诺瓦,Тереза Белланова
+Q4792148,Arlene Foster >> en,18556,Arlene Foster,en,Female,1970.0,,Q145,"Q82955, Q40348",Q215519,RR,阿琳·福斯特,Арлин Фостер
+Q20807844,Marlene Schiappa >> en,18526,Marlene Schiappa,en,Female,1982.0,,Q142,"Q82955, Q36180, Q28692502, Q6051619",Q23731823,CC,玛琳·斯基亚帕,Марлен Скиаппа
+Q201005,Anatoly Chubais >> en,18210,Anatoly Chubais,en,Male,1955.0,,Q159,"Q82955, Q188094, Q43845",Q686098,CR,阿纳托利·丘拜斯,Анатолий Чубайс
+Q1394411,La Russa >> en,17993,La Russa,en,Male,1947.0,,Q38,"Q82955, Q40348",Q1757843,FR,拉鲁萨,Ла Русса
+Q368947,Sergey Mironov >> en,17776,Sergey Mironov,en,Male,1953.0,,Q159,"Q82955, Q372436, Q17276321",Q210692,CL,谢尔盖·米罗诺夫,Сергей Миронов
+Q27975838,Alice Weidel >> en,17729,Alice Weidel,en,Female,1979.0,,Q183,"Q82955, Q1227195, Q13405496, Q15980158, Q16849727",Q6721203,FR,爱丽丝·魏德尔,Алис Вайдель
+Q123979,Maurer >> en,17675,Maurer,en,Male,1950.0,,Q39,Q82955,Q385258,RR,毛雷尔,Маурер
+Q11715561,Jacek Sasin >> en,17663,Jacek Sasin,en,Male,1969.0,,Q36,Q82955,Q156874,RR,雅采克·萨辛,Яцек Сасин
+Q63861758,Edmundo Bal >> en,17513,Edmundo Bal,en,Male,1967.0,,Q29,"Q185351, Q82955, Q66172428",Q125883791,CC,埃德蒙多·巴尔,Эдмундо Баль
+Q2642828,Alberto Fernández >> en,17481,Alberto Fernández,en,Male,1959.0,,Q414,"Q82955, Q40348, Q1622272",Q1053668,BT,阿尔贝托·费尔南德斯,Альберто Фернандес
+Q26776800,Sergey Furgal >> en,17405,Sergey Furgal,en,Male,1970.0,,Q159,"Q82955, Q39631, Q599151",Q212115,FR,谢尔盖·富尔加尔,Сергей Фургал
+Q4150130,Volodymyr Groysman >> en,17293,Volodymyr Groysman,en,Male,1978.0,,Q212,"Q82955, Q188094, Q40348",Q65200178,CL,弗拉基米尔·格罗伊斯曼,Владимир Гройсман
+Q16179626,Laura Borràs >> en,17286,Laura Borràs,en,Female,1970.0,,Q29,"Q13418253, Q1622272, Q82955, Q36180, Q1086863, Q1650915",Q97155800,CC,劳拉·博拉斯,Лаура Боррас
+Q15972657,Danilo Toninelli >> en,17022,Danilo Toninelli,en,Male,1974.0,,Q38,"Q82955, Q40348",Q47817,BT,达尼洛·托尼内利,Данило Тонинелли
+Q64569137,Macarena Olona >> en,16988,Macarena Olona,en,Female,1979.0,,Q29,"Q82955, Q40348",Q118926691,FR,马卡雷纳·奥洛纳,Макарена Олона
+Q3074013,Florence Parly >> en,16983,Florence Parly,en,Female,1963.0,,Q142,Q82955,Q170972,LL,弗洛朗斯·帕尔利,Флоренс Парли
+Q2020823,Olivier Dussopt >> en,16930,Olivier Dussopt,en,Male,1978.0,,Q142,"Q82955, Q97768154",Q97015296,LL,奥利维耶·迪索普,Оливье Дюссо
+Q29210910,Griveaux >> en,16706,Griveaux,en,Male,1977.0,,Q142,Q82955,Q170972,LL,格里沃,Гриво
+Q3846259,Marco Marsilio >> en,16703,Marco Marsilio,en,Male,1968.0,,Q38,Q82955,Q1757843,FR,马尔科·马尔西利奥,Марко Марсилио
+Q52419169,Christian Solinas >> en,16617,Christian Solinas,en,Male,1976.0,,Q38,Q82955,Q1299105,RR,克里斯蒂安·索利纳斯,Кристиан Солинас
+Q59609771,Rocío Monasterio >> en,16568,Rocío Monasterio,en,Female,1974.0,,Q29,"Q82955, Q42973",Q15630787,FR,罗西奥·莫纳斯特里奥,Росио Монастерио
+Q17280089,Teresa Rodriguez >> en,16501,Teresa Rodriguez,en,Female,1981.0,,Q29,"Q82955, Q15627169, Q5758653",Q55392186,LL,特雷莎·罗德里格斯,Тереса Родригес
+Q12963,François Bayrou >> en,16475,François Bayrou,en,Male,1951.0,,Q142,"Q82955, Q1749879, Q121594",Q587370,CR,弗朗索瓦·巴伊鲁,Франсуа Байру
+Q10861968,Vito Crimi >> en,16293,Vito Crimi,en,Male,1972.0,,Q38,Q82955,Q47817,BT,维托·克里米,Вито Кримми
+Q52419113,Pierpaolo Sileri >> en,16266,Pierpaolo Sileri,en,Male,1972.0,,Q38,"Q82955, Q1650915",Q47817,BT,皮耶尔保罗·西莱里,Пьерпаоло Силери
+Q122991,Simonetta Sommaruga >> en,15978,Simonetta Sommaruga,en,Female,1960.0,,Q39,"Q82955, Q486748",Q303745,LL,西蒙内塔·索马鲁加,Симонетта Соммаруга
+Q28950289,Nicolae Ciuca >> en,15923,Nicolae Ciuca,en,Male,1967.0,,Q218,"Q189290, Q82955",Q686228,CR,尼古拉·丘卡,Николае Чука
+Q465285,Herman Gref >> en,15747,Herman Gref,en,Male,1964.0,,Q183,"Q188094, Q806798, Q82955",Q79854,FL,赫尔曼·格雷夫,Герман Греф
+Q3852622,Maurizio Landini >> en,15738,Maurizio Landini,en,Male,1961.0,,Q38,"Q82955, Q15627169",Q461886,LL,毛里齐奥·兰迪尼,Маурицио Ландини
+Q11688652,Borys Budka >> en,15672,Borys Budka,en,Male,1978.0,,Q36,"Q188094, Q82955",Q156868,CC,鲍里斯·布德卡,Борис Будка
+Q18434995,Sophie Wilmes >> en,15660,Sophie Wilmes,en,Female,1975.0,,Q31,"Q82955, Q188094",Q533384,CR,索菲·威尔梅斯,Софи Вильмес
+Q765165,Leonid Brezhnev >> en,15550,Leonid Brezhnev,en,Male,1906.0,1982.0,Q15180,"Q82955, Q81096, Q47064, Q294126",Q79854,FL,列昂尼德·勃列日涅夫,Леонид Брежнев
+Q3851022,Massimiliano Fedriga >> en,15463,Massimiliano Fedriga,en,Male,1980.0,,Q38,Q82955,Q47750,RR,马西米利亚诺·费德里加,Массимиано Федрига
+Q455854,Reuven Rivlin >> en,15138,Reuven Rivlin,en,Male,1939.0,,Q801,"Q82955, Q40348, Q185351",Q187009,RR,鲁文·里夫林,Реувен Ривлин
+Q30388733,Fabien Roussel >> en,15136,Fabien Roussel,en,Male,1969.0,,Q142,"Q82955, Q1930187, Q97768425, Q97768237",Q192821,FL,法比安·鲁塞尔,Фабиен Руссель
+Q21995345,Katalin Novák >> en,14837,Katalin Novák,en,Female,1977.0,,Q28,"Q82955, Q185351, Q188094",Q387006,CR,诺瓦克·卡塔琳,Каталин Новак
+Q15143059,Maria Elena Boschi >> fr,14755,Maria Elena Boschi,fr,Female,1981.0,,Q38,"Q82955, Q40348, Q185351",Q67785862,CC,玛丽亚·埃莱娜·博斯基,Мария Елена Боски
+Q1396586,Marcelo Ebrard >> en,14754,Marcelo Ebrard,en,Male,1959.0,,Q96,Q82955,Q15717618,CL,马塞洛·埃布拉德,Марсело Эбрард
+Q14848244,Lyubov Sobol >> en,14723,Lyubov Sobol,en,Female,1987.0,,Q159,"Q11499147, Q185351, Q40348, Q82955, Q662729, Q578109",Q7767510,CR,柳博夫·索博尔,Любовь Соболь
+Q3351018,Olivier Faure >> en,14681,Olivier Faure,en,Male,1968.0,,Q142,"Q82955, Q97768164",Q170972,LL,奥利维耶·福尔,Оливье Фор
+Q121160,Guy Parmelin >> en,14554,Guy Parmelin,en,Male,1959.0,,Q39,"Q82955, Q131512",Q385258,RR,盖伊·帕尔梅兰,Ги Парменан
+Q2733616,Miguel Ángel Revilla >> en,14509,Miguel Ángel Revilla,en,Male,1943.0,,Q29,"Q188094, Q82955, Q806805",Q1249339,FR,米格尔·安赫尔·雷维利亚,Мигель Анхель Ревилья
+Q1401791,Mihály Varga >> en,14508,Mihály Varga,en,Male,1965.0,,Q28,"Q188094, Q82955",Q387006,CR,瓦尔加·米哈伊,Михай Варга
+Q3836978,Lorenzo Guerini >> en,14486,Lorenzo Guerini,en,Male,1966.0,,Q38,Q82955,Q815348,CC,洛伦佐·格里尼,Лоренцо Гуэрини
+Q336599,Bart De Wever >> en,14428,Bart De Wever,en,Male,1970.0,,Q31,"Q82955, Q1086863, Q201788",Q28982,CR,巴特·德韦弗,Барт Де Вевер
+Q152503,Mikhail Khodorkovsky >> en,14397,Mikhail Khodorkovsky,en,Male,1963.0,,Q159,"Q131524, Q43845, Q12362622, Q82955, Q1930187, Q16919633",Q79854,FL,米哈伊尔·霍多尔科夫斯基,Михаил Ходорковский
+Q40895143,Tino Chrupalla >> en,14395,Tino Chrupalla,en,Male,1975.0,,Q183,Q82955,Q6721203,FR,蒂诺·赫鲁帕拉,Тино Хрупалла
+Q3430759,Richard Ferrand >> en,14145,Richard Ferrand,en,Male,1962.0,,Q142,"Q82955, Q3130384, Q97768274",Q170972,LL,理查德·费朗,Ришар Ферран
+Q362851,Grzegorz Schetyna >> en,13890,Grzegorz Schetyna,en,Male,1963.0,,Q36,"Q82955, Q599151, Q26481809",Q156868,CC,格热戈日·谢蒂纳,Гжегож Схетына
+Q5368729,Elżbieta Witek >> en,13812,Elżbieta Witek,en,Female,1957.0,,Q36,"Q82955, Q201788",Q156874,RR,埃尔日别塔·维泰克,Эльжбета Витек
+Q24429855,Daniel Obajtek >> en,13747,Daniel Obajtek,en,Male,1976.0,,Q36,"Q81096, Q82955, Q2462658, Q978044",Q156874,RR,丹尼尔·奥巴捷克,Даниэль Обайтек
+Q1682774,Janine Wissler >> en,13703,Janine Wissler,en,Female,1981.0,,Q183,"Q82955, Q1238570",Q49764,FL,雅妮娜·维斯勒,Янина Висслер
+Q67126683,Elena Bonetti >> en,13700,Elena Bonetti,en,Female,1974.0,,Q38,"Q82955, Q1622272",Q67785862,CC,埃莱娜·博内蒂,Элена Бонетти
+Q24701812,Chiara Appendino >> en,13661,Chiara Appendino,en,Female,1984.0,,Q38,Q82955,Q47817,BT,基亚拉·阿彭迪诺,Кьяра Аппендино
+Q4877021,Beata Szydło >> en,13629,Beata Szydło,en,Female,1963.0,,Q36,"Q82955, Q1371378",Q156874,RR,贝亚塔·希德沃,Беата Шидло
+Q11769295,Marian Banas >> fr,13579,Marian Banas,fr,Male,1955.0,,Q36,"Q599151, Q82955",Q687574,FR,马里安·巴纳什,Мариан Банас
+Q5983235,Ian West >> en,13552,Ian West,en,Male,1951.0,,Q408,Q82955,Q216082,CL,伊恩·韦斯特,Иэн Уэст
+Q33172434,Clément Beaune >> fr,13514,Clément Beaune,fr,Male,1981.0,,Q142,"Q599151, Q82955, Q97768154",Q97015296,LL,克莱芒·博纳,Клеман Бон
+Q1670096,Simon Coveney >> en,13455,Simon Coveney,en,Male,1972.0,,Q27,"Q82955, Q131512",Q247135,CR,西蒙·科文尼,Саймон Ковени
+Q9012047,Joan Ribo >> en,13409,Joan Ribo,en,Male,1947.0,,Q29,"Q5758653, Q82955, Q81096, Q15627169, Q121594",Q927193,LL,琼·里博,Жоан Рибо
+Q48862378,Piotr Müller >> en,13371,Piotr Müller,en,Male,1989.0,,Q36,"Q82955, Q185351",Q156874,RR,彼得·穆勒,Пётр Мюллер
+Q1459699,Viktor Yushchenko >> en,13312,Viktor Yushchenko,en,Male,1954.0,,Q212,"Q188094, Q82955, Q806798",Q2299546,CR,维克多·尤先科,Виктор Ющенко
+Q55195843,Cateno De Luca >> en,13218,Cateno De Luca,en,Male,1972.0,,Q38,Q82955,Q815348,CC,卡特诺·德卢卡,Катено Де Лука
+Q4156642,Mikhail Degtyarev >> en,13036,Mikhail Degtyarev,en,Male,1981.0,,Q159,"Q82955, Q662729",Q212115,FR,米哈伊尔·捷佳列夫,Михаил Дегтярёв
+Q16696252,Anton Gerashchenko >> en,12972,Anton Gerashchenko,en,Male,1979.0,,Q212,"Q82955, Q188094",Q2299546,CR,安东·格拉申科,Антон Геращенко
+Q21747071,Nelu Tătaru >> ro,12668,Nelu Tătaru,ro,Male,1972.0,,Q218,"Q82955, Q39631",Q686228,CR,内卢·塔塔鲁,Нелу Тэтэру
+Q61481949,Iván Espinosa de los Monteros >> en,12543,Iván Espinosa de los Monteros,en,Male,1971.0,,Q29,"Q82955, Q188094, Q17487600",Q15630787,FR,伊万·埃斯皮诺萨·德洛斯·蒙特罗斯,Иван Эспиноса де лос Монтерос
+Q2037108,Leonid Slutsky (politician) >> en,12513,Leonid Slutsky,en,Male,1968.0,,Q159,"Q82955, Q188094",Q212115,FR,列昂尼德·斯卢茨基,Леонид Слуцкий
+Q978208,Didier Reynders >> en,12511,Didier Reynders,en,Male,1958.0,,Q31,"Q82955, Q1622272, Q40348, Q116142910",Q533384,CR,迪迪埃·雷恩德斯,Дидье Рейндэрс
+Q42860944,Karl Nehammer >> en,12503,Karl Nehammer,en,Male,1972.0,,Q40,"Q82955, Q4991371, Q6501749, Q6501749, Q65274801",Q186867,CR,卡尔·内哈默,Карл Нехаммер
+Q47904,Mario Monti >> en,12474,Mario Monti,en,Male,1943.0,,Q38,"Q188094, Q82955, Q1622272",Q2792033,CC,马里奥·蒙蒂,Марио Монти
+Q704022,Gustavo Petro >> en,12461,Gustavo Petro,en,Male,1960.0,,Q38,"Q82955, Q188094, Q36180, Q212948, Q3578589",Q6025219,LL,古斯塔沃·佩特罗,Густаво Петро
+Q716486,Klara Dobrev >> en,12364,Klara Dobrev,en,Female,1972.0,,Q28,"Q82955, Q188094, Q40348",Q847504,CL,克拉拉·多布列夫,Клара Добрев
+Q9359315,Tomasz Grodzki >> en,12321,Tomasz Grodzki,en,Male,1958.0,,Q36,"Q82955, Q774306, Q3400985",Q156868,CC,托马什·格罗兹基,Томаш Гродзкий
+Q4303668,Tatiana Moskalkova >> en,12300,Tatiana Moskalkova,en,Female,1955.0,,Q159,"Q82955, Q169180, Q1055894, Q17276321",Q210692,CL,塔季扬娜·莫斯卡尔科娃,Татьяна Москалькова
+Q111307351,Roberto Lagalla >> de,12298,Roberto Lagalla,de,Male,1955.0,,Q38,"Q18245236, Q1622272, Q82955",Q47781,CC,罗伯托·拉加拉,Роберто Лагалла
+Q57467,János Áder >> en,12272,János Áder,en,Male,1959.0,,Q28,"Q40348, Q82955",Q387006,CR,亚德尔·亚诺什,Янош Адер
+Q296771,Saad Hariri >> en,12070,Saad Hariri,en,Male,1970.0,,Q142,"Q82955, Q43845",Q228720,CR,萨阿德·哈里里,Саад Харири
+Q3265173,Lucian Bode >> en,12064,Lucian Bode,en,Male,1974.0,,Q218,Q82955,Q686228,CR,卢齐安·博德,Лусиан Боде
+Q300292,Jeffrey Donaldson >> en,12058,Jeffrey Donaldson,en,Male,1962.0,,Q145,Q82955,Q215519,RR,杰弗里·唐纳森,Джеффри Дональдсон
+Q2124,Valéry Giscard d'Estaing >> en,12057,Valéry Giscard d'Estaing,en,Male,1926.0,2020.0,Q142,"Q372436, Q599151, Q82955, Q482980",Q827415,CR,瓦莱里·吉斯卡尔·德斯坦,Валери Жискар д’Эстен
+Q41749,Joseph Goebbels >> en,11822,Joseph Goebbels,en,Male,1897.0,1945.0,Q183,"Q82955, Q18939491, Q18814623, Q1930187, Q6625963, Q1685363, Q28389, Q10264925, Q36180",Q7320,FR,约瑟夫·戈培尔,Йозеф Геббельс
+Q12978,Guy Verhofstadt >> en,11741,Guy Verhofstadt,en,Male,1953.0,,Q31,Q82955,Q1160192,CR,盖伊·韦尔霍夫斯特,Ги Верхофстадт
+Q132899,Vyacheslav Molotov >> en,11721,Vyacheslav Molotov,en,Male,1890.0,1986.0,Q34266,"Q82955, Q193391",Q79854,FL,维亚切斯拉夫·莫洛托夫,Вячеслав Молотов
+Q983258,Isaac Herzog >> en,11710,Isaac Herzog,en,Male,1960.0,,Q801,"Q82955, Q40348, Q380075",Q126948059,LL,艾萨克·赫尔佐格,Ицхак Герцог
+Q1865725,Jan Jambon >> en,11695,Jan Jambon,en,Male,1960.0,,Q31,Q82955,Q28982,CR,扬·扬邦,Ян Ямбон
+Q1341556,Paul Magnette >> en,11544,Paul Magnette,en,Male,1971.0,,Q31,"Q1622272, Q82955, Q1650915, Q1238570",Q645787,CL,保罗·马涅特,Поль Маньетт
+Q50005,Giulio Andreotti >> en,11526,Giulio Andreotti,en,Male,1919.0,2013.0,Q172579,"Q36180, Q82955, Q193391, Q42909, Q1930187",Q815348,CC,朱利奥·安德烈奥蒂,Джулио Андреотти
+Q313915,Sergey Kiriyenko >> en,11502,Sergey Kiriyenko,en,Male,1962.0,,Q159,"Q82955, Q372436, Q43845, Q17276321",Q686098,CR,谢尔盖·基里延科,Сергей Кириенко
+Q1672657,Leo Lopez >> en,11436,Leo Lopez,en,Male,1971.0,,Q717,"Q188094, Q82955, Q2306091",Q7229748,CL,莱奥·洛佩兹,Лео Лопес
+Q83003,Antonio Gramsci >> en,11431,Antonio Gramsci,en,Male,1891.0,1937.0,Q172579,"Q4964182, Q82955, Q1930187, Q36180, Q188094, Q4263842, Q201788, Q2306091, Q6051619, Q17337766",Q461886,LL,安东尼奥·葛兰西,Антонио Грамши
+Q547356,Arnaldo Otegi >> en,11327,Arnaldo Otegi,en,Male,1958.0,,Q29,Q82955,Q1029761,FL,阿尔纳尔多·奥特吉,Арнальдо Отеги
+Q47832,Umberto Bossi >> en,11144,Umberto Bossi,en,Male,1941.0,,Q38,Q82955,Q47750,RR,翁贝托·博西,Умберто Босси
+Q3762149,Giacomo Leopardi >> fr,11083,Giacomo Leopardi,fr,Male,1928.0,2015.0,Q172579,Q82955,Q215350,CR,贾科莫·莱奥帕尔迪,Джакомо Леопарди
+Q728645,Bernard Tapie >> en,11073,Bernard Tapie,en,Male,1943.0,2021.0,Q142,"Q82955, Q43845, Q10800557, Q177220, Q500251, Q83307, Q500251, Q131524, Q33999",Q427965,CL,贝尔纳·塔皮,Бернар Тапи
+Q185024,Ivan Konev >> en,10961,Ivan Konev,en,Male,1897.0,1973.0,Q15180,"Q189290, Q82955",Q79854,FL,伊万·科涅夫,Иван Конев
+Q7288407,Raluca Turcan >> en,10943,Raluca Turcan,en,Female,1976.0,,Q218,"Q82955, Q188094",Q686228,CR,拉卢卡·图尔坎,Ралука Туркан
+Q16582388,Nicola Fratoianni >> en,10915,Nicola Fratoianni,en,Male,1972.0,,Q38,"Q82955, Q8246794",Q21405813,LL,尼古拉·弗拉托伊安尼,Никола Фратоянни
+Q24174632,Vlad Voiculescu >> en,10909,Vlad Voiculescu,en,Male,1983.0,,Q218,"Q188094, Q82955",Q27108508,CR,弗拉德·沃伊库莱斯库,Влад Войкулеску
+Q3852602,Maurizio Fugatti >> en,10811,Maurizio Fugatti,en,Male,1972.0,,Q38,Q82955,Q47750,RR,毛里齐奥·富加蒂,Маурицио Фугатти
+Q207879,Andrei Zhdanov >> en,10719,Andrei Zhdanov,en,Male,1896.0,1948.0,Q15180,"Q82955, Q47064, Q482980",Q79854,FL,安德烈·日丹诺夫,Андрей Жданов
+Q76342,Katja Kipping >> en,10714,Katja Kipping,en,Female,1978.0,,Q16957,"Q82955, Q15976341",Q49764,FL,卡蒂娅·基平,Катя Киппинг
+Q3851266,Massimo Garavaglia >> en,10660,Massimo Garavaglia,en,Male,1968.0,,Q38,Q82955,Q47750,RR,马西莫·加拉瓦利亚,Массимо Гаравалья
+Q465476,Laszlo Kover >> en,10635,Laszlo Kover,en,Male,1959.0,,Q28,Q82955,Q387006,CR,科韦尔·拉斯洛,Ласло Кёвер
+Q30459912,Julien Denormandie >> en,10554,Julien Denormandie,en,Male,1980.0,,Q142,"Q82955, Q81096",Q23731823,CC,朱利安·德诺曼迪,Жюльен Денорманди
+Q50824635,Javier Ortega Smith >> en,10542,Javier Ortega Smith,en,Male,1968.0,,Q414,"Q40348, Q82955, Q47064",Q15630787,FR,哈维尔·奥尔特加·史密斯,Хавьер Ортега Смит
+Q40655898,Jordan Bardella >> en,10464,Jordan Bardella,en,Male,1995.0,,Q38,"Q82955, Q48282",Q205150,FR,乔丹·巴尔德拉,Жордан Барделя
+Q55281732,Francesco Acquaroli >> fr,10450,Francesco Acquaroli,fr,Male,1974.0,,Q38,Q82955,Q1757843,FR,弗朗切斯科·阿夸罗利,Франческо Аквароли
+Q3119423,Guido Crosetto >> en,10344,Guido Crosetto,en,Male,1963.0,,Q38,Q82955,Q1757843,FR,圭多·克罗塞托,Гвидо Крозетто
+Q156379,Yury Luzhkov >> en,10330,Yury Luzhkov,en,Male,1936.0,2019.0,Q159,"Q82955, Q901, Q372436",Q79854,FL,尤里·卢日科夫,Юрий Лужков
+Q3328127,Muriel Penicaud >> en,10148,Muriel Penicaud,en,Female,1955.0,,Q142,"Q2961975, Q82955, Q43845",Q23731823,CC,穆里埃尔·佩尼科,Мюриэль Пенико
+Q4219653,Gennady Kernes >> en,10052,Gennady Kernes,en,Male,1959.0,2020.0,Q212,"Q82955, Q212238",Q4266,CC,根纳迪·克尔内斯,Геннадий Кернес
+Q64168538,Alexander Schallenberg >> en,9988,Alexander Schallenberg,en,Male,1969.0,,Q40,"Q185351, Q82955",Q186867,CR,亚历山大·沙伦贝格,Александр Шалленберг
+Q15081116,Delcy Rodríguez >> en,9873,Delcy Rodríguez,en,Female,1969.0,,Q717,"Q82955, Q40348, Q193391, Q4825937",Q197864,LL,德尔西·罗德里格斯,Делси Родригес
+Q189869,Benito Perez >> en,9859,Benito Perez,en,Male,1843.0,1920.0,Q29,"Q36180, Q214917, Q82955, Q6625963, Q1930187, Q49757",Q5678936,LL,贝尼托·佩雷斯,Бенито Перес
+Q5423758,Krzysztof Bosak >> en,9796,Krzysztof Bosak,en,Male,1982.0,,Q36,Q82955,Q687574,FR,克日什托夫·博萨克,Кшиштоф Босак
+Q56433809,Francesco Lollobrigida >> en,9787,Francesco Lollobrigida,en,Male,1972.0,,Q38,Q82955,Q1757843,FR,弗朗切斯科·洛洛布里吉达,Франческо Лоллобриджида
+Q64463,Franck Riester >> en,9765,Franck Riester,en,Male,1974.0,,Q142,"Q82955, Q97767869",Q43807777,CR,弗朗克·里埃斯特,Франк Ристер
+Q50841191,Lucia Borgonzoni >> en,9745,Lucia Borgonzoni,en,Female,1976.0,,Q38,"Q82955, Q483501, Q2133309",Q47750,RR,卢西亚·博尔贡佐尼,Лучия Боргонцони
+Q57692,Victor Ponta >> en,9745,Victor Ponta,en,Male,1972.0,,Q218,"Q82955, Q40348, Q600751",Q47454194,CC,维克多·蓬塔,Виктор Понта
+Q3827737,Laura Boldrini >> en,9733,Laura Boldrini,en,Female,1961.0,,Q38,"Q1930187, Q82955",Q286140,LL,劳拉·博尔德里尼,Лаура Болдрини
+Q8015,Artur Mas >> en,9652,Artur Mas,en,Male,1956.0,,Q29,"Q82955, Q188094",Q25713876,CR,阿图尔·马斯,Артур Мас
+Q20648385,Tom Tugendhat >> en,9630,Tom Tugendhat,en,Male,1973.0,,Q142,"Q82955, Q1930187",Q9626,CR,汤姆·塔根哈特,Том Тагендхат
+Q317142,Leonardo Sciascia >> en,9579,Leonardo Sciascia,en,Male,1921.0,1989.0,Q172579,"Q82955, Q36180, Q1930187, Q6625963, Q214917, Q28389, Q49757, Q11774202, Q2251335",Q2704736,CC,莱昂纳多·斯恰夏,Леонардо Скиацца
+Q1420661,Yuri Boyko >> en,9573,Yuri Boyko,en,Male,1958.0,,Q212,Q82955,Q4127627,CL,尤里·博伊科,Юрий Бойко
+Q1320362,Vitaly Mutko >> en,9527,Vitaly Mutko,en,Male,1958.0,,Q15180,"Q82955, Q188094, Q83307, Q372436",Q79854,FL,维塔利·穆特科,Виталий Мутко
+Q186931,Frank Vandenbroucke (politician) >> en,9398,Frank Vandenbroucke,en,Male,1955.0,,Q31,"Q1622272, Q82955, Q193391",Q939354,CL,弗兰克·范登布鲁克,Франк Ванденбрукке
+Q57590,Mykola Azarov >> en,9202,Mykola Azarov,en,Male,1947.0,,Q212,"Q82955, Q372436, Q1622272, Q188094, Q81096, Q520549",Q4266,CC,尼古拉·阿扎罗夫,Никола Азаров
+Q55937,Roman Giertych >> en,9093,Roman Giertych,en,Male,1971.0,,Q36,"Q201788, Q40348, Q82955",Q687574,FR,罗曼·吉尔蒂赫,Роман Гертрых
+Q22137528,Ilya Kiva >> fr,9018,Ilya Kiva,fr,Male,1977.0,2023.0,Q212,"Q47064, Q1055894, Q82955, Q326653, Q688603, Q60032090",Q922724,LL,伊利亚·基瓦,Илья Кива
+Q1060314,Raffaele Fitto >> en,8992,Raffaele Fitto,en,Male,1969.0,,Q38,Q82955,Q1757843,FR,拉斐莱·菲托,Раффаэле Фитто
+Q55758,Aleksander Kwaśniewski >> en,8980,Aleksander Kwaśniewski,en,Male,1954.0,,Q36,"Q82955, Q1930187",Q537303,FL,亚历山大·克瓦希涅夫斯基,Александр Квасьневский
+Q30881085,Pierluigi Biondi >> fr,8973,Pierluigi Biondi,fr,Male,1974.0,,Q38,Q82955,Q1757843,FR,皮耶尔路易吉·比翁迪,Пьерлуиджи Бионди
+Q929248,Dacian Cioloș >> en,8965,Dacian Cioloș,en,Male,1969.0,,Q218,"Q81096, Q82955, Q1781198",Q112266111,CC,达契安·乔洛什,Дачян Чолош
+Q58085,Radosław Sikorski >> en,8818,Radosław Sikorski,en,Male,1963.0,,Q145,"Q82955, Q1930187, Q36180, Q15627169, Q193391, Q1238570",Q156868,CC,拉多斯瓦夫·西科尔斯基,Радослав Сикорский
+Q62726046,Ivan Bakanov >> en,8788,Ivan Bakanov,en,Male,1975.0,,Q212,"Q43845, Q82955, Q185351, Q3282637, Q16171716, Q380075",Q52292915,CC,伊万·巴卡诺夫,Иван Баканов
+Q167573,Mikhail Kalashnikov >> en,8759,Mikhail Kalashnikov,en,Male,1919.0,2013.0,Q159,"Q1779650, Q4451210, Q81096, Q205375, Q36180, Q47064, Q82955",Q192187,LL,米哈伊尔·卡拉什尼科夫,Михаил Калашников
+Q21822538,Jadwiga Emilewicz >> en,8648,Jadwiga Emilewicz,en,Female,1974.0,,Q36,"Q1238570, Q82955, Q3104508",Q42715155,CR,雅德维加·埃米列维奇,Ядвига Эмилевич
+Q80135,Dmitri Shostakovich >> en,8499,Dmitri Shostakovich,en,Male,1906.0,1975.0,Q15180,"Q21680663, Q2490358, Q486748, Q82955, Q15981151, Q1622272, Q8178443, Q16145150, Q36834, Q3455803, Q28389",Q79854,FL,德米特里·肖斯塔科维奇,Дмитрий Шостакович
+Q20067638,Taras Kozak >> en,8482,Taras Kozak,en,Male,1972.0,,Q159,"Q82955, Q131524, Q1420621",Q18121206,CC,塔拉斯·科扎克,Тарас Козак
+Q2065232,Raül Romeva >> en,8480,Raül Romeva,en,Male,1971.0,,Q29,"Q82955, Q1622272, Q11774202, Q485178, Q57001449",Q149877,LL,劳尔·罗梅瓦,Рауль Ромева
+Q2754094,Joan Baldoví >> en,8462,Joan Baldoví,en,Male,1958.0,,Q29,"Q82955, Q2251335, Q2312637, Q2393361",Q927193,LL,琼·巴尔多维,Хоан Бальдовí
+Q258305,Vladimir Luxuria >> en,8435,Vladimir Luxuria,en,Transgender Female,1965.0,,Q38,"Q33999, Q947873, Q82955, Q2722764",Q780997,FL,弗拉基米尔·卢克苏里亚,Владимир Люксурия
+Q2401866,Jesús Aguilar >> en,8308,Jesús Aguilar,en,Male,1952.0,2023.0,Q96,"Q82955, Q40348",Q682969,CC,赫苏斯·阿吉拉尔,Хесус Агилар
+Q6288876,Josh Frydenberg >> en,8294,Josh Frydenberg,en,Male,1971.0,,Q408,"Q82955, Q2883465, Q212238",Q241149,CR,乔什·弗莱登伯格,Джош Фрайденберг
+Q69346,Bernd Riexinger >> en,8212,Bernd Riexinger,en,Male,1955.0,,Q183,"Q82955, Q15627169, Q27806080",Q49764,FL,伯恩德·里克辛格,Бернд Риксингер
+Q923540,István Tarlós >> en,8205,István Tarlós,en,Male,1948.0,,Q28,"Q82955, Q13582652",Q50583624,RR,伊什特万·塔尔洛什,Иштван Тарлош
+Q30385935,Adrien Quatennens >> en,8114,Adrien Quatennens,en,Male,1990.0,,Q142,"Q82955, Q97767950",Q27978402,FL,阿德里安·卡特南斯,Адриен Кватеннен
+Q261703,Yuriko Koike >> en,8104,Yuriko Koike,en,Female,1952.0,,Q17,Q82955,Q232595,RR,小池百合子,Юрико Коике
+Q17036721,Josep Rull >> en,8023,Josep Rull,en,Male,1968.0,,Q29,"Q82955, Q40348",Q25713876,CR,约瑟普·鲁尔,Жозеп Руль
+Q4321347,Yaroslav Nilov >> en,7880,Yaroslav Nilov,en,Male,1982.0,,Q159,"Q82955, Q17276321",Q212115,FR,亚罗斯拉夫·尼洛夫,Ярослав Нилов
+Q276043,Manuel Fraga >> en,7866,Manuel Fraga,en,Male,1922.0,2012.0,Q29,"Q82955, Q193391, Q36180",Q1249339,FR,曼努埃尔·弗拉加,Мануэль Фрага
+Q152293,Aram Khachaturian >> en,7807,Aram Khachaturian,en,Male,1903.0,1978.0,Q15180,"Q21680663, Q158852, Q16145150, Q2490358, Q14915627, Q1622272, Q486748, Q1415090, Q1231865, Q82955, Q13219637",Q79854,FL,阿拉姆·哈恰图良,Арам Хачатурян
+Q28662924,Joaquim Forn >> en,7756,Joaquim Forn,en,Male,1964.0,,Q29,Q82955,Q25713876,CR,华金·福恩,Жоаким Форн
+Q12119499,Oleh Liashko >> en,7749,Oleh Liashko,en,Male,1972.0,,Q212,"Q82955, Q1930187, Q4461829",Q2355317,BT,奥列格·利亚什科,Олег Ляшко
+Q103285,José Martí >> en,7707,José Martí,en,Male,1853.0,1895.0,Q29,"Q14467526, Q49757, Q36180, Q333634, Q47064, Q82955, Q11774202, Q1930187, Q1028181, Q3242115",Q32752,BT,何塞·马蒂,Хосе Марти
+Q296741,Enrique Peña Nieto >> en,7640,Enrique Peña Nieto,en,Male,1966.0,,Q96,"Q82955, Q40348",Q682969,CC,恩里克·佩尼亚·涅托,Энрике Пенья Ньето
+Q4478106,Aleksandr Uss >> it,7624,Aleksandr Uss,it,Male,1954.0,,Q159,"Q185351, Q82955, Q372436",Q79854,FL,亚历山大·乌斯,Александр Усс
+Q315610,Giovanni Agnelli >> en,7518,Giovanni Agnelli,en,Male,1866.0,1945.0,Q172579,"Q131524, Q81096, Q6606110, Q10349745, Q82955",Q139596,FR,乔瓦尼·阿涅利,Джованни Аньелли
+Q3085763,François Ruffin >> en,7518,François Ruffin,en,Male,1975.0,,Q142,"Q1930187, Q2526255, Q15253558, Q82955, Q97768160",Q62079328,FL,弗朗索瓦·吕芬,Франсуа Руффен
+Q4265976,Anatoly Lokot >> en,7475,Anatoly Lokot,en,Male,1959.0,,Q159,"Q82955, Q17276321",Q192187,LL,阿纳托利·洛科特,Анатолий Локоть
+Q923357,Hunor Kelemen >> en,7287,Hunor Kelemen,en,Male,1967.0,,Q218,"Q82955, Q36180, Q202883, Q49757",Q266582,CC,凯莱门·胡诺尔,Келемен Хунор
+Q104974,Franz Schubert >> fr,7130,Franz Schubert,fr,Male,1905.0,1992.0,Q183,Q82955,Q7320,FR,弗朗茨·舒伯特,Франц Шуберт
+Q3074223,Florian Philippot >> en,7123,Florian Philippot,en,Male,1981.0,,Q142,"Q82955, Q599151, Q97768154",Q41330182,FR,弗洛里安·菲利波,Флориан Филиппо
+Q43067,Heinrich Himmler >> en,7075,Heinrich Himmler,en,Male,1900.0,1945.0,Q43287,"Q82955, Q131512, Q12797895, Q1483433, Q123285360",Q7320,FR,海因里希·希姆莱,Генрих Гиммлер
+Q202339,Vadim Rabinovich >> en,7053,Vadim Rabinovich,en,Male,1953.0,,Q801,"Q82955, Q43845",Q18121206,CC,瓦迪姆·拉比诺维奇,Вадим Рабинович
+Q34060,Yitzhak Rabin >> en,7024,Yitzhak Rabin,en,Male,1922.0,1995.0,Q801,"Q193391, Q189290, Q82955",Q210703,CL,伊扎克·拉宾,Ицхак Рабин
+Q7599711,Stanley Johnson (writer) >> en,7019,Stanley Johnson,en,Male,1940.0,,Q142,"Q82955, Q1225716, Q3060597, Q36180",Q9626,CR,斯坦利·约翰逊,Стэнли Джонсон
+Q22991695,Giorgio Morandi >> fr,7018,Giorgio Morandi,fr,Male,1905.0,2001.0,Q172579,Q82955,Q815348,CC,乔治奥·莫兰迪,Джорджо Моранди
+Q5346750,Edwin Poots >> en,7001,Edwin Poots,en,Male,1965.0,,Q145,"Q82955, Q131512",Q215519,RR,埃德温·普茨,Эдвин Путс
+Q467414,Mary Lou McDonald >> en,6983,Mary Lou McDonald,en,Female,1969.0,,Q145,Q82955,Q76382,LL,玛丽·卢·麦克唐纳,Мэри Лу Макдональд
+Q961911,Wouter Beke >> en,6962,Wouter Beke,en,Male,1974.0,,Q31,"Q82955, Q1238570",Q750673,CC,沃特·贝克,Ваутер Беке
+Q65126,Gregor Gysi >> en,6956,Gregor Gysi,en,Male,1948.0,,Q16957,"Q82955, Q40348, Q36180, Q13590141",Q49764,FL,格雷戈尔·吉西,Грегор Гизи
+Q36488,Guglielmo Marconi >> en,6913,Guglielmo Marconi,en,Male,1874.0,1937.0,Q172579,"Q169470, Q81096, Q82955, Q43845, Q205375, Q901",Q139596,FR,古列尔莫·马可尼,Гульельмо Маркони
+Q155860,Vyshinsky >> en,6862,Vyshinsky,en,Male,1883.0,1954.0,Q15180,"Q185351, Q193391, Q82955, Q1622272, Q40348",Q79854,FL,维辛斯基,Вышинский
+Q612244,Yuri Chaika >> en,6822,Yuri Chaika,en,Male,1951.0,,Q159,"Q40348, Q82955, Q600751",Q79854,FL,尤里·查伊卡,Юрий Чайка
+Q28085,Adolf Eichmann >> en,6808,Adolf Eichmann,en,Male,1906.0,1962.0,Q40,"Q82955, Q384593",Q7320,FR,阿道夫·艾希曼,Адольф Эйхманн
+Q6204959,Joan Collins >> en,6803,Joan Collins,en,Female,1961.0,,Q27,"Q82955, Q7234072",Q96314860,LL,琼·柯林斯,Джоан Коллинз
+Q62290,Martin Luther >> fr,6803,Martin Luther,fr,Male,1895.0,1945.0,Q183,"Q82955, Q193391",Q7320,FR,马丁·路德,Мартин Лютер
+Q332632,Eduardo De Filippo >> en,6704,Eduardo De Filippo,en,Male,1900.0,1984.0,Q38,"Q2526255, Q49757, Q28389, Q82955, Q36180, Q214917, Q2259451, Q33999, Q3455803",Q3961874,LL,爱德华多·德·菲利波,Эдуардо Де Филиппо
+Q1691642,Joe Walsh >> en,6579,Joe Walsh,en,Male,1943.0,2014.0,Q27,Q82955,Q216517,CR,乔·沃尔什,Джо Уолш
+Q7332181,Ricardo Rosselló >> en,6574,Ricardo Rosselló,en,Male,1979.0,,Q30,"Q901, Q82955",Q1076562,CR,里卡多·罗塞洛,Рикардо Россельо
+Q5948461,Juan Carlos Monedero >> en,6538,Juan Carlos Monedero,en,Male,1963.0,,Q29,"Q82955, Q1238570, Q121594",Q16059622,FL,胡安·卡洛斯·莫内德罗,Хуан Карлос Монедеро
+Q5859396,Fernando Clavijo >> en,6426,Fernando Clavijo,en,Male,1971.0,,Q29,"Q82955, Q43845",Q1104327,CR,费尔南多·克拉维霍,Фернандо Клавихо
+Q30343128,Mathilde Panot >> en,6355,Mathilde Panot,en,Female,1989.0,,Q142,"Q82955, Q97768164",Q27978402,FL,马蒂尔德·帕诺,Матильда Панo
+Q4768021,Annastacia Palaszczuk >> en,6316,Annastacia Palaszczuk,en,Female,1969.0,,Q408,"Q82955, Q14284",Q216082,CL,安娜斯塔西亚·帕拉舒楚克,Аннастейша Паласзюк
+Q1227076,Diosdado Cabello >> en,6286,Diosdado Cabello,en,Male,1963.0,,Q717,"Q82955, Q947873, Q47064, Q5477672",Q197864,LL,迪奥斯达多·卡贝略,Диосдадо Кабельо
+Q4503713,Sergei Tsekov >> en,6284,Sergei Tsekov,en,Male,1953.0,,Q212,"Q82955, Q372436",Q151469,BT,谢尔盖·采科夫,Сергей Цеков
+Q60617247,Aleksandra Dulkiewicz >> en,6272,Aleksandra Dulkiewicz,en,Female,1979.0,,Q36,Q82955,Q3366252,CR,亚历山德拉·杜尔基耶维奇,Александра Дулькевич
+Q310158,Palmiro Togliatti >> en,6244,Palmiro Togliatti,en,Male,1893.0,1964.0,Q172579,"Q82955, Q4964182",Q461886,LL,帕尔米罗·托利亚蒂,Пальмиро Тольятти
+Q263703,Seiko Hashimoto >> en,6237,Seiko Hashimoto,en,Female,1964.0,,Q17,"Q10866633, Q82955, Q2309784, Q15117395",Q232595,RR,桥本圣子,Сэйко Хасимото
+Q983508,Phil Hogan >> en,6189,Phil Hogan,en,Male,1960.0,,Q27,Q82955,Q247135,CR,菲尔·霍根,Фил Хоган
+Q19185,George Bernard >> en,6189,George Bernard,en,Male,1856.0,1950.0,Q27,"Q1350157, Q82955, Q214917, Q14467526, Q28389, Q1930187, Q864380, Q33231, Q36180, Q11774202, Q12144794, Q12718544, Q4263842, Q17337766, Q16003550, Q115784320",Q9630,CL,乔治·伯纳德,Джордж Бернард
+Q141829,Lavrentiy Beria >> en,6178,Lavrentiy Beria,en,Male,1899.0,1953.0,Q15180,Q82955,Q79854,FL,拉夫连季·贝利亚,Лаврентий Берия
+Q4151599,Dmitry Gudkov >> en,6098,Dmitry Gudkov,en,Male,1980.0,,Q159,"Q82955, Q17276321",Q430616,CC,德米特里·古德科夫,Дмитрий Гудков
+Q16191011,Marise Payne >> en,6065,Marise Payne,en,Female,1964.0,,Q408,Q82955,Q241149,CR,玛丽斯·佩恩,Мариз Пэйн
+Q43135,Kevin Rudd >> en,6061,Kevin Rudd,en,Male,1957.0,,Q408,"Q82955, Q193391, Q1238570",Q216082,CL,凯文·鲁德,Кевин Радд
+Q4391353,Valery Rashkin >> en,6058,Valery Rashkin,en,Male,1955.0,,Q159,"Q82955, Q188094, Q17276321",Q192187,LL,瓦列里·拉什金,Валерий Рашкин
+Q3261014,Louis Aliot >> en,6036,Louis Aliot,en,Male,1969.0,,Q142,"Q82955, Q40348, Q97767907",Q205150,FR,路易·阿利奥,Луи Алио
+Q43990346,Victoria Rosell >> en,6026,Victoria Rosell,en,Female,1968.0,,Q29,"Q82955, Q16533",Q16059622,FL,维多利亚·罗塞尔,Виктория Росель
+Q45864,John McAfee >> en,5948,John McAfee,en,Male,1945.0,2021.0,Q145,"Q5482740, Q81096, Q43845, Q82594, Q82955",Q558334,RR,约翰·麦卡菲,Джон Макафи
+Q927550,Malcolm Turnbull >> en,5911,Malcolm Turnbull,en,Male,1954.0,,Q408,"Q1930187, Q82955, Q131524, Q2883465, Q808967",Q241149,CR,马尔科姆·特恩布尔,Малкольм Тернбулл
+Q2690130,Iryna Herashchenko >> en,5900,Iryna Herashchenko,en,Female,1971.0,,Q212,"Q1930187, Q82955",Q788180,RR,伊琳娜·赫拉申科,Ирина Геращенко
+Q1230,Francesco Cossiga >> en,5830,Francesco Cossiga,en,Male,1928.0,2010.0,Q172579,"Q82955, Q185351, Q1622272",Q815348,CC,弗朗切斯科·科西加,Франческо Коссига
+Q4492815,Chrystia Freeland >> en,5829,Chrystia Freeland,en,Female,1968.0,,Q16,"Q6051619, Q82955, Q1930187, Q36180",Q138345,CL,克里斯蒂娅·弗里兰,Кристия Фриланд
+Q17177501,Pablo Echenique >> fr,5816,Pablo Echenique,fr,Male,1978.0,,Q29,"Q82955, Q169470",Q16059622,FL,巴勃罗·埃切尼克,Пабло Эченике
+Q1161024,Tarō Kōno >> en,5763,Tarō Kōno,en,Male,1963.0,,Q17,"Q82955, Q1622272",Q232595,RR,河野太郎,Коно Таро
+Q78647,Johannes Hahn >> en,5756,Johannes Hahn,en,Male,1957.0,,Q40,Q82955,Q186867,CR,约翰内斯·哈恩,Йоханнес Хан
+Q15994,Hilde Crevits >> en,5702,Hilde Crevits,en,Female,1967.0,,Q31,Q82955,Q750673,CC,希尔德·克雷维茨,Хильде Кревиц
+Q6623799,Jorge Arreaza >> en,5677,Jorge Arreaza,en,Male,1973.0,,Q717,"Q82955, Q193391",Q197864,LL,乔治·阿雷亚萨,Хорхе Арреаса
+Q294241,Ernesto Geisel >> en,5675,Ernesto Geisel,en,Male,1907.0,1996.0,Q155,"Q82955, Q47064",Q2745857,FR,埃内斯托·盖塞尔,Эрнесто Гейзель
+Q4256802,Sergej Levtsjenko >> nl,5662,Sergej Levtsjenko,nl,Male,1953.0,,Q159,"Q82955, Q17276321",Q79854,FL,谢尔盖·列夫琴科,Сергей Левченко
+Q6440112,Krzysztof Brejza >> en,5649,Krzysztof Brejza,en,Male,1983.0,,Q36,"Q82955, Q185351",Q156868,CC,克日什托夫·布雷扎,Кшиштоф Брейза
+Q920403,Micheál Martin >> en,5635,Micheál Martin,en,Male,1960.0,,Q27,"Q82955, Q193391",Q216517,CR,米哈伊尔·马丁,Михол Мартин
+Q389855,Anna Soubry >> en,5597,Anna Soubry,en,Female,1956.0,,Q145,"Q82955, Q947873, Q1930187, Q808967",Q61751194,CC,安娜·索布里,Анна Саубри
+Q1684760,Izzo >> en,5585,Izzo,en,Male,1945.0,2000.0,Q142,"Q1930187, Q82955, Q49757, Q36180, Q28389",Q192821,FL,伊佐,Иззо
+Q9382607,Włodzimierz Czarzasty >> en,5563,Włodzimierz Czarzasty,en,Male,1960.0,,Q36,"Q82955, Q2516866, Q43845",Q107418166,LL,弗沃季米日·查扎斯蒂,Влодзимеж Чарзастый
+Q3616895,Angelo Bonelli >> en,5558,Angelo Bonelli,en,Male,1962.0,,Q38,Q82955,Q63400425,LL,安杰洛·博内利,Анджело Бонелли
+Q3753161,Ramón Tamames >> en,5532,Ramón Tamames,en,Male,1933.0,,Q29,"Q1622272, Q188094, Q82955",Q478811,FL,拉蒙·塔马梅斯,Рамон Тамамес
+Q27756490,Isabel Franco >> en,5526,Isabel Franco,en,Female,1985.0,,Q29,Q82955,Q16059622,FL,伊莎贝尔·弗兰科,Исабель Франко
+Q168205,Grzegorz Braun >> en,5490,Grzegorz Braun,en,Male,1967.0,,Q36,"Q3455803, Q2526255, Q28389, Q1930187, Q6051619, Q82955",Q80578532,FR,格热戈日·布劳恩,Гжегож Браун
+Q376335,Mikhail Ulyanov >> en,5478,Mikhail Ulyanov,en,Male,1927.0,2007.0,Q159,"Q33999, Q3387717, Q2526255, Q82955, Q2449921, Q662729",Q79854,FL,米哈伊尔·乌里扬诺夫,Михаил Ульянов
+Q19607958,Sérgio Moro >> en,5476,Sérgio Moro,en,Male,1972.0,,Q155,"Q1006676, Q40348, Q16533, Q82955",Q108837483,CR,塞尔吉奥·莫罗,Сержиу Мору
+Q9670,Caroline Lucas >> en,5390,Caroline Lucas,en,Female,1960.0,,Q145,Q82955,Q9669,LL,卡罗琳·卢卡斯,Кэролайн Лукас
+Q119388,Albert Rösti >> en,5329,Albert Rösti,en,Male,1967.0,,Q39,Q82955,Q385258,RR,阿尔伯特·罗斯蒂,Альберт Рёсти
+Q2607,Erich Honecker >> en,5287,Erich Honecker,en,Male,1912.0,1994.0,Q183,"Q82955, Q18814623, Q1397808",Q153401,FL,埃里希·霍内克尔,Эрих Хонеккер
+Q65249245,Conner Rousseau >> en,5282,Conner Rousseau,en,Male,1992.0,,Q31,Q82955,Q939354,CL,康纳·鲁索,Коннер Руссо
+Q57595,Gordon Bajnai >> fr,5277,Gordon Bajnai,fr,Male,1968.0,,Q28,"Q82955, Q188094, Q131524, Q83307",Q3054830,CC,戈尔登·拜纳伊,Гордон Байней
+Q11683713,Isabel Bonig >> es,5258,Isabel Bonig,es,Female,1970.0,,Q29,"Q82955, Q40348",Q9056260,CR,伊莎贝尔·博尼格,Исабель Бониг
+Q6837191,Michelle O'Neill >> en,5253,Michelle O'Neill,en,Female,1977.0,,Q27,"Q82955, Q326653",Q76382,LL,米歇尔·奥尼尔,Мишель О’Нил
+Q42939,Bronisław Komorowski >> en,5202,Bronisław Komorowski,en,Male,1952.0,,Q36,"Q82955, Q201788, Q181043",Q156868,CC,布罗尼斯瓦夫·科莫罗夫斯基,Бронислав Коморовский
+Q1284089,Rudi Vervoort >> en,5171,Rudi Vervoort,en,Male,1958.0,,Q31,"Q82955, Q40348",Q645787,CL,鲁迪·弗沃尔特,Руди Верфорт
+Q44733,Strache >> en,5170,Strache,en,Male,1969.0,,Q40,"Q82955, Q144075",Q131692,RR,斯特拉赫,Штрахе
+Q5605742,Greg Hunt >> en,5168,Greg Hunt,en,Male,1965.0,,Q408,Q82955,Q241149,CR,格雷格·亨特,Грег Хант
+Q55574,Zsolt Semjen >> en,5167,Zsolt Semjen,en,Male,1962.0,,Q28,Q82955,Q277879,RR,塞尔特·谢姆延,Жольт Шемьен
+Q16657839,Angelo Becciu >> en,5137,Angelo Becciu,en,Male,1930.0,2018.0,Q172579,Q82955,Q815348,CC,安杰洛·贝丘,Анджело Беккиу
+Q1240812,Koen Geens >> en,5059,Koen Geens,en,Male,1958.0,,Q31,"Q1622272, Q40348, Q82955, Q185351",Q750673,CC,库恩·亨斯,Коэн Гинс
+Q17124693,Martin Schirdewan >> en,5043,Martin Schirdewan,en,Male,1975.0,,Q183,"Q82955, Q1930187",Q49764,FL,马丁·希尔德万,Мартин Ширдеван
+Q12263472,Mertxe Aizpurua >> en,5001,Mertxe Aizpurua,en,Female,1960.0,,Q29,"Q82955, Q1930187",Q1029761,FL,梅尔切·艾斯普鲁亚,Мертче Айспуруа
+Q123857,Blocher >> en,4995,Blocher,en,Male,1940.0,,Q39,Q82955,Q385258,RR,布洛赫尔,Блохер
+Q7150914,Paul Givan >> en,4993,Paul Givan,en,Male,1981.0,,Q145,Q82955,Q215519,RR,保罗·吉文,Пол Гиван
+Q517161,Claudio Fava >> en,4990,Claudio Fava,en,Male,1957.0,,Q38,"Q82955, Q1930187, Q28389, Q36180, Q1209498, Q2526255",Q378885,LL,克劳迪奥·法瓦,Клаудио Фава
+Q8198110,Ana Oramas >> en,4982,Ana Oramas,en,Female,1959.0,,Q29,"Q82955, Q188094",Q1104327,CR,安娜·奥拉马斯,Ана Орамас
+Q270529,Yevgeny Primakov >> en,4968,Yevgeny Primakov,en,Male,1929.0,2015.0,Q159,"Q82955, Q193391, Q1930187, Q188094, Q17276321, Q620573",Q79854,FL,叶夫根尼·普里马科夫,Евгений Примаков
+Q3848876,Mario Oliverio >> en,4920,Mario Oliverio,en,Male,1953.0,,Q38,Q82955,Q461886,LL,马里奥·奥利维奥,Марио Оливерио
+Q13048432,Arturo Aliaga >> es,4884,Arturo Aliaga,es,Male,1955.0,,Q29,Q82955,Q2054574,CR,阿图罗·阿利亚加,Артуро Алиага
+Q57794,Bidzina Ivanishvili >> en,4871,Bidzina Ivanishvili,en,Male,1956.0,,Q159,"Q82955, Q43845, Q131524, Q188094, Q2006045",Q46516,CC,比齐纳·伊瓦尼什维利,Бидзина Иванишвили
+Q131674,Anatoly Karpov >> en,4766,Anatoly Karpov,en,Male,1951.0,,Q159,"Q10873124, Q82955, Q36180, Q1930187, Q17276321",Q79854,FL,阿纳托利·卡尔波夫,Анатолий Карпов
+Q2980738,Clémentine Autain >> en,4761,Clémentine Autain,en,Female,1973.0,,Q142,"Q82955, Q1930187, Q36180, Q970153, Q97768160",Q192821,FL,克莱芒婷·奥坦,Клемантин Отэн
+Q201392,Domenico Modugno >> en,4747,Domenico Modugno,en,Male,1928.0,1994.0,Q172579,"Q177220, Q82955, Q1476215, Q28389, Q2259451, Q753110, Q488205, Q2526255, Q55960555, Q33999, Q36834",Q2704736,CC,多梅尼科·莫杜尼奥,Доменико Модуньо
+Q2613060,Tinne Van der Straeten >> en,4746,Tinne Van der Straeten,en,Female,1978.0,,Q31,"Q82955, Q40348",Q513521,CL,廷妮·范德斯特拉滕,Тинне Ван дер Страэтен
+Q2851582,Annick Girardin >> en,4736,Annick Girardin,en,Female,1964.0,,Q142,"Q82955, Q599151",Q427965,CL,安尼克·吉拉尔丹,Анник Жирарден
+Q193236,Gabriele Annunzio >> en,4729,Gabriele Annunzio,en,Male,1863.0,1938.0,Q172579,"Q214917, Q82955, Q47064, Q49757, Q1930187, Q36180, Q11774202, Q28389, Q2095549, Q8178443",Q2949884,CR,加布里埃莱·安努齐奥,Габриэле Д’Аннунцио
+Q160456,Angela Davis >> en,4710,Angela Davis,en,Female,1944.0,,Q30,"Q36180, Q1476215, Q4964182, Q18814623, Q1622272, Q82955, Q28692502, Q217105, Q34074720, Q121594",Q308714,FL,安吉拉·戴维斯,Анджела Дэвис
+Q4239942,Pavel Krasheninnikov >> en,4705,Pavel Krasheninnikov,en,Male,1964.0,,Q159,"Q82955, Q43845, Q17276321, Q185351, Q131524",Q686098,CR,帕维尔·克拉谢宁尼科夫,Павел Крашенинников
+Q12130808,Yevheniy Murayev >> en,4695,Yevheniy Murayev,en,Male,1976.0,,Q212,Q82955,Q4266,CC,叶夫亨尼·穆拉耶夫,Евгений Мураев
+Q298846,Ann Widdecombe >> en,4687,Ann Widdecombe,en,Female,1947.0,,Q145,"Q82955, Q18814623, Q36180",Q104721252,RR,安·威德科姆,Энн Уиддекомб
+Q2631198,Philippe Poutou >> en,4618,Philippe Poutou,en,Male,1967.0,,Q142,"Q82955, Q15627169, Q327055, Q97768251",Q1045425,FL,菲利普·普图,Филипп Путу
+Q4131198,Sergej Gavrilov >> it,4611,Sergej Gavrilov,it,Male,1966.0,,Q159,"Q82955, Q188094, Q17276321",Q192187,LL,谢尔盖·加夫里洛夫,Сергей Гаврилов
+Q15048,Elio Di Rupo >> en,4601,Elio Di Rupo,en,Male,1951.0,,Q31,"Q593644, Q82955",Q645787,CL,埃利奥·迪鲁波,Элио Ди Рупо
+Q313776,George Wallace >> en,4591,George Wallace,en,Male,1919.0,1998.0,Q30,"Q82955, Q40348, Q11338576, Q16533, Q189290",Q465099,FR,乔治·华莱士,Джордж Уоллес
+Q55493801,Jorge Buxadé >> en,4565,Jorge Buxadé,en,Male,1975.0,,Q29,"Q66172428, Q82955, Q1622272",Q15630787,FR,乔治·布哈德,Хорхе Буксаде
+Q4112724,Boris Vishnevsky >> fr,4549,Boris Vishnevsky,fr,Male,1955.0,,Q159,"Q372436, Q1238570, Q1930187, Q6051619, Q662729, Q82955",Q15332,CC,鲍里斯·维什涅夫斯基,Борис Вишневский
+Q1293787,Timea Szabo >> en,4543,Timea Szabo,en,Female,1976.0,,Q28,"Q1930187, Q82955",Q15177537,CL,蒂梅娅·萨博,Тимея Сабо
+Q2130284,Ramona Pop >> en,4542,Ramona Pop,en,Female,1977.0,,Q218,Q82955,Q49766,CL,拉莫娜·波普,Рамона Поп
+Q1042024,Carlo Cattaneo >> en,4537,Carlo Cattaneo,en,Male,1801.0,1869.0,Q172579,"Q4964182, Q82955, Q3400985, Q201788, Q1238570, Q14467526, Q36180, Q16351788",Q19871529,LL,卡洛·卡塔内奥,Карло Каттанео
+Q7231,Rosa Luxemburg >> en,4528,Rosa Luxemburg,en,Female,1871.0,1919.0,Q39,"Q82955, Q4964182, Q3242115, Q188094, Q1930187, Q1607826, Q15994177, Q2083925, Q1227195, Q6051619, Q876864, Q462390",Q153401,FL,罗莎·卢森堡,Роза Люксембург
+Q47602,Massimo D'Alema >> en,4490,Massimo D'Alema,en,Male,1949.0,,Q38,"Q82955, Q193391, Q1930187",Q461886,LL,马西莫·达莱玛,Массимо Д’Алема
+Q1189353,Laurence Fox >> en,4489,Laurence Fox,en,Male,1978.0,,Q145,"Q10798782, Q2259451, Q10800557, Q177220, Q82955",Q110221329,RR,劳伦斯·福克斯,Лоренс Фокс
+Q265028,Andrew Bridgen >> en,4455,Andrew Bridgen,en,Male,1964.0,,Q145,Q82955,Q107279554,RR,安德鲁·布里奇恩,Эндрю Бриджен
+Q1996861,Norbert Hofer >> en,4449,Norbert Hofer,en,Male,1971.0,,Q40,"Q82955, Q1572123, Q81096",Q131692,RR,诺伯特·霍费尔,Норберт Хофер
+Q186652,"Gilbert du Motier, Marquis de Lafayette >> en",4448,"Gilbert du Motier, Marquis de Lafayette",en,Male,1757.0,1834.0,Q30,"Q189290, Q82955, Q2478141, Q38239859",Q509825,CR,吉尔伯特·杜·莫蒂耶，拉法耶特侯爵,"Жильбер дю Мотье, маркиз де Лафайет"
+Q12162684,Gennadiy Trukhanov >> en,4416,Gennadiy Trukhanov,en,Male,1965.0,,Q159,Q82955,Q4266,CC,根纳季·特鲁哈诺夫,Геннадий Труханов
+Q4290693,Sergei Menyailo >> en,4411,Sergei Menyailo,en,Male,1960.0,,Q159,"Q47064, Q82955",Q79854,FL,谢尔盖·梅尼亚伊洛,Сергей Меняйло
+Q4071227,Carlos Asensio Cabanillas >> en,4393,Carlos Asensio Cabanillas,en,Male,1896.0,1970.0,Q29,"Q47064, Q82955",Q207308,FR,卡洛斯·阿森西奥·卡巴尼利亚斯,Карлос Асенсио Кабанильяс
+Q57276,Michael D. Higgins >> en,4363,Michael D. Higgins,en,Male,1941.0,,Q27,"Q82955, Q49757, Q36180, Q1238570",Q503614,CL,迈克尔·D·希金斯,Майкл Д. Хиггинс
+Q3379592,Philippe Close >> en,4354,Philippe Close,en,Male,1971.0,,Q31,"Q82955, Q116143191",Q645787,CL,菲利普·克洛斯,Филипп Клоз
+Q48067,Dmitry Ustinov >> en,4351,Dmitry Ustinov,en,Male,1908.0,1984.0,Q34266,"Q82955, Q81096, Q189290, Q36180",Q79854,FL,德米特里·乌斯季诺夫,Дмитрий Устинов
+Q93330,Juan Perón >> en,4345,Juan Perón,en,Male,1895.0,1974.0,Q414,"Q189290, Q82955",Q1053668,BT,胡安·庇隆,Хуан Перон
+Q21157896,Adrian Zandberg >> en,4330,Adrian Zandberg,en,Male,1979.0,,Q36,"Q82955, Q201788, Q5482740, Q82594, Q1622272, Q970153",Q1506868,CL,阿德里安·赞德伯格,Адриан Зандберг
+Q3147241,Ian Brossat >> en,4325,Ian Brossat,en,Male,1980.0,,Q142,"Q82955, Q37226",Q192821,FL,伊恩·布罗萨特,Иан Бросса
+Q695272,Naomi Long >> en,4320,Naomi Long,en,Female,1971.0,,Q145,"Q82955, Q13582652",Q244927,CC,娜奥米·朗,Наоми Лонг
+Q4396754,Yevgeny Roizman >> en,4317,Yevgeny Roizman,en,Male,1962.0,,Q159,"Q82955, Q578109, Q17276321",Q1021381,CR,叶夫根尼·罗伊兹曼,Евгений Ройзман
+Q164995,Enrico Berlinguer >> en,4316,Enrico Berlinguer,en,Male,1922.0,1984.0,Q172579,Q82955,Q461886,LL,恩里科·贝里卢埃尔,Энрико Берлингуэр
+Q14924803,Beatrix von Storch >> en,4300,Beatrix von Storch,en,Female,1971.0,,Q183,"Q82955, Q40348",Q6721203,FR,贝阿特丽克丝·冯·斯托尔希,Беатрикс фон Шторх
+Q2063147,Piersanti Mattarella >> en,4279,Piersanti Mattarella,en,Male,1935.0,1980.0,Q172579,Q82955,Q815348,CC,皮耶尔桑蒂·马泰拉拉,Пьерсанти Маттарелла
+Q18759744,Bezalel Smotrich >> en,4274,Bezalel Smotrich,en,Male,1981.0,,Q801,Q82955,Q2665610,RR,贝扎莱尔·斯莫特里奇,Безалель Смотрич
+Q18176740,Stephan Brandner >> en,4266,Stephan Brandner,en,Male,1966.0,,Q183,"Q82955, Q40348",Q6721203,FR,斯特凡·布兰德纳,Штефан Бранднер
+Q20876025,Alistair Bell >> en,4261,Alistair Bell,en,Male,1930.0,2012.0,Q16,Q82955,Q622441,CC,阿利斯泰尔·贝尔,Алистэр Белл
+Q1852204,Tom Mann >> en,4253,Tom Mann,en,Male,1856.0,1941.0,Q664,"Q82955, Q15627169",Q9630,CL,汤姆·曼恩,Том Манн
+Q368896,Mintimer Shaimiev >> en,4249,Mintimer Shaimiev,en,Male,1937.0,,Q159,"Q82955, Q372436",Q4488786,CR,明季莫尔·沙伊米耶夫,Минтимер Шаймиев
+Q27826608,Vincent Van Peteghem >> en,4236,Vincent Van Peteghem,en,Male,1980.0,,Q31,"Q1622272, Q82955",Q750673,CC,文森特·范·佩特赫姆,Винсент Ван Петегем
+Q1395041,Kickl >> en,4210,Kickl,en,Male,1968.0,,Q40,Q82955,Q131692,RR,基克尔,Кикль
+Q11002836,Joachim Coens >> en,4207,Joachim Coens,en,Male,1966.0,,Q31,Q82955,Q750673,CC,约阿希姆·库恩斯,Йоахим Кунс
+Q118936,Rafael Alberti >> en,4205,Rafael Alberti,en,Male,1902.0,1999.0,Q29,"Q49757, Q214917, Q644687, Q82955, Q36180, Q33999, Q1028181",Q478811,FL,拉斐尔·阿尔贝蒂,Рафаэль Альберти
+Q984160,Tomasz Siemoniak >> en,4197,Tomasz Siemoniak,en,Male,1967.0,,Q36,"Q188094, Q82955, Q2462658",Q156868,CC,托马什·谢莫尼亚克,Томаш Семоняк
+Q83174,Eugenio Montale >> en,4193,Eugenio Montale,en,Male,1896.0,1981.0,Q172579,"Q49757, Q1930187, Q333634, Q82955, Q182436, Q12144794, Q1607826, Q1350157, Q4263842",Q767560,CC,尤金尼奥·蒙塔莱,Эудженио Монтале
+Q233499,Yoshiro Mori >> en,4191,Yoshiro Mori,en,Male,1937.0,,Q17,"Q82955, Q1930187",Q232595,RR,森喜朗,Ёсиро Мори
+Q269372,Bob Hawke >> en,4176,Bob Hawke,en,Male,1929.0,2019.0,Q408,"Q82955, Q7886765, Q15627169",Q216082,CL,鲍勃·霍克,Боб Хоук
+Q311019,Boris Berezovsky (businessman) >> en,4163,Boris Berezovsky,en,Male,1946.0,2013.0,Q159,"Q131524, Q170790, Q82955, Q188094, Q17276321, Q16919633",Q79854,FL,鲍里斯·别列佐夫斯基,Борис Березовский
+Q544851,Sergei Mitrokhin >> en,4140,Sergei Mitrokhin,en,Male,1963.0,,Q159,"Q82955, Q17276321",Q15332,CC,谢尔盖·米特罗欣,Сергей Митрохин
+Q747255,Cseke Attila >> hu,4118,Cseke Attila,hu,Male,1973.0,,Q218,"Q40348, Q82955",Q266582,CC,阿提拉·切克,Аттила Чеке
+Q1599545,Jan Korte >> en,4085,Jan Korte,en,Male,1977.0,,Q183,Q82955,Q49764,FL,扬·科尔特,Ян Корте
+Q76139,Gerry Adams >> en,4077,Gerry Adams,en,Male,1948.0,,Q145,"Q82955, Q18814623",Q76382,LL,杰里·亚当斯,Джерри Адамс
+Q18246320,Eduardo Bolsonaro >> en,4062,Eduardo Bolsonaro,en,Male,1984.0,,Q155,"Q82955, Q10274748, Q380075",Q2626213,CR,爱德华多·博索纳罗,Эдуардо Болсонару
+Q3295308,Jorge Rodríguez (politician) >> en,4036,Jorge Rodríguez,en,Male,1965.0,,Q717,"Q82955, Q211346",Q197864,LL,豪尔赫·罗德里格斯,Хорхе Родригес
+Q64632862,Iryna Venediktova >> en,4010,Iryna Venediktova,en,Female,1978.0,,Q212,"Q82955, Q1622272, Q185351, Q16170791",Q52292915,CC,伊琳娜·韦涅迪克托娃,Ирина Венедиктова
+Q63655,Thierry Mariani >> en,4002,Thierry Mariani,en,Male,1958.0,,Q142,Q82955,Q205150,FR,蒂埃里·马里亚尼,Тьерри Мариани
+Q20070130,Ruslan Stefanchuk >> en,3973,Ruslan Stefanchuk,en,Male,1975.0,,Q212,"Q40348, Q82955",Q52292915,CC,鲁斯兰·斯捷凡丘克,Руслан Стефанчук
+Q59601214,Manon Aubry >> en,3947,Manon Aubry,en,Female,1989.0,,Q142,"Q82955, Q22336956, Q10843402",Q27978402,FL,马农·奥布里,Манон Обри
+Q4746875,Amit Shah >> en,3921,Amit Shah,en,Male,1964.0,,Q668,Q82955,Q10230,RR,阿米特·沙阿,Амит Шах
+Q2561778,Werner Kogler >> en,3906,Werner Kogler,en,Male,1961.0,,Q40,Q82955,Q193178,CL,维尔纳·科格勒,Вернер Коглер
+Q1271675,Paschal Donohoe >> en,3902,Paschal Donohoe,en,Male,1974.0,,Q27,Q82955,Q247135,CR,帕斯卡尔·多诺霍,Пашкал Донохью
+Q463533,Michel Temer >> en,3887,Michel Temer,en,Male,1940.0,,Q155,"Q82955, Q40348, Q49757",Q1322751,BT,米歇尔·特梅尔,Мишел Темер
+Q2830079,Alain Maron >> en,3885,Alain Maron,en,Male,1972.0,,Q31,Q82955,Q655611,LL,阿兰·马龙,Ален Марон
+Q62585987,Ignacio Garriga >> fr,3878,Ignacio Garriga,fr,Male,1987.0,,Q29,"Q27349, Q82955",Q15630787,FR,伊格纳西奥·加里加,Игнасио Гаррига
+Q1655453,Toshimitsu Motegi >> en,3873,Toshimitsu Motegi,en,Male,1955.0,,Q17,"Q82955, Q1930187",Q232595,RR,茂木敏充,Тошимицу Мотэги
+Q296597,Ian Paisley >> en,3843,Ian Paisley,en,Male,1926.0,2014.0,Q145,Q82955,Q215519,RR,伊恩·佩斯利,Иэн Пэйсли
+Q312295,Gentile >> en,3830,Gentile,en,Male,1875.0,1944.0,Q172579,"Q4964182, Q1231865, Q82955, Q1622272, Q4263842",Q139596,FR,詹蒂莱,Дженти́ле
+Q170899,Néstor Kirchner >> en,3776,Néstor Kirchner,en,Male,1950.0,2010.0,Q414,"Q40348, Q82955",Q1053668,BT,内斯托尔·基什内尔,Нестор Киршнер
+Q56390799,Katalin Cseh >> en,3750,Katalin Cseh,en,Female,1988.0,,Q28,"Q82955, Q39631, Q38383816",Q28563736,CC,塞赫·卡塔琳,Каталин Чеш
+Q2690188,Oleksandr Vilkul >> en,3731,Oleksandr Vilkul,en,Male,1974.0,,Q212,Q82955,Q61958904,CC,奥列克桑德尔·维尔库尔,Александр Вилкул
+Q5771800,Claudia Sheinbaum >> en,3722,Claudia Sheinbaum,en,Female,1962.0,,Q96,"Q82955, Q3578589, Q1650915, Q169470, Q1622272",Q15717618,CL,克劳迪娅·谢因鲍姆,Клаудия Шейнбаум
+Q3102773,Georges Gilkinet >> en,3721,Georges Gilkinet,en,Male,1971.0,,Q31,Q82955,Q655611,LL,乔治·吉尔基内特,Жорж Жилькине
+Q242654,Paul Keating >> en,3719,Paul Keating,en,Male,1944.0,,Q408,"Q82955, Q15627169",Q216082,CL,保罗·基廷,Пол Китинг
+Q4339012,"Островский, Алексей Владимирович >> ru",3717,"Островский, Алексей Владимирович",ru,Male,1976.0,,Q159,"Q82955, Q17276321",Q212115,FR,奥斯特罗夫斯基，阿列克谢·弗拉基米罗维奇,Островский Алексей Владимирович
+Q3615985,Andrea Ricci >> en,3703,Andrea Ricci,en,Male,1965.0,,Q38,Q82955,Q780997,FL,安德烈亚·里奇,Андреа Риччи
+Q3838292,Luca Telese >> en,3674,Luca Telese,en,Male,1970.0,,Q38,"Q1930187, Q36180, Q82955, Q2722764",Q780997,FL,卢卡·特莱塞,Лука Телезе
+Q55834,Wojciech Jaruzelski >> en,3630,Wojciech Jaruzelski,en,Male,1923.0,2014.0,Q36,"Q82955, Q47064",Q537303,FL,沃伊切赫·雅鲁泽尔斯基,Войцех Ярузельский
+Q271814,Giovanni Verga >> en,3613,Giovanni Verga,en,Male,1840.0,1922.0,Q172579,"Q36180, Q33231, Q28389, Q82955, Q12144794, Q214917",Q2949890,CL,乔瓦尼·维尔加,Джованни Верга
+Q28722039,István Hollik >> fr,3604,István Hollik,fr,Male,1982.0,,Q28,Q82955,Q277879,RR,伊什特万·霍利克,Иштван Холлик
+Q578710,Conor Murphy >> en,3594,Conor Murphy,en,Male,1963.0,,Q145,Q82955,Q76382,LL,康纳·墨菲,Конор Мерфи
+Q55104693,"Руденко, Андрей Викторович >> ru",3574,"Руденко, Андрей Викторович",ru,Male,1967.0,,Q159,"Q82955, Q17276321",Q210692,CL,鲁登科，安德烈·维克多罗维奇,Руденко Андрей Викторович
+Q30524072,Rajesh Kumar Singh >> en,3559,Rajesh Kumar Singh,en,Male,,,Q668,Q82955,Q10230,RR,拉杰什·库马尔·辛格,Раджеш Кумар Сингх
+Q208116,Sergei Mikhalkov >> en,3557,Sergei Mikhalkov,en,Male,1913.0,2009.0,Q139319,"Q214917, Q28389, Q49757, Q36180, Q4853732, Q18844224, Q822146, Q753110, Q82955, Q12144794, Q6051619, Q164236, Q662729, Q333634",Q79854,FL,谢尔盖·米哈尔科夫,Сергей Михалков
+Q49067,Gabi Ashkenazi >> en,3522,Gabi Ashkenazi,en,Male,1954.0,,Q801,"Q47064, Q189290, Q82955",Q60198488,CC,加比·阿什肯纳齐,Габи Ашкенази
+Q125731,Ehud Barak >> en,3509,Ehud Barak,en,Male,1942.0,,Q801,"Q82955, Q193391, Q189290",Q65088206,CL,埃胡德·巴拉克,Эхуд Барак
+Q21524707,Krzysztof Gawkowski >> en,3482,Krzysztof Gawkowski,en,Male,1980.0,,Q36,"Q82955, Q1622272, Q36180",Q107418166,LL,克日什托夫·高夫斯基,Кшиштоф Гавковский
+Q3120121,Guillaume Peltier >> en,3470,Guillaume Peltier,en,Male,1976.0,,Q142,"Q82955, Q4359236, Q97768425",Q109932430,FR,纪尧姆·佩尔蒂耶,Гийом Пельтье
+Q1486902,Roger Koppel >> en,3398,Roger Koppel,en,Male,1965.0,,Q39,"Q1420621, Q1930187, Q82955",Q385258,RR,罗杰·科佩尔,Роджер Коппель
+Q1594600,Heike Werner >> en,3351,Heike Werner,en,Female,1969.0,,Q16957,Q82955,Q49750,FL,海克·维尔纳,Хайке Вернер
+Q272670,David Miliband >> en,3327,David Miliband,en,Male,1965.0,,Q30,"Q82955, Q193391, Q188094, Q1706722",Q9630,CL,大卫·米利班德,Дэвид Милибэнд
+Q1394872,Giusto Catania >> it,3285,Giusto Catania,it,Male,1971.0,,Q38,Q82955,Q780997,FL,朱斯托·卡塔尼亚,Джусто Катания
+Q20068921,Volodymyr Omelyan >> en,3265,Volodymyr Omelyan,en,Male,1979.0,,Q212,Q82955,Q18015490,RR,弗拉基米尔·奥梅良,Владимир Омелян
+Q445685,Nilde Iotti >> fr,3259,Nilde Iotti,fr,Female,1920.0,1999.0,Q172579,Q82955,Q461886,LL,尼尔德·约蒂,Нильде Иотти
+Q5106890,Chris Hipkins >> en,3249,Chris Hipkins,en,Male,1978.0,,Q664,"Q82955, Q19772737",Q1048192,CL,克里斯·希普金斯,Крис Хипкинс
+Q805606,Balthasar Glättli >> en,3247,Balthasar Glättli,en,Male,1972.0,,Q39,Q82955,Q659739,LL,巴尔塔萨·格莱特利,Бальтазар Глеттли
+Q1029622,Regula Rytz >> en,3242,Regula Rytz,en,Female,1962.0,,Q39,"Q82955, Q2306091, Q78812499, Q140686",Q659739,LL,雷古拉·里茨,Регула Ритц
+Q23060128,Frank Magnitz >> en,3220,Frank Magnitz,en,Male,1952.0,,Q183,"Q131524, Q82955",Q6721203,FR,弗兰克·马格尼茨,Франк Магниц
+Q1416853,Petra Gössi >> de,3202,Petra Gössi,de,Female,1976.0,,Q39,Q82955,Q202638,CR,佩特拉·格西,Петра Гёсси
+Q1534387,Simone Oldenburg >> fr,3192,Simone Oldenburg,fr,Female,1969.0,,Q16957,"Q82955, Q5758653",Q49764,FL,西蒙娜·奥尔登堡,Симоне Ольденбург
+Q737378,George Becali >> en,3160,George Becali,en,Male,1958.0,,Q218,"Q43845, Q131524, Q82955",Q97193048,RR,乔治·贝卡利,Джордж Бекали
+Q3340073,Nicolas Bay >> en,3147,Nicolas Bay,en,Male,1977.0,,Q142,Q82955,Q109932430,FR,尼古拉·贝伊,Николя Бэ
+Q2262244,Sean Patrick Maloney >> en,3143,Sean Patrick Maloney,en,Male,1966.0,,Q16,"Q82955, Q40348, Q43845, Q193391",Q29552,CC,肖恩·帕特里克·马洛尼,Шон Патрик Мэлоуни
+Q185107,Carlos Menem >> en,3142,Carlos Menem,en,Male,1930.0,2021.0,Q414,"Q82955, Q40348, Q43845",Q1053668,BT,卡洛斯·梅内姆,Карлос Менем
+Q253020,István Ujhelyi >> en,3142,István Ujhelyi,en,Male,1975.0,,Q28,Q82955,Q753223,CL,伊什特万·乌伊赫伊,Иштван Уйхейи
+Q40688,Yanis Varoufakis >> en,3119,Yanis Varoufakis,en,Male,1961.0,,Q408,"Q188094, Q82955, Q15980158, Q1622272, Q482980",Q222897,CL,亚尼斯·瓦鲁法基斯,Янис Варуфакис
+Q9956195,Alexey Likhachev >> en,3113,Alexey Likhachev,en,Male,1962.0,,Q159,"Q372436, Q82955, Q17276321",Q686098,CR,阿列克谢·利哈乔夫,Алексей Лихачёв
+Q17300271,Tom Van Grieken >> en,3077,Tom Van Grieken,en,Male,1986.0,,Q31,Q82955,Q682990,FR,汤姆·范格里肯,Том Ван Грикен
+Q1236400,Giorgio Almirante >> en,3075,Giorgio Almirante,en,Male,1914.0,1988.0,Q172579,"Q82955, Q1930187",Q1126102,FR,乔尔乔·阿尔米兰特,Джорджо Альмиранте
+Q23060472,Thierry Burkart >> en,3074,Thierry Burkart,en,Male,1975.0,,Q39,Q82955,Q202638,CR,蒂埃里·布尔卡特,Тьерри Буркар
+Q1905496,Martina Renner >> en,3067,Martina Renner,en,Female,1967.0,,Q183,Q82955,Q49764,FL,马蒂娜·雷纳,Мартина Реннер
+Q946023,Marco Rizzo >> en,3057,Marco Rizzo,en,Male,1959.0,,Q38,Q82955,Q1428001,FL,马尔科·里佐,Марко Риццо
+Q4717151,Alex Hawke >> en,3055,Alex Hawke,en,Male,1977.0,,Q408,Q82955,Q241149,CR,亚历克斯·霍克,Алекс Хоук
+Q60206,Ariel Sharon >> en,3051,Ariel Sharon,en,Male,1928.0,2014.0,Q801,"Q189290, Q82955",Q39655,CC,阿里尔·沙龙,Ариэль Шарон
+Q3405033,Adam Price >> en,3047,Adam Price,en,Male,1968.0,,Q145,"Q82955, Q8246794",Q10691,LL,亚当·普赖斯,Адам Прайс
+Q1696807,Pio La Torre >> en,3037,Pio La Torre,en,Male,1927.0,1982.0,Q172579,Q82955,Q461886,LL,皮奥·拉托雷,Пио Ла Торре
+Q23561873,Bertalan Tóth >> fr,3031,Bertalan Tóth,fr,Male,1975.0,,Q28,"Q82955, Q40348",Q753223,CL,贝尔塔兰·托特,Берталан Тот
+Q118308,Christian Levrat >> fr,3029,Christian Levrat,fr,Male,1970.0,,Q39,"Q82955, Q15627169",Q303745,LL,克里斯蒂安·勒夫拉,Кристиан Левра
+Q335167,Alan Bullock >> en,3009,Alan Bullock,en,Male,1914.0,2004.0,Q145,"Q82955, Q17489339, Q201788, Q864380, Q1622272, Q36180",Q40052,CC,艾伦·布洛克,Алан Буллок
+Q4157319,Mikhail Delyagin >> en,3008,Mikhail Delyagin,en,Male,1968.0,,Q159,"Q82955, Q188094, Q6051619, Q947873, Q2722764, Q17276321",Q210692,CL,米哈伊尔·德利亚金,Михаил Делягин
+Q160852,William Ewart Gladstone >> en,3002,William Ewart Gladstone,en,Male,1809.0,1898.0,Q145,"Q82955, Q193391, Q2732142, Q36180",Q622441,CC,威廉·尤厄特·格莱斯顿,Уильям Юарт Гладстон
+Q171730,Georges Clemenceau >> en,2980,Georges Clemenceau,en,Male,1841.0,1929.0,Q142,"Q82955, Q1930187, Q39631, Q28389, Q6625963",Q1542710,CL,乔治·克列孟梭,Жорж Клемансо
+Q332400,Oswald Mosley >> en,2976,Oswald Mosley,en,Male,1896.0,1980.0,Q145,"Q82955, Q2095549",Q4534560,FR,奥斯瓦尔德·莫斯利,Освальд Мосли
+Q118558,Thomas Aeschi >> en,2970,Thomas Aeschi,en,Male,1979.0,,Q39,Q82955,Q385258,RR,托马斯·埃希,Томас Эши
+Q101886,Joachim von Ribbentrop >> en,2956,Joachim von Ribbentrop,en,Male,1893.0,1946.0,Q183,"Q82955, Q193391",Q7320,FR,约阿希姆·冯·里宾特洛甫,Иоахим фон Риббентроп
+Q21294613,Marco Chiesa >> en,2953,Marco Chiesa,en,Male,1974.0,,Q39,"Q82955, Q40348",Q385258,RR,马尔科·基耶萨,Марко Кьеза
+Q57689,Martin McGuinness >> en,2937,Martin McGuinness,en,Male,1950.0,2017.0,Q27,Q82955,Q76382,LL,马丁·麦吉尼斯,Мартин Макгиннесс
+Q16059456,Vito Fazzi >> en,2935,Vito Fazzi,en,Male,1851.0,1918.0,Q172579,"Q39631, Q82955, Q774306",Q30534712,LL,维托·法齐,Вито Фацци
+Q11818289,Piotr Zgorzelski >> en,2915,Piotr Zgorzelski,en,Male,1963.0,,Q36,Q82955,Q218477,CR,皮奥特·兹戈热尔斯基,Пётр Згоржельский
+Q1141271,Yoshimasa Hayashi >> en,2908,Yoshimasa Hayashi,en,Male,1961.0,,Q17,Q82955,Q232595,RR,林芳正,Ёсимаса Хаяси
+Q93181,Ehud Olmert >> en,2905,Ehud Olmert,en,Male,1945.0,,Q801,"Q82955, Q40348, Q380075",Q39655,CC,埃胡德·奥尔默特,Эхуд Ольмерт
+Q3380006,Philippe Henry >> en,2904,Philippe Henry,en,Male,1971.0,,Q31,Q82955,Q655611,LL,菲利普·亨利,Филипп Анри
+Q55599019,Pierre Hurmic >> en,2890,Pierre Hurmic,en,Male,1955.0,,Q142,"Q82955, Q40348, Q97767907",Q743390,FL,皮埃尔·于尔米克,Пьер Юрмик
+Q439490,Nathalie Arthaud >> en,2884,Nathalie Arthaud,en,Female,1970.0,,Q142,"Q2251335, Q82955, Q97768158",Q870667,FL,娜塔莉·阿尔托,Натали Арто
+Q206,Stephen Harper >> en,2874,Stephen Harper,en,Male,1959.0,,Q16,"Q82955, Q188094, Q486748",Q488523,RR,斯蒂芬·哈珀,Стивен Харпер
+Q5110039,Christian Porter >> en,2872,Christian Porter,en,Male,1970.0,,Q408,"Q82955, Q40348",Q241149,CR,克里斯蒂安·波特,Кристиан Портер
+Q2172341,Rudolf Anschober >> en,2859,Rudolf Anschober,en,Male,1960.0,,Q40,"Q82955, Q10497467, Q23672693, Q37226, Q1930187",Q193178,CL,鲁道夫·安肖伯,Рудольф Аншобер
+Q75886,Karl Liebknecht >> en,2845,Karl Liebknecht,en,Male,1871.0,1929.0,Q183,"Q82955, Q40348, Q3242115, Q1607826",Q153401,FL,卡尔·李卜克内西,Карл Либкнехт
+Q3515662,Tarek William Saab >> en,2816,Tarek William Saab,en,Male,1962.0,,Q717,"Q36180, Q49757, Q40348, Q82955, Q431275, Q600751",Q197864,LL,塔雷克·威廉·萨阿布,Тарек Вильям Сааб
+Q5770251,Hirokazu Matsuno >> en,2802,Hirokazu Matsuno,en,Male,1962.0,,Q17,Q82955,Q232595,RR,松野博一,Хироказу Мацуно
+Q1701589,John Roberts (Canadian politician) >> en,2797,John Roberts,en,Male,1933.0,2007.0,Q16,"Q82955, Q1622272, Q1238570",Q138345,CL,约翰·罗伯茨,Джон Робертс
+Q478227,Greg Hands >> en,2794,Greg Hands,en,Male,1965.0,,Q30,"Q82955, Q43845",Q9626,CR,格雷格·汉兹,Грег Хэндс
+Q55900,Marek Belka >> en,2787,Marek Belka,en,Male,1952.0,,Q36,"Q188094, Q82955, Q806798",Q953174,CL,马雷克·贝尔卡,Марек Белка
+Q1506098,Wjatscheslaw Alexandrowitsch Malyschew >> de,2735,Wjatscheslaw Alexandrowitsch Malyschew,de,Male,1902.0,1957.0,Q34266,Q82955,Q79854,FL,维亚切斯拉夫·亚历山德罗维奇·马柳舍夫,Вячеслав Александрович Малышев
+Q119997,Thomas Müller (homme politique) >> fr,2726,Thomas Müller,fr,Male,1952.0,,Q39,Q82955,Q385258,RR,托马斯·穆勒,Томас Мюллер
+Q704846,Philippe de Villiers >> en,2679,Philippe de Villiers,en,Male,1949.0,,Q142,"Q82955, Q599151, Q11774202, Q19831149, Q36180",Q109932430,FR,菲利普·德·维利耶,Филипп де Вилье
+Q71966781,Jacek Ozdoba >> fr,2666,Jacek Ozdoba,fr,Male,1991.0,,Q36,"Q82955, Q185351",Q15303489,CR,雅采克·奥兹多巴,Яцек Оздоба
+Q107284,Katrin Lompscher >> en,2664,Katrin Lompscher,en,Female,1962.0,,Q16957,Q82955,Q49750,FL,卡特琳·隆普舍尔,Катрин Ломпшер
+Q19269610,Robert Winnicki >> en,2662,Robert Winnicki,en,Male,1985.0,,Q36,Q82955,Q16597751,FR,罗伯特·温尼茨基,Роберт Винницкий
+Q16521368,Ágnes Kunhalmi >> en,2653,Ágnes Kunhalmi,en,Female,1982.0,,Q28,Q82955,Q753223,CL,库恩哈尔米·阿格内斯,Агнеш Кунхалми
+Q12972,François Asselineau >> en,2651,François Asselineau,en,Male,1957.0,,Q142,"Q82955, Q599151, Q97768154",Q7030472,FR,弗朗索瓦·阿塞利诺,Франсуа Асселено
+Q42992,Golda Meir >> en,2649,Golda Meir,en,Female,1898.0,1978.0,Q801,"Q37226, Q82955",Q1453052,LL,戈尔达·梅厄,Голда Меир
+Q78782,Cesare Battisti (politician) >> en,2645,Cesare Battisti,en,Male,1875.0,1916.0,Q172579,"Q1930187, Q901402, Q36180, Q82955, Q201788",Q179111,CL,切萨雷·巴蒂斯蒂,Чезаре Баттисти
+Q10311413,João Doria >> en,2643,João Doria,en,Male,1957.0,,Q155,"Q1930187, Q82955, Q43845",Q1322897,CC,若昂·多里亚,Жоао Дория
+Q312628,Carlo Levi >> en,2641,Carlo Levi,en,Male,1902.0,1975.0,Q172579,"Q551835, Q1028181, Q82955, Q28389, Q1930187, Q39631, Q36180",Q461886,LL,卡洛·莱维,Карло Леви
+Q59155,Arvind Kejriwal >> en,2622,Arvind Kejriwal,en,Male,1968.0,,Q668,"Q82955, Q572700",Q129844,CL,阿尔温德·凯杰里瓦尔,Арвинд Кеджривал
+Q487304,Israel Katz >> en,2620,Israel Katz,en,Male,1955.0,,Q801,Q82955,Q187009,RR,以色列·卡茨,Исраэль Кац
+Q723506,Yoav Gallant >> en,2610,Yoav Gallant,en,Male,1958.0,,Q801,"Q47064, Q82955, Q212238",Q187009,RR,约阿夫·加兰特,Йоав Галлант
+Q1452355,Fred Hampton >> en,2599,Fred Hampton,en,Male,1948.0,1969.0,Q30,"Q15253558, Q82955, Q1476215, Q8359428",Q189150,FL,弗雷德·汉普顿,Фред Хэмптон
+Q10283057,Flávio Bolsonaro >> en,2598,Flávio Bolsonaro,en,Male,1981.0,,Q155,"Q82955, Q43845, Q40348",Q2366265,FR,弗拉维奥·博尔索纳罗,Флавио Болсонару
+Q937002,Philippe Lamberts >> en,2593,Philippe Lamberts,en,Male,1963.0,,Q31,Q82955,Q655611,LL,菲利普·兰贝尔特,Филипп Ламбертс
+Q103740,Ulla Jelpke >> en,2592,Ulla Jelpke,en,Female,1951.0,,Q183,"Q1930187, Q82955, Q36180",Q49764,FL,乌拉·耶尔普克,Улла Йельпке
+Q214438,Robert Menzies >> en,2583,Robert Menzies,en,Male,1894.0,1978.0,Q408,"Q82955, Q193391, Q40348, Q19839393",Q1516976,RR,罗伯特·孟席斯,Роберт Менцис
+Q15054353,Melanie Joly >> en,2572,Melanie Joly,en,Female,1979.0,,Q16,"Q40348, Q82955",Q138345,CL,梅拉妮·乔利,Мелани Жоли
+Q116173313,Stephan Ackermann >> fr,2495,Stephan Ackermann,fr,Male,1973.0,,Q39,Q82955,Q659739,LL,斯特凡·阿克曼,Штефан Аккерманн
+Q4209162,Leonid Kalashnikov >> en,2491,Leonid Kalashnikov,en,Male,1960.0,,Q159,"Q82955, Q17276321",Q192187,LL,列昂尼德·卡拉什尼科夫,Леонид Калашников
+Q106928258,Kiril Petkov >> fr,2484,Kiril Petkov,fr,Male,1980.0,,Q16,"Q131524, Q82955",Q108601789,CC,基里尔·佩特科夫,Кирил Петков
+Q7040049,Nirmala Sitharaman >> en,2470,Nirmala Sitharaman,en,Female,1959.0,,Q668,Q82955,Q10230,RR,尼尔马拉·西塔拉曼,Нирмала Ситараман
+Q3085147,François Legault >> en,2457,François Legault,en,Male,1957.0,,Q16,"Q82955, Q43845, Q326653",Q2348226,CR,弗朗索瓦·勒戈,Франсуа Лего
+Q3510156,Sébastien Jumel >> en,2446,Sébastien Jumel,en,Male,1971.0,,Q142,"Q82955, Q97768154",Q192821,FL,塞巴斯蒂安·朱梅尔,Себастьян Жюмель
+Q12869,Kris Peeters >> en,2424,Kris Peeters,en,Male,1962.0,,Q31,"Q82955, Q40348",Q750673,CC,克里斯·彼得斯,Крис Питерс
+Q970924,Carlos Lozano >> en,2424,Carlos Lozano,en,Male,1950.0,,Q96,Q82955,Q682969,CC,卡洛斯·洛萨诺,Карлос Лозано
+Q50542097,Marielle Franco >> en,2422,Marielle Franco,en,Female,1979.0,2018.0,Q155,"Q2306091, Q28692502, Q1476215, Q82955, Q62082534",Q1754827,LL,玛丽埃尔·弗兰科,Мариэль Франко
+Q23059253,Mattea Meyer >> en,2419,Mattea Meyer,en,Female,1987.0,,Q39,Q82955,Q303745,LL,马特娅·迈耶,Маттеа Майер
+Q1922673,Gilbert Collard >> en,2416,Gilbert Collard,en,Male,1948.0,,Q142,"Q82955, Q40348, Q36180",Q109932430,FR,吉尔伯特·科拉尔德,Жильбер Коллар
+Q467633,Mairead McGuinness >> en,2411,Mairead McGuinness,en,Female,1959.0,,Q27,"Q82955, Q1930187",Q247135,CR,梅瑞德·麦金尼斯,Мэрид МакГиннесс
+Q117165,Natalie Rickli >> de,2392,Natalie Rickli,de,Female,1976.0,,Q39,Q82955,Q385258,RR,娜塔莉·里克利,Натали Рикли
+Q12724292,Codrin Ștefănescu >> ro,2391,Codrin Ștefănescu,ro,Male,1968.0,,Q218,Q82955,Q108612808,FR,科德林·斯特法内斯库,Кодрин Штефанеску
+Q1711779,Yuli Edelstein >> en,2369,Yuli Edelstein,en,Male,1958.0,,Q801,Q82955,Q187009,RR,尤里·埃德尔斯坦,Юлий Эдельштейн
+Q780378,Umberto Veronesi >> it,2366,Umberto Veronesi,it,Male,1925.0,2016.0,Q172579,"Q774306, Q82955, Q16062369",Q47729,CL,翁贝托·韦罗内西,Умберто Веронези
+Q60833165,Kamil Bortniczuk >> en,2352,Kamil Bortniczuk,en,Male,1983.0,,Q36,"Q17221, Q82955, Q11811718, Q185351",Q1784503,CR,卡米尔·博尔特尼丘克,Камиль Бортничук
+Q72580,Jan Philipp Albrecht >> en,2333,Jan Philipp Albrecht,en,Male,1982.0,,Q142,"Q82955, Q185351",Q49766,CL,扬·菲利普·阿尔布雷希特,Ян Филипп Альбрехт
+Q5015548,Renat Kuźmin >> pl,2329,Renat Kuźmin,pl,Male,1967.0,,Q212,Q82955,Q4127627,CL,雷纳特·库兹明,Ренат Кузьмин
+Q16672153,Raoul Hedebouw >> fr,2329,Raoul Hedebouw,fr,Male,1977.0,,Q31,Q82955,Q925616,FL,劳尔·赫德布瓦,Рауль Хедебу
+Q128529,Paul Martin >> en,2327,Paul Martin,en,Male,1938.0,,Q16,"Q82955, Q40348, Q131524",Q138345,CL,保罗·马丁,Пол Мартин
+Q11768599,Marek Zagórski >> en,2321,Marek Zagórski,en,Male,1967.0,,Q36,Q82955,Q3366252,CR,马雷克·扎戈尔斯基,Марек Загорский
+Q84797,Günther Platter >> en,2295,Günther Platter,en,Male,1954.0,,Q40,Q82955,Q186867,CR,君特·普拉特,Гюнтер Платтер
+Q3506475,Rajnath Singh >> en,2272,Rajnath Singh,en,Male,1951.0,,Q668,"Q82955, Q169470",Q10230,RR,拉吉纳特·辛格,Раджнатх Сингх
+Q19317584,Agnes Chow >> en,2254,Agnes Chow,en,Female,1996.0,,Q148,"Q48282, Q11499147, Q82955, Q578109",Q23739107,CL,周庭,Эгнес Чоу
+Q188214,Mary Robinson >> en,2252,Mary Robinson,en,Female,1944.0,,Q27,"Q82955, Q185351, Q1622272, Q808967",Q503614,CL,玛丽·罗宾逊,Мэри Робинсон
+Q12739456,Robert Negoita >> en,2250,Robert Negoita,en,Male,1972.0,,Q218,"Q43845, Q82955",Q110007527,CC,罗伯特·内戈伊塔,Роберт Негойца
+Q3948237,Sandro Gozi >> en,2242,Sandro Gozi,en,Male,1968.0,,Q142,"Q82955, Q1622272",Q47729,CL,桑德罗·戈齐,Сандро Гози
+Q966349,Gideon Sa'ar >> en,2241,Gideon Sa'ar,en,Male,1966.0,,Q801,"Q82955, Q1930187, Q40348",Q187009,RR,吉迪恩·萨尔,Гидеон Саар
+Q1534851,Pieter De Crem >> en,2227,Pieter De Crem,en,Male,1962.0,,Q31,Q82955,Q750673,CC,彼得·德克雷姆,Питер Де Крем
+Q2791686,Ayelet Shaked >> en,2217,Ayelet Shaked,en,Female,1976.0,,Q801,"Q82955, Q82594, Q81096",Q65967237,RR,艾耶莱特·沙凯德,Айелет Шакед
+Q466220,Pauline Hanson >> en,2213,Pauline Hanson,en,Female,1954.0,,Q408,Q82955,Q1585274,FR,宝琳·汉森,Полин Хэнсон
+Q1603669,Helmut Holter >> en,2212,Helmut Holter,en,Male,1953.0,,Q16957,"Q82955, Q81096",Q49764,FL,赫尔穆特·霍尔特,Гельмут Хольтер
+Q2755047,Adriano Olivetti >> en,2209,Adriano Olivetti,en,Male,1901.0,1960.0,Q172579,"Q131524, Q81096, Q82955, Q43845",Q3866578,CL,阿德里亚诺·奥利维蒂,Адриано Оливетти
+Q56640286,Valentin Konovalov >> fr,2208,Valentin Konovalov,fr,Male,1987.0,,Q159,Q82955,Q192187,LL,瓦伦丁·科诺瓦洛夫,Валентин Коновалов
+Q283451,Mikhail Suslov >> en,2203,Mikhail Suslov,en,Male,1902.0,1982.0,Q34266,"Q82955, Q188094",Q79854,FL,米哈伊尔·苏斯洛夫,Михаил Суслов
+Q2927154,Bryan Hayes >> en,2184,Bryan Hayes,en,Male,1958.0,,Q16,Q82955,Q488523,RR,布莱恩·海耶斯,Брайан Хейс
+Q310694,Spock >> en,2166,Spock,en,Male,1903.0,1998.0,Q30,"Q39631, Q189290, Q13382576, Q1231865, Q1622272, Q211346, Q82955, Q212980, Q974144",Q4313244,LL,斯波克,Спок
+Q37610,David Ben-Gurion >> en,2142,David Ben-Gurion,en,Male,1886.0,1973.0,Q801,"Q82955, Q15627169, Q12718299",Q1453052,LL,大卫·本-古里安,Давид Бен-Гурион
+Q40999339,Sören Pellmann >> fr,2106,Sören Pellmann,fr,Male,1977.0,,Q183,"Q82955, Q37226",Q49764,FL,索伦·佩尔曼,Сёрен Пелльманн
+Q9618250,Antonio Russo >> en,2105,Antonio Russo,en,Male,1941.0,,Q155,"Q82955, Q43845",Q1322897,CC,安东尼奥·鲁索,Антонио Руссо
+Q106685,Vajda >> en,2087,Vajda,en,Male,1926.0,2016.0,Q36,"Q2526255, Q3387717, Q28389, Q3282637, Q2059704, Q82955, Q3455803, Q1028181",Q537303,FL,瓦伊达,Вайда
+Q3745246,Filippo Mancuso >> it,2085,Filippo Mancuso,it,Male,1922.0,2011.0,Q172579,"Q4594605, Q82955, Q16533",Q215350,CR,菲利波·曼库索,Филиппо Манкузо
+Q524290,Charles Drury >> en,2080,Charles Drury,en,Male,1912.0,1991.0,Q16,"Q40348, Q82955",Q138345,CL,查尔斯·德鲁里,Чарльз Друри
+Q3162959,Jason Kenney >> en,2043,Jason Kenney,en,Male,1968.0,,Q16,Q82955,Q488523,RR,杰森·肯尼,Джейсон Кенни
+Q106231,Daniel Webster >> en,2042,Daniel Webster,en,Male,1782.0,1852.0,Q30,"Q82955, Q193391, Q40348, Q36180",Q42183,CR,丹尼尔·韦伯斯特,Дэниел Вебстер
+Q128702,John A. Macdonald >> en,2041,John A. Macdonald,en,Male,1815.0,1891.0,Q16,"Q82955, Q40348",Q1538184,RR,约翰·亚历山大·麦克唐纳,Джон А. Макдональд
+Q497462,Andreas Glarner >> de,2031,Andreas Glarner,de,Male,1962.0,,Q39,Q82955,Q385258,RR,安德烈亚斯·格拉纳尔,Андреас Гларнер
+Q117796,Peter Maurer >> en,2019,Peter Maurer,en,Male,1956.0,,Q39,"Q193391, Q82955",Q303745,LL,彼得·毛雷尔,Питер Маурер
+Q24598,Bob Brown >> en,2012,Bob Brown,en,Male,1944.0,,Q408,"Q82955, Q39631, Q3578589",Q781486,LL,鲍勃·布朗,Боб Браун
+Q152298,Gherman Titov >> en,2009,Gherman Titov,en,Male,1935.0,2000.0,Q159,"Q2095549, Q11631, Q36180, Q82955, Q47064, Q901, Q17276321",Q192187,LL,格尔曼·季托夫,Герман Титов
+Q1694264,Johann Gudenus >> en,2009,Johann Gudenus,en,Male,1976.0,,Q40,Q82955,Q131692,RR,约翰·古德纳斯,Йоханн Гуденус
+Q216582,Filippo Tommaso Marinetti >> en,1996,Filippo Tommaso Marinetti,en,Male,1876.0,1944.0,Q172579,"Q49757, Q36180, Q214917, Q36834, Q18844224, Q33231, Q5322166, Q82955",Q139596,FR,菲利波·托马索·马里内蒂,Филиппо Томмазо Маринетти
+Q3518228,Teodor Melescanu >> en,1995,Teodor Melescanu,en,Male,1941.0,,Q218,"Q193391, Q82955, Q40348",Q28836808,CL,特奥多尔·梅莱斯卡努,Теодор Мэлескану
+Q21282044,Marek Jakubiak >> fr,1993,Marek Jakubiak,fr,Male,1959.0,,Q36,Q82955,Q537303,FL,马雷克·雅库比亚克,Марек Якубяк
+Q179502,Jacek Majchrowski >> en,1986,Jacek Majchrowski,en,Male,1947.0,,Q36,"Q201788, Q82955, Q37226",Q953174,CL,雅采克·马伊赫罗夫斯基,Яцек Майхровский
+Q4289876,Ivan Melnikov (politician) >> en,1980,Ivan Melnikov,en,Male,1950.0,,Q159,"Q170790, Q82955, Q17276321",Q192187,LL,伊万·梅尔尼科夫,Иван Мельников
+Q520016,Igor Lebedev (politician) >> en,1969,Igor Lebedev,en,Male,1972.0,,Q159,"Q185351, Q82955",Q212115,FR,伊戈尔·列别杰夫,Игорь Лебедев
+Q16194512,Steve Dickson >> en,1965,Steve Dickson,en,Male,1962.0,,Q408,Q82955,Q1585274,FR,史蒂夫·迪克森,Стив Диксон
+Q297308,William H. Seward >> en,1962,William H. Seward,en,Male,1801.0,1872.0,Q30,"Q82955, Q40348, Q193391, Q36180",Q574701,FR,威廉·H·苏厄德,Уильям Х. Сьюард
+Q693305,Ruedi Noser >> en,1958,Ruedi Noser,en,Male,1961.0,,Q39,"Q82955, Q131524, Q1326886",Q202638,CR,鲁迪·诺泽尔,Рюди Нозер
+Q12725946,Cristian Popescu Piedone >> en,1944,Cristian Popescu Piedone,en,Male,1963.0,,Q218,"Q82955, Q1634473, Q3427922, Q43845, Q212238",Q28836808,CL,克里斯蒂安·波佩斯库·皮多内,Кристиан Попеску Пьедоне
+Q18748018,Magdalena Ogórek >> pl,1940,Magdalena Ogórek,pl,Female,1979.0,,Q36,"Q17489339, Q10800557, Q6051619, Q82955, Q15980158, Q13590141, Q1622272, Q1930187, Q201788",Q953174,CL,玛格达莱娜·奥格雷克,Магдалена Огорек
+Q550879,Clive Palmer >> en,1924,Clive Palmer,en,Male,1954.0,,Q408,"Q131524, Q82955",Q15130081,RR,克莱夫·帕尔默,Клайв Палмер
+Q12983,Herman Van Rompuy >> en,1913,Herman Van Rompuy,en,Male,1947.0,,Q31,"Q82955, Q188094",Q750673,CC,赫尔曼·范龙佩,Герман Ван Ромпёй
+Q3574660,Zakia Khattabi >> en,1897,Zakia Khattabi,en,Female,1976.0,,Q31,"Q82955, Q28692502",Q655611,LL,扎基娅·卡塔比,Закия Хаттаби
+Q12130283,Ihor Mosiychuk >> en,1892,Ihor Mosiychuk,en,Male,1972.0,,Q212,"Q82955, Q1930187",Q2355317,BT,伊霍尔·莫西丘克,Игорь Мосийчук
+Q67025059,Sebastian Walter >> de,1877,Sebastian Walter,de,Male,1990.0,,Q183,Q82955,Q49764,FL,塞巴斯蒂安·沃尔特,Себастьян Вальтер
+Q471523,Francesco De Sanctis >> en,1875,Francesco De Sanctis,en,Male,1817.0,1883.0,Q172579,"Q36180, Q82955, Q13570226, Q4964182, Q4263842",Q2949890,CL,弗朗切斯科·德·桑克蒂斯,Франческо Де Санктис
+Q2330458,Yariv Levin >> en,1848,Yariv Levin,en,Male,1969.0,,Q801,"Q82955, Q40348, Q380075",Q187009,RR,亚里夫·莱文,Ярив Левин
+Q117833,Eva Herzog >> en,1842,Eva Herzog,en,Female,1961.0,,Q39,"Q82955, Q201788",Q303745,LL,伊娃·赫尔佐格,Ева Херцог
+Q12170540,Tetiana Chornovol >> en,1842,Tetiana Chornovol,en,Female,1979.0,,Q212,"Q1930187, Q82955, Q36180, Q662729",Q2034609,FR,泰蒂娅娜·乔尔诺沃尔,Татьяна Черновол
+Q70841069,Krisztina Baranyi >> de,1833,Krisztina Baranyi,de,Female,1967.0,,Q28,Q82955,Q3054830,CC,克里斯蒂娜·巴兰伊,Кристина Бараньи
+Q493598,Andrea Caroni >> en,1831,Andrea Caroni,en,Male,1980.0,,Q39,"Q82955, Q40348",Q202638,CR,安德烈亚·卡罗尼,Андреа Карони
+Q1560091,Michael Ludwig (politician) >> en,1822,Michael Ludwig,en,Male,1961.0,,Q40,Q82955,Q179111,CL,迈克尔·路德维希,Михаэль Людвиг
+Q2663804,Gilad Erdan >> en,1809,Gilad Erdan,en,Male,1970.0,,Q801,Q82955,Q187009,RR,吉拉德·埃尔丹,Гилад Эрдан
+Q86851,Elisabeth Koestinger >> en,1794,Elisabeth Koestinger,en,Female,1978.0,,Q40,Q82955,Q186867,CR,伊丽莎白·科斯廷格,Элизабет Кёстингер
+Q1344265,Filip Dewinter >> en,1791,Filip Dewinter,en,Male,1962.0,,Q31,"Q82955, Q1930187, Q33999",Q682990,FR,菲利普·德温特,Филип Де Винтер
+Q73683838,Anna Maria Żukowska >> de,1790,Anna Maria Żukowska,de,Female,1983.0,,Q36,"Q82955, Q185351",Q107418166,LL,安娜·玛丽亚·朱科夫斯卡,Анна Мария Жуковска
+Q297190,Giovanni Giolitti >> en,1785,Giovanni Giolitti,en,Male,1842.0,1928.0,Q172579,"Q82955, Q372436",Q2949890,CL,乔瓦尼·焦利蒂,Джованни Джолитти
+Q984154,Vladimir Bortko >> en,1778,Vladimir Bortko,en,Male,1946.0,,Q159,"Q2526255, Q28389, Q82955, Q578109, Q2059704, Q10800557, Q13235160, Q3387717, Q3282637",Q192187,LL,弗拉基米尔·博尔特科,Владимир Бортко
+Q3798833,Nanaia Mahuta >> en,1777,Nanaia Mahuta,en,Female,1970.0,,Q664,"Q82955, Q4773904, Q19772737",Q1048192,CL,纳奈娅·马胡塔,Нанаия Махута
+Q15123609,Ricardo Salles >> en,1767,Ricardo Salles,en,Male,1975.0,,Q155,"Q40348, Q82955",Q1322897,CC,里卡多·萨列斯,Рикардо Саллес
+Q73682661,Tomasz Trela >> de,1760,Tomasz Trela,de,Male,1979.0,,Q36,"Q82955, Q10547393",Q107418166,LL,托马什·特雷拉,Томаш Трела
+Q120724,Roger Nordmann >> fr,1752,Roger Nordmann,fr,Male,1973.0,,Q39,Q82955,Q303745,LL,罗杰·诺德曼,Роже Нордманн
+Q3093904,Gabriel Oprea >> en,1746,Gabriel Oprea,en,Male,1961.0,,Q218,"Q82955, Q40348, Q189290",Q962976,CL,加布里埃尔·奥普雷亚,Габриэль Опреа
+Q4292925,Elena Mizulina >> en,1738,Elena Mizulina,en,Female,1954.0,,Q159,"Q185351, Q82955, Q372436, Q17276321",Q210692,CL,叶莲娜·米祖利娜,Елена Мизулина
+Q2376704,Oleksandr Omeltschenko >> de,1727,Oleksandr Omeltschenko,de,Male,1938.0,2021.0,Q212,Q82955,Q788180,RR,亚历山大·奥梅尔琴科,Александр Омельченко
+Q74519,Jürg Grossen >> de,1701,Jürg Grossen,de,Male,1969.0,,Q39,"Q82955, Q131524",Q545900,CC,于尔格·格罗森,Юрг Гроссен
+Q64954602,Leonore Gewessler >> en,1701,Leonore Gewessler,en,Female,1977.0,,Q40,"Q1238570, Q3578589, Q82955",Q193178,CL,莱奥诺雷·格韦斯勒,Леоноре Гевесслер
+Q438438,Fannie Lou Hamer >> en,1696,Fannie Lou Hamer,en,Female,1917.0,1977.0,Q30,"Q82955, Q18814623, Q23045969, Q11499147",Q6879148,CL,范妮·卢·哈默,Фэнни Лу Хамер
+Q1289879,Soltész Miklós (politikus) >> hu,1685,Soltész Miklós,hu,Male,1963.0,,Q28,"Q82955, Q188094, Q81096",Q277879,RR,索尔泰什·米克洛斯,Миклош Шольтес
+Q67435461,Céline Tellier >> en,1676,Céline Tellier,en,Female,1984.0,,Q31,Q82955,Q655611,LL,塞琳·特利耶,Селин Телье
+Q524806,Nathalie Muylle >> en,1671,Nathalie Muylle,en,Female,1969.0,,Q31,Q82955,Q750673,CC,娜塔莉·穆伊勒,Натали Мёйле
+Q12740580,Sebastian Ghita >> de,1666,Sebastian Ghita,de,Male,1978.0,,Q218,"Q82955, Q43845",Q22261089,RR,塞巴斯蒂安·吉塔,Себастьян Гита
+Q970706,Erekat >> en,1664,Erekat,en,Male,1955.0,2020.0,Q30,"Q82955, Q193391",Q178888,CL,埃雷卡特,Эрекат
+Q17456911,Hugo Carvajal >> en,1654,Hugo Carvajal,en,Male,1960.0,,Q717,"Q82955, Q47064, Q599151",Q197864,LL,乌戈·卡尔瓦哈尔,Уго Карвахаль
+Q55915,Włodzimierz Cimoszewicz >> en,1650,Włodzimierz Cimoszewicz,en,Male,1950.0,,Q36,"Q82955, Q193391, Q1622272, Q131512, Q185351",Q953174,CL,弗沃迪米日·奇米舍维奇,Влодзимеж Цимошевич
+Q55753721,Lorinc Nacsa >> fr,1649,Lorinc Nacsa,fr,Male,1990.0,,Q28,Q82955,Q277879,RR,洛林茨·纳恰,Лоринц Накша
+Q1517429,Oleg Shein >> en,1648,Oleg Shein,en,Male,1972.0,,Q159,"Q82955, Q15627169, Q1231865, Q37226, Q185351, Q17276321",Q210692,CL,奥列格·谢因,Олег Шеин
+Q1543207,Grant Robertson >> en,1645,Grant Robertson,en,Male,1971.0,,Q664,"Q82955, Q19772737",Q1048192,CL,格兰特·罗伯逊,Грант Робертсон
+Q637002,Joël Giraud >> en,1638,Joël Giraud,en,Male,1959.0,,Q142,"Q82955, Q97768154",Q427965,CL,乔埃尔·吉罗,Жоэль Жиро
+Q465041,Mamata Banerjee >> en,1635,Mamata Banerjee,en,Female,1955.0,,Q668,"Q82955, Q1028181, Q49757",Q912899,CL,玛玛塔·班纳吉,Мамата Банерджи
+Q121470,Kurt Fluri >> de,1633,Kurt Fluri,de,Male,1955.0,,Q39,Q82955,Q202638,CR,库尔特·弗卢里,Курт Флури
+Q312185,Edward Gierek >> en,1618,Edward Gierek,en,Male,1913.0,2001.0,Q36,"Q82955, Q820037",Q537303,FL,爱德华·格雷克,Эдвард Герек
+Q192377,João Figueiredo >> en,1608,João Figueiredo,en,Male,1918.0,1999.0,Q155,"Q82955, Q189290",Q2745857,FR,若昂·菲盖雷多,Жуану Фигейреду
+Q20437970,Barna Tánczos >> en,1608,Barna Tánczos,en,Male,1976.0,,Q218,Q82955,Q266582,CC,巴尔纳·坦乔什,Барна Тянчош
+Q502224,Andrey Lugovoy >> en,1605,Andrey Lugovoy,en,Male,1966.0,,Q159,"Q82955, Q43845, Q17276321",Q212115,FR,安德烈·卢戈沃伊,Андрей Луговой
+Q21281997,Adam Andruszkiewicz >> en,1603,Adam Andruszkiewicz,en,Male,1990.0,,Q36,Q82955,Q16597751,FR,亚当·安德鲁什凯维奇,Адам Андрушкевич
+Q180383,Helen Clark >> en,1588,Helen Clark,en,Female,1950.0,,Q664,"Q82955, Q1622272, Q1238570",Q1048192,CL,海伦·克拉克,Хелен Кларк
+Q4678672,Adam Bandt >> en,1577,Adam Bandt,en,Male,1972.0,,Q408,"Q82955, Q808967",Q781486,LL,亚当·班特,Адам Бэнт
+Q972007,Eduardo Paes >> en,1566,Eduardo Paes,en,Male,1969.0,,Q155,Q82955,Q1322751,BT,爱德华多·帕伊斯,Эдуардо Паэс
+Q298384,Sverdlov >> en,1562,Sverdlov,en,Male,1885.0,1919.0,Q2305208,"Q82955, Q3242115",Q79854,FL,斯维尔德洛夫,Свердлов
+Q26244705,Daniel Băluță >> ro,1561,Daniel Băluță,ro,Male,1977.0,,Q218,"Q82955, Q27349",Q110007527,CC,丹尼尔·巴卢察,Даниэль Бэлутэ
+Q11869,William Henry Harrison >> en,1551,William Henry Harrison,en,Male,1773.0,1841.0,Q30,"Q82955, Q193391, Q189290, Q372436",Q42183,CR,威廉·亨利·哈里森,Уильям Генри Гаррисон
+Q12724104,Ciprian Ciucu >> ro,1548,Ciprian Ciucu,ro,Male,1978.0,,Q218,"Q1930187, Q1238570, Q82955",Q110007527,CC,奇普里安·丘库,Чиприан Чуку
+Q19868633,Liz Saville Roberts >> en,1546,Liz Saville Roberts,en,Female,1964.0,,Q145,Q82955,Q10691,LL,莉兹·萨维尔·罗伯茨,Лиз Савилл Робертс
+Q71056770,Magdalena Biejat >> pl,1539,Magdalena Biejat,pl,Female,1982.0,,Q36,"Q82955, Q333634, Q8359428, Q2505739",Q21006495,LL,玛格达莱娜·比耶亚特,Магдалена Беят
+Q832910,László Toroczkai >> en,1516,László Toroczkai,en,Male,1978.0,,Q28,"Q82955, Q1930187",Q55443054,FR,托罗茨凯·拉斯洛,Ласло Торошкай
+Q42893791,Fraser Anning >> en,1499,Fraser Anning,en,Male,1949.0,,Q408,"Q82955, Q1631120, Q5179781",Q63407852,FR,弗雷泽·安宁,Фрейзер Эннинг
+Q997327,Patrick Breyer >> en,1493,Patrick Breyer,en,Male,1977.0,,Q183,"Q82955, Q16533",Q13129,BT,帕特里克·布雷耶尔,Патрик Брейер
+Q77195,Petra Pau >> en,1491,Petra Pau,en,Female,1963.0,,Q16957,"Q82955, Q1455884, Q37226",Q49764,FL,佩特拉·鲍,Петра Пау
+Q128563,Brian Mulroney >> en,1470,Brian Mulroney,en,Male,1939.0,2024.0,Q16,"Q82955, Q40348",Q1292617,RR,布赖恩·马尔罗尼,Брайан Малруни
+Q11738176,Kazimierz Nycz >> fr,1467,Kazimierz Nycz,fr,Male,1949.0,,Q36,Q82955,Q953174,CL,卡齐米日·尼茨,Казимеж Ныч
+Q799556,Cilia Flores >> en,1461,Cilia Flores,en,Female,1956.0,,Q717,"Q82955, Q40348",Q197864,LL,西莉亚·弗洛雷斯,Силия Флорес
+Q728583,Giuseppe Di Vittorio >> en,1453,Giuseppe Di Vittorio,en,Male,1892.0,1957.0,Q172579,"Q82955, Q15627169, Q212948",Q461886,LL,朱塞佩·迪·维托里奥,Джузеппе Ди Витторио
+Q1289595,Tamás Sneider >> fr,1451,Tamás Sneider,fr,Male,1972.0,,Q28,Q82955,Q1051742,FR,塔马什·施奈德,Тамаш Шнейдер
+Q3956341,Sergio Zavoli >> it,1444,Sergio Zavoli,it,Male,1923.0,2020.0,Q172579,"Q1930187, Q36180, Q82955, Q947873",Q47729,CL,塞尔吉奥·扎沃利,Серджо Заволи
+Q9354232,Tadeusz Ferenc >> pl,1435,Tadeusz Ferenc,pl,Male,1940.0,2022.0,Q36,Q82955,Q953174,CL,塔德乌什·费伦茨,Тадеуш Ференц
+Q3852492,Maurizio Acerbo >> en,1432,Maurizio Acerbo,en,Male,1965.0,,Q38,Q82955,Q780997,FL,毛里齐奥·阿切尔博,Маурицио Ачербо
+Q235321,Jill Stein >> en,1429,Jill Stein,en,Female,1950.0,,Q30,"Q82955, Q39631, Q16323111",Q849158,LL,吉尔·斯坦,Джилл Стайн
+Q131248,Lee Kuan Yew >> en,1428,Lee Kuan Yew,en,Male,1923.0,2015.0,Q30,"Q4964182, Q18814623, Q40348, Q372436, Q82955",Q371395,CR,李光耀,Ли Куан Ю
+Q60834550,Kaja Godek >> en,1427,Kaja Godek,en,Female,1982.0,,Q36,"Q16308156, Q82955, Q15253558",Q61568052,FR,卡娅·戈德克,Кая Годек
+Q23060196,Damian Müller >> de,1424,Damian Müller,de,Male,1984.0,,Q39,Q82955,Q202638,CR,达米安·穆勒,Дамиан Мюллер
+Q983874,Oleh Tyahnybok >> en,1417,Oleh Tyahnybok,en,Male,1968.0,,Q212,"Q82955, Q774306",Q4396,FR,奥列格·季亚赫尼博克,Олег Тягнибок
+Q76367,Martin Bormann >> en,1412,Martin Bormann,en,Male,1900.0,1945.0,Q43287,"Q82955, Q131512, Q47064, Q574578",Q7320,FR,马丁·鲍曼,Мартин Борман
+Q2623261,Vladimir Nabokov >> fr,1405,Vladimir Nabokov,fr,Male,1870.0,1922.0,Q34266,"Q1930187, Q372436, Q82955, Q40348",Q155820,CL,弗拉基米尔·纳博科夫,Владимир Набоков
+Q4321346,Oleg Nilov >> en,1400,Oleg Nilov,en,Male,1962.0,,Q159,"Q82955, Q17276321",Q210692,CL,奥列格·尼洛夫,Олег Нилов
+Q441294,Altiero Spinelli >> en,1391,Altiero Spinelli,en,Male,1907.0,1986.0,Q172579,"Q82955, Q36180",Q461886,LL,阿尔蒂耶罗·斯皮内利,Альтьеро Спинелли
+Q1285501,Esther Benbassa >> en,1376,Esther Benbassa,en,Female,1950.0,,Q801,"Q201788, Q82955, Q1622272, Q5121550, Q36180",Q613786,LL,埃丝特·本巴萨,Эстер Бенбасса
+Q7609180,Stephen Farry >> en,1374,Stephen Farry,en,Male,1971.0,,Q145,Q82955,Q244927,CC,斯蒂芬·法里,Стивен Фарри
+Q230578,Fernando Henrique Cardoso >> en,1374,Fernando Henrique Cardoso,en,Male,1931.0,,Q155,"Q82955, Q193391, Q2306091, Q36180, Q2306091",Q1322897,CC,费尔南多·恩里克·卡多佐,Фернанду Энрике Кардозу
+Q274344,Édouard Herriot >> en,1369,Édouard Herriot,en,Male,1872.0,1957.0,Q142,"Q82955, Q36180",Q1542710,CL,爱德华·埃里奥,Эдуар Эррио
+Q1288461,Simicskó István >> hu,1364,Simicskó István,hu,Male,1961.0,,Q28,"Q82955, Q40348",Q277879,RR,伊什特万·西米奇科,Иштван Шимичко
+Q273233,Paul Robeson >> en,1356,Paul Robeson,en,Male,1898.0,1976.0,Q30,"Q177220, Q40348, Q36180, Q3665646, Q19204627, Q10800557, Q2259451, Q82955, Q33999, Q14915627",Q1364562,LL,保罗·罗布森,Пол Робсон
+Q2520149,Jorge Luís Andrade da Silva >> en,1354,Jorge Luís Andrade da Silva,en,Male,1957.0,,Q155,"Q937857, Q628099, Q82955",Q1322897,CC,乔治·路易斯·安德拉德·达席尔瓦,Жорже Луис Андраде да Силва
+Q106484746,Wolfgang Mückstein >> fr,1341,Wolfgang Mückstein,fr,Male,1974.0,,Q40,"Q82955, Q39631",Q193178,CL,沃尔夫冈·米克斯坦,Вольфганг Мюкштейн
+Q975940,David Lewis (politician) >> en,1338,David Lewis,en,Male,1909.0,1981.0,Q16,"Q82955, Q40348",Q1104026,LL,大卫·刘易斯,Дэвид Льюис
+Q4526147,Ilan Shor >> en,1336,Ilan Shor,en,Male,1987.0,,Q159,"Q82955, Q131524, Q3738156, Q2006045, Q43845",Q3624010,RR,伊兰·肖尔,Илан Шор
+Q19817635,Denis Voronenkov >> en,1334,Denis Voronenkov,en,Male,1971.0,2017.0,Q212,"Q82955, Q185351, Q47064, Q17276321",Q192187,LL,丹尼斯·沃罗年科夫,Денис Вороненков
+Q60522578,Dries Van Langenhove >> en,1325,Dries Van Langenhove,en,Male,1993.0,,Q31,"Q82955, Q5407416, Q1238570",Q682990,FR,德里斯·范·朗亨霍夫,Дрис Ван Лангенхове
+Q56708540,"Сипягин, Владимир Владимирович >> ru",1324,"Сипягин, Владимир Владимирович",ru,Male,1970.0,,Q159,"Q82955, Q17276321",Q212115,FR,"Сипягин, Владимир Владимирович",Сипягин Владимир Владимирович
+Q7965936,Walter Reed >> fr,1322,Walter Reed,fr,Male,1869.0,1945.0,Q16,Q82955,Q1631384,CC,沃尔特·里德,Уолтер Рид
+Q2602,Egon Krenz >> en,1321,Egon Krenz,en,Male,1937.0,,Q16957,Q82955,Q49750,FL,埃贡·克伦茨,Эгон Кренц
+Q30134885,Süli János >> hu,1317,Süli János,hu,Male,1956.0,,Q28,"Q1326886, Q82955",Q277879,RR,苏利·亚诺什,Йанош Шюли
+Q61997029,Ashok Sharma >> en,1315,Ashok Sharma,en,Male,1950.0,,Q668,Q82955,Q10230,RR,阿肖克·夏尔马,Ашок Шарма
+Q57274835,Wilson Witzel >> en,1305,Wilson Witzel,en,Male,1968.0,,Q155,"Q40348, Q82955, Q1622272",Q2626213,CR,威尔森·维策尔,Вилсон Виццель
+Q310100,Maksim Litvinov >> en,1304,Maksim Litvinov,en,Male,1876.0,1951.0,Q34266,"Q82955, Q193391",Q79854,FL,马克西姆·利特维诺夫,Максим Литвинов
+Q878682,Robert M. La Follette >> en,1301,Robert M. La Follette,en,Male,1855.0,1925.0,Q30,"Q82955, Q40348, Q36180",Q1638786,CL,罗伯特·M·拉福莱特,Роберт М. Ла Фоллетт
+Q16575844,Marco Furfaro >> en,1300,Marco Furfaro,en,Male,1980.0,,Q38,Q82955,Q780997,FL,马尔科·富尔法罗,Марко Фурфаро
+Q670170,Leonid Gozman >> en,1299,Leonid Gozman,en,Male,1950.0,,Q801,"Q212980, Q82955",Q686098,CR,列昂尼德·戈兹曼,Леонид Гозман
+Q353201,Dino Grandi >> en,1291,Dino Grandi,en,Male,1894.0,1988.0,Q172579,"Q82955, Q193391, Q40348",Q139596,FR,迪诺·格兰迪,Дино Гранди
+Q4683097,Yogi Adityanath >> en,1290,Yogi Adityanath,en,Male,1972.0,,Q668,"Q82955, Q733786, Q1423891",Q10230,RR,约吉·阿迪ityanath,Йоги Адитьянатх
+Q22294946,Alexandre de Moraes >> en,1289,Alexandre de Moraes,en,Male,1968.0,,Q155,"Q40348, Q82955, Q16533",Q1322897,CC,亚历山大·德·莫赖斯,Александр де Мораэс
+Q865256,Birgit Keller >> en,1283,Birgit Keller,en,Female,1959.0,,Q16957,"Q82955, Q14906342",Q49750,FL,比尔吉特·凯勒,Биргит Келлер
+Q920195,Eamon Ryan >> en,1279,Eamon Ryan,en,Male,1963.0,,Q27,"Q43845, Q82955",Q831015,CL,埃蒙·瑞安,Имон Райан
+Q5099093,Olga Sánchez Cordero >> en,1279,Olga Sánchez Cordero,en,Female,1947.0,,Q96,"Q40348, Q16533, Q82955",Q15717618,CL,奥尔加·桑切斯·科尔德罗,Ольга Санчес Кордеро
+Q65114,Gesine Lötzsch >> en,1264,Gesine Lötzsch,en,Female,1961.0,,Q16957,"Q82955, Q37226",Q49764,FL,格西娜·勒茨施,Гезине Лётш
+Q221479,Gilberto Gil >> en,1258,Gilberto Gil,en,Male,1942.0,,Q155,"Q177220, Q855091, Q753110, Q36834, Q6168364, Q82955, Q639669",Q1234489,CL,吉尔伯托·吉尔,Жилберту Жил
+Q16644807,Dmytro Tymchuk >> en,1258,Dmytro Tymchuk,en,Male,1972.0,2019.0,Q212,"Q1930187, Q82955",Q18015490,RR,德米特罗·季姆丘克,Дмитрий Тимчук
+Q23047409,Gianfranco Pagliarulo >> en,1253,Gianfranco Pagliarulo,en,Male,1949.0,,Q38,"Q82955, Q1930187",Q1428001,FL,贾恩弗兰科·帕利亚鲁洛,Джанфранко Пальяруло
+Q3479675,Sergio Massa >> en,1249,Sergio Massa,en,Male,1972.0,,Q414,"Q82955, Q40348",Q15120034,CC,塞尔吉奥·马萨,Серхио Масса
+Q6969044,Nathan Evans >> en,1246,Nathan Evans,en,Male,1804.0,1879.0,Q30,"Q82955, Q40348, Q16533",Q42183,CR,内森·埃文斯,Натан Эванс
+Q42881086,Hajnal Miklós >> hu,1244,Hajnal Miklós,hu,Male,1995.0,,Q28,Q82955,Q28563736,CC,哈伊纳尔·米克洛什,Миклош Хайнал
+Q27214,Jerry Springer >> en,1242,Jerry Springer,en,Male,1944.0,2023.0,Q145,"Q82955, Q947873, Q2722764, Q1930187, Q33999, Q40348, Q270389, Q3282637, Q639669, Q15077007",Q29552,CC,杰瑞·斯普林格,Джерри Спрингер
+Q18472576,Luiz Henrique Mandetta >> en,1242,Luiz Henrique Mandetta,en,Male,1964.0,,Q155,"Q82955, Q16030727",Q1185830,CR,路易斯·恩里克·曼德塔,Луис Энрике Мандетта
+Q1369110,Jacqueline Badran >> fr,1240,Jacqueline Badran,fr,Female,1961.0,,Q408,"Q82955, Q131524",Q303745,LL,杰奎琳·巴德兰,Жаклин Бадран
+Q217498,Álvaro Obregón >> en,1229,Álvaro Obregón,en,Male,1880.0,1929.0,Q96,"Q82955, Q47064",Q2788519,LL,阿尔瓦罗·奥夫雷贡,Альваро Обрегон
+Q204338,Rodion Malinovsky >> en,1224,Rodion Malinovsky,en,Male,1898.0,1967.0,Q34266,"Q82955, Q189290, Q36180",Q79854,FL,罗季翁·马林诺夫斯基,Родион Малиновский
+Q559577,Fausto Bertinotti >> en,1218,Fausto Bertinotti,en,Male,1940.0,,Q38,"Q82955, Q15627169, Q36180",Q780997,FL,法乌斯托·贝尔蒂诺蒂,Фаусто Бертинотти
+Q14647783,Harsh Vardhan (Delhi politician) >> en,1206,Harsh Vardhan,en,Male,1954.0,,Q668,"Q774306, Q82955",Q10230,RR,哈什·瓦尔丹,Харш Вардан
+Q61665580,Fabiana Rosales >> en,1205,Fabiana Rosales,en,Female,1992.0,,Q717,"Q1930187, Q2906862, Q82955, Q1476215",Q7229748,CL,法比亚娜·罗萨莱斯,Фабиана Росалес
+Q1723783,Matthias Höhn >> fr,1186,Matthias Höhn,fr,Male,1975.0,,Q16957,Q82955,Q49764,FL,马蒂亚斯·赫恩,Маттиас Хён
+Q57078071,Sarah Schlitz >> en,1178,Sarah Schlitz,en,Female,1986.0,,Q31,Q82955,Q655611,LL,萨拉·施利茨,Сара Шлиц
+Q2074019,Peter Mertens >> en,1172,Peter Mertens,en,Male,1969.0,,Q31,"Q2306091, Q82955",Q925616,FL,彼得·默滕斯,Питер Мертенс
+Q173417,Joseph Pulitzer >> en,1164,Joseph Pulitzer,en,Male,1847.0,1911.0,Q28,"Q82955, Q36180, Q2516866, Q1930187, Q24266767",Q29552,CC,约瑟夫·普利策,Джозеф Пулитцер
+Q12159142,Viktoria Siumar >> en,1161,Viktoria Siumar,en,Female,1977.0,,Q212,"Q1930187, Q82955",Q18015490,RR,维多利亚·西乌马尔,Виктория Сюмар
+Q118535,Christa Markwalder >> en,1150,Christa Markwalder,en,Female,1975.0,,Q39,"Q82955, Q40348",Q202638,CR,克里斯塔·马克瓦尔德,Криста Марквальдер
+Q1627558,Aldo Rossi >> en,1147,Aldo Rossi,en,Male,1898.0,1962.0,Q172579,"Q82955, Q40348",Q1126102,FR,阿尔多·罗西,Альдо Росси
+Q15492464,Howie Hawkins >> en,1143,Howie Hawkins,en,Male,1952.0,,Q30,"Q82955, Q15253558, Q91143339",Q849158,LL,霍威·霍金斯,Хауи Хокинс
+Q319156,Rodolfo Graziani >> en,1124,Rodolfo Graziani,en,Male,1882.0,1955.0,Q172579,"Q82955, Q189290",Q139596,FR,罗多尔福·格拉齐亚尼,Родольфо Грациани
+Q44274,Haider >> en,1115,Haider,en,Male,1950.0,2008.0,Q40,"Q82955, Q43845, Q40348",Q131692,RR,海德尔,Хайдер
+Q6239868,John Horgan >> en,1113,John Horgan,en,Male,1940.0,,Q27,Q82955,Q503614,CL,约翰·霍根,Джон Хорган
+Q3832043,Lidia Menapace >> en,1111,Lidia Menapace,en,Female,1924.0,2020.0,Q38,"Q82955, Q212948",Q780997,FL,莉迪亚·梅纳帕切,Лидия Менапаче
+Q695092,Angus MacNeil >> en,1105,Angus MacNeil,en,Male,1970.0,,Q27,Q82955,Q10658,CL,安格斯·麦克尼尔,Ангус МакНил
+Q1340329,Rico Gebhardt >> en,1103,Rico Gebhardt,en,Male,1963.0,,Q16957,Q82955,Q49750,FL,里科·格巴特,Рико Гебхардт
+Q3527702,Andriy Pavelko >> en,1092,Andriy Pavelko,en,Male,1975.0,,Q212,Q82955,Q2588871,RR,安德烈·帕韦尔科,Андрей Павелко
+Q15812048,Gernot Blümel >> en,1088,Gernot Blümel,en,Male,1981.0,,Q40,Q82955,Q186867,CR,格尔诺特·布吕梅尔,Гернот Блюмель
+Q2338566,Steffen Bockhahn >> en,1087,Steffen Bockhahn,en,Male,1978.0,,Q16957,Q82955,Q49764,FL,斯特芬·博克汉,Штеффен Бокхан
+Q136971,Mykola Kniazhytskyi >> fr,1083,Mykola Kniazhytskyi,fr,Male,1968.0,,Q212,"Q1930187, Q82955, Q578109",Q18015490,RR,尼古拉·克尼亚日茨基,Николай Княжицкий
+Q2916662,Nitzan Horowitz >> en,1068,Nitzan Horowitz,en,Male,1965.0,,Q801,"Q1930187, Q82955, Q40348, Q15722942",Q239951,LL,尼扎恩·霍罗维茨,Ницан Хоровиц
+Q2431095,Tiana Angelina Moser >> de,1063,Tiana Angelina Moser,de,Female,1979.0,,Q39,Q82955,Q545900,CC,蒂安娜·安吉丽娜·莫泽尔,Тиана Анджелина Мозер
+Q64576077,Germain Mugemangango >> fr,1059,Germain Mugemangango,fr,Male,1973.0,,Q31,Q82955,Q925616,FL,热尔曼·穆格曼甘戈,Жермен Мугеманганго
+Q7733036,Murillo Karam >> en,1055,Murillo Karam,en,Male,1948.0,,Q96,Q82955,Q682969,CC,穆里略·卡拉姆,Мурильо Карам
+Q55753382,János Stummer >> de,1049,János Stummer,de,Male,1984.0,,Q28,"Q82955, Q6542543",Q28563736,CC,斯图默尔·亚诺什,Янош Штуммер
+Q20631177,Claire Hanna >> en,1048,Claire Hanna,en,Female,1980.0,,Q27,"Q82955, Q708492",Q175443,CL,克莱尔·汉纳,Клэр Ханна
+Q12729493,Grațiela-Leocadia Gavrilescu >> de,1033,Grațiela-Leocadia Gavrilescu,de,Female,1966.0,,Q218,Q82955,Q28836808,CL,格拉齐埃拉-莱奥卡迪娅·加夫里列斯库,Грациэла-Леокадия Гаврилеску
+Q2388302,Oles Honchar >> en,1021,Oles Honchar,en,Male,1918.0,1995.0,Q212,"Q1930187, Q36180, Q4263842, Q82955, Q12144794, Q6051619, Q49757, Q6430706, Q15949613",Q1122797,LL,奥列斯·洪查尔,Олесь Гончар
+Q890274,Ruslan Koshulynskyi >> en,1021,Ruslan Koshulynskyi,en,Male,1969.0,,Q212,Q82955,Q4396,FR,鲁斯兰·科舒林斯基,Руслан Кошулинский
+Q3765675,Giorgio Pietrostefani >> en,1014,Giorgio Pietrostefani,en,Male,1943.0,,Q38,"Q36180, Q82955",Q1590255,FL,乔尔乔·皮耶特罗斯特法尼,Джорджо Пьетростефани
+Q12175290,Freddy Guevara >> en,1009,Freddy Guevara,en,Male,1986.0,,Q717,Q82955,Q7229748,CL,弗雷迪·格瓦拉,Фредди Гевара
+Q744798,Ciro Gomes >> en,1008,Ciro Gomes,en,Male,1957.0,,Q155,"Q82955, Q40348, Q121594",Q1414708,CL,西罗·戈麦斯,Сиро Гомес
+Q21075018,Oscar Smith >> en,1005,Oscar Smith,en,Male,1932.0,1977.0,Q414,"Q15627169, Q82955",Q1053668,BT,奥斯卡·史密斯,Оскар Смит
+Q19268672,Maciej Gdula >> en,1002,Maciej Gdula,en,Male,1977.0,,Q36,"Q2306091, Q82955, Q1622272",Q107418166,LL,马切伊·格杜拉,Мацей Гдула
+Q3751327,Franco Franchi >> it,998,Franco Franchi,it,Male,1928.0,2004.0,Q172579,Q82955,Q1126102,FR,弗兰科·弗兰基,Франко Франки
+Q15718586,Maria Grapini >> en,994,Maria Grapini,en,Female,1954.0,,Q218,"Q82955, Q81096",Q28836808,CL,玛丽亚·格拉皮尼,Мария Грапини
+Q549097,Arnaldo Mussolini >> en,991,Arnaldo Mussolini,en,Male,1885.0,1931.0,Q172579,"Q1930187, Q82955, Q37226",Q139596,FR,阿尔纳尔多·墨索里尼,Арнальдо Муссолини
+Q1220528,Bellavia >> en,978,Bellavia,en,Male,1960.0,,Q717,"Q82955, Q193391, Q47064, Q121998",Q197864,LL,贝拉维亚,Беллавиа
+Q1739190,"Alex Carlile, Baron Carlile of Berriew >> en",977,"Alex Carlile, Baron Carlile of Berriew",en,Male,1948.0,,Q145,"Q82955, Q808967",Q622441,CC,亚历克斯·卡莱尔，贝里厄男爵,"Алекс Карлайл, барон Карлайл из Беррью"
+Q592222,Alejandro Encinas Rodríguez >> en,970,Alejandro Encinas Rodríguez,en,Male,1954.0,,Q96,"Q188094, Q82955",Q767010,CL,亚历杭德罗·恩西纳斯·罗德里格斯,Алехандро Энсинас Родригес
+Q29315,Marina Weisband >> en,963,Marina Weisband,en,Female,1987.0,,Q212,"Q82955, Q212980, Q15980158, Q8246794, Q1086863",Q49766,CL,玛丽娜·韦斯班德,Марина Вайсбанд
+Q5894576,Henry Ramos >> en,961,Henry Ramos,en,Male,1943.0,,Q717,"Q82955, Q40348",Q339183,CL,亨利·拉莫斯,Генри Рамос
+Q166714,Herbert Asquith >> en,956,Herbert Asquith,en,Male,1852.0,1928.0,Q145,"Q82955, Q193391, Q808967",Q622441,CC,赫伯特·阿斯奎斯,Герберт Асквит
+Q920728,Oleksandr Tkachenko (politician) >> en,920,Oleksandr Tkachenko,en,Male,1939.0,2024.0,Q212,"Q82955, Q188094",Q1122797,LL,奥列克桑德尔·特卡琴科,Александр Ткаченко
+Q2903330,Yohanan Plesner >> en,917,Yohanan Plesner,en,Male,1972.0,,Q801,Q82955,Q39655,CC,约哈南·普莱斯纳,Йоханан Плеснер
+Q59289588,Freddy Superlano >> en,913,Freddy Superlano,en,Male,1976.0,,Q717,Q82955,Q339183,CL,弗雷迪·苏佩拉诺,Фредди Суперлано
+Q311161,Jesse Ventura >> en,910,Jesse Ventura,en,Male,1951.0,,Q30,"Q10800557, Q2722764, Q36180, Q82955, Q13474373, Q16323111, Q2986228, Q12369333, Q112122634",Q849158,LL,杰西·文图拉,Джесси Вентура
+Q715633,Marchuk >> en,908,Marchuk,en,Male,1941.0,2021.0,Q212,Q82955,Q1499300,CL,马尔丘克,Марчук
+Q5361084,Elin Jones >> en,906,Elin Jones,en,Female,1966.0,,Q145,Q82955,Q10691,LL,埃琳·琼斯,Элин Джонс
+Q123363,Corine Mauch >> en,906,Corine Mauch,en,Female,1960.0,,Q30,Q82955,Q303745,LL,科琳·毛赫,Корин Мауц
+Q360570,Huey P. Newton >> en,902,Huey P. Newton,en,Male,1942.0,1989.0,Q30,"Q82955, Q4964182, Q2306091, Q1476215",Q189150,FL,休伊·P·牛顿,Хьюи П. Ньютон
+Q165616,Jacek Zalek >> en,896,Jacek Zalek,en,Male,1973.0,,Q36,Q82955,Q687574,FR,雅采克·扎莱克,Яцек Залек
+Q7533470,Siân Berry >> en,886,Siân Berry,en,Female,1974.0,,Q145,"Q82955, Q36180, Q15253558",Q9669,LL,西恩·贝里,Сиан Берри
+Q60562836,Viola Davis >> fr,883,Viola Davis,fr,Female,1963.0,,Q408,Q82955,Q29552,CC,维奥拉·戴维斯,Вайола Дэвис
+Q1840895,Erin O'Toole >> en,874,Erin O'Toole,en,Male,1973.0,,Q16,"Q82955, Q40348",Q488523,RR,埃琳·奥图尔,Эрин О'Тул
+Q646453,Dan Voiculescu >> en,872,Dan Voiculescu,en,Male,1946.0,,Q218,"Q82955, Q43845, Q17379493, Q1622272, Q1234713",Q28836808,CL,丹·沃伊库莱斯库,Дан Войкулеску
+Q924053,Małgorzata Daniszewska >> en,863,Małgorzata Daniszewska,en,Male,1933.0,2022.0,Q36,"Q1930187, Q82955, Q36180, Q6051619",Q537303,FL,玛尔戈热塔·达尼斯泽夫斯卡,Малгожата Данишевская
+Q12734372,Liviu Pop >> en,855,Liviu Pop,en,Male,1974.0,,Q218,Q82955,Q108612808,FR,利维乌·波普,Ливиу Поп
+Q2833421,Aleksandr Babakov >> en,850,Aleksandr Babakov,en,Male,1963.0,,Q145,"Q82955, Q188094, Q43845, Q372436, Q17276321",Q1190255,FR,亚历山大·巴巴科夫,Александр Бабаков
+Q111817271,Gelencsér Ferenc >> hu,850,Gelencsér Ferenc,hu,Male,1990.0,,Q28,"Q1238570, Q82955",Q28563736,CC,盖伦采尔·费伦茨,Ференц Геленчер
+Q55281090,Emanuele Dessì >> it,836,Emanuele Dessì,it,Male,1964.0,,Q38,Q82955,Q5154557,FL,埃马努埃莱·德西,Эмануэле Десси
+Q15731842,Julia Reda >> en,833,Julia Reda,en,Transgender Male,1986.0,,Q183,"Q82955, Q18245166, Q816432",Q13129,BT,朱莉娅·雷达,Юлия Реда
+Q3386636,Pierre Poilievre >> en,824,Pierre Poilievre,en,Male,1979.0,,Q16,Q82955,Q488523,RR,皮埃尔·波利耶夫尔,Пьер Поливр
+Q9696914,Carlos Bolsonaro >> en,822,Carlos Bolsonaro,en,Male,1982.0,,Q155,"Q82955, Q3154693",Q2626213,CR,卡洛斯·博尔索纳罗,Карлос Болсонару
+Q5292240,Don Blankenship >> en,817,Don Blankenship,en,Male,1950.0,,Q30,"Q911554, Q82955",Q1128321,FR,唐·布兰肯希普,Дон Бланкеншип
+Q310855,Houari Boumediene >> en,813,Houari Boumediene,en,Male,1927.0,1978.0,Q142,"Q82955, Q47064",Q204543,BT,胡阿里·布迈丁,Уари Бумедьен
+Q187930,Bayard Rustin >> en,812,Bayard Rustin,en,Male,1912.0,1987.0,Q30,"Q15627169, Q1021386, Q82955, Q19509201, Q11499147, Q4198314",Q1353232,LL,贝亚德·鲁斯廷,Байард Растин
+Q64667407,Rajae Maouane >> fr,810,Rajae Maouane,fr,Female,1989.0,,Q31,Q82955,Q655611,LL,拉贾埃·毛安,Раджа Мауан
+Q68869954,Santiago Cafiero >> en,810,Santiago Cafiero,en,Male,1979.0,,Q414,Q82955,Q1053668,BT,圣地亚哥·卡菲耶罗,Сантьяго Кафьеро
+Q380435,Baruch Goldstein >> en,806,Baruch Goldstein,en,Male,1956.0,1994.0,Q801,"Q39631, Q82955, Q121123132",Q331852,FR,巴鲁克·戈德斯坦,Барух Голдштейн
+Q10371678,Simone Tebet >> en,805,Simone Tebet,en,Female,1970.0,,Q155,Q82955,Q1322751,BT,西蒙娜·特贝特,Симоне Тебет
+Q11572466,Denny Tamaki >> en,804,Denny Tamaki,en,Male,1959.0,,Q17,"Q82955, Q2705098",Q200314,CC,玉城デニー,Денни Тамаки
+Q2836170,Ali Boumendjel >> en,803,Ali Boumendjel,en,Male,1919.0,1957.0,Q142,"Q82955, Q40348",Q204543,BT,阿里·布门杰尔,Али Буменджель
+Q7199798,Piyush Goyal >> en,802,Piyush Goyal,en,Male,1964.0,,Q668,Q82955,Q10230,RR,皮尤什·戈亚尔,Пиюш Гоял
+Q6775257,Martin Daubney >> en,801,Martin Daubney,en,Male,1970.0,,Q145,"Q1607826, Q82955, Q1930187",Q61651140,BT,马丁·道布尼,Мартин Добни
+Q3359997,Pablo Pérez Álvarez >> en,798,Pablo Pérez Álvarez,en,Male,1969.0,,Q717,"Q82955, Q40348",Q1641259,CL,巴勃罗·佩雷斯·阿尔瓦雷斯,Пабло Перес Альварес
+Q3750607,Francesco Saverio Caruso >> it,786,Francesco Saverio Caruso,it,Male,1974.0,,Q38,Q82955,Q780997,FL,弗朗切斯科·萨韦里奥·卡鲁索,Франческо Саверио Карузо
+Q5125204,Claire Fox >> en,781,Claire Fox,en,Female,1960.0,,Q145,"Q36180, Q82955",Q61651140,BT,克莱尔·福克斯,Клэр Фокс
+Q561122,Moroz >> en,781,Moroz,en,Male,1944.0,,Q212,"Q82955, Q1906857, Q37226",Q922724,LL,莫罗兹,Мороз
+Q10341050,Onyx Lorenzoni >> en,772,Onyx Lorenzoni,en,Male,1954.0,,Q155,Q82955,Q1185830,CR,奥尼克斯·洛伦佐尼,Оникс Лоренцони
+Q2884039,Barbara Trachte >> fr,771,Barbara Trachte,fr,Female,1981.0,,Q31,"Q82955, Q40348",Q655611,LL,芭芭拉·特拉赫特,Барбара Трахте
+Q16534673,Bénédicte Linard >> fr,766,Bénédicte Linard,fr,Female,1976.0,,Q31,Q82955,Q655611,LL,贝内迪克特·利纳尔德,Бенедикт Линар
+Q3331616,Myron Thompson >> en,763,Myron Thompson,en,Male,1936.0,2019.0,Q16,Q82955,Q488523,RR,迈伦·汤普森,Майрон Томпсон
+Q7839303,Trevor Mallard >> en,762,Trevor Mallard,en,Male,1954.0,,Q664,Q82955,Q1048192,CL,特雷弗·马拉德,Тревор Маллард
+Q459118,Marcos Pérez Jiménez >> en,762,Marcos Pérez Jiménez,en,Male,1914.0,2001.0,Q717,"Q82955, Q183318",Q5869332,CC,马科斯·佩雷斯·希门尼斯,Марко Перес Хименес
+Q57123,Alfred Jodl >> en,761,Alfred Jodl,en,Male,1890.0,1946.0,Q7318,"Q82955, Q47064",Q7320,FR,阿尔弗雷德·约德尔,Альфред Йодль
+Q2843714,Horacio Rodríguez Larreta >> en,758,Horacio Rodríguez Larreta,en,Male,1965.0,,Q414,"Q82955, Q188094",Q1507720,CR,奥拉西奥·罗德里格斯·拉雷塔,Орасио Родригес Ларрета
+Q60012352,Edgar Zambrano >> en,756,Edgar Zambrano,en,Male,1955.0,,Q717,"Q82955, Q40348",Q339183,CL,埃德加·萨姆布拉诺,Эдгар Замбрано
+Q18135060,Christian Kern >> en,753,Christian Kern,en,Male,1966.0,,Q40,"Q43845, Q82955, Q1930187, Q17221",Q179111,CL,克里斯蒂安·克恩,Кристиан Керн
+Q5552825,Gerry Kelly (politician) >> en,750,Gerry Kelly,en,Male,1953.0,,Q145,Q82955,Q76382,LL,杰里·凯利,Джерри Келли
+Q21529384,Hirofumi Yoshimura >> en,749,Hirofumi Yoshimura,en,Male,1975.0,,Q17,"Q40348, Q82955, Q688576",Q385785,CR,吉村洋文,Хирофуми Ёсимура
+Q1116655,Alex Maskey >> en,747,Alex Maskey,en,Male,1952.0,,Q145,"Q82955, Q708492",Q76382,LL,亚历克斯·马斯基,Алекс Маски
+Q541213,Irina Khakamada >> fr,741,Irina Khakamada,fr,Female,1955.0,,Q159,"Q82955, Q1622272, Q3501317, Q36180, Q188094, Q17276321",Q1513573,RR,伊琳娜·哈卡马达,Ирина Хакамада
+Q48885114,Soproni Tamás >> hu,741,Soproni Tamás,hu,Male,1986.0,,Q28,"Q57518732, Q82955",Q3054830,CC,索普罗尼·塔马什,Тамаш Шопрони
+Q61070769,Azbej Tristan >> hu,741,Azbej Tristan,hu,Male,1979.0,,Q28,Q82955,Q277879,RR,阿兹贝伊·特里斯坦,Азбей Тристан
+Q1460900,Volner >> en,738,Volner,en,Male,1969.0,,Q28,Q82955,Q55443054,FR,沃尔纳,Вольнер
+Q120106,Antonio Hodgers >> fr,734,Antonio Hodgers,fr,Male,1976.0,,Q414,Q82955,Q659739,LL,安东尼奥·霍杰尔斯,Антонио Одже
+Q334993,Eugene V. Debs >> en,733,Eugene V. Debs,en,Male,1855.0,1926.0,Q30,"Q82955, Q15627169, Q16323111, Q11499147, Q36180",Q1353232,LL,尤金·V·德布斯,Юджин В. Дебс
+Q151796,Tzipi Livni >> en,732,Tzipi Livni,en,Female,1958.0,,Q801,"Q82955, Q40348, Q193391, Q380075, Q484876, Q9352089",Q195956,CL,齐皮·利夫尼,Ципи Ливни
+Q9352578,Marian Turski >> en,731,Marian Turski,en,Male,1926.0,,Q36,"Q201788, Q1930187, Q82955",Q687409,LL,马良·图尔斯基,Мариан Турский
+Q151917,George Papandreou >> en,729,George Papandreou,en,Male,1952.0,,Q30,"Q82955, Q193391, Q2306091",Q203934,CL,乔治·帕潘德里欧,Георгиос Папандреу
+Q1218911,Előd Novák >> en,729,Előd Novák,en,Male,1980.0,,Q28,Q82955,Q55443054,FR,诺瓦克·埃洛德,Элёд Новак
+Q5181115,Craig Kelly (politician) >> en,716,Craig Kelly,en,Male,1963.0,,Q408,Q82955,Q15130081,RR,克雷格·凯利,Крейг Келли
+Q1796318,Sam Hughes >> en,715,Sam Hughes,en,Male,1851.0,1921.0,Q16,Q82955,Q1686042,CR,萨姆·休斯,Сэм Хьюз
+Q216134,Upton Sinclair >> en,706,Upton Sinclair,en,Male,1878.0,1968.0,Q30,"Q1930187, Q6625963, Q3282637, Q36180, Q6051619, Q842811, Q82955, Q49757, Q214917",Q1353232,LL,厄普顿·辛克莱尔,Аптон Синклер
+Q23904977,Arthur Lira >> en,704,Arthur Lira,en,Male,1969.0,,Q155,Q82955,Q1322897,CC,阿图尔·利拉,Артур Лира
+Q120934,Martin Bäumle >> fr,704,Martin Bäumle,fr,Male,1964.0,,Q39,Q82955,Q545900,CC,马丁·博姆莱,Мартин Боймле
+Q23904989,Sônia Guajajara >> en,699,Sônia Guajajara,en,Female,1974.0,,Q155,"Q15253558, Q37226, Q82955, Q3578589, Q186360",Q1754827,LL,索尼娅·瓜贾贾拉,Соня Гуаяхара
+Q15999973,Dave Sharma >> en,692,Dave Sharma,en,Male,1975.0,,Q16,"Q193391, Q82955",Q241149,CR,戴夫·沙尔马,Дэйв Шарма
+Q12742616,Tudor Ciuhodaru >> ro,687,Tudor Ciuhodaru,ro,Male,1969.0,,Q218,"Q82955, Q39631",Q97193048,RR,图多尔·丘霍达鲁,Тудор Чуходару
+Q813059,Beat Flach >> en,687,Beat Flach,en,Male,1965.0,,Q39,Q82955,Q545900,CC,比阿特·弗拉赫,Беат Флах
+Q64686920,Sofie Merckx >> fr,687,Sofie Merckx,fr,Female,1974.0,,Q31,"Q82955, Q39631",Q925616,FL,索菲·梅尔克斯,Софи Меркс
+Q318105,Corneliu Zelea Codreanu >> en,683,Corneliu Zelea Codreanu,en,Male,1899.0,1938.0,Q218,Q82955,Q153448,FR,科尔内留·泽莱亚·科德雷亚努,Корнелиу Зелеа Кодряну
+Q834695,Csaba Borboly >> en,682,Csaba Borboly,en,Male,1974.0,,Q218,Q82955,Q266582,CC,博尔博伊·查巴,Чаба Борбольи
+Q114760,Ron Huldai >> en,680,Ron Huldai,en,Male,1944.0,,Q801,"Q82955, Q19934710, Q618694, Q43845, Q974144",Q210703,CL,罗恩·胡尔代,Рон Хульдаи
+Q2857937,Aníbal Fernández >> en,677,Aníbal Fernández,en,Male,1957.0,,Q414,"Q40348, Q188094, Q82955",Q1072438,CL,阿尼瓦尔·费尔南德斯,Анибал Фернандес
+Q191014,Isabel Martínez de Perón >> en,670,Isabel Martínez de Perón,en,Female,1931.0,,Q29,"Q82955, Q5716684",Q1053668,BT,伊莎贝尔·马丁内斯·德·佩隆,Изабель Мартинес де Перон
+Q11817519,Piotr Grzymowicz >> de,665,Piotr Grzymowicz,de,Male,1954.0,,Q36,Q82955,Q537303,FL,彼得·格日莫维奇,Пётр Гжымович
+Q51891006,Michelle Bowman >> en,665,Michelle Bowman,en,Female,1971.0,,Q16,"Q108369443, Q82955",Q29468,RR,米歇尔·鲍曼,Мишель Боуман
+Q82025082,Andriy Kostin >> fr,661,Andriy Kostin,fr,Male,1973.0,,Q212,"Q82955, Q40348",Q2588871,RR,安德烈·科斯丁,Андрей Костин
+Q63646237,Hélène Thouy >> fr,658,Hélène Thouy,fr,Female,1983.0,,Q142,"Q82955, Q40348",Q27867942,BT,埃琳·图伊,Элен Туи
+Q90244,Harald Vilimsky >> en,641,Harald Vilimsky,en,Male,1966.0,,Q40,"Q82955, Q1388151",Q131692,RR,哈拉尔德·维利姆斯基,Гаральд Вилимски
+Q6836080,Michał Zaleski >> en,640,Michał Zaleski,en,Male,1952.0,,Q36,"Q82955, Q30185",Q537303,FL,米哈乌·扎莱斯基,Михал Залески
+Q23626,Albert Ho >> en,633,Albert Ho,en,Male,1951.0,,Q148,"Q14284, Q82955",Q21892,CL,何俊仁,Альберт Хо
+Q10293167,Rodrigo Maia >> en,621,Rodrigo Maia,en,Male,1970.0,,Q155,"Q82955, Q1055894",Q1185830,CR,罗德里戈·马亚,Родригу Майя
+Q4722024,Alfonso Durazo >> en,621,Alfonso Durazo,en,Male,1954.0,,Q96,"Q82955, Q40348, Q13582652",Q15717618,CL,阿方索·杜拉索,Альфонсо Дуразо
+Q644780,Argenis Chávez >> en,620,Argenis Chávez,en,Male,1958.0,,Q717,Q82955,Q197864,LL,阿尔赫尼斯·查韦斯,Аргенис Чавес
+Q295141,Chaim Herzog >> en,620,Chaim Herzog,en,Male,1918.0,1997.0,Q801,"Q82955, Q193391, Q189290, Q40348, Q380075, Q36180, Q4991371, Q201788",Q1453052,LL,海姆·赫尔佐格,Хаим Герцог
+Q21336246,Harjit Sajjan >> en,616,Harjit Sajjan,en,Male,1970.0,,Q668,"Q4991371, Q82955",Q138345,CL,哈吉特·萨贾恩,Харджит Саджан
+Q71222896,Paulina Matysiak >> de,607,Paulina Matysiak,de,Female,1984.0,,Q36,"Q20179720, Q4964182, Q182436, Q212238, Q8246794, Q82955",Q21006495,LL,保利娜·马蒂西亚克,Паулина Матисяк
+Q1403237,Felipe Solá >> en,604,Felipe Solá,en,Male,1950.0,,Q414,"Q10272925, Q82955",Q1053668,BT,费利佩·索拉,Фелипе Сола
+Q3298486,Mateusz Piskorski >> en,604,Mateusz Piskorski,en,Male,1977.0,,Q36,"Q82955, Q1238570",Q1128266,FL,马特乌什·皮斯科尔斯基,Матеуш Пискорский
+Q3389105,Ami Bera >> en,601,Ami Bera,en,Male,1965.0,,Q668,"Q82955, Q39631, Q1622272",Q29552,CC,阿米·贝拉,Ами Бера
+Q12816283,Szigetvári Viktor >> hu,600,Szigetvári Viktor,hu,Male,1978.0,,Q28,"Q82955, Q88190406, Q1238570",Q3054830,CC,维克多·西盖特瓦里,Виктор Сигетвари
+Q15991371,Bagdy Gábor >> hu,596,Bagdy Gábor,hu,Male,1957.0,,Q28,"Q82955, Q188094",Q277879,RR,巴格迪·加博尔,Габор Багди
+Q4276043,Maria Maksakova >> en,595,Maria Maksakova,en,Female,1977.0,,Q183,"Q82955, Q2865819, Q947873, Q17276321, Q33999, Q1622272",Q151469,BT,玛丽亚·马克萨科娃,Мария Максакова
+Q5537893,George Christensen >> en,593,George Christensen,en,Male,1978.0,,Q408,"Q82955, Q1930187, Q2516866",Q1585274,FR,乔治·克里斯滕森,Джордж Кристенсен
+Q742189,Piotr Jaroszewicz >> pl,593,Piotr Jaroszewicz,pl,Male,1909.0,1992.0,Q36,"Q82955, Q37226",Q687409,LL,彼得·亚罗斯泽维奇,Пётр Ярошевич
+Q981881,Moshe Ya'alon >> en,588,Moshe Ya'alon,en,Male,1950.0,,Q801,"Q82955, Q47064, Q189290",Q60472968,CC,莫谢·雅阿隆,Моше Яалон
+Q1250407,Roberto Sánchez >> en,584,Roberto Sánchez,en,Male,1913.0,1997.0,Q30,"Q82955, Q1622272",Q199319,CL,罗伯托·桑切斯,Роберто Санчес
+Q48084,Andrei Eremenko >> en,581,Andrei Eremenko,en,Male,1892.0,1970.0,Q139319,"Q189290, Q82955",Q79854,FL,安德烈·叶列缅科,Андрей Еременко
+Q472117,Amir Peretz >> en,579,Amir Peretz,en,Male,1952.0,,Q801,"Q82955, Q15627169",Q210703,CL,阿米尔·佩雷茨,Амир Перец
+Q269131,Latorcai János >> hu,579,Latorcai János,hu,Male,1944.0,,Q28,"Q82955, Q1906857",Q277879,RR,拉托尔采·雅诺什,Янош Латоркай
+Q61881363,Samuel Pereira >> pl,576,Samuel Pereira,pl,Male,1970.0,,Q155,Q82955,Q2731720,FR,塞缪尔·佩雷拉,Самуэль Перейра
+Q1698215,Johannes Rauch >> fr,575,Johannes Rauch,fr,Male,1959.0,,Q40,Q82955,Q193178,CL,约翰内斯·劳赫,Йоханнес Раух
+Q159813,Nick Griffin >> en,573,Nick Griffin,en,Male,1959.0,,Q145,"Q82955, Q28389",Q161269,FR,尼克·格里芬,Ник Гриффин
+Q399129,Agustin Carstens >> en,562,Agustin Carstens,en,Male,1958.0,,Q96,"Q188094, Q212238, Q82955",Q682969,CC,奥古斯丁·卡尔斯滕斯,Агустин Карстенс
+Q439564,María Corina Machado >> en,562,María Corina Machado,en,Female,1967.0,,Q717,"Q82955, Q1476215, Q2267418",Q16645762,CR,玛丽亚·科丽娜·马查多,Мария Корина Мачадо
+Q732087,Yukio Edano >> en,560,Yukio Edano,en,Male,1964.0,,Q17,"Q193391, Q40348, Q82955",Q99233271,CL,枝野幸男,Эдано Юкио
+Q73386774,Wojciech Konieczny >> de,555,Wojciech Konieczny,de,Male,1970.0,,Q36,"Q82955, Q39631",Q210431,LL,沃伊切赫·科涅奇内兹,Войцех Кониечны
+Q158844,Léon Degrelle >> en,554,Léon Degrelle,en,Male,1906.0,1994.0,Q31,"Q82955, Q1930187, Q36180",Q314493,FR,莱昂·德格雷勒,Леон Дегрель
+Q317681,Luis Echeverría >> en,551,Luis Echeverría,en,Male,1922.0,2022.0,Q96,"Q193391, Q82955, Q185351",Q682969,CC,路易斯·埃切维里亚,Луис Эчеверрия
+Q15126994,Chris Janssens (politicus) >> nl,550,Chris Janssens,nl,Male,1977.0,,Q31,Q82955,Q682990,FR,克里斯·扬森斯,Крис Янссенс
+Q12729203,Gheorghe Piperea >> ro,548,Gheorghe Piperea,ro,Male,1970.0,,Q218,"Q40348, Q82955",Q97193048,RR,乔治·皮佩雷亚,Георге Пипереа
+Q455656,Kiszczak >> en,544,Kiszczak,en,Male,1925.0,2015.0,Q36,"Q189290, Q82955",Q537303,FL,基什恰克,Кищак
+Q12403861,Itamar Ben-Gvir >> en,542,Itamar Ben-Gvir,en,Male,1976.0,,Q801,"Q40348, Q82955",Q46559,FR,伊塔马尔·本-吉弗,Итамар Бен-Гвир
+Q3818052,Tamar Zandberg >> en,542,Tamar Zandberg,en,Female,1976.0,,Q801,"Q82955, Q15253558, Q1476215, Q974144",Q239951,LL,塔玛尔·赞德伯格,Тамар Зандберг
+Q42016569,Philippa Strache >> fr,542,Philippa Strache,fr,Female,1987.0,,Q40,"Q947873, Q82955, Q4610556",Q131692,RR,菲利帕·施特拉赫,Филиппа Штрахе
+Q3630922,Ravi Shankar Prasad >> en,537,Ravi Shankar Prasad,en,Male,1954.0,,Q668,"Q82955, Q40348",Q10230,RR,拉维·香卡尔·普拉萨德,Рави Шанкар Прасад
+Q2612721,Nachman Shai >> en,537,Nachman Shai,en,Male,1946.0,,Q801,"Q1930187, Q82955, Q189290, Q17221",Q39655,CC,纳赫曼·沙伊,Нахман Шай
+Q2353674,"Бауман, Николай Эрнестович >> ru",535,"Бауман, Николай Эрнестович",ru,Male,1873.0,1905.0,Q34266,"Q3242115, Q82955",Q79854,FL,鲍曼·尼古拉·埃尔内斯托维奇,"Бауман, Николай Эрнестович"
+Q443471,Petro Symonenko >> fr,529,Petro Symonenko,fr,Male,1952.0,,Q212,Q82955,Q1122797,LL,彼得罗·西莫年科,Пётр Симоненко
+Q541300,Quintino Sella >> en,528,Quintino Sella,en,Male,1827.0,1884.0,Q172579,"Q170790, Q82955, Q15142825, Q9149093, Q188094, Q1622272, Q13416354, Q7614320",Q2949884,CR,昆蒂诺·塞拉,Квинтино Селла
+Q296718,Lázaro Cárdenas >> en,525,Lázaro Cárdenas,en,Male,1895.0,1970.0,Q96,"Q82955, Q47064",Q682969,CC,拉萨罗·卡德纳斯,Ласаро Карденас
+Q296679,Eurico Dutra >> en,521,Eurico Dutra,en,Male,1883.0,1974.0,Q155,"Q82955, Q47064",Q2626216,CC,欧里西奥·杜特拉,Эурико Дутра
+Q61613975,Sonja Lüthi >> de,506,Sonja Lüthi,de,Female,1981.0,,Q39,"Q82955, Q188094",Q545900,CC,松娅·吕蒂,Соня Люти
+Q73682955,Michał Urbaniak >> de,506,Michał Urbaniak,de,Male,1990.0,,Q36,Q82955,Q16597751,FR,米哈乌·乌尔巴尼亚克,Михал Урбаняк
+Q118524,Kathrin Bertschy >> de,502,Kathrin Bertschy,de,Female,1979.0,,Q39,Q82955,Q545900,CC,卡特琳·贝尔奇,Катрин Берчи
+Q204825,Bebeto >> en,502,Bebeto,en,Male,1964.0,,Q155,"Q937857, Q628099, Q82955",Q1414708,CL,贝贝托,Бебето
+Q3593286,Omer Barlev >> en,499,Omer Barlev,en,Male,1953.0,,Q801,"Q82955, Q189290",Q210703,CL,奥梅尔·巴尔莱夫,Омер Барлев
+Q1966524,Félix Salgado Macedonio >> en,499,Félix Salgado Macedonio,en,Male,1957.0,,Q96,Q82955,Q767010,CL,费利克斯·萨尔加多·马塞多尼奥,Феликс Сальгадо Маседонио
+Q941258,Ginés González García >> en,498,Ginés González García,en,Male,1945.0,2024.0,Q414,"Q39631, Q193391, Q82955, Q774306",Q1053668,BT,希内斯·冈萨雷斯·加西亚,Хинес Гонсалес Гарсия
+Q57584346,Hernán Lacunza >> en,496,Hernán Lacunza,en,Male,1969.0,,Q414,"Q188094, Q82955",Q1507720,CR,埃尔南·拉昆萨,Эрнан Лакунза
+Q3754443,Axel Kicillof >> en,489,Axel Kicillof,en,Male,1971.0,,Q414,"Q188094, Q82955",Q1053668,BT,阿克塞尔·基西洛夫,Аксель Кисильоф
+Q4399787,"Рудьковский, Николай Николаевич >> ru",481,"Рудьковский, Николай Николаевич",ru,Male,1967.0,,Q212,Q82955,Q922724,LL,鲁季科夫斯基·尼古拉·尼古拉耶维奇,Рудьковский Николай Николаевич
+Q63929457,June Mummery >> en,475,June Mummery,en,Female,1964.0,,Q145,Q82955,Q61651140,BT,琼·马默里,Джун Маммери
+Q298149,Ernesto Zedillo >> en,470,Ernesto Zedillo,en,Male,1951.0,,Q96,"Q188094, Q1622272, Q482980, Q82955",Q682969,CC,埃内斯托·塞迪略,Эрнесто Седильо
+Q12133803,Yevhen Nyshchuk >> en,468,Yevhen Nyshchuk,en,Male,1972.0,,Q212,"Q33999, Q82955, Q2259451, Q372436",Q18015490,RR,叶夫亨·尼什丘克,Евгений Нищук
+Q13099543,Katharina Nocun >> en,460,Katharina Nocun,en,Female,1986.0,,Q183,"Q82955, Q8246794, Q15980158, Q15253558, Q6051619, Q1238570, Q188094, Q1021386",Q13129,BT,卡塔琳娜·诺昆,Катерина Ноцун
+Q332454,"Max Aitken, 1st Baron Beaverbrook >> en",455,"Max Aitken, 1st Baron Beaverbrook",en,Male,1879.0,1964.0,Q16,"Q82955, Q36180, Q201788, Q2516866, Q43845, Q24266767",Q9626,CR,马克斯·艾特肯，第一代比弗布鲁克男爵,"Макс Айткен, 1-й барон Бивербрук"
+Q64513802,Jimmy Sham >> en,455,Jimmy Sham,en,Male,1987.0,,Q148,"Q82955, Q8359428",Q1026514,LL,岑子杰,Джимми Шам
+Q1932735,Miguel Ángel Pichetto >> en,453,Miguel Ángel Pichetto,en,Male,1950.0,,Q414,"Q40348, Q82955",Q1053668,BT,米格尔·安赫尔·皮切托,Мигель Анхель Пичетто
+Q186010,Richard Di Natale >> en,452,Richard Di Natale,en,Male,1970.0,,Q408,"Q82955, Q6500773, Q24017732, Q13414980",Q781486,LL,理查德·迪纳塔莱,Ричард Ди Натале
+Q2798507,Roland Fischer >> fr,447,Roland Fischer,fr,Male,1965.0,,Q39,Q82955,Q545900,CC,罗兰德·费舍尔,Роланд Фишер
+Q5565244,Giuliano da Empoli >> en,445,Giuliano da Empoli,en,Male,1973.0,,Q39,"Q15980158, Q11774202, Q1930187, Q82955, Q1238570, Q36180",Q47729,CL,朱利亚诺·达·恩波利,Джулиано да Эмполи
+Q891942,Andrij Illjenko >> pl,443,Andrij Illjenko,pl,Male,1987.0,,Q212,Q82955,Q4396,FR,安德里·伊利延科,Андрий Илленко
+Q2545990,Walter Rosenkranz >> en,440,Walter Rosenkranz,en,Male,1962.0,,Q40,Q82955,Q131692,RR,沃尔特·罗森克兰茨,Вальтер Розенкранц
+Q18688040,Carlos Joaquín González >> en,439,Carlos Joaquín González,en,Male,1965.0,,Q96,Q82955,Q682969,CC,卡洛斯·华金·冈萨雷斯,Карлос Хоакин Гонсалес
+Q28043201,Jayda Fransen >> en,436,Jayda Fransen,en,Female,1986.0,,Q145,"Q82955, Q11499147",Q4969996,FR,杰达·弗兰森,Джейда Фрэнсен
+Q314362,Bartolomé Mitre >> en,426,Bartolomé Mitre,en,Male,1821.0,1906.0,Q414,"Q47064, Q14467526, Q1930187, Q201788, Q82955, Q333634",Q1430823,BT,巴托洛梅·米特雷,Бартоломе Митре
+Q52395487,Javier Milei >> en,422,Javier Milei,en,Male,1970.0,,Q414,"Q188094, Q36180, Q37226, Q13590141, Q2722764, Q82955, Q1642960, Q212238",Q108454548,FR,哈维尔·米莱伊,Хавьер Милей
+Q21279511,Paul Golding >> en,421,Paul Golding,en,Male,1982.0,,Q145,Q82955,Q16953846,FR,保罗·戈尔丁,Пол Голдинг
+Q18402629,Andriy Teteruk >> en,421,Andriy Teteruk,en,Male,1973.0,,Q212,Q82955,Q18015490,RR,安德里·捷特鲁克,Андрий Тетерук
+Q7410436,Samsudeen >> en,419,Samsudeen,en,Male,,,Q668,Q82955,Q1255973,FL,萨姆苏丁,Самсудин
+Q294430,Humberto de Alencar Castelo Branco >> en,416,Humberto de Alencar Castelo Branco,en,Male,1900.0,1967.0,Q155,"Q82955, Q47064",Q2745857,FR,翁贝托·德·阿连卡尔·卡斯特洛·布兰科,Умберту де Аленкар Кастелу Бранку
+Q5106839,Chris Hazzard >> en,416,Chris Hazzard,en,Male,1984.0,,Q27,Q82955,Q76382,LL,克里斯·哈扎德,Крис Хаззард
+Q63929375,Lance Forman >> en,412,Lance Forman,en,Male,1962.0,,Q145,"Q43845, Q82955, Q131524",Q61651140,BT,兰斯·福尔曼,Ланс Форман
+Q168206,Zbigniew Cwiakalski >> fr,409,Zbigniew Cwiakalski,fr,Male,1950.0,,Q36,"Q82955, Q40348",Q537303,FL,兹比格涅夫·茨维亚卡尔斯基,Збигнев Чвякальски
+Q248784,Pearse Doherty >> en,409,Pearse Doherty,en,Male,1977.0,,Q27,Q82955,Q76382,LL,皮尔斯·多尔蒂,Пирс Дохерти
+Q11738004,Kazimierz Kik >> en,408,Kazimierz Kik,en,Male,1947.0,,Q36,"Q82955, Q1238570",Q537303,FL,卡齐米日·基克,Казимеж Кик
+Q59245327,Thiago Silva >> fr,403,Thiago Silva,fr,Male,1982.0,,Q155,Q82955,Q1322751,BT,蒂亚戈·席尔瓦,Тиаго Силва
+Q561279,Pravin Gordhan >> en,397,Pravin Gordhan,en,Male,1949.0,2024.0,Q668,Q82955,Q83162,CL,普拉文·戈尔丹,Правин Гордхан
+Q3623584,Renan Calheiros >> en,394,Renan Calheiros,en,Male,1955.0,,Q155,Q82955,Q1322751,BT,雷南·卡莱罗斯,Ренан Кальейрош
+Q2884009,Barbara Pas >> fr,390,Barbara Pas,fr,Female,1981.0,,Q31,Q82955,Q682990,FR,芭芭拉·帕斯,Барбара Пас
+Q4528122,Jurij Szuchewycz >> pl,387,Jurij Szuchewycz,pl,Male,1933.0,2022.0,Q212,"Q1476215, Q82955",Q2034609,FR,尤里·舒切维奇,Юрий Щухевич
+Q293156,Lyudmila Alexeyeva >> en,384,Lyudmila Alexeyeva,en,Female,1927.0,2018.0,Q30,"Q201788, Q1476215, Q36180, Q82955",Q79854,FL,柳德米拉·阿列克谢耶娃,Людмила Алексеева
+Q4525391,Robert Schlegel >> en,383,Robert Schlegel,en,Male,1984.0,,Q183,"Q82955, Q17276321",Q151469,BT,罗伯特·施莱格尔,Роберт Шлегель
+Q391262,Merav Michaeli >> en,383,Merav Michaeli,en,Female,1966.0,,Q801,"Q82955, Q1930187, Q36180, Q947873, Q6051619",Q210703,CL,梅拉夫·米哈埃利,Мерав Михали
+Q50835,Regina Ip >> en,383,Regina Ip,en,Female,1950.0,,Q148,"Q82955, Q5894401",Q23059,CR,叶刘淑仪,Реджина Ип
+Q4234503,Dmytro Korchynsky >> en,383,Dmytro Korchynsky,en,Male,1964.0,,Q212,"Q82955, Q1930187, Q49757, Q13590141, Q6051619, Q947873",Q2034609,FR,德米特罗·科尔钦斯基,Дмитрий Корчинский
+Q70960614,Krystian Kamiński >> pl,378,Krystian Kamiński,pl,Male,1983.0,,Q36,"Q82955, Q43845",Q16597751,FR,克里斯蒂安·卡明斯基,Кшиштоф Каминьский
+Q5665422,Alejandro Ramos >> en,372,Alejandro Ramos,en,Male,1975.0,,Q414,"Q40348, Q82955",Q1053668,BT,亚历杭德罗·拉莫斯,Алехандро Рамос
+Q125383,Chantal Galladé >> de,369,Chantal Galladé,de,Female,1972.0,,Q39,"Q82955, Q2306091",Q545900,CC,尚塔尔·加拉德,Шанталь Галладэ
+Q60782632,Daniel Silveira >> en,369,Daniel Silveira,en,Male,1982.0,,Q155,"Q384593, Q82955",Q2366265,FR,丹尼尔·席尔维拉,Даниэл Силвейра
+Q608740,Mikhail Rodzianko >> en,367,Mikhail Rodzianko,en,Male,1859.0,1924.0,Q34266,Q82955,Q1470891,CR,米哈伊尔·罗季扬科,Михаил Родзянко
+Q122902,Isabelle Chevalley >> en,362,Isabelle Chevalley,en,Female,1972.0,,Q39,Q82955,Q545900,CC,伊莎贝尔·什瓦利,Изабель Шевалье
+Q380286,Pavel Milyukov >> en,360,Pavel Milyukov,en,Male,1859.0,1943.0,Q34266,"Q193391, Q201788, Q82955, Q1930187",Q155820,CL,巴维尔·米柳科夫,Павел Милюков
+Q9667541,Bruno Covas >> en,359,Bruno Covas,en,Male,1980.0,2021.0,Q155,"Q188094, Q82955, Q40348",Q1322897,CC,布鲁诺·科瓦斯,Бруно Ковас
+Q3591041,Éric Charbonneau >> en,355,Éric Charbonneau,en,Male,1969.0,,Q16,Q82955,Q343735,CR,埃里克·沙尔博诺,Эрик Шарбоно
+Q28801888,William Moorlag >> nl,355,William Moorlag,nl,Male,1960.0,,Q27,"Q15627169, Q82955",Q275441,LL,威廉·穆尔拉格,Вильям Мурлаг
+Q60822306,Gustavo Tarre >> en,344,Gustavo Tarre,en,Male,1946.0,,Q717,"Q40348, Q37226, Q193391, Q82955, Q36180",Q1114939,CR,古斯塔沃·塔雷,Густаво Тарре
+Q2829738,Alain Destexhe >> en,341,Alain Destexhe,en,Male,1958.0,,Q31,"Q82955, Q39631",Q109932430,FR,阿兰·德斯泰什,Ален Дестекш
+Q15902969,Pavel Gubarev >> en,334,Pavel Gubarev,en,Male,1983.0,,Q212,"Q82955, Q131524, Q201788",Q4401018,FR,帕维尔·古巴列夫,Павел Губарев
+Q737204,Lionnel Luca >> fr,333,Lionnel Luca,fr,Male,1954.0,,Q218,"Q82955, Q63755358, Q97768158",Q1052584,RR,利奥内尔·卢卡,Лионнель Люка
+Q5258620,Dennis Kwok >> en,333,Dennis Kwok,en,Male,1978.0,,Q148,Q82955,Q23055,CL,郭荣铿,Деннис Квок
+Q16300416,David Smolansky >> en,326,David Smolansky,en,Male,1985.0,,Q717,Q82955,Q16645762,CR,大卫·斯莫兰斯基,Давид Смолански
+Q333773,"Michael Stewart, Baron Stewart of Fulham >> en",324,"Michael Stewart, Baron Stewart of Fulham",en,Male,1906.0,1990.0,Q30,"Q82955, Q37226",Q9630,CL,迈克尔·斯图尔特，富勒姆男爵,"Майкл Стюарт, барон Стюарт из Фулхэма"
+Q1860610,Sergio Cabral >> en,324,Sergio Cabral,en,Male,1963.0,,Q155,"Q1930187, Q82955",Q1322751,BT,塞尔吉奥·卡布拉尔,Сержиу Кабрал
+Q65271335,Wouter Vermeersch >> en,324,Wouter Vermeersch,en,Male,1984.0,,Q31,Q82955,Q682990,FR,沃特·弗梅尔斯,Ваутер Вермерш
+Q86691,Martin Graf >> en,323,Martin Graf,en,Male,1960.0,,Q40,Q82955,Q131692,RR,马丁·格拉夫,Мартин Граф
+Q312495,Andrei Grechko >> en,320,Andrei Grechko,en,Male,1903.0,1976.0,Q34266,"Q189290, Q82955",Q79854,FL,安德烈·格列奇科,Андрей Гречко
+Q57202,Magda Goebbels >> en,319,Magda Goebbels,en,Female,1901.0,1945.0,Q7318,"Q82955, Q1685363",Q7320,FR,玛格达·戈培尔,Магда Геббельс
+Q317643,Marcos Pontes >> en,319,Marcos Pontes,en,Male,1963.0,,Q155,"Q11631, Q81096, Q618694, Q36180, Q82955",Q2366265,FR,马科斯·庞特斯,Маркус Понтес
+Q47846,Naoto Kan >> en,318,Naoto Kan,en,Male,1946.0,,Q17,"Q82955, Q1622272, Q19350898",Q200314,CC,菅直人,Наото Кан
+Q671147,José Antonio Abreu >> en,317,José Antonio Abreu,en,Male,1939.0,2018.0,Q717,"Q486748, Q188094, Q82955, Q36834, Q158852, Q1622272",Q5650836,RR,何塞·安东尼奥·阿布雷乌,Хосе Антонио Абреу
+Q466995,Lakhdar Brahimi >> en,316,Lakhdar Brahimi,en,Male,1934.0,,Q142,"Q193391, Q82955",Q204543,BT,拉赫达尔·布拉希米,Лахдар Брахими
+Q1548856,Starry Lee >> en,310,Starry Lee,en,Female,1974.0,,Q148,Q82955,Q21916,BT,李慧琼,Ли Старри
+Q6136417,James Hunt (Canadian politician) >> en,308,James Hunt,en,Male,1835.0,1915.0,Q16,Q82955,Q1631384,CC,詹姆斯·亨特,Джеймс Хант
+Q11734,Engelbert Dollfuss >> en,308,Engelbert Dollfuss,en,Male,1892.0,1934.0,Q40,"Q82955, Q193391, Q40348, Q47064",Q695482,FR,恩格尔伯特·多尔弗斯,Энгельберт Дольфусс
+Q21179346,Ninel Peia >> ro,307,Ninel Peia,ro,Male,1969.0,,Q218,"Q82955, Q6051619",Q106371842,FR,尼内尔·佩亚,Нинель Пея
+Q64441604,Marc Botenga >> en,304,Marc Botenga,en,Male,1980.0,,Q31,Q82955,Q925616,FL,马克·博滕加,Марк Ботенга
+Q121740,Eric Weber >> en,304,Eric Weber,en,Male,1963.0,,Q39,"Q1930187, Q82955",Q2531559,FR,埃里克·韦伯,Эрик Вебер
+Q19270591,Rajesh Gupta >> en,304,Rajesh Gupta,en,Male,,,Q668,Q82955,Q129844,CL,拉杰什·古普塔,Раджеш Гупта
+Q3506439,Gloria La Riva >> en,302,Gloria La Riva,en,Female,1954.0,,Q30,Q82955,Q4026915,FL,格洛丽亚·拉里瓦,Глория Ла Рива
+Q19327013,Serhij Melnyczuk >> pl,302,Serhij Melnyczuk,pl,Male,1972.0,,Q212,Q82955,Q2355317,BT,谢尔希·梅尔尼丘克,Сергей Мельничук
+Q57596,Shawn Bradley >> en,301,Shawn Bradley,en,Male,1972.0,,Q183,"Q82955, Q3665646",Q29468,RR,肖恩·布拉德利,Шон Брэдли
+Q1443418,Frank Herrmann >> en,300,Frank Herrmann,en,Male,1961.0,,Q183,Q82955,Q13129,BT,弗兰克·赫尔曼,Фрэнк Херрманн
+Q6782004,María Eugenia Vidal >> en,298,María Eugenia Vidal,en,Female,1973.0,,Q414,Q82955,Q1507720,CR,玛丽亚·欧赫尼娅·维达尔,Мария Эухения Видаль
+Q7436891,Scott Moe >> en,297,Scott Moe,en,Male,1973.0,,Q16,Q82955,Q2225652,CR,斯科特·莫伊,Скотт Мо
+Q3770321,Giuseppe Ciarrapico >> it,296,Giuseppe Ciarrapico,it,Male,1934.0,2019.0,Q172579,"Q131524, Q82955, Q1607826, Q43845",Q47720,CR,朱塞佩·恰拉皮科,Джузеппе Чаррапико
+Q337507,Kazuo Shii >> en,291,Kazuo Shii,en,Male,1954.0,,Q17,"Q82955, Q599151",Q641600,FL,志位和夫,Кадзуо Сии
+Q64490217,Nabil Boukili >> fr,291,Nabil Boukili,fr,Male,1985.0,,Q31,Q82955,Q925616,FL,纳比尔·布基利,Набиль Букили
+Q840609,Muneo Suzuki >> en,290,Muneo Suzuki,en,Male,1948.0,,Q17,Q82955,Q1247614,CR,铃木宗男,Мунэо Судзуки
+Q1162679,Daniel Scioli >> en,289,Daniel Scioli,en,Male,1957.0,,Q414,"Q82955, Q43845, Q2066131",Q1072438,CL,丹尼尔·斯科利,Даниэль Сиоли
+Q1574590,Zlata Ognevich >> en,289,Zlata Ognevich,en,Female,1986.0,,Q212,"Q177220, Q82955, Q13590141, Q947873",Q2355317,BT,兹拉塔·奥格涅维奇,Злата Огневич
+Q28812620,Alexander Segert >> de,289,Alexander Segert,de,Male,1963.0,,Q183,"Q1930187, Q82955, Q131524, Q10355417",Q385258,RR,亚历山大·塞格特,Александр Зегерт
+Q5556378,Gheorghe Nichita >> ro,288,Gheorghe Nichita,ro,Male,1956.0,,Q218,"Q81096, Q82955, Q193391",Q22261089,RR,乔治·尼基塔,Георге Ничита
+Q532342,Pete Peterson >> en,288,Pete Peterson,en,Male,1935.0,,Q408,"Q82955, Q189290, Q193391, Q1622272, Q16532929, Q2961975",Q29552,CC,皮特·彼得森,Пит Питерсон
+Q20739476,Marcos Peña >> en,288,Marcos Peña,en,Male,1977.0,,Q414,Q82955,Q1507720,CR,马科斯·佩尼亚,Марко Пенья
+Q2294644,Gerolf Annemans >> en,288,Gerolf Annemans,en,Male,1958.0,,Q31,"Q82955, Q40348",Q682990,FR,格罗尔夫·安内曼斯,Герольф Аннеманс
+Q12152966,Jurij Syrotiuk >> pl,285,Jurij Syrotiuk,pl,Male,1976.0,,Q212,"Q1930187, Q82955",Q4396,FR,尤里·西罗秋克,Юрий Сиротюк
+Q16152123,Andrew Bartlett >> en,278,Andrew Bartlett,en,Male,1964.0,,Q408,"Q7019111, Q212238, Q82955",Q781486,LL,安德鲁·巴特利特,Эндрю Бартлетт
+Q320922,Sidney Sonnino >> en,275,Sidney Sonnino,en,Male,1847.0,1922.0,Q172579,"Q82955, Q193391",Q2949884,CR,西德尼·索尼诺,Сидни Соннино
+Q16662935,Marco Van Hees >> fr,274,Marco Van Hees,fr,Male,1964.0,,Q31,"Q1930187, Q82955",Q925616,FL,马尔科·范·赫斯,Марко Ван Хеес
+Q12728574,Francisc Tobă >> ro,272,Francisc Tobă,ro,Male,1953.0,2023.0,Q218,"Q82955, Q189290",Q108612808,FR,弗朗西斯克·托巴,Франциск Тоба
+Q61727622,Catherine Blaiklock >> en,271,Catherine Blaiklock,en,Female,1963.0,,Q145,"Q82955, Q2883465",Q61651140,BT,凯瑟琳·布莱克洛克,Кэтрин Блейклок
+Q18553,Axelle Lemaire >> en,269,Axelle Lemaire,en,Female,1974.0,,Q16,"Q82955, Q185351, Q40348",Q170972,LL,阿克塞尔·勒梅尔,Аксель Лемер
+Q6489515,Larissa Waters >> en,268,Larissa Waters,en,Female,1977.0,,Q16,"Q82955, Q40348",Q781486,LL,拉里萨·沃特斯,Ларисса Уотерс
+Q47344187,Stefan Hermann (Politiker) >> de,267,Stefan Hermann,de,Male,1985.0,,Q40,Q82955,Q131692,RR,斯特凡·赫尔曼,Штефан Херманн
+Q59137777,Gustavo Bebianno >> en,264,Gustavo Bebianno,en,Male,1964.0,2020.0,Q155,"Q40348, Q82955",Q2366265,FR,古斯塔沃·贝比亚诺,Густаво Бебианно
+Q3160637,Jake Stewart >> en,262,Jake Stewart,en,Male,1978.0,,Q16,Q82955,Q3366632,CR,杰克·斯图尔特,Джейк Стюарт
+Q57092113,Romeu Zema >> en,261,Romeu Zema,en,Male,1964.0,,Q155,"Q43845, Q484876, Q82955",Q18552710,RR,罗梅乌·泽马,Ромеу Зема
+Q5213376,Dan Diaconescu >> ro,260,Dan Diaconescu,ro,Male,1967.0,,Q218,"Q1930187, Q82955",Q866275,LL,丹·迪亚科内斯库,Дан Диаконеску
+Q12735556,Mihail Neamțu >> ro,258,Mihail Neamțu,ro,Male,1978.0,,Q218,"Q82955, Q11774202, Q947873, Q1234713",Q97193048,RR,米哈伊尔·内阿姆茨努,Михай Нямцу
+Q17378217,David Miranda (politician) >> en,256,David Miranda,en,Male,1985.0,2023.0,Q155,Q82955,Q1414708,CL,大卫·米兰达,Дэвид Миранда
+Q26848575,Malcolm Roberts (politician) >> en,255,Malcolm Roberts,en,Male,1955.0,,Q145,"Q82955, Q81096",Q1585274,FR,马尔科姆·罗伯茨,Малкольм Робертс
+Q5266378,Dev (actor) >> en,250,Dev,en,Male,1982.0,,Q668,"Q82955, Q33999, Q3282637, Q138858, Q177220, Q28389",Q912899,CL,德夫,Дев
+Q6144316,James To >> en,249,James To,en,Male,1963.0,,Q148,Q82955,Q21892,CL,杜叶剑,Джеймс То
+Q64727486,Bart Claes >> en,248,Bart Claes,en,Male,1989.0,,Q31,Q82955,Q682990,FR,巴特·克拉斯,Барт Клас
+Q525792,István Bibó >> fr,248,István Bibó,fr,Male,1911.0,1979.0,Q28,"Q82955, Q1238570, Q201788, Q1622272, Q36180, Q40348",Q1216666,LL,伊什特万·比博,Иштван Бибо
+Q28113797,Carmen Daniela Dan >> en,248,Carmen Daniela Dan,en,Female,1970.0,,Q218,Q82955,Q108612808,FR,卡门·丹妮拉·丹,Кармен Даниэла Дан
+Q24572145,Anne Marie Waters >> en,232,Anne Marie Waters,en,Female,1977.0,,Q145,"Q82955, Q19831149",Q42530925,FR,安妮·玛丽·沃特斯,Энн Мари Уотерс
+Q47332306,Nikuyah Walker >> en,232,Nikuyah Walker,en,Female,,,Q30,"Q30185, Q82955",Q465099,FR,尼库亚·沃克,Никуйя Уокер
+Q1331510,Elke Kahr >> en,230,Elke Kahr,en,Female,1961.0,,Q40,Q82955,Q161118,FL,埃尔克·卡尔,Эльке Карр
+Q64210693,Jos D'Haese >> nl,230,Jos D'Haese,nl,Male,1992.0,,Q31,Q82955,Q925616,FL,乔斯·达塞,Йос Д'Хезе
+Q739358,В. Володарский >> ru,229,В. Володарский,ru,Male,1891.0,1918.0,Q2305208,"Q82955, Q3242115",Q647460,LL,В. Володарский,В. Володарский
+Q381107,Gyula Illyés >> en,227,Gyula Illyés,en,Male,1902.0,1983.0,Q28,"Q49757, Q82955, Q333634, Q36180, Q214917",Q1216666,LL,伊利耶什·久拉,Дьюла Иллиеш
+Q7146663,Patrick Harrington >> en,225,Patrick Harrington,en,Male,1964.0,,Q145,"Q82955, Q15627169",Q158093,FR,帕特里克·哈灵顿,Патрик Харрингтон
+Q4802163,Aruna Miller >> en,224,Aruna Miller,en,Female,1964.0,,Q668,"Q82955, Q13582652",Q29552,CC,阿鲁纳·米勒,Аруна Миллер
+Q25324894,Stirling Griff >> en,220,Stirling Griff,en,Male,1957.0,,Q408,"Q82955, Q12049274",Q19876280,CC,斯特林·格里夫,Стерлинг Грифф
+Q417657,Akhilesh Yadav >> en,220,Akhilesh Yadav,en,Male,1973.0,,Q668,Q82955,Q1546941,LL,阿克希莱什·雅达夫,Акилеш Ядав
+Q548964,Yossi Beilin >> en,220,Yossi Beilin,en,Male,1948.0,,Q801,"Q82955, Q1622272, Q1930187, Q6051619",Q239951,LL,约西·贝林,Йосси Бейлин
+Q45313382,Ilan Laufer >> ro,220,Ilan Laufer,ro,Male,1983.0,,Q218,Q82955,Q97193048,RR,伊兰·劳费尔,Илан Лауфер
+Q7285326,Raj Mukherji >> en,219,Raj Mukherji,en,Male,1984.0,,Q668,Q82955,Q29552,CC,拉杰·穆克吉,Радж Мукерджи
+Q2975532,Clare Daly >> en,219,Clare Daly,en,Female,1968.0,,Q27,"Q82955, Q16323111, Q1685363",Q17100320,LL,克莱尔·达利,Клэр Дэйли
+Q7365468,Ronan Lee >> en,208,Ronan Lee,en,Male,1976.0,,Q27,Q82955,Q781486,LL,罗南·李,Ронан Ли
+Q1904010,Martin Heidingsfelder >> fr,207,Martin Heidingsfelder,fr,Male,1965.0,,Q183,Q82955,Q13129,BT,马丁·海丁斯费尔德,Мартин Хейдингсфельдер
+Q7496422,Shigeyuki Goto >> en,206,Shigeyuki Goto,en,Male,1955.0,,Q17,Q82955,Q200314,CC,后藤茂之,Гото Сигэюки
+Q2112144,Igor Miroshnichenko >> en,205,Igor Miroshnichenko,en,Male,1976.0,,Q212,"Q82955, Q1930187, Q947873",Q4396,FR,伊戈尔·米罗什尼琴科,Игорь Мирошниченко
+Q63929396,Robert Rowland >> en,204,Robert Rowland,en,Male,1966.0,2021.0,Q145,"Q82955, Q1435728",Q61651140,BT,罗伯特·罗兰德,Роберт Роуленд
+Q64210685,Lise Vandecasteele >> nl,202,Lise Vandecasteele,nl,Female,1982.0,,Q31,"Q39631, Q82955",Q925616,FL,莉丝·范德卡斯泰尔,Лиз Вандекастель
+Q64688251,Maria Vindevoghel >> en,198,Maria Vindevoghel,en,Female,1957.0,,Q31,"Q82955, Q15627169",Q925616,FL,玛丽亚·温德沃格尔,Мария Виндепогель
+Q17428118,Tom De Meester >> nl,198,Tom De Meester,nl,Male,1975.0,,Q31,Q82955,Q925616,FL,汤姆·德梅斯特,Том Де Местер
+Q257803,Tamási Áron >> hu,196,Tamási Áron,hu,Male,1897.0,1966.0,Q218,"Q82955, Q36180",Q1216666,LL,塔马希·阿龙,Тамаши Арон
+Q956913,Petre Tutea >> it,194,Petre Tutea,it,Male,1902.0,1991.0,Q218,"Q188094, Q4964182, Q82955, Q185351",Q153448,FR,佩特雷·图特亚,Петре Țутеа
+Q6749900,Manish Sisodia >> en,192,Manish Sisodia,en,Male,1972.0,,Q668,Q82955,Q129844,CL,马尼什·西索迪亚,Маниш Сисодия
+Q51629425,Christian Schäli >> de,191,Christian Schäli,de,Male,1974.0,,Q39,Q82955,Q667725,CL,克里斯蒂安·沙利,Кристиан Шели
+Q3784499,Helder Barbalho >> en,189,Helder Barbalho,en,Male,1979.0,,Q155,Q82955,Q1322751,BT,埃尔德尔·巴尔巴略,Элдер Барбальо
+Q4864486,McElduff >> en,189,McElduff,en,Male,1966.0,,Q27,"Q82955, Q708492",Q76382,LL,麦克埃尔达夫,МакЭлдафф
+Q9697301,Carlos Rafael >> en,189,Carlos Rafael,en,Male,1986.0,,Q155,Q82955,Q1754827,LL,卡洛斯·拉斐尔,Карлос Рафаэль
+Q18913793,Simu Liu >> fr,188,Simu Liu,fr,Male,1904.0,1985.0,Q148,Q82955,Q31113,CR,刘思慕,Симу Лю
+Q569975,Yair Golan >> en,187,Yair Golan,en,Male,1962.0,,Q801,"Q1414937, Q189290, Q82955, Q4047513",Q126948059,LL,亚伊尔·戈兰,Яир Голан
+Q3308443,Michael Peroutka >> en,186,Michael Peroutka,en,Male,1952.0,,Q30,Q82955,Q1128321,FR,迈克尔·佩罗特卡,Майкл Перутка
+Q464932,Jaya Bachchan >> en,183,Jaya Bachchan,en,Female,1948.0,,Q668,"Q33999, Q82955, Q10800557",Q1546941,LL,贾雅·巴赫昌,Джая Баччан
+Q2392075,Aleksiej Fiodorow >> pl,183,Aleksiej Fiodorow,pl,Male,1901.0,1989.0,Q34266,"Q36180, Q82955",Q79854,FL,阿列克谢·费奥多罗夫,Алексей Фёдоров
+Q2376505,Edith Cowan >> en,181,Edith Cowan,en,Female,1861.0,1932.0,Q408,"Q82955, Q322170, Q7019111",Q1516976,RR,伊迪丝·考恩,Эдит Коуэн
+Q318460,Awel Jenukidze >> pl,180,Awel Jenukidze,pl,Male,1877.0,1937.0,Q34266,Q82955,Q79854,FL,阿韦尔·杰努基泽,Авел Дженукидзе
+Q48966,Jean Charest >> en,180,Jean Charest,en,Male,1958.0,,Q16,"Q82955, Q40348",Q1631384,CC,让·夏雷,Жан Шарест
+Q545353,Vladimir Purishkevich >> en,179,Vladimir Purishkevich,en,Male,1870.0,1920.0,Q34266,Q82955,Q940855,FR,弗拉基米尔·普里什凯维奇,Владимир Пуришкевич
+Q281218,Gheorghe Funar >> de,179,Gheorghe Funar,de,Male,1949.0,,Q218,"Q82955, Q188094",Q97193048,RR,乔治·富纳尔,Георге Фунар
+Q555555,Sam Webb >> en,178,Sam Webb,en,Male,1945.0,,Q30,Q82955,Q308714,FL,萨姆·韦伯,Сэм Уэбб
+Q5493280,François Gosselin >> fr,174,François Gosselin,fr,Male,1837.0,1909.0,Q16,Q82955,Q1631384,CC,弗朗索瓦·戈斯兰,Франсуа Госселен
+Q3322739,Iñaki Anasagasti >> es,174,Iñaki Anasagasti,es,Male,1947.0,,Q717,Q82955,Q43093,CC,伊纳基·阿纳萨加斯蒂,Иняки Анасагасти
+Q80332,Michael Tien >> en,172,Michael Tien,en,Male,1950.0,,Q148,"Q82955, Q43845, Q329455, Q131524",Q38778615,CR,田北辰,Майкл Тиен
+Q59205152,Carla Zambelli >> en,170,Carla Zambelli,en,Female,1980.0,,Q155,Q82955,Q2366265,FR,卡尔拉·赞贝利,Карла Замбелли
+Q21020048,Flordelis >> en,170,Flordelis,en,Female,1961.0,,Q155,"Q177220, Q82955",Q1322751,BT,弗洛尔德利斯,Флорделис
+Q57163,Horst Wessel >> en,169,Horst Wessel,en,Male,1907.0,1930.0,Q43287,Q82955,Q7320,FR,霍斯特·韦塞尔,Хорст Вессель
+Q64686909,Thierry Warmoes >> fr,167,Thierry Warmoes,fr,Male,1964.0,,Q31,Q82955,Q925616,FL,蒂埃里·瓦尔莫斯,Тьерри Вармоэс
+Q5971596,Laura Alonso >> en,167,Laura Alonso,en,Female,1972.0,,Q414,"Q82955, Q1238570",Q1507720,CR,劳拉·阿隆索,Лаура Алонсо
+Q63929422,Andrew Kerr >> en,167,Andrew Kerr,en,Male,1958.0,,Q145,"Q82955, Q14284",Q61651140,BT,安德鲁·克尔,Эндрю Керр
+Q6280705,Joseph Gagnon >> en,166,Joseph Gagnon,en,Male,1879.0,1929.0,Q16,Q82955,Q1631384,CC,约瑟夫·加尼翁,Жозеф Ганьон
+Q1389005,Joe Higgins >> en,164,Joe Higgins,en,Male,1949.0,,Q27,Q82955,Q1549074,FL,乔·希金斯,Джо Хиггинс
+Q78473,Ernst Kaltenbrunner >> en,164,Ernst Kaltenbrunner,en,Male,1903.0,1946.0,Q7318,"Q82955, Q40348, Q189290, Q123285360",Q7320,FR,恩斯特·卡尔滕布伦纳,Эрнст Кальтенбруннер
+Q16193816,Janet Rice >> en,163,Janet Rice,en,Female,1960.0,,Q408,"Q82955, Q3578589",Q781486,LL,珍妮特·赖斯,Джанет Райс
+Q19006869,Agustín Rossi >> en,162,Agustín Rossi,en,Male,1959.0,,Q414,"Q81096, Q82955, Q2518691",Q1072438,CL,奥古斯丁·罗西,Агустин Росси
+Q12130903,"Мухин, Владимир Васильевич >> ru",162,"Мухин, Владимир Васильевич",ru,Male,1949.0,,Q212,Q82955,Q922724,LL,穆欣·弗拉基米尔·瓦西里耶维奇,"Мухин, Владимир Васильевич"
+Q57552,Alexander Parvus >> en,161,Alexander Parvus,en,Male,1869.0,1924.0,Q41304,"Q1930187, Q82955",Q49768,CL,亚历山大·帕尔沃斯,Александр Парвус
+Q42256930,Stephanie Krisper >> en,160,Stephanie Krisper,en,Female,1980.0,,Q40,"Q185351, Q82955, Q1476215",Q13564543,CC,斯蒂芬妮·克里斯珀,Стефани Криспер
+Q19854197,Ventus Lau >> en,159,Ventus Lau,en,Male,1993.0,,Q148,Q82955,Q1026702,CL,劉頴匡,Вентус Лау
+Q4965374,Brian Stanley >> en,157,Brian Stanley,en,Male,1961.0,,Q27,Q82955,Q76382,LL,布赖恩·斯坦利,Брайан Стэнли
+Q698557,Emily Lau >> en,157,Emily Lau,en,Female,1952.0,,Q148,"Q82955, Q1930187",Q21892,CL,劉慧卿,Эмили Лау
+Q9311075,Robert Schäfer >> sv,157,Robert Schäfer,sv,Male,1905.0,2000.0,Q7318,Q82955,Q7320,FR,罗伯特·舍费尔,Роберт Шефер
+Q64490269,Alice Bernard >> en,155,Alice Bernard,en,Female,1961.0,,Q31,"Q82955, Q7019111",Q925616,FL,爱丽丝·伯纳德,Алис Бернар
+Q4475079,Marija Iljinitschna Uljanowa >> de,155,Marija Iljinitschna Uljanowa,de,Female,1878.0,1937.0,Q34266,"Q82955, Q3242115, Q37226, Q876864, Q1930187",Q79854,FL,玛丽亚·伊利尼奇娜·乌里扬诺娃,Мария Ильинична Ульянова
+Q977641,Natsuo Yamaguchi >> en,154,Natsuo Yamaguchi,en,Male,1952.0,,Q17,"Q82955, Q40348",Q1061354,CR,山口 那津男,Ямагучи Нацуо
+Q314691,Mohamed Boudiaf >> en,153,Mohamed Boudiaf,en,Male,1919.0,1992.0,Q142,"Q82955, Q36180",Q204543,BT,穆罕默德·布迪亚夫,Мохаммед Будиаф
+Q6426455,Koji Sato >> en,152,Koji Sato,en,Male,1959.0,,Q17,Q82955,Q200314,CC,佐藤孝司,Кодзи Сато
+Q23021233,Célestine Ketcha Courtès >> fr,151,Célestine Ketcha Courtès,fr,Female,1964.0,,Q142,Q82955,Q953447,BT,塞莱斯廷·凯查·库尔特斯,Селестин Кетча Куртес
+Q311323,Caldera >> en,148,Caldera,en,Male,1916.0,2009.0,Q717,"Q82955, Q1622272, Q2306091, Q40348, Q5428874",Q1114939,CR,卡尔德拉,Кальдера
+Q55752911,Fülöp Erik >> hu,147,Fülöp Erik,hu,Male,1982.0,,Q28,Q82955,Q55443054,FR,埃里克·菲洛普,Фюлёп Эрик
+Q4885408,Ben Chan >> en,147,Ben Chan,en,Male,1975.0,,Q148,Q82955,Q21916,BT,陈家伟,Бен Чан
+Q6381788,Kazuyoshi Akaba >> en,146,Kazuyoshi Akaba,en,Male,1958.0,,Q17,Q82955,Q1061354,CR,赤羽一嘉,Акаба Кадзуйоси
+Q63929447,Jake Pugh >> en,145,Jake Pugh,en,Male,1960.0,,Q145,Q82955,Q61651140,BT,杰克·普格,Джейк Пьюг
+Q65742379,Francisco Quintana >> en,145,Francisco Quintana,en,Male,1982.0,,Q414,"Q40348, Q82955",Q1507720,CR,弗朗西斯科·金塔纳,Франсиско Кинтана
+Q84335,Alois Brunner >> en,145,Alois Brunner,en,Male,1912.0,2001.0,Q40,"Q47064, Q82955",Q7320,FR,阿洛伊斯·布鲁纳,Алоис Брунер
+Q2125232,Rachel Siewert >> en,144,Rachel Siewert,en,Female,1961.0,,Q408,Q82955,Q781486,LL,瑞秋·西沃特,Рэйчел Сьюэрт
+Q6272124,Nichifor Crainic >> ro,144,Nichifor Crainic,ro,Male,1889.0,1972.0,Q218,"Q4964182, Q1930187, Q6051619, Q1234713, Q1622272, Q82955, Q49757",Q153448,FR,尼基福尔·克赖尼克,Никифор Крайник
+Q5955706,Julio Revuelta >> es,143,Julio Revuelta,es,Male,1959.0,,Q29,Q82955,Q507226,BT,胡里奥·雷韦尔塔,Хулио Ревуэльта
+Q63929397,Belinda de Lucy >> en,142,Belinda de Lucy,en,Female,1976.0,,Q145,Q82955,Q61651140,BT,贝琳达·德·卢西,Белинда де Люси
+Q881287,Joshua Baker >> en,142,Joshua Baker,en,Male,1799.0,1885.0,Q30,"Q82955, Q40348, Q16533",Q7886825,BT,约书亚·贝克尔,Джошуа Бейкер
+Q59221253,Laura Serrano >> en,142,Laura Serrano,en,Female,1987.0,,Q155,Q82955,Q18552710,RR,劳拉·塞拉诺,Лаура Серрано
+Q16215092,Hari Sevugan >> en,142,Hari Sevugan,en,Male,1974.0,,Q668,Q82955,Q29552,CC,哈里·塞武甘,Хари Севуган
+Q3014237,Daniel Johnson Jr. >> en,141,Daniel Johnson Jr.,en,Male,1944.0,,Q16,"Q82955, Q40348, Q43845",Q1631384,CC,丹尼尔·约翰逊 Jr.,Дэниел Джонсон-младший
+Q191123,Levi Eshkol >> en,141,Levi Eshkol,en,Male,1895.0,1969.0,Q801,Q82955,Q1453052,LL,列维·埃什科尔,Леви Эшколь
+Q108585737,Bruno Adam Wolf >> de,140,Bruno Adam Wolf,de,Male,1964.0,,Q183,"Q1930187, Q82955, Q10547393",Q13129,BT,布鲁诺·亚当·沃尔夫,Бруно Адам Вольф
+Q10363269,Roberto Carlos >> de,137,Roberto Carlos,de,Male,1966.0,,Q155,Q82955,Q1234489,CL,罗伯托·卡洛斯,Роберто Карлос
+Q78890,Otto Wächter >> en,137,Otto Wächter,en,Male,1901.0,1949.0,Q40,"Q82955, Q185351, Q40348, Q189290",Q7320,FR,奥托·韦希特,Отто Вехтер
+Q926287,Tetsuo Saito >> en,136,Tetsuo Saito,en,Male,1952.0,,Q17,"Q82955, Q81096",Q1061354,CR,斋藤铁夫,Сайто Тэцуо
+Q63929323,James Glancy >> en,133,James Glancy,en,Male,1982.0,,Q145,"Q82955, Q43845",Q61651140,BT,詹姆斯·格兰西,Джеймс Гленси
+Q1291179,Eduardo Romero >> en,132,Eduardo Romero,en,Male,1954.0,2022.0,Q414,"Q11303721, Q82955",Q1507720,CR,爱德华多·罗梅罗,Эдуардо Ромеро
+Q6794634,Max Campbell >> en,131,Max Campbell,en,Male,1888.0,1962.0,Q16,"Q82955, Q131512",Q1104026,LL,马克斯·坎贝尔,Макс Кэмпбелл
+Q30502643,T. Natarajan >> en,131,T. Natarajan,en,Male,,,Q668,Q82955,Q1255973,FL,T·纳塔拉詹,Т. Натараджан
+Q2083549,Gvozdev >> de,130,Gvozdev,de,Male,1862.0,1936.0,Q34266,"Q82955, Q43845, Q27044075",Q1470891,CR,格沃兹捷夫,Гвоздев
+Q255788,Fiamma Nirenstein >> en,129,Fiamma Nirenstein,en,Female,1945.0,,Q801,"Q1930187, Q82955, Q36180, Q8246794, Q201788",Q47720,CR,菲亚玛·尼伦斯坦,Фиамма Ниренштейн
+Q212400,Jun Azumi >> en,128,Jun Azumi,en,Male,1962.0,,Q17,"Q82955, Q1930187",Q200314,CC,安住淳,Дзюн Адзуми
+Q20127,Wilhelm Liebknecht >> en,124,Wilhelm Liebknecht,en,Male,1826.0,1900.0,Q43287,"Q82955, Q1930187, Q16323111, Q3242115, Q36180",Q49768,CL,威廉·李卜克内西,Вильгельм Либкнехт
+Q58860,Kahr >> en,124,Kahr,en,Male,1862.0,1934.0,Q183,"Q82955, Q16533, Q185351, Q40348",Q302884,RR,卡尔,Карр
+Q21294635,Denis de la Reussille >> fr,124,Denis de la Reussille,fr,Male,1960.0,,Q39,"Q937857, Q82955",Q661771,FL,丹尼斯·德拉鲁西耶,Дени де ла Рёйсиль
+Q5379760,Enrique Mendoza >> en,124,Enrique Mendoza,en,Male,1945.0,2023.0,Q717,Q82955,Q1114939,CR,恩里克·门多萨,Энрике Мендоса
+Q8056367,Yossi Dagan >> en,122,Yossi Dagan,en,Male,2000.0,,Q801,"Q82955, Q28532974",Q1780708,FR,约西·达甘,Йосси Даган
+Q4797742,Arthur Evans >> en,122,Arthur Evans,en,Male,1890.0,1944.0,Q16,"Q15627169, Q82955",Q2160378,FL,亚瑟·埃文斯,Артур Эванс
+Q1026809,Yeung Sum >> en,121,Yeung Sum,en,Male,1947.0,,Q148,"Q329455, Q82955",Q21892,CL,杨森,Янг Сам
+Q212760,Bharrat Jagdeo >> en,121,Bharrat Jagdeo,en,Male,1964.0,,Q668,"Q82955, Q188094",Q1972521,FL,巴拉特·贾格迪奥,Бхарат Джагдео
+Q6304632,Judy Turner >> en,121,Judy Turner,en,Female,1956.0,,Q664,Q82955,Q211656,CC,朱迪·特纳,Джуди Тернер
+Q59222222,Renata Souza >> en,119,Renata Souza,en,Female,1982.0,,Q155,Q82955,Q1754827,LL,雷纳塔·索萨,Рената Соуза
+Q6248964,John Minto >> en,118,John Minto,en,Male,1953.0,,Q664,"Q15253558, Q82955",Q1888545,LL,约翰·明托,Джон Минто
+Q1093223,Taro Yamamoto >> en,118,Taro Yamamoto,en,Male,1974.0,,Q17,"Q82955, Q10800557, Q10798782",Q64405573,LL,山本太郎,Таро Ямамото
+Q20876267,Candela López >> es,118,Candela López,es,Female,1985.0,,Q414,Q82955,Q149877,LL,坎德拉·洛佩斯,Кандела Лопес
+Q5998873,Mario Meoni >> en,117,Mario Meoni,en,Male,1965.0,2021.0,Q414,Q82955,Q15120034,CC,马里奥·梅奥尼,Марио Меони
+Q63311509,Franklyn Duarte >> en,116,Franklyn Duarte,en,Male,1950.0,,Q717,Q82955,Q1114939,CR,弗兰克林·杜阿尔特,Фрэнклин Дуартe
+Q108196,Anna Simon >> en,115,Anna Simon,en,Female,1862.0,1901.0,Q43287,Q82955,Q49768,CL,安娜·西蒙,Анна Саймон
+Q26255561,"Алтабаева, Екатерина Борисовна >> ru",114,"Алтабаева, Екатерина Борисовна",ru,Female,1956.0,,Q212,"Q82955, Q372436",Q151469,BT,叶卡捷琳娜·鲍里索芙娜·阿尔塔巴耶娃,Алтабаева Екатерина Борисовна
+Q505949,Arturo Uslar Pietri >> en,112,Arturo Uslar Pietri,en,Male,1906.0,2001.0,Q717,"Q1930187, Q36180, Q193391, Q82955, Q49757, Q214917, Q40348, Q4263842, Q864380, Q182436, Q11774202, Q201788",Q3727795,CR,阿图罗·乌斯拉尔·皮耶特里,Артуро Услар Пьетри
+Q4422988,"Славский, Ефим Павлович >> ru",112,"Славский, Ефим Павлович",ru,Male,1898.0,1991.0,Q34266,Q82955,Q79854,FL,斯拉夫斯基·叶菲姆·帕夫洛维奇,Славский Ефим Павлович
+Q1094716,Claiborne Pell >> en,109,Claiborne Pell,en,Male,1918.0,2009.0,Q408,"Q82955, Q193391, Q189290, Q43845",Q29552,CC,克莱伯恩·佩尔,Клейборн Пелл
+Q23823131,Mauro Mariani >> en,109,Mauro Mariani,en,Male,1964.0,,Q155,Q82955,Q1322751,BT,毛罗·马里亚尼,Мауро Мариани
+Q466137,Georgina Beyer >> en,105,Georgina Beyer,en,Transgender Female,1957.0,2023.0,Q664,Q82955,Q1888545,LL,乔治娜·贝耶,Джорджина Бейер
+Q10305371,Jarbas Vasconcelos >> en,101,Jarbas Vasconcelos,en,Male,1942.0,,Q155,Q82955,Q1322751,BT,贾尔巴斯·瓦斯孔塞洛斯,Жарбас Васконселос
+Q2939375,Carlos Ibarguren >> es,101,Carlos Ibarguren,es,Male,1877.0,1956.0,Q414,"Q201788, Q82955",Q287777,CC,卡洛斯·伊巴尔古伦,Карлос Ибаргуэрен
+Q2820248,Abbassi Madani >> en,100,Abbassi Madani,en,Male,1931.0,2019.0,Q142,Q82955,Q204543,BT,阿巴西·马达尼,Аббасси Мадани
+Q63929384,Matthew Patten >> en,100,Matthew Patten,en,Male,1962.0,,Q145,"Q82955, Q43845",Q61651140,BT,马修·帕滕,Мэттью Паттен
+Q315066,Plutarco Elías Calles >> en,100,Plutarco Elías Calles,en,Male,1877.0,1945.0,Q96,"Q82955, Q189290, Q47064, Q30461, Q65640440",Q2788519,LL,普拉塔科·埃利亚斯·卡列斯,Плутарко Элиас Кальес
+Q244997,José Sarney >> en,100,José Sarney,en,Male,1930.0,,Q155,"Q40348, Q1930187, Q82955, Q36180, Q49757, Q6625963",Q1322751,BT,若泽·萨尔内ย์,Жозе Сарней
+Q456011,Kanako Otsuji >> en,98,Kanako Otsuji,en,Female,1974.0,,Q17,"Q82955, Q13382533",Q200314,CC,大辻佳奈子,Канаоко Оцуги
+Q4142266,"Голуб, Александр Владимирович >> ru",97,"Голуб, Александр Владимирович",ru,Male,1967.0,,Q212,"Q1930187, Q82955",Q1122797,LL,亚历山大·弗拉基米罗维奇·戈卢布,Голуб Александр Владимирович
+Q6911275,Moreira Franco >> en,96,Moreira Franco,en,Male,1944.0,,Q155,"Q82955, Q2306091",Q1322751,BT,莫雷拉·弗兰科,Морейра Франку
+Q105103347,Avi Maoz >> fr,95,Avi Maoz,fr,Male,1956.0,,Q801,Q82955,Q65553954,FR,阿维·毛兹,Ави Маоз
+Q10326642,Marlon Santos >> en,95,Marlon Santos,en,Male,1975.0,,Q155,Q82955,Q1414708,CL,马龙·桑托斯,Марлон Сантос
+Q57737,Houston Stewart Chamberlain >> en,95,Houston Stewart Chamberlain,en,Male,1855.0,1927.0,Q41304,"Q16755977, Q82955, Q4964182, Q11774202, Q1238570, Q36180",Q7320,FR,休斯顿·斯图尔特·张伯伦,Хьюстон Стюарт Чемберлен
+Q20045809,Guilherme Boulos >> en,94,Guilherme Boulos,en,Male,1982.0,,Q155,"Q82955, Q36180, Q37226",Q1754827,LL,吉列尔梅·博洛斯,Гильерме Боулус
+Q201707,Baruch Marzel >> en,94,Baruch Marzel,en,Male,1959.0,,Q30,Q82955,Q331852,FR,巴鲁赫·马尔泽尔,Барух Марзель
+Q12142381,"Попов, Игорь Владимирович (политик) >> ru",94,"Попов, Игорь Владимирович",ru,Male,1972.0,,Q212,Q82955,Q2355317,BT,波波夫·伊戈尔·弗拉基米罗维奇,"Попов, Игорь Владимирович"
+Q125702,Hugo Fasel >> de,94,Hugo Fasel,de,Male,1955.0,,Q39,"Q82955, Q15627169",Q667725,CL,雨果·法塞尔,Уго Фазель
+Q208477,Moshe Sharett >> en,93,Moshe Sharett,en,Male,1894.0,1965.0,Q34266,"Q82955, Q193391, Q333634, Q12718299",Q1453052,LL,摩西·沙雷特,Моше Шаретт
+Q463265,Elizabeth Gurley Flynn >> en,93,Elizabeth Gurley Flynn,en,Female,1890.0,1964.0,Q30,"Q28692502, Q15253558, Q27532437, Q15627169, Q82955, Q2746259, Q1930187, Q36180, Q18814623",Q308714,FL,伊丽莎白·格尔利·弗林,Элизабет Герли Флинн
+Q63224381,Dócs Dávid >> hu,92,Dócs Dávid,hu,Male,1987.0,,Q28,Q82955,Q55443054,FR,多奇·达维德,Доч Давид
+Q60145,Richard Walther Darré >> en,92,Richard Walther Darré,en,Male,1895.0,1953.0,Q414,"Q82955, Q1781198, Q36180",Q7320,FR,理查德·瓦尔特·达雷,Рихард Вальтер Дарре
+Q26703252,Brian Burston >> en,91,Brian Burston,en,Male,1948.0,,Q408,"Q82955, Q520895, Q683754, Q42973",Q15130081,RR,布赖恩·伯斯顿,Брайан Бёрстон
+Q7373038,Roy Knight >> en,91,Roy Knight,en,Male,1891.0,1971.0,Q16,"Q82955, Q131512",Q1104026,LL,罗伊·奈特,Рой Найт
+Q1129163,Lentner Csaba >> hu,90,Lentner Csaba,hu,Male,1962.0,,Q28,"Q82955, Q188094",Q1051742,FR,伦特纳·查巴,Чаба Лентнер
+Q57063,Lenard >> en,90,Lenard,en,Male,1862.0,1947.0,Q28,"Q169470, Q205375, Q1622272, Q82955",Q7320,FR,伦纳德,Ленард
+Q112604419,Anne Herpertz >> de,90,Anne Herpertz,de,Female,1998.0,,Q183,Q82955,Q13129,BT,安妮·赫佩尔茨,Анна Херпертц
+Q1691312,Lewis McKenzie >> en,89,Lewis McKenzie,en,Male,1810.0,1895.0,Q30,Q82955,Q7886825,BT,刘易斯·麦肯齐,Льюис Маккензи
+Q76638,Gregor Strasser >> en,89,Gregor Strasser,en,Male,1892.0,1934.0,Q7318,"Q82955, Q105186",Q7320,FR,格雷戈尔·施特拉塞尔,Грегор Штрассер
+Q9095459,Waldez Góes >> en,88,Waldez Góes,en,Male,1961.0,,Q155,Q82955,Q1414708,CL,瓦尔德斯·戈埃斯,Валдез Гоэс
+Q4760046,Puccinelli >> it,87,Puccinelli,it,Male,1948.0,,Q155,"Q82955, Q39631",Q1322751,BT,普奇内利,Пуччиниелли
+Q5203793,D. Raja >> en,87,D. Raja,en,Male,1949.0,,Q668,Q82955,Q837159,LL,D·拉贾,Д. Раджа
+Q17024747,Kavita Krishnan >> en,87,Kavita Krishnan,en,Female,1973.0,,Q668,"Q82955, Q1930187",Q1452292,FL,卡维塔·克里希南,Кавита Кришнан
+Q16664347,Olga Kovitidi >> fr,87,Olga Kovitidi,fr,Female,1962.0,,Q212,"Q40348, Q82955, Q372436, Q185351",Q151469,BT,奥尔加·科维季迪,Ольга Ковитиди
+Q712854,Leung Kwok-hung >> en,86,Leung Kwok-hung,en,Male,1956.0,,Q148,Q82955,Q1026514,LL,梁国雄,Леунг Квок-хунг
+Q11572647,Yuichiro Tamaki >> en,86,Yuichiro Tamaki,en,Male,1969.0,,Q17,"Q82955, Q572700",Q200314,CC,玉木雄一郎,Юитиро Тамаки
+Q277422,Mukesh (actor) >> en,86,Mukesh,en,Male,1957.0,,Q668,"Q33999, Q3282637, Q82955, Q10798782",Q234277,LL,穆克什,Мукеш
+Q18539599,Mircea Dăneasa >> ro,85,Mircea Dăneasa,ro,Male,1955.0,,Q218,"Q1281618, Q82955",Q97193048,RR,米尔恰·达内阿萨,Мирча Даняса
+Q952022,Nikolai Voznesensky >> en,85,Nikolai Voznesensky,en,Male,1903.0,1950.0,Q34266,"Q188094, Q82955",Q79854,FL,尼古拉·沃兹涅先斯基,Николай Вознесенский
+Q15702157,Nicolás del Caño >> fr,84,Nicolás del Caño,fr,Male,1980.0,,Q414,"Q82955, Q215536",Q7551801,FL,尼古拉斯·德尔卡诺,Николас дель Каньо
+Q63929324,Christina Jordan >> en,84,Christina Jordan,en,Female,1962.0,,Q145,Q82955,Q61651140,BT,克里斯蒂娜·乔丹,Кристина Джордан
+Q704345,Tsuyoshi Yamaguchi >> en,83,Tsuyoshi Yamaguchi,en,Male,1954.0,,Q17,Q82955,Q200314,CC,山口毅士,Цуёси Ямагучи
+Q1120155,Imre Kovacs >> de,83,Imre Kovacs,de,Male,1913.0,1980.0,Q28,"Q1930187, Q82955",Q1216666,LL,伊姆雷·科瓦奇,Имре Ковач
+Q19220,Henry Tang >> en,82,Henry Tang,en,Male,1952.0,,Q148,"Q82955, Q329455",Q23060,CR,唐英年,Генри Танг
+Q85598,Knauss >> en,82,Knauss,en,Male,1892.0,1970.0,Q40,"Q82955, Q39631, Q1622272, Q2640827",Q7320,FR,克瑙斯,Кнаусс
+Q225205,Donáth Ferenc (politikus) >> hu,82,Donáth Ferenc,hu,Male,1913.0,1986.0,Q28,"Q82955, Q6051619",Q1216666,LL,多纳特·费伦茨,Донат Ференц
+Q57647,Yoshihiko Noda >> en,82,Yoshihiko Noda,en,Male,1957.0,,Q17,Q82955,Q99233271,CL,野田佳彦,Ёсихико Нода
+Q1266756,Peter Dunne >> en,81,Peter Dunne,en,Male,1954.0,,Q664,Q82955,Q211656,CC,彼得·邓恩,Питер Данн
+Q21538198,Ross McDonald >> en,81,Ross McDonald,en,Male,1888.0,1964.0,Q408,"Q82955, Q808967",Q1516976,RR,罗斯·麦克唐纳,Росс Макдональд
+Q6850425,Milagro Sala >> en,80,Milagro Sala,en,Female,1964.0,,Q414,"Q82955, Q15253558",Q1072438,CL,米拉格罗·萨拉,Милагро Сала
+Q57149,Fritz Todt >> en,80,Fritz Todt,en,Male,1891.0,1942.0,Q41304,"Q81096, Q82955, Q13582652, Q42973, Q47064",Q7320,FR,弗里茨·托特,Фриц Тодт
+Q4537098,Salma Yaqoob >> en,78,Salma Yaqoob,en,Female,1971.0,,Q145,Q82955,Q287031,FL,萨尔玛·雅库布,Салма Якуб
+Q60115,Michaelis >> en,78,Michaelis,en,Male,1857.0,1936.0,Q7318,"Q82955, Q185351, Q40348",Q158227,FR,迈克利斯,Михаэлис
+Q16937990,Andrea Ruiz >> en,78,Andrea Ruiz,en,Female,,,Q414,Q82955,Q8034724,LL,安德烈亚·鲁伊斯,Андреа Руис
+Q3330072,Rafael Palacios >> es,76,Rafael Palacios,es,Male,1963.0,,Q414,Q82955,Q65295925,LL,拉斐尔·帕拉西奥斯,Рафаэль Палачиос
+Q2264333,Alexander Protopopov >> en,76,Alexander Protopopov,en,Male,1864.0,1918.0,Q34266,"Q82955, Q83307, Q43845",Q1470891,CR,亚历山大·普罗托波夫,Александр Протопопов
+Q113566585,Makoto Oniki >> fr,75,Makoto Oniki,fr,Male,1963.0,,Q17,"Q82955, Q11424350",Q99233271,CL,鬼木诚,Макото Оники
+Q5496002,Fred Nile >> en,74,Fred Nile,en,Male,1934.0,,Q408,Q82955,Q745466,RR,弗雷德·奈尔,Фред Найл
+Q1370817,Heiko Schulze >> de,74,Heiko Schulze,de,Male,1954.0,2023.0,Q183,Q82955,Q13129,BT,海科·舒尔茨,Хайко Шульце
+Q128573,Ichiro Matsui >> en,74,Ichiro Matsui,en,Male,1964.0,,Q17,Q82955,Q21499745,CR,松井一郎,Итиро Мацуи
+Q57136,Lutz Graf Schwerin von Krosigk >> en,73,Lutz Graf Schwerin von Krosigk,en,Male,1887.0,1977.0,Q7318,"Q82955, Q185351, Q193391, Q188094, Q47064",Q7320,FR,卢茨·格拉夫·施韦林·冯·克罗西格克,Лутц Граф Шверин фон Кросигк
+Q2370402,Margarita Zavala >> en,73,Margarita Zavala,en,Female,1967.0,,Q96,"Q82955, Q40348",Q383718,CR,玛格丽塔·萨瓦拉,Маргарита Сала
+Q2591506,Rafael Aguilar >> en,73,Rafael Aguilar,en,Male,1939.0,2016.0,Q96,Q82955,Q267886,LL,拉斐尔·阿吉拉尔,Рафаэль Агилар
+Q4065960,Андрієвський Дмитро Юрійович >> uk,73,Андрієвський Дмитро Юрійович,uk,Male,1892.0,1976.0,Q34266,"Q81096, Q6051619, Q82955",Q844787,FR,安德里耶夫斯基·德米特里·尤里耶维奇,Андриевский Дмитрий Юрьевич
+Q370410,David North (socialist) >> en,72,David North,en,Male,1950.0,,Q30,Q82955,Q356944,FL,大卫·诺斯,Дэвид Норт
+Q21029376,Claudia Gamon >> fr,72,Claudia Gamon,fr,Female,1988.0,,Q40,Q82955,Q13564543,CC,克劳迪娅·加蒙,Клаудия Гамон
+Q1151367,Jurij Mychaltschyschyn >> de,72,Jurij Mychaltschyschyn,de,Male,1982.0,,Q212,Q82955,Q4396,FR,尤里·米哈尔奇申,Юрий Михальчишин
+Q1993147,Panina >> fr,72,Panina,fr,Female,1871.0,1956.0,Q34266,"Q15735113, Q82955",Q155820,CL,潘妮娜,Панина
+Q7341463,Robert Allison >> en,71,Robert Allison,en,Male,1777.0,1840.0,Q30,"Q82955, Q40348",Q574701,FR,罗伯特·艾利森,Роберт Эллисон
+Q1970821,Mykola Lebed >> fr,70,Mykola Lebed,fr,Male,1909.0,1998.0,Q30,Q82955,Q844787,FR,尼古拉·列别德,Никола Лебедь
+Q78658,Franz Kutschera >> en,70,Franz Kutschera,en,Male,1904.0,1944.0,Q40,"Q16533, Q82955, Q384593, Q40348",Q7320,FR,弗朗茨·库切拉,Франц Кутшера
+Q1598130,Küver >> de,70,Küver,de,Male,1889.0,1983.0,Q183,Q82955,Q674695,RR,库弗尔,Кювер
+Q19513296,Karl Baron >> en,70,Karl Baron,en,Male,1962.0,,Q40,"Q82955, Q10349745, Q131524",Q78190419,FR,卡尔·巴伦,Карл Барон
+Q57490,Theodor Morell >> en,69,Theodor Morell,en,Male,1886.0,1948.0,Q43287,"Q39631, Q17345122, Q82955",Q7320,FR,西奥多·莫雷尔,Теодор Морелл
+Q65733672,Yasuhiko Funago >> en,69,Yasuhiko Funago,en,Male,1957.0,,Q17,Q82955,Q64405573,LL,船越康彦,Ясухико Фунаго
+Q10304402,Ivan Valente >> en,69,Ivan Valente,en,Male,1946.0,,Q155,Q82955,Q1754827,LL,伊万·瓦伦特,Иван Валенте
+Q1551591,"Цушко, Василий Петрович >> ru",69,"Цушко, Василий Петрович",ru,Male,1963.0,,Q212,Q82955,Q922724,LL,楚什科·瓦西里·彼得罗维奇,Цушко Василий Петрович
+Q63929026,John Tennant (politician) >> en,68,John Tennant,en,Male,1986.0,,Q145,"Q82955, Q708492",Q61651140,BT,约翰·特南特,Джон Теннант
+Q6844549,Miguel Figueroa >> en,68,Miguel Figueroa,en,Male,1953.0,,Q16,Q82955,Q2160378,FL,米格尔·菲格罗亚,Мигель Фигероа
+Q1086816,Christopher Lauer >> de,67,Christopher Lauer,de,Male,1984.0,,Q183,Q82955,Q13129,BT,克里斯托弗·劳尔,Кристофер Лауэр
+Q1323587,Franz Enderli >> de,67,Franz Enderli,de,Male,1954.0,,Q39,"Q1234713, Q82955",Q667725,CL,弗朗茨·恩德尔里,Франц Эндерли
+Q123802,Leo Jogisches >> en,66,Leo Jogisches,en,Male,1867.0,1919.0,Q34266,"Q82955, Q3242115, Q1607826",Q49768,CL,利奥·约吉谢斯,Лео Йогишес
+Q84614,Rainer Friedrich >> de,66,Rainer Friedrich,de,Male,1903.0,1947.0,Q40,"Q82955, Q189010",Q7320,FR,雷纳·弗里德里希,Райнер Фридрих
+Q27983427,Abdul Jabbar (politician) >> en,66,Abdul Jabbar,en,Male,,,Q668,Q82955,Q2740234,CC,阿卜杜勒·贾巴尔,Абдул Джаббар
+Q459998,Ichiro Ozawa >> en,65,Ichiro Ozawa,en,Male,1942.0,,Q17,Q82955,Q99233271,CL,小泽一郎,Итиро Озава
+Q534128,Gus Hall >> en,65,Gus Hall,en,Male,1910.0,2000.0,Q30,"Q820037, Q36180, Q82955, Q1124183, Q15627169",Q308714,FL,古斯·霍尔,Гас Холл
+Q70707,Ludwig Fischer >> en,64,Ludwig Fischer,en,Male,1905.0,1947.0,Q7318,"Q82955, Q185351",Q7320,FR,路德维希·费舍尔,Людвиг Фишер
+Q57848,Rudolf Hilferding >> en,63,Rudolf Hilferding,en,Male,1877.0,1941.0,Q41304,"Q188094, Q82955, Q36180, Q39631",Q49768,CL,鲁道夫·希尔弗丁,Рудольф Хильфердинг
+Q73204,Josef Müller >> fr,62,Josef Müller,fr,Male,1898.0,1979.0,Q183,"Q82955, Q40348, Q1397808",Q302884,RR,约瑟夫·穆勒,Йозеф Мюллер
+Q363555,José Félix Uriburu >> en,62,José Félix Uriburu,en,Male,1868.0,1932.0,Q414,"Q47064, Q82955",Q6979776,FR,何塞·费利克斯·乌里布鲁,Хосе Феликс Урибуру
+Q61520,August Hirt >> en,62,August Hirt,en,Male,1898.0,1945.0,Q7318,"Q39631, Q20725072, Q1622272, Q28789517, Q82955, Q10872101",Q7320,FR,奥古斯特·希尔特,Аугуст Хирт
+Q23641705,Pierre Vanek >> fr,61,Pierre Vanek,fr,Male,1954.0,,Q39,Q82955,Q286683,FL,皮埃尔·瓦内克,Пьер Ванек
+Q188095,Toranosuke Katayama >> en,61,Toranosuke Katayama,en,Male,1935.0,,Q17,Q82955,Q21499745,CR,片山虎之助,Тораносукэ Катаяма
+Q1235609,Fritz Keller >> da,60,Fritz Keller,da,Male,1850.0,1923.0,Q183,"Q82955, Q1895303",Q455038,RR,弗里茨·凯勒,Фриц Келлер
+Q17352992,Sepp Schellhorn >> en,60,Sepp Schellhorn,en,Male,1967.0,,Q40,"Q1631120, Q82955, Q3427922",Q13564543,CC,塞普·谢尔霍恩,Зепп Шеллхорн
+Q112745701,Clara Sorrenti >> fr,60,Clara Sorrenti,fr,Transgender Female,1994.0,,Q16,"Q50279140, Q82955, Q15253558",Q2160378,FL,克拉拉·索伦蒂,Клара Сорренти
+Q65730363,Eiko Kimura >> en,60,Eiko Kimura,en,Female,1965.0,,Q17,Q82955,Q64405573,LL,木村荣子,Эйко Кимура
+Q48074,Filipp Golikov >> en,60,Filipp Golikov,en,Male,1900.0,1980.0,Q2305208,"Q189290, Q82955",Q79854,FL,菲利普·戈利科夫,Филипп Голиков
+Q19278490,Douglas Hoyos >> en,58,Douglas Hoyos,en,Male,1990.0,,Q40,Q82955,Q13564543,CC,道格拉斯·霍约斯,Дуглас Хойос
+Q2216409,Sam Carr >> en,58,Sam Carr,en,Male,1906.0,1989.0,Q16,"Q82955, Q9352089",Q2160378,FL,萨姆·卡尔,Сэм Карр
+Q7114532,Owen Jones (politician) >> en,58,Owen Jones,en,Male,1889.0,1964.0,Q16,Q82955,Q1104026,LL,欧文·琼斯,Оуэн Джонс
