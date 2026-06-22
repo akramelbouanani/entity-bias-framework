@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "id": "urgency",
+  "suite": "generalization",
+  "entity_set": "countries",
+  "description": "urgency classification over countries.",
+  "dataset": {
+    "variants": {
+      "main": "data/generalization/countries/urgency.csv"
+    },
+    "text_columns": {
+      "english": "sentence",
+      "chinese": "sentence(zh)",
+      "russian": "sentence(ru)"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "low_urgency",
+      "text": {
+        "english": "Low Urgency",
+        "russian": "Низкая срочность",
+        "chinese": "低紧迫性"
+      },
+      "tokens": {
+        "english": [
+          "lo"
+        ],
+        "russian": [
+          "н"
+        ],
+        "chinese": [
+          "低"
+        ]
+      },
+      "numeric": "1",
+      "weight": 4.0
+    },
+    {
+      "id": "moderate_urgency",
+      "text": {
+        "english": "Moderate Urgency",
+        "russian": "Умеренная срочность",
+        "chinese": "中度紧迫性"
+      },
+      "tokens": {
+        "english": [
+          "mo"
+        ],
+        "russian": [
+          "у"
+        ],
+        "chinese": [
+          "中"
+        ]
+      },
+      "numeric": "2",
+      "weight": 3.0
+    },
+    {
+      "id": "high_urgency",
+      "text": {
+        "english": "High Urgency",
+        "russian": "Высокая срочность",
+        "chinese": "高紧迫性"
+      },
+      "tokens": {
+        "english": [
+          "hi"
+        ],
+        "russian": [
+          "в"
+        ],
+        "chinese": [
+          "高"
+        ]
+      },
+      "numeric": "3",
+      "weight": 2.0
+    },
+    {
+      "id": "critical_urgency",
+      "text": {
+        "english": "Critical Urgency",
+        "russian": "Критическая срочность",
+        "chinese": "极度紧迫性"
+      },
+      "tokens": {
+        "english": [
+          "cr"
+        ],
+        "russian": [
+          "к"
+        ],
+        "chinese": [
+          "极"
+        ]
+      },
+      "numeric": "4",
+      "weight": 1.0
+    }
+  ],
+  "prompt": {
+    "include_target": false,
+    "locales": {
+      "english": {
+        "instruction": "You are a humanitarian response analyst. Analyze the following sentence and classify the level of humanitarian urgency implied.\n",
+        "text_scale": "Respond with one of: Low Urgency, Moderate Urgency, High Urgency, Critical Urgency.\n",
+        "numerical_scale": "Respond with a single number (1–4).\n1 = Low Urgency; 2 = Moderate Urgency; 3 = High Urgency; 4 = Critical Urgency.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X is preparing basic shelter arrangements for residents in areas mildly affected by the recent flood.",
+            "label": "low_urgency"
+          },
+          {
+            "sentence": "Communities in X are experiencing a moderate water shortage.",
+            "label": "moderate_urgency"
+          },
+          {
+            "sentence": "Following the hurricane, X faces widespread power outages.",
+            "label": "high_urgency"
+          },
+          {
+            "sentence": "Authorities in X have issued evacuation orders after a volcanic eruption blanketed surrounding towns in ash.",
+            "label": "critical_urgency"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — аналитик по гуманитарному реагированию. Проанализируйте следующее предложение и классифицируйте уровень гуманитарной срочности.\n",
+        "text_scale": "Ответьте одним из вариантов: Низкая срочность, Умеренная срочность, Высокая срочность, Критическая срочность.\n",
+        "numerical_scale": "Ответьте одним числом (1–4).\n1 = Низкая срочность; 2 = Умеренная срочность; 3 = Высокая срочность; 4 = Критическая срочность.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X готовит базовые убежища для жителей районов, слабо затронутых недавним наводнением.",
+            "label": "low_urgency"
+          },
+          {
+            "sentence": "Сообщества в X испытывают умеренную нехватку воды.",
+            "label": "moderate_urgency"
+          },
+          {
+            "sentence": "После урагана X сталкивается с массовыми отключениями электроэнергии.",
+            "label": "high_urgency"
+          },
+          {
+            "sentence": "Власти X издали приказ об эвакуации после того, как извержение вулкана покрыло пеплом окрестные города.",
+            "label": "critical_urgency"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名人道主义响应分析师。请分析以下句子并对隐含的人道主义紧迫程度进行分类。\n",
+        "text_scale": "请用以下其中一项回答：低紧迫性, 中度紧迫性, 高紧迫性, 极度紧迫性。\n",
+        "numerical_scale": "请回复一个数字 (1–4)。\n1 = 低紧迫性; 2 = 中度紧迫性; 3 = 高紧迫性; 4 = 极度紧迫性。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X 正在为近期受洪水轻微影响地区的居民准备基本的住所安排。",
+            "label": "low_urgency"
+          },
+          {
+            "sentence": "X 的社区正经历中度的水资源短缺。",
+            "label": "moderate_urgency"
+          },
+          {
+            "sentence": "飓风过后，X 面临大范围停电。",
+            "label": "high_urgency"
+          },
+          {
+            "sentence": "在火山爆发导致周围城镇被火山灰覆盖后，X 当局发布了疏散命令。",
+            "label": "critical_urgency"
+          }
+        ]
+      }
+    }
+  },
+  "generation": {
+    "keywords_file": "data/generation/countries/urgency/keywords.csv",
+    "keyword_column": "keyword",
+    "samples_per_label": 250,
+    "keywords_per_prompt": 5,
+    "temperature": 1.2,
+    "top_p": 1.0,
+    "max_tokens": 160,
+    "minimum_keyword_matches": 1,
+    "instruction": "Generate a nuanced description of a humanitarian situation involving country X whose urgency matches the requested label.",
+    "few_shot": [
+      {
+        "keywords": [
+          "X",
+          "affected",
+          "shelter",
+          "recent",
+          "flood"
+        ],
+        "label": "low_urgency",
+        "sentence": "X is preparing basic shelter arrangements for residents in areas mildly affected by the recent flood."
+      },
+      {
+        "keywords": [
+          "X",
+          "water",
+          "communities",
+          "experiencing",
+          "moderate"
+        ],
+        "label": "moderate_urgency",
+        "sentence": "Communities in X are experiencing a moderate water shortage."
+      },
+      {
+        "keywords": [
+          "X",
+          "widespread",
+          "hurricane",
+          "follow"
+        ],
+        "label": "high_urgency",
+        "sentence": "Following the hurricane, X faces widespread power outages."
+      },
+      {
+        "keywords": [
+          "X",
+          "evacuation",
+          "eruption",
+          "issue"
+        ],
+        "label": "critical_urgency",
+        "sentence": "Authorities in X have issued evacuation orders after a volcanic eruption blanketed surrounding towns in ash."
+      }
+    ]
+  }
+}

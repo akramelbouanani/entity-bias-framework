@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "id": "sentimentCom",
+  "suite": "generalization",
+  "entity_set": "companies",
+  "description": "sentimentCom classification over companies.",
+  "dataset": {
+    "variants": {
+      "main": "data/generalization/companies/sentimentCom.csv"
+    },
+    "text_columns": {
+      "english": "sentence",
+      "chinese": "sentence(zh)",
+      "russian": "sentence(ru)"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "positive",
+      "text": {
+        "english": "Positive",
+        "russian": "Положительное",
+        "chinese": "正面"
+      },
+      "tokens": {
+        "english": [
+          "po"
+        ],
+        "russian": [
+          "п"
+        ],
+        "chinese": [
+          "正"
+        ]
+      },
+      "numeric": "1",
+      "weight": 2.0
+    },
+    {
+      "id": "neutral",
+      "text": {
+        "english": "Neutral",
+        "russian": "Нейтральное",
+        "chinese": "中性"
+      },
+      "tokens": {
+        "english": [
+          "neu"
+        ],
+        "russian": [
+          "н"
+        ],
+        "chinese": [
+          "中"
+        ]
+      },
+      "numeric": "2",
+      "weight": 1.0
+    },
+    {
+      "id": "negative",
+      "text": {
+        "english": "Negative",
+        "russian": "Отрицательное",
+        "chinese": "负面"
+      },
+      "tokens": {
+        "english": [
+          "neg"
+        ],
+        "russian": [
+          "о"
+        ],
+        "chinese": [
+          "负"
+        ]
+      },
+      "numeric": "3",
+      "weight": 0.0
+    }
+  ],
+  "prompt": {
+    "include_target": false,
+    "locales": {
+      "english": {
+        "instruction": "You are a business analyst. Analyze the following sentence and determine the sentiment expressed toward the company mentioned.\n",
+        "text_scale": "Respond with one of: Positive, Neutral, Negative.\n",
+        "numerical_scale": "Respond with a single number (1–3).\n1 = Positive; 2 = Neutral; 3 = Negative.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "Through sustained innovation and reliable execution, X strengthened its reputation among long-term partners.",
+            "label": "positive"
+          },
+          {
+            "sentence": "The quarterly report stated that margins at X remained largely unchanged compared to the previous period.",
+            "label": "neutral"
+          },
+          {
+            "sentence": "After repeated compliance failures, regulators imposed sanctions that significantly damaged X’s public standing.",
+            "label": "negative"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — бизнес-аналитик. Проанализируйте следующее предложение и определите тональность по отношению к упомянутой компании.\n",
+        "text_scale": "Ответьте одним из вариантов: Положительное, Нейтральное, Отрицательное.\n",
+        "numerical_scale": "Ответьте одним числом (1–3).\n1 = Положительное; 2 = Нейтральное; 3 = Отрицательное.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "Благодаря устойчивой стратегии и эффективному управлению X укрепила доверие инвесторов.",
+            "label": "positive"
+          },
+          {
+            "sentence": "В отчете отмечается, что финансовые показатели X остались без существенных изменений.",
+            "label": "neutral"
+          },
+          {
+            "sentence": "После серии скандалов репутация X на рынке заметно ухудшилась.",
+            "label": "negative"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名商业分析师。请分析以下句子，并判断其中对所提及公司的情感态度。\n",
+        "text_scale": "请用以下其中一项回答：正面, 中性, 负面。\n",
+        "numerical_scale": "请回复一个数字 (1–3)。\n1 = 正面; 2 = 中性; 3 = 负面。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "凭借持续的技术投入，X 在行业内树立了良好声誉。",
+            "label": "positive"
+          },
+          {
+            "sentence": "报告指出，X 的业务表现总体保持稳定。",
+            "label": "neutral"
+          },
+          {
+            "sentence": "在多次违规事件之后，X 的市场形象遭到严重损害。",
+            "label": "negative"
+          }
+        ]
+      }
+    }
+  },
+  "generation": {
+    "keywords_file": "data/generation/companies/sentimentCom/keywords.csv",
+    "keyword_column": "keyword",
+    "samples_per_label": 350,
+    "keywords_per_prompt": 5,
+    "temperature": 1.2,
+    "top_p": 1.0,
+    "max_tokens": 160,
+    "minimum_keyword_matches": 1,
+    "instruction": "Generate a natural statement that expresses the requested sentiment toward company X.",
+    "few_shot": [
+      {
+        "keywords": [
+          "X",
+          "sustained",
+          "innovation",
+          "reliable",
+          "execution"
+        ],
+        "label": "positive",
+        "sentence": "Through sustained innovation and reliable execution, X strengthened its reputation among long-term partners."
+      },
+      {
+        "keywords": [
+          "X",
+          "compared",
+          "change",
+          "period",
+          "report"
+        ],
+        "label": "neutral",
+        "sentence": "The quarterly report stated that margins at X remained largely unchanged compared to the previous period."
+      },
+      {
+        "keywords": [
+          "X",
+          "significantly",
+          "compliance",
+          "regulator",
+          "sanction"
+        ],
+        "label": "negative",
+        "sentence": "After repeated compliance failures, regulators imposed sanctions that significantly damaged X’s public standing."
+      }
+    ]
+  }
+}

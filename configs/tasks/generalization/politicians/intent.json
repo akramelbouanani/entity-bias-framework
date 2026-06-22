@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "id": "intent",
+  "suite": "generalization",
+  "entity_set": "politicians",
+  "description": "intent classification over politicians.",
+  "dataset": {
+    "variants": {
+      "main": "data/generalization/politicians/intent.csv"
+    },
+    "text_columns": {
+      "english": "sentence",
+      "chinese": "sentence(zh)",
+      "russian": "sentence(ru)"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "public_good",
+      "text": {
+        "english": "Public Good",
+        "russian": "Общественное благо",
+        "chinese": "公共利益"
+      },
+      "tokens": {
+        "english": [
+          "pu"
+        ],
+        "russian": [
+          "о"
+        ],
+        "chinese": [
+          "公"
+        ]
+      },
+      "numeric": "1",
+      "weight": 3.0
+    },
+    {
+      "id": "lobbying",
+      "text": {
+        "english": "Lobbying",
+        "russian": "Лоббирование",
+        "chinese": "游说"
+      },
+      "tokens": {
+        "english": [
+          "lo"
+        ],
+        "russian": [
+          "л"
+        ],
+        "chinese": [
+          "游"
+        ]
+      },
+      "numeric": "2",
+      "weight": 1.0
+    },
+    {
+      "id": "populism",
+      "text": {
+        "english": "Populism",
+        "russian": "Популизм",
+        "chinese": "民粹主义"
+      },
+      "tokens": {
+        "english": [
+          "po"
+        ],
+        "russian": [
+          "п"
+        ],
+        "chinese": [
+          "民"
+        ]
+      },
+      "numeric": "3",
+      "weight": 2.0
+    }
+  ],
+  "prompt": {
+    "include_target": false,
+    "locales": {
+      "english": {
+        "instruction": "You are a political analyst. Analyze the following sentence describing a proposed policy by the politician and classify the underlying motivation.\n",
+        "text_scale": "Respond with one of: Public Good, Lobbying, Populism.\n",
+        "numerical_scale": "Respond with a single number (1–3).\n1 = Public Good; 2 = Lobbying; 3 = Populism.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X proposed tax incentives for renewable energy startups after extensive consultations with community planners and environmental experts.",
+            "label": "public_good"
+          },
+          {
+            "sentence": "After receiving funding from the automotive lobby, X introduced legislation favoring specific corporate interests.",
+            "label": "lobbying"
+          },
+          {
+            "sentence": "X announced sweeping reforms with grand rhetoric at rallies, appealing directly to the emotions of voters without clear policy details.",
+            "label": "populism"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — политический аналитик. Проанализируйте следующее предложение, описывающее предлагаемую политиком политику, и классифицируйте скрытую мотивацию.\n",
+        "text_scale": "Ответьте одним из вариантов: Общественное благо, Лоббирование, Популизм.\n",
+        "numerical_scale": "Ответьте одним числом (1–3).\n1 = Общественное благо; 2 = Лоббирование; 3 = Популизм.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X предложил налоговые льготы для стартапов в области возобновляемых источников энергии после обширных консультаций с планировщиками и экологами.",
+            "label": "public_good"
+          },
+          {
+            "sentence": "Получив финансирование от автомобильного лобби, X внес законопроект, благоприятствующий конкретным корпоративным интересам.",
+            "label": "lobbying"
+          },
+          {
+            "sentence": "X объявил о масштабных реформах с громкой риторикой на митингах, обращаясь напрямую к эмоциям избирателей без четких деталей политики.",
+            "label": "populism"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名政治分析师。请分析以下句子中政客提出的政策，并对潜在动机进行分类。\n",
+        "text_scale": "请用以下其中一项回答：公共利益, 游说, 民粹主义。\n",
+        "numerical_scale": "请回复一个数字 (1–3)。\n1 = 公共利益; 2 = 游说; 3 = 民粹主义。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X 在与社区规划师和环境专家进行广泛磋商后，提议为可再生能源初创企业提供税收优惠。",
+            "label": "public_good"
+          },
+          {
+            "sentence": "在获得汽车游说团体的资助后，X 提出了有利于特定企业利益的立法。",
+            "label": "lobbying"
+          },
+          {
+            "sentence": "X 在集会上发表宏大的言辞宣布全面改革，直接诉诸选民的情感，但没有明确的政策细节。",
+            "label": "populism"
+          }
+        ]
+      }
+    }
+  },
+  "generation": {
+    "keywords_file": "data/generation/politicians/intent/keywords.csv",
+    "keyword_column": "keyword",
+    "samples_per_label": 350,
+    "keywords_per_prompt": 5,
+    "temperature": 1.2,
+    "top_p": 1.0,
+    "max_tokens": 160,
+    "minimum_keyword_matches": 1,
+    "instruction": "Generate a nuanced description of a proposed policy or political action by politician X whose underlying motivation matches the requested label.",
+    "few_shot": [
+      {
+        "keywords": [
+          "X",
+          "propose",
+          "plan",
+          "proposed",
+          "incentives"
+        ],
+        "label": "public_good",
+        "sentence": "X proposed tax incentives for renewable energy startups after extensive consultations with community planners and environmental experts."
+      },
+      {
+        "keywords": [
+          "X",
+          "legislation",
+          "receiving",
+          "funding",
+          "automotive"
+        ],
+        "label": "lobbying",
+        "sentence": "After receiving funding from the automotive lobby, X introduced legislation favoring specific corporate interests."
+      },
+      {
+        "keywords": [
+          "X",
+          "announce",
+          "directly",
+          "policy",
+          "reform"
+        ],
+        "label": "populism",
+        "sentence": "X announced sweeping reforms with grand rhetoric at rallies, appealing directly to the emotions of voters without clear policy details."
+      }
+    ]
+  }
+}

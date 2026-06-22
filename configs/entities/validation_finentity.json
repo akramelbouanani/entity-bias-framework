@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "id": "validation_finentity",
+  "description": "Company entities for FinEntity validation.",
+  "path": "data/validation/finentity/entities.csv",
+  "placeholder": "X",
+  "name_columns": {"english": "name_en", "chinese": "name_zh", "russian": "name_ru"}
+}

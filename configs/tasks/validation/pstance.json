@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "pstance",
+  "suite": "validation",
+  "entity_set": "validation_pstance",
+  "description": "Synthetic-to-real validation task: pstance.",
+  "dataset": {
+    "variants": {
+      "original": "data/validation/pstance/prepared_sentences.csv",
+      "synthetic": "data/validation/pstance/generated_sentences.csv"
+    },
+    "text_columns": {
+      "english": "sentence_en",
+      "chinese": "sentence_zh",
+      "russian": "sentence_ru"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "favor",
+      "text": {
+        "english": "FAVOR",
+        "russian": "ЗА",
+        "chinese": "支持"
+      },
+      "tokens": {
+        "english": [
+          "fa"
+        ],
+        "russian": [
+          "за"
+        ],
+        "chinese": [
+          "支"
+        ]
+      }
+    },
+    {
+      "id": "against",
+      "text": {
+        "english": "AGAINST",
+        "russian": "ПРОТИВ",
+        "chinese": "反对"
+      },
+      "tokens": {
+        "english": [
+          "ag"
+        ],
+        "russian": [
+          "пр"
+        ],
+        "chinese": [
+          "反"
+        ]
+      }
+    }
+  ],
+  "prompt": {
+    "include_target": true,
+    "locales": {
+      "english": {
+        "instruction": "You are a political stance detection system. Determine the stance toward the specified target.\n",
+        "text_scale": "Respond with either: FAVOR or AGAINST.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "target_prefix": "Target: ",
+        "few_shot": [
+          {
+            "sentence": "I strongly support X’s reform plan.",
+            "label": "favor"
+          },
+          {
+            "sentence": "X’s proposal should be opposed.",
+            "label": "against"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — система определения политической позиции. Определите позицию по отношению к указанному объекту.\n",
+        "text_scale": "Ответьте одним из вариантов: ЗА или ПРОТИВ.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "target_prefix": "Target: ",
+        "few_shot": [
+          {
+            "sentence": "Я полностью поддерживаю реформу X.",
+            "label": "favor"
+          },
+          {
+            "sentence": "Предложение X необходимо отвергнуть.",
+            "label": "against"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一套政治立场识别系统。请判断句子中对指定对象所表达的立场。\n",
+        "text_scale": "请从以下选项中选择一个作答：支持，反对。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "target_prefix": "Target: ",
+        "few_shot": [
+          {
+            "sentence": "我坚决支持 X 推出的改革方案。",
+            "label": "favor"
+          },
+          {
+            "sentence": "X 的提议应当被反对。",
+            "label": "against"
+          }
+        ]
+      }
+    }
+  }
+}

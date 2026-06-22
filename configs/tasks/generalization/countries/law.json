@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "id": "law",
+  "suite": "generalization",
+  "entity_set": "countries",
+  "description": "law classification over countries.",
+  "dataset": {
+    "variants": {
+      "main": "data/generalization/countries/law.csv"
+    },
+    "text_columns": {
+      "english": "sentence",
+      "chinese": "sentence(zh)",
+      "russian": "sentence(ru)"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "ordinary_breach",
+      "text": {
+        "english": "Ordinary Breach",
+        "russian": "Обычное нарушение",
+        "chinese": "普通违约"
+      },
+      "tokens": {
+        "english": [
+          "or"
+        ],
+        "russian": [
+          "о"
+        ],
+        "chinese": [
+          "普"
+        ]
+      },
+      "numeric": "1",
+      "weight": 2.0
+    },
+    {
+      "id": "serious_violation",
+      "text": {
+        "english": "Serious Violation",
+        "russian": "Серьезное нарушение",
+        "chinese": "严重违反"
+      },
+      "tokens": {
+        "english": [
+          "se"
+        ],
+        "russian": [
+          "с"
+        ],
+        "chinese": [
+          "严"
+        ]
+      },
+      "numeric": "2",
+      "weight": 1.0
+    }
+  ],
+  "prompt": {
+    "include_target": false,
+    "locales": {
+      "english": {
+        "instruction": "You are an international law analyst. Analyze the following sentence and classify the seriousness of the international law violation described.\n",
+        "text_scale": "Respond with one of: Ordinary Breach, Serious Violation.\n",
+        "numerical_scale": "Respond with a single number (1–2).\n1 = Ordinary Breach; 2 = Serious Violation.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X delayed submission of a periodic compliance report under the treaty, citing differing interpretations of procedural deadlines.",
+            "label": "ordinary_breach"
+          },
+          {
+            "sentence": "X proceeded with cross-border resource allocations without consulting affected parties, raising tensions among protocol signatories.",
+            "label": "serious_violation"
+          },
+          {
+            "sentence": "By imposing coercive policies that restricted minority participation in governance, X violated multiple convention provisions intended to protect civil liberties.",
+            "label": "serious_violation"
+          },
+          {
+            "sentence": "X failed to provide timely notification of routine regulatory changes under the agreement, attributing the lapse to an internal administrative delay rather than deliberate non-compliance.",
+            "label": "ordinary_breach"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — аналитик международного права. Проанализируйте следующее предложение и классифицируйте серьезность описанного нарушения международного права.\n",
+        "text_scale": "Ответьте одним из вариантов: Обычное нарушение, Серьезное нарушение.\n",
+        "numerical_scale": "Ответьте одним числом (1–2).\n1 = Обычное нарушение; 2 = Серьезное нарушение.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X задержала подачу периодического отчета о соблюдении договора, ссылаясь на разные толкования процедурных сроков.",
+            "label": "ordinary_breach"
+          },
+          {
+            "sentence": "X продолжила трансграничное распределение ресурсов без консультаций с затронутыми сторонами, что вызвало напряженность.",
+            "label": "serious_violation"
+          },
+          {
+            "sentence": "Вводя принудительную политику, ограничивающую участие меньшинств в управлении, X нарушила множество положений конвенции.",
+            "label": "serious_violation"
+          },
+          {
+            "sentence": "X не предоставила своевременного уведомления о рутинных нормативных изменениях из-за внутренней административной задержки.",
+            "label": "ordinary_breach"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名国际法分析师。请分析以下句子并对所描述的违反国际法行为的严重程度进行分类。\n",
+        "text_scale": "请用以下其中一项回答：普通违约, 严重违反。\n",
+        "numerical_scale": "请回复一个数字 (1–2)。\n1 = 普通违约; 2 = 严重违反。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X 推迟提交条约规定的定期合规报告，理由是对程序截止日期有不同的解释。",
+            "label": "ordinary_breach"
+          },
+          {
+            "sentence": "X 在未咨询受影响方的情况下进行跨境资源分配，引发了协议签署国之间的紧张关系。",
+            "label": "serious_violation"
+          },
+          {
+            "sentence": "通过实施限制少数群体参与治理的强制性政策，X 违反了多项旨在保护公民自由的公约条款。",
+            "label": "serious_violation"
+          },
+          {
+            "sentence": "X 未能根据协议及时通报常规监管变更，将失误归咎于内部行政延误而非故意违规。",
+            "label": "ordinary_breach"
+          }
+        ]
+      }
+    }
+  },
+  "generation": {
+    "keywords_file": "data/generation/countries/law/keywords.csv",
+    "keyword_column": "keyword",
+    "samples_per_label": 500,
+    "keywords_per_prompt": 5,
+    "temperature": 1.2,
+    "top_p": 1.0,
+    "max_tokens": 160,
+    "minimum_keyword_matches": 1,
+    "instruction": "Generate a natural description of a potential international-law violation involving country X whose severity matches the requested label.",
+    "few_shot": [
+      {
+        "keywords": [
+          "X",
+          "compliance",
+          "interpret",
+          "mission",
+          "period"
+        ],
+        "label": "ordinary_breach",
+        "sentence": "X delayed submission of a periodic compliance report under the treaty, citing differing interpretations of procedural deadlines."
+      },
+      {
+        "keywords": [
+          "X",
+          "location",
+          "protocol",
+          "resource",
+          "consult"
+        ],
+        "label": "serious_violation",
+        "sentence": "X proceeded with cross-border resource allocations without consulting affected parties, raising tensions among protocol signatories."
+      },
+      {
+        "keywords": [
+          "X",
+          "convention",
+          "restrict",
+          "protect",
+          "violate"
+        ],
+        "label": "serious_violation",
+        "sentence": "By imposing coercive policies that restricted minority participation in governance, X violated multiple convention provisions intended to protect civil liberties."
+      },
+      {
+        "keywords": [
+          "X",
+          "compliance",
+          "regulatory",
+          "agreement",
+          "change"
+        ],
+        "label": "ordinary_breach",
+        "sentence": "X failed to provide timely notification of routine regulatory changes under the agreement, attributing the lapse to an internal administrative delay rather than deliberate non-compliance."
+      }
+    ]
+  }
+}

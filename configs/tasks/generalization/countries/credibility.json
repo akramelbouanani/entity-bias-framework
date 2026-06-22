@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "id": "credibility",
+  "suite": "generalization",
+  "entity_set": "countries",
+  "description": "credibility classification over countries.",
+  "dataset": {
+    "variants": {
+      "main": "data/generalization/countries/credibility.csv"
+    },
+    "text_columns": {
+      "english": "sentence",
+      "chinese": "sentence(zh)",
+      "russian": "sentence(ru)"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "credible",
+      "text": {
+        "english": "Credible",
+        "russian": "Достоверно",
+        "chinese": "可信"
+      },
+      "tokens": {
+        "english": [
+          "c"
+        ],
+        "russian": [
+          "д"
+        ],
+        "chinese": [
+          "可"
+        ]
+      },
+      "numeric": "1",
+      "weight": 2.0
+    },
+    {
+      "id": "not_credible",
+      "text": {
+        "english": "Not Credible",
+        "russian": "Недостоверно",
+        "chinese": "不可信"
+      },
+      "tokens": {
+        "english": [
+          "no"
+        ],
+        "russian": [
+          "н"
+        ],
+        "chinese": [
+          "不"
+        ]
+      },
+      "numeric": "2",
+      "weight": 1.0
+    }
+  ],
+  "prompt": {
+    "include_target": false,
+    "locales": {
+      "english": {
+        "instruction": "You are an international policy analyst. Assess the action taken by the country mentioned in the sentence and decide whether it is credible or not.\n",
+        "text_scale": "Respond with one of: Credible, Not Credible.\n",
+        "numerical_scale": "Respond with a single number (1–2).\n1 = Credible; 2 = Not Credible.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "After months of opaque negotiations, X unexpectedly released a detailed transparency note and invited an external oversight-mission to review its audit briefing.",
+            "label": "credible"
+          },
+          {
+            "sentence": "To reassure skeptical partners, X published a draft assessment outlining procurement timelines for its infrastructure pledge, including contingencies that suggested careful internal planning rather than political improvisation.",
+            "label": "credible"
+          },
+          {
+            "sentence": "Despite issuing an urgent emergency announcement, X offered no mechanism to close the long-standing implementation gap and failed to attend the coordination forum where its proposal was supposed to be operationalized.",
+            "label": "not_credible"
+          },
+          {
+            "sentence": "Although X circulated an ambitious policy roadmap, its funding claims collapsed when partners requested verification, revealing that the proposal relied on assumptions X could not substantiate.",
+            "label": "not_credible"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — аналитик международной политики. Оцените действия страны, упомянутые в предложении, и решите, заслуживают ли они доверия.\n",
+        "text_scale": "Ответьте одним из вариантов: Достоверно, Недостоверно.\n",
+        "numerical_scale": "Ответьте одним числом (1–2).\n1 = Достоверно; 2 = Недостоверно.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "После месяцев непрозрачных переговоров X неожиданно выпустила подробную записку о прозрачности и пригласила внешнюю миссию для проверки аудита.",
+            "label": "credible"
+          },
+          {
+            "sentence": "Чтобы успокоить скептически настроенных партнеров, X опубликовала проект оценки, в котором изложены сроки закупок, что говорит о тщательном планировании.",
+            "label": "credible"
+          },
+          {
+            "sentence": "Несмотря на срочное объявление о чрезвычайной ситуации, X не предложила механизма для устранения давнего пробела в реализации и не посетила координационный форум.",
+            "label": "not_credible"
+          },
+          {
+            "sentence": "Хотя X распространила амбициозную дорожную карту, ее заявления о финансировании рухнули, когда партнеры запросили подтверждение.",
+            "label": "not_credible"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名国际政策分析师。请评估句子中提到的国家所采取的行动，并判定其是否可信。\n",
+        "text_scale": "请用以下其中一项回答：可信, 不可信。\n",
+        "numerical_scale": "请回复一个数字 (1–2)。\n1 = 可信; 2 = 不可信。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "经过数月的不透明谈判，X 出人意料地发布了一份详细的透明度说明，并邀请外部监督团审查其审计简报。",
+            "label": "credible"
+          },
+          {
+            "sentence": "为了安抚持怀疑态度的合作伙伴，X 发布了一份草案评估，概述了其基础设施承诺的采购时间表，表明了仔细的内部规划。",
+            "label": "credible"
+          },
+          {
+            "sentence": "尽管发布了紧急公告，X 没有提供任何机制来弥合长期存在的实施差距，也未能出席原本打算落实其提案的协调论坛。",
+            "label": "not_credible"
+          },
+          {
+            "sentence": "虽然 X 散发了一份雄心勃勃的政策路线图，但当合作伙伴要求核实时，其资金声明破产，表明该提案依赖于 X 无法证实的假设。",
+            "label": "not_credible"
+          }
+        ]
+      }
+    }
+  },
+  "generation": {
+    "keywords_file": "data/generation/countries/credibility/keywords.csv",
+    "keyword_column": "keyword",
+    "samples_per_label": 500,
+    "keywords_per_prompt": 5,
+    "temperature": 1.2,
+    "top_p": 1.0,
+    "max_tokens": 160,
+    "minimum_keyword_matches": 1,
+    "instruction": "Generate a nuanced description of an action taken by country X whose credibility matches the requested label.",
+    "few_shot": [
+      {
+        "keywords": [
+          "X",
+          "transparency-note",
+          "unexpected",
+          "briefing",
+          "detailed"
+        ],
+        "label": "credible",
+        "sentence": "After months of opaque negotiations, X unexpectedly released a detailed transparency note and invited an external oversight-mission to review its audit briefing."
+      },
+      {
+        "keywords": [
+          "X",
+          "assessment",
+          "including",
+          "structure",
+          "timeline"
+        ],
+        "label": "credible",
+        "sentence": "To reassure skeptical partners, X published a draft assessment outlining procurement timelines for its infrastructure pledge, including contingencies that suggested careful internal planning rather than political improvisation."
+      },
+      {
+        "keywords": [
+          "X",
+          "coordination-forum",
+          "implementation-gap",
+          "announcement",
+          "operational"
+        ],
+        "label": "not_credible",
+        "sentence": "Despite issuing an urgent emergency announcement, X offered no mechanism to close the long-standing implementation gap and failed to attend the coordination forum where its proposal was supposed to be operationalized."
+      },
+      {
+        "keywords": [
+          "X",
+          "funding-claim",
+          "substantiate",
+          "verification",
+          "circulate"
+        ],
+        "label": "not_credible",
+        "sentence": "Although X circulated an ambitious policy roadmap, its funding claims collapsed when partners requested verification, revealing that the proposal relied on assumptions X could not substantiate."
+      }
+    ]
+  }
+}

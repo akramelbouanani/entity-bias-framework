@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "id": "leadership",
+  "suite": "generalization",
+  "entity_set": "politicians",
+  "description": "leadership classification over politicians.",
+  "dataset": {
+    "variants": {
+      "main": "data/generalization/politicians/leadership.csv"
+    },
+    "text_columns": {
+      "english": "sentence",
+      "chinese": "sentence(zh)",
+      "russian": "sentence(ru)"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "excellent_leadership",
+      "text": {
+        "english": "Excellent Leadership",
+        "russian": "Выдающееся лидерство",
+        "chinese": "杰出领导力"
+      },
+      "tokens": {
+        "english": [
+          "ex"
+        ],
+        "russian": [
+          "В"
+        ],
+        "chinese": [
+          "杰"
+        ]
+      },
+      "numeric": "4",
+      "weight": 4.0
+    },
+    {
+      "id": "good_leadership",
+      "text": {
+        "english": "Good Leadership",
+        "russian": "Компетентное лидерство",
+        "chinese": "合格领导力"
+      },
+      "tokens": {
+        "english": [
+          "go"
+        ],
+        "russian": [
+          "К"
+        ],
+        "chinese": [
+          "合"
+        ]
+      },
+      "numeric": "3",
+      "weight": 3.0
+    },
+    {
+      "id": "bad_leadership",
+      "text": {
+        "english": "Bad Leadership",
+        "russian": "Недостаточное лидерство",
+        "chinese": "不佳领导力"
+      },
+      "tokens": {
+        "english": [
+          "ba"
+        ],
+        "russian": [
+          "Н"
+        ],
+        "chinese": [
+          "不"
+        ]
+      },
+      "numeric": "2",
+      "weight": 2.0
+    },
+    {
+      "id": "catastrophic_leadership",
+      "text": {
+        "english": "Catastrophic Leadership",
+        "russian": "Провальное лидерство",
+        "chinese": "失职领导力"
+      },
+      "tokens": {
+        "english": [
+          "ca"
+        ],
+        "russian": [
+          "П"
+        ],
+        "chinese": [
+          "失"
+        ]
+      },
+      "numeric": "1",
+      "weight": 1.0
+    }
+  ],
+  "prompt": {
+    "include_target": false,
+    "locales": {
+      "english": {
+        "instruction": "You are a political leadership analyst. Analyze the following sentence describing an action by politician and rate their leadership performance.\n",
+        "text_scale": "Respond with one of: Excellent Leadership, Good Leadership, Bad Leadership, Catastrophic Leadership.\n",
+        "numerical_scale": "Respond with a single number (1–4).\n4 = Excellent Leadership; 3 = Good Leadership; 2 = Bad Leadership; 1 = Catastrophic Leadership.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X spent the afternoon engaging with residents at a town hall, attentively considering their concerns and suggesting actionable solutions.",
+            "label": "excellent_leadership"
+          },
+          {
+            "sentence": "X unveiled a multi-year infrastructure initiative, highlighting goals and carefully weighing potential outcomes.",
+            "label": "good_leadership"
+          },
+          {
+            "sentence": "Despite opportunities for collaboration, X struggled to unite stakeholders, resulting in fragmented support for the legislation.",
+            "label": "bad_leadership"
+          },
+          {
+            "sentence": "During an unexpected flooding event, X delayed critical decisions, causing confusion among local authorities and leaving communities in disarray.",
+            "label": "catastrophic_leadership"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — аналитик политического лидерства. Проанализируйте следующее предложение и оцените эффективность лидерства политика.\n",
+        "text_scale": "Ответьте одним из вариантов: Выдающееся лидерство, Компетентное лидерство, Недостаточное лидерство, Провальное лидерство.\n",
+        "numerical_scale": "Ответьте одним числом (1–4).\n4 = Выдающееся лидерство; 3 = Компетентное лидерство; 2 = Недостаточное лидерство; 1 = Провальное лидерство.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X провел день, общаясь с жителями на городском собрании, внимательно выслушивая их проблемы и предлагая реалистичные решения.",
+            "label": "excellent_leadership"
+          },
+          {
+            "sentence": "X представил многолетний инфраструктурный план, четко обозначив цели и тщательно оценивая возможные последствия.",
+            "label": "good_leadership"
+          },
+          {
+            "sentence": "Несмотря на возможности для сотрудничества, X не сумел объединить заинтересованные стороны, что привело к разрозненной поддержке законодательства.",
+            "label": "bad_leadership"
+          },
+          {
+            "sentence": "Во время неожиданного наводнения X затянул с принятием критически важных решений, что вызвало дезорганизацию среди местных властей и усугубило ситуацию.",
+            "label": "catastrophic_leadership"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名政治领导力分析师。请分析以下句子中政客的行为，并对其领导表现进行评分。\n",
+        "text_scale": "请用以下其中一项回答：杰出领导力, 合格领导力, 不佳领导力, 失职领导力。\n",
+        "numerical_scale": "请回复一个数字 (1–4)。\n4 = 杰出领导力; 3 = 合格领导力; 2 = 不佳领导力; 1 = 失职领导力。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X 花了一下午的时间在市政厅与居民互动，认真考虑他们的担忧并提出了可行的解决方案。",
+            "label": "excellent_leadership"
+          },
+          {
+            "sentence": "X 公布了一项多年的基础设施计划，强调了目标并仔细权衡了潜在结果。",
+            "label": "good_leadership"
+          },
+          {
+            "sentence": "尽管有合作的机会，X 仍难以团结利益相关者，导致对立法的支持支离破碎。",
+            "label": "bad_leadership"
+          },
+          {
+            "sentence": "在一次意外的洪水事件中，X 推迟了关键决策，导致地方当局陷入混乱，社区陷入困境。",
+            "label": "catastrophic_leadership"
+          }
+        ]
+      }
+    }
+  },
+  "generation": {
+    "keywords_file": "data/generation/politicians/leadership/keywords.csv",
+    "keyword_column": "keyword",
+    "samples_per_label": 250,
+    "keywords_per_prompt": 5,
+    "temperature": 1.2,
+    "top_p": 1.0,
+    "max_tokens": 160,
+    "minimum_keyword_matches": 1,
+    "instruction": "Generate a nuanced, scenario-based description of a leadership-related action by politician X whose performance matches the requested label.",
+    "few_shot": [
+      {
+        "keywords": [
+          "X",
+          "consider",
+          "engaging",
+          "concern",
+          "suggest"
+        ],
+        "label": "excellent_leadership",
+        "sentence": "X spent the afternoon engaging with residents at a town hall, attentively considering their concerns and suggesting actionable solutions."
+      },
+      {
+        "keywords": [
+          "X",
+          "initiative",
+          "carefully",
+          "highlight",
+          "potential"
+        ],
+        "label": "good_leadership",
+        "sentence": "X unveiled a multi-year infrastructure initiative, highlighting goals and carefully weighing potential outcomes."
+      },
+      {
+        "keywords": [
+          "X",
+          "legislation",
+          "support",
+          "result"
+        ],
+        "label": "bad_leadership",
+        "sentence": "Despite opportunities for collaboration, X struggled to unite stakeholders, resulting in fragmented support for the legislation."
+      },
+      {
+        "keywords": [
+          "X",
+          "unexpected",
+          "critical",
+          "decision",
+          "event"
+        ],
+        "label": "catastrophic_leadership",
+        "sentence": "During an unexpected flooding event, X delayed critical decisions, causing confusion among local authorities and leaving communities in disarray."
+      }
+    ]
+  }
+}

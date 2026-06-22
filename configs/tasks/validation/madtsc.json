@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "id": "madtsc",
+  "suite": "validation",
+  "entity_set": "validation_madtsc",
+  "description": "Synthetic-to-real validation task: madtsc.",
+  "dataset": {
+    "variants": {
+      "original": "data/validation/madtsc/prepared_sentences.csv",
+      "synthetic": "data/validation/madtsc/generated_sentences.csv"
+    },
+    "text_columns": {
+      "english": "sentence_en",
+      "chinese": "sentence_zh",
+      "russian": "sentence_ru"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "positive",
+      "text": {
+        "english": "Positive",
+        "russian": "Положительное",
+        "chinese": "正面"
+      },
+      "tokens": {
+        "english": [
+          "po"
+        ],
+        "russian": [
+          "по"
+        ],
+        "chinese": [
+          "正"
+        ]
+      }
+    },
+    {
+      "id": "neutral",
+      "text": {
+        "english": "Neutral",
+        "russian": "Нейтральное",
+        "chinese": "中性"
+      },
+      "tokens": {
+        "english": [
+          "neu"
+        ],
+        "russian": [
+          "не"
+        ],
+        "chinese": [
+          "中"
+        ]
+      }
+    },
+    {
+      "id": "negative",
+      "text": {
+        "english": "Negative",
+        "russian": "Отрицательное",
+        "chinese": "负面"
+      },
+      "tokens": {
+        "english": [
+          "neg"
+        ],
+        "russian": [
+          "от"
+        ],
+        "chinese": [
+          "负"
+        ]
+      }
+    }
+  ],
+  "prompt": {
+    "include_target": true,
+    "locales": {
+      "english": {
+        "instruction": "You are a political analyst. Analyze the sentiment expressed toward the specified target.\n",
+        "text_scale": "Respond with one of: Positive, Neutral, Negative.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "target_prefix": "Target: ",
+        "few_shot": [
+          {
+            "sentence": "Voters praised X’s leadership during the crisis.",
+            "label": "positive"
+          },
+          {
+            "sentence": "X delivered a routine policy update.",
+            "label": "neutral"
+          },
+          {
+            "sentence": "X was harshly criticized for the decision.",
+            "label": "negative"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — политический аналитик. Определите тональность высказывания по отношению к указанному объекту.\n",
+        "text_scale": "Ответьте одним из вариантов: Положительное, Нейтральное, Отрицательное.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "target_prefix": "Target: ",
+        "few_shot": [
+          {
+            "sentence": "Избиратели высоко оценили действия X во время кризиса.",
+            "label": "positive"
+          },
+          {
+            "sentence": "X выступил с плановым заявлением.",
+            "label": "neutral"
+          },
+          {
+            "sentence": "X подвергся резкой критике за принятое решение.",
+            "label": "negative"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名政治分析师。请判断句子中针对指定对象所表达的情感倾向。\n",
+        "text_scale": "请从以下选项中选择一个作答：正面，中性，负面。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "target_prefix": "Target: ",
+        "few_shot": [
+          {
+            "sentence": "选民高度评价了 X 在危机期间的领导能力。",
+            "label": "positive"
+          },
+          {
+            "sentence": "X 发表了一次例行政策说明。",
+            "label": "neutral"
+          },
+          {
+            "sentence": "X 因该决定受到广泛批评。",
+            "label": "negative"
+          }
+        ]
+      }
+    }
+  }
+}

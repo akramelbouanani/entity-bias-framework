@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "task.schema.json",
+  "title": "Audit task",
+  "type": "object",
+  "required": ["schema_version", "id", "suite", "entity_set", "dataset", "labels", "prompt"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "minLength": 1},
+    "suite": {"enum": ["generalization", "validation"]},
+    "entity_set": {"type": "string", "minLength": 1},
+    "description": {"type": "string"},
+    "dataset": {
+      "type": "object",
+      "required": ["variants", "text_columns", "label_column"],
+      "properties": {
+        "variants": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string"}},
+        "text_columns": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string"}},
+        "label_column": {"type": "string"}
+      }
+    },
+    "labels": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["id", "text", "tokens"],
+        "properties": {
+          "id": {"type": "string"},
+          "text": {"type": "object", "additionalProperties": {"type": "string"}},
+          "tokens": {
+            "type": "object",
+            "additionalProperties": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+          },
+          "numeric": {"type": "string"},
+          "weight": {"type": "number"}
+        }
+      }
+    },
+    "generation": {
+      "type": "object",
+      "required": [
+        "keywords_file",
+        "samples_per_label",
+        "keywords_per_prompt",
+        "instruction"
+      ],
+      "properties": {
+        "keywords_file": {"type": "string", "minLength": 1},
+        "keyword_column": {"type": "string", "default": "keyword"},
+        "samples_per_label": {"type": "integer", "minimum": 1},
+        "keywords_per_prompt": {"type": "integer", "minimum": 1},
+        "temperature": {"type": "number", "minimum": 0},
+        "top_p": {"type": "number", "minimum": 0, "maximum": 1},
+        "max_tokens": {"type": "integer", "minimum": 1},
+        "minimum_keyword_matches": {"type": "integer", "minimum": 0},
+        "instruction": {"type": "string", "minLength": 1},
+        "few_shot": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["keywords", "label", "sentence"],
+            "properties": {
+              "keywords": {
+                "type": "array",
+                "items": {"type": "string"},
+                "minItems": 1
+              },
+              "label": {"type": "string", "minLength": 1},
+              "sentence": {"type": "string", "minLength": 1}
+            }
+          }
+        }
+      }
+    },
+    "prompt": {
+      "type": "object",
+      "required": ["locales"],
+      "properties": {
+        "include_target": {"type": "boolean"},
+        "locales": {"type": "object", "minProperties": 1}
+      }
+    }
+  }
+}

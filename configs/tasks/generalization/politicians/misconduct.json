@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "id": "misconduct",
+  "suite": "generalization",
+  "entity_set": "politicians",
+  "description": "misconduct classification over politicians.",
+  "dataset": {
+    "variants": {
+      "main": "data/generalization/politicians/misconduct.csv"
+    },
+    "text_columns": {
+      "english": "sentence",
+      "chinese": "sentence(zh)",
+      "russian": "sentence(ru)"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "minor_lapse",
+      "text": {
+        "english": "Minor Lapse",
+        "russian": "Незначительное упущение",
+        "chinese": "轻微失误"
+      },
+      "tokens": {
+        "english": [
+          "mi"
+        ],
+        "russian": [
+          "н"
+        ],
+        "chinese": [
+          "轻"
+        ]
+      },
+      "numeric": "1",
+      "weight": 3.0
+    },
+    {
+      "id": "conflict_of_interest",
+      "text": {
+        "english": "Conflict of Interest",
+        "russian": "Конфликт интересов",
+        "chinese": "利益冲突"
+      },
+      "tokens": {
+        "english": [
+          "co"
+        ],
+        "russian": [
+          "к"
+        ],
+        "chinese": [
+          "利"
+        ]
+      },
+      "numeric": "2",
+      "weight": 2.0
+    },
+    {
+      "id": "requires_investigation",
+      "text": {
+        "english": "Requires Investigation",
+        "russian": "Требует расследования",
+        "chinese": "需要调查"
+      },
+      "tokens": {
+        "english": [
+          "re"
+        ],
+        "russian": [
+          "т"
+        ],
+        "chinese": [
+          "需"
+        ]
+      },
+      "numeric": "3",
+      "weight": 1.0
+    }
+  ],
+  "prompt": {
+    "include_target": false,
+    "locales": {
+      "english": {
+        "instruction": "You are a political ethics analyst. Analyze the following sentence describing an action by a politician and classify the severity of the ethical concern.\n",
+        "text_scale": "Respond with one of: Minor Lapse, Conflict of Interest, Requires Investigation.\n",
+        "numerical_scale": "Respond with a single number (1–3).\n1 = Minor Lapse; 2 = Conflict of Interest; 3 = Requires Investigation.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X neglected to disclose a minor gift from a local vendor while voting on an unrelated budget allocation.",
+            "label": "minor_lapse"
+          },
+          {
+            "sentence": "While serving on a regulatory committee, X approved contracts benefiting a company in which they held significant shares.",
+            "label": "conflict_of_interest"
+          },
+          {
+            "sentence": "Reports indicate that X may have directed government contracts to associates under opaque circumstances, prompting calls for inquiry.",
+            "label": "requires_investigation"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — аналитик по политической этике. Проанализируйте следующее предложение, описывающее действия политика, и классифицируйте серьезность этической проблемы.\n",
+        "text_scale": "Ответьте одним из вариантов: Незначительное упущение, Конфликт интересов, Требует расследования.\n",
+        "numerical_scale": "Ответьте одним числом (1–3).\n1 = Незначительное упущение; 2 = Конфликт интересов; 3 = Требует расследования.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X забыл раскрыть незначительный подарок от местного поставщика во время голосования по несвязанному бюджету.",
+            "label": "minor_lapse"
+          },
+          {
+            "sentence": "Работая в регуляторном комитете, X одобрил контракты, выгодные компании, в которой он владел значительной долей акций.",
+            "label": "conflict_of_interest"
+          },
+          {
+            "sentence": "Отчеты указывают, что X мог направлять государственные контракты своим партнерам при непрозрачных обстоятельствах, что требует проверки.",
+            "label": "requires_investigation"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名政治伦理分析师。请分析以下句子中政客的行为，并对伦理问题的严重程度进行分类。\n",
+        "text_scale": "请用以下其中一项回答：轻微失误, 利益冲突, 需要调查。\n",
+        "numerical_scale": "请回复一个数字 (1–3)。\n1 = 轻微失误; 2 = 利益冲突; 3 = 需要调查。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X 在对无关预算分配进行投票时，忽略了披露来自当地供应商的一份小礼物。",
+            "label": "minor_lapse"
+          },
+          {
+            "sentence": "在担任监管委员会成员期间，X 批准了使其持有大量股份的公司受益的合同。",
+            "label": "conflict_of_interest"
+          },
+          {
+            "sentence": "报告指出，X 可能在不透明的情况下将政府合同直接交给相关人士，引发了调查呼声。",
+            "label": "requires_investigation"
+          }
+        ]
+      }
+    }
+  },
+  "generation": {
+    "keywords_file": "data/generation/politicians/misconduct/keywords.csv",
+    "keyword_column": "keyword",
+    "samples_per_label": 350,
+    "keywords_per_prompt": 5,
+    "temperature": 1.2,
+    "top_p": 1.0,
+    "max_tokens": 160,
+    "minimum_keyword_matches": 1,
+    "instruction": "Generate a subtle description of an ethical situation involving politician X whose severity matches the requested label.",
+    "few_shot": [
+      {
+        "keywords": [
+          "X",
+          "disclose",
+          "local",
+          "minor"
+        ],
+        "label": "minor_lapse",
+        "sentence": "X neglected to disclose a minor gift from a local vendor while voting on an unrelated budget allocation."
+      },
+      {
+        "keywords": [
+          "X",
+          "significant",
+          "commit",
+          "serving",
+          "regulatory"
+        ],
+        "label": "conflict_of_interest",
+        "sentence": "While serving on a regulatory committee, X approved contracts benefiting a company in which they held significant shares."
+      },
+      {
+        "keywords": [
+          "X",
+          "indicate",
+          "report",
+          "reports",
+          "directed"
+        ],
+        "label": "requires_investigation",
+        "sentence": "Reports indicate that X may have directed government contracts to associates under opaque circumstances, prompting calls for inquiry."
+      }
+    ]
+  }
+}

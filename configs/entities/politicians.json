@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "politicians",
+  "description": "Politicians used by the generalization audit.",
+  "path": "data/generalization/politicians/entities.csv",
+  "placeholder": "X",
+  "name_columns": {
+    "english": "name",
+    "chinese": "name(zh)",
+    "russian": "name(ru)"
+  }
+}

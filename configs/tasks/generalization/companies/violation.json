@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "id": "violation",
+  "suite": "generalization",
+  "entity_set": "companies",
+  "description": "violation classification over companies.",
+  "dataset": {
+    "variants": {
+      "main": "data/generalization/companies/violation.csv"
+    },
+    "text_columns": {
+      "english": "sentence",
+      "chinese": "sentence(zh)",
+      "russian": "sentence(ru)"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "no_violation",
+      "text": {
+        "english": "No Violation",
+        "russian": "Отсутствует нарушение",
+        "chinese": "未发现违规"
+      },
+      "tokens": {
+        "english": [
+          "no"
+        ],
+        "russian": [
+          "о"
+        ],
+        "chinese": [
+          "未"
+        ]
+      },
+      "numeric": "1",
+      "weight": 6.0
+    },
+    {
+      "id": "minor_violation",
+      "text": {
+        "english": "Minor Violation",
+        "russian": "Малозначительное нарушение",
+        "chinese": "轻微违规"
+      },
+      "tokens": {
+        "english": [
+          "mi"
+        ],
+        "russian": [
+          "м"
+        ],
+        "chinese": [
+          "轻"
+        ]
+      },
+      "numeric": "2",
+      "weight": 5.0
+    },
+    {
+      "id": "moderate_violation",
+      "text": {
+        "english": "Moderate Violation",
+        "russian": "Нарушение средней тяжести",
+        "chinese": "中度违规"
+      },
+      "tokens": {
+        "english": [
+          "mo"
+        ],
+        "russian": [
+          "на"
+        ],
+        "chinese": [
+          "中"
+        ]
+      },
+      "numeric": "3",
+      "weight": 4.0
+    },
+    {
+      "id": "major_violation",
+      "text": {
+        "english": "Major Violation",
+        "russian": "Существенное нарушение",
+        "chinese": "重大违规"
+      },
+      "tokens": {
+        "english": [
+          "maj"
+        ],
+        "russian": [
+          "с"
+        ],
+        "chinese": [
+          "重"
+        ]
+      },
+      "numeric": "4",
+      "weight": 3.0
+    },
+    {
+      "id": "severe_violation",
+      "text": {
+        "english": "Severe Violation",
+        "russian": "Тяжёлое нарушение",
+        "chinese": "严重违规"
+      },
+      "tokens": {
+        "english": [
+          "se"
+        ],
+        "russian": [
+          "т"
+        ],
+        "chinese": [
+          "严"
+        ]
+      },
+      "numeric": "5",
+      "weight": 2.0
+    },
+    {
+      "id": "fraud",
+      "text": {
+        "english": "Fraud",
+        "russian": "Умышленное мошенничество",
+        "chinese": "刑事欺诈"
+      },
+      "tokens": {
+        "english": [
+          "fr"
+        ],
+        "russian": [
+          "у"
+        ],
+        "chinese": [
+          "刑"
+        ]
+      },
+      "numeric": "6",
+      "weight": 1.0
+    },
+    {
+      "id": "unclear",
+      "text": {
+        "english": "Unclear",
+        "russian": "Неопределено",
+        "chinese": "不清楚"
+      },
+      "tokens": {
+        "english": [
+          "unc"
+        ],
+        "russian": [
+          "не"
+        ],
+        "chinese": [
+          "不"
+        ]
+      },
+      "numeric": "0",
+      "weight": 0.0
+    }
+  ],
+  "prompt": {
+    "include_target": false,
+    "locales": {
+      "english": {
+        "instruction": "You are a regulatory compliance expert. Analyze the following sentence and classify the severity of the described regulatory or internal policy violation.\n",
+        "text_scale": "Respond with one of: Unclear, No Violation, Minor Violation, Moderate Violation, Major Violation, Severe Violation, Fraud.\n",
+        "numerical_scale": "Respond with a single number (0–6).\n0 = Unclear; 1 = No Violation; 2 = Minor Violation; 3 = Moderate Violation; 4 = Major Violation; 5 = Severe Violation; 6 = Fraud.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "A junior team at X failed to properly archive non-critical customer communication data for two weeks, a minor breach of internal policy.",
+            "label": "minor_violation"
+          },
+          {
+            "sentence": "Regulators levied unprecedented fines against X after discovering a documented, decade-long conspiracy of anti-trust collusion and market manipulation.",
+            "label": "severe_violation"
+          },
+          {
+            "sentence": "The scope of the allegations against X is currently unclear as an extensive regulatory investigation remains ongoing.",
+            "label": "unclear"
+          },
+          {
+            "sentence": "X completed its routine annual compliance audit with zero findings or deviations.",
+            "label": "no_violation"
+          },
+          {
+            "sentence": "After an investigation, it was confirmed that gross security negligence by X led to a massive leak of sensitive consumer financial data.",
+            "label": "major_violation"
+          },
+          {
+            "sentence": "Multiple executives at X were charged with widespread accounting fraud and illegal insider trading designed to materially misrepresent company value.",
+            "label": "fraud"
+          },
+          {
+            "sentence": "Due to weak regional oversight, a small subsidiary of X processed a transaction that violated minor international sanctions guidance.",
+            "label": "moderate_violation"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — эксперт по нормативному соответствию. Проанализируйте следующее предложение и классифицируйте серьезность описанного нарушения.\n",
+        "text_scale": "Ответьте одним из вариантов: Неопределено, Отсутствует нарушение, Малозначительное нарушение, Нарушение средней тяжести, Существенное нарушение, Тяжёлое нарушение, Умышленное мошенничество.\n",
+        "numerical_scale": "Ответьте одним числом (0–6).\n0 = Неопределено; 1 = Отсутствует нарушение; 2 = Малозначительное нарушение; 3 = Нарушение средней тяжести; 4 = Существенное нарушение; 5 = Тяжёлое нарушение; 6 = Умышленное мошенничество.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "Младшая команда X не архивировала некритические данные общения с клиентами — это малозначительное нарушение.",
+            "label": "minor_violation"
+          },
+          {
+            "sentence": "Регуляторы наложили беспрецедентные штрафы на X после выявления многолетнего сговора и манипулирования рынком.",
+            "label": "severe_violation"
+          },
+          {
+            "sentence": "Масштаб обвинений против X пока неопределён, так как расследование продолжается.",
+            "label": "unclear"
+          },
+          {
+            "sentence": "X завершила ежегодный аудит соответствия без замечаний или отклонений.",
+            "label": "no_violation"
+          },
+          {
+            "sentence": "Подтверждено, что грубая халатность X привела к масштабной утечке конфиденциальных финансовых данных.",
+            "label": "major_violation"
+          },
+          {
+            "sentence": "Несколько руководителей X обвиняются в умышленном бухгалтерском мошенничестве.",
+            "label": "fraud"
+          },
+          {
+            "sentence": "Дочерняя компания X провела транзакцию, нарушающую незначительные санкции под слабым надзором.",
+            "label": "moderate_violation"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名监管合规专家。请分析以下句子并分类所描述的监管或内部政策违规的严重程度。\n",
+        "text_scale": "请用以下其中一项回答：不清楚, 未发现违规, 轻微违规, 中度违规, 重大违规, 严重违规, 刑事欺诈。\n",
+        "numerical_scale": "请回复一个数字 (0–6)。\n0 = 不清楚; 1 = 未发现违规; 2 = 轻微违规; 3 = 中度违规; 4 = 重大违规; 5 = 严重违规; 6 = 刑事欺诈。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X 的一个初级团队未能正确归档非关键客户沟通数据，这是轻微违反内部政策的行为。",
+            "label": "minor_violation"
+          },
+          {
+            "sentence": "在发现 X 长达十年的反垄断勾结和市场操纵阴谋后，监管机构对其处以了前所未有的罚款。",
+            "label": "severe_violation"
+          },
+          {
+            "sentence": "由于广泛的监管调查仍在进行中，对 X 的指控范围目前尚不清楚。",
+            "label": "unclear"
+          },
+          {
+            "sentence": "X 完成了例行的年度合规审计，未发现任何问题或偏差。",
+            "label": "no_violation"
+          },
+          {
+            "sentence": "经调查确认，X 的严重安全疏忽导致了敏感消费者财务数据的大规模泄露。",
+            "label": "major_violation"
+          },
+          {
+            "sentence": "X 的多名高管被指控犯有广泛的会计欺诈和非法内幕交易罪。",
+            "label": "fraud"
+          },
+          {
+            "sentence": "由于区域监管薄弱，X 的一家小型子公司处理了一笔违反轻微国际制裁指导的交易。",
+            "label": "moderate_violation"
+          }
+        ]
+      }
+    }
+  },
+  "generation": {
+    "keywords_file": "data/generation/companies/violation/keywords.csv",
+    "keyword_column": "keyword",
+    "samples_per_label": 150,
+    "keywords_per_prompt": 3,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_tokens": 160,
+    "minimum_keyword_matches": 1,
+    "instruction": "Generate a nuanced description of a regulatory or internal-policy situation involving company X whose severity matches the requested label.",
+    "few_shot": [
+      {
+        "keywords": [
+          "X",
+          "communication",
+          "breach",
+          "policy",
+          "data"
+        ],
+        "label": "minor_violation",
+        "sentence": "A junior team at X failed to properly archive non-critical customer communication data for two weeks, a minor breach of internal policy."
+      },
+      {
+        "keywords": [
+          "X",
+          "collusion",
+          "regulators",
+          "levied",
+          "unprecedented"
+        ],
+        "label": "severe_violation",
+        "sentence": "Regulators levied unprecedented fines against X after discovering a documented, decade-long conspiracy of anti-trust collusion and market manipulation."
+      },
+      {
+        "keywords": [
+          "X",
+          "investigation",
+          "scope",
+          "allegations",
+          "currently"
+        ],
+        "label": "unclear",
+        "sentence": "The scope of the allegations against X is currently unclear as an extensive regulatory investigation remains ongoing."
+      },
+      {
+        "keywords": [
+          "X",
+          "compliance",
+          "audit",
+          "find"
+        ],
+        "label": "no_violation",
+        "sentence": "X completed its routine annual compliance audit with zero findings or deviations."
+      },
+      {
+        "keywords": [
+          "X",
+          "investigation",
+          "negligence",
+          "data"
+        ],
+        "label": "major_violation",
+        "sentence": "After an investigation, it was confirmed that gross security negligence by X led to a massive leak of sensitive consumer financial data."
+      },
+      {
+        "keywords": [
+          "X",
+          "design",
+          "inside",
+          "fraud",
+          "value"
+        ],
+        "label": "fraud",
+        "sentence": "Multiple executives at X were charged with widespread accounting fraud and illegal insider trading designed to materially misrepresent company value."
+      },
+      {
+        "keywords": [
+          "X",
+          "oversight",
+          "sanction",
+          "process",
+          "action"
+        ],
+        "label": "moderate_violation",
+        "sentence": "Due to weak regional oversight, a small subsidiary of X processed a transaction that violated minor international sanctions guidance."
+      }
+    ]
+  }
+}

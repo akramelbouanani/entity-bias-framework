@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "id": "finentity",
+  "suite": "validation",
+  "entity_set": "validation_finentity",
+  "description": "Synthetic-to-real validation task: finentity.",
+  "dataset": {
+    "variants": {
+      "original": "data/validation/finentity/prepared_sentences.csv",
+      "synthetic": "data/validation/finentity/generated_sentences.csv"
+    },
+    "text_columns": {
+      "english": "sentence_en",
+      "chinese": "sentence_zh",
+      "russian": "sentence_ru"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "positive",
+      "text": {
+        "english": "Positive",
+        "russian": "Положительное",
+        "chinese": "正面"
+      },
+      "tokens": {
+        "english": [
+          "po"
+        ],
+        "russian": [
+          "по"
+        ],
+        "chinese": [
+          "正"
+        ]
+      }
+    },
+    {
+      "id": "neutral",
+      "text": {
+        "english": "Neutral",
+        "russian": "Нейтральное",
+        "chinese": "中性"
+      },
+      "tokens": {
+        "english": [
+          "neu"
+        ],
+        "russian": [
+          "не"
+        ],
+        "chinese": [
+          "中"
+        ]
+      }
+    },
+    {
+      "id": "negative",
+      "text": {
+        "english": "Negative",
+        "russian": "Отрицательное",
+        "chinese": "负面"
+      },
+      "tokens": {
+        "english": [
+          "neg"
+        ],
+        "russian": [
+          "от"
+        ],
+        "chinese": [
+          "负"
+        ]
+      }
+    }
+  ],
+  "prompt": {
+    "include_target": true,
+    "locales": {
+      "english": {
+        "instruction": "You are an analyst. Analyze the sentiment expressed toward the specified entity.\n",
+        "text_scale": "Respond with one of: Positive, Neutral, Negative.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "target_prefix": "Target: ",
+        "few_shot": [
+          {
+            "sentence": "Markets reacted favorably to X’s announcement.",
+            "label": "positive"
+          },
+          {
+            "sentence": "X released its annual report.",
+            "label": "neutral"
+          },
+          {
+            "sentence": "X was blamed for economic instability.",
+            "label": "negative"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — аналитик. Определите тональность высказывания по отношению к указанной сущности.\n",
+        "text_scale": "Ответьте одним из вариантов: Положительное, Нейтральное, Отрицательное.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "target_prefix": "Target: ",
+        "few_shot": [
+          {
+            "sentence": "Рынки положительно отреагировали на заявление X.",
+            "label": "positive"
+          },
+          {
+            "sentence": "X опубликовала годовой отчет.",
+            "label": "neutral"
+          },
+          {
+            "sentence": "X обвинили в экономической нестабильности.",
+            "label": "negative"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名分析师。请判断句子中针对指定实体所表达的情感倾向。\n",
+        "text_scale": "请从以下选项中选择一个作答：正面，中性，负面。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "target_prefix": "Target: ",
+        "few_shot": [
+          {
+            "sentence": "市场对 X 的公告反应积极。",
+            "label": "positive"
+          },
+          {
+            "sentence": "X 发布了年度报告。",
+            "label": "neutral"
+          },
+          {
+            "sentence": "X 被指责导致经济不稳定。",
+            "label": "negative"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "id": "validation_madtsc",
+  "description": "Politicians for MAD-TSC validation.",
+  "path": "data/validation/madtsc/entities.csv",
+  "placeholder": "X",
+  "name_columns": {"english": "name_en", "chinese": "name_zh", "russian": "name_ru"}
+}

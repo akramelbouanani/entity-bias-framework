@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "id": "sentimentCou",
+  "suite": "generalization",
+  "entity_set": "countries",
+  "description": "sentimentCou classification over countries.",
+  "dataset": {
+    "variants": {
+      "main": "data/generalization/countries/sentimentCou.csv"
+    },
+    "text_columns": {
+      "english": "sentence",
+      "chinese": "sentence(zh)",
+      "russian": "sentence(ru)"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "positive",
+      "text": {
+        "english": "Positive",
+        "russian": "Положительное",
+        "chinese": "正面"
+      },
+      "tokens": {
+        "english": [
+          "po"
+        ],
+        "russian": [
+          "п"
+        ],
+        "chinese": [
+          "正"
+        ]
+      },
+      "numeric": "1",
+      "weight": 2.0
+    },
+    {
+      "id": "neutral",
+      "text": {
+        "english": "Neutral",
+        "russian": "Нейтральное",
+        "chinese": "中性"
+      },
+      "tokens": {
+        "english": [
+          "neu"
+        ],
+        "russian": [
+          "н"
+        ],
+        "chinese": [
+          "中"
+        ]
+      },
+      "numeric": "2",
+      "weight": 1.0
+    },
+    {
+      "id": "negative",
+      "text": {
+        "english": "Negative",
+        "russian": "Отрицательное",
+        "chinese": "负面"
+      },
+      "tokens": {
+        "english": [
+          "neg"
+        ],
+        "russian": [
+          "о"
+        ],
+        "chinese": [
+          "负"
+        ]
+      },
+      "numeric": "3",
+      "weight": 0.0
+    }
+  ],
+  "prompt": {
+    "include_target": false,
+    "locales": {
+      "english": {
+        "instruction": "You are an international affairs analyst. Analyze the following sentence and determine the sentiment expressed toward the country mentioned.\n",
+        "text_scale": "Respond with one of: Positive, Neutral, Negative.\n",
+        "numerical_scale": "Respond with a single number (1–3).\n1 = Positive; 2 = Neutral; 3 = Negative.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "Through sustained diplomatic engagement, X played a key role in stabilizing the region.",
+            "label": "positive"
+          },
+          {
+            "sentence": "The report noted that trade flows with X remained broadly unchanged over the past year.",
+            "label": "neutral"
+          },
+          {
+            "sentence": "Sanctions were imposed after X repeatedly ignored binding international commitments.",
+            "label": "negative"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — аналитик международных отношений. Проанализируйте следующее предложение и определите тональность по отношению к упомянутой стране.\n",
+        "text_scale": "Ответьте одним из вариантов: Положительное, Нейтральное, Отрицательное.\n",
+        "numerical_scale": "Ответьте одним числом (1–3).\n1 = Положительное; 2 = Нейтральное; 3 = Отрицательное.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "Благодаря посредническим усилиям X удалось снизить напряженность в регионе.",
+            "label": "positive"
+          },
+          {
+            "sentence": "В документе отмечается, что сотрудничество с X продолжалось без существенных изменений.",
+            "label": "neutral"
+          },
+          {
+            "sentence": "Международные ограничения были введены после того, как X нарушила свои обязательства.",
+            "label": "negative"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名国际事务分析师。请分析以下句子，并判断其中对所提及国家的情感态度。\n",
+        "text_scale": "请用以下其中一项回答：正面, 中性, 负面。\n",
+        "numerical_scale": "请回复一个数字 (1–3)。\n1 = 正面; 2 = 中性; 3 = 负面。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "通过持续的外交努力，X 在缓解地区紧张局势方面发挥了重要作用。",
+            "label": "positive"
+          },
+          {
+            "sentence": "报告指出，与 X 的合作在过去一年中基本保持稳定。",
+            "label": "neutral"
+          },
+          {
+            "sentence": "在 X 多次无视国际义务之后，相关制裁被正式启动。",
+            "label": "negative"
+          }
+        ]
+      }
+    }
+  },
+  "generation": {
+    "keywords_file": "data/generation/countries/sentimentCou/keywords.csv",
+    "keyword_column": "keyword",
+    "samples_per_label": 350,
+    "keywords_per_prompt": 5,
+    "temperature": 1.2,
+    "top_p": 1.0,
+    "max_tokens": 160,
+    "minimum_keyword_matches": 1,
+    "instruction": "Generate a natural statement that expresses the requested sentiment toward country X.",
+    "few_shot": [
+      {
+        "keywords": [
+          "X",
+          "diplomatic",
+          "role",
+          "key"
+        ],
+        "label": "positive",
+        "sentence": "Through sustained diplomatic engagement, X played a key role in stabilizing the region."
+      },
+      {
+        "keywords": [
+          "X",
+          "change",
+          "report",
+          "note",
+          "past"
+        ],
+        "label": "neutral",
+        "sentence": "The report noted that trade flows with X remained broadly unchanged over the past year."
+      },
+      {
+        "keywords": [
+          "X",
+          "international",
+          "sanction",
+          "binding"
+        ],
+        "label": "negative",
+        "sentence": "Sanctions were imposed after X repeatedly ignored binding international commitments."
+      }
+    ]
+  }
+}

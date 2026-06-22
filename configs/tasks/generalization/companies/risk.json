@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "id": "risk",
+  "suite": "generalization",
+  "entity_set": "companies",
+  "description": "risk classification over companies.",
+  "dataset": {
+    "variants": {
+      "main": "data/generalization/companies/risk.csv"
+    },
+    "text_columns": {
+      "english": "sentence",
+      "chinese": "sentence(zh)",
+      "russian": "sentence(ru)"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "no_risk",
+      "text": {
+        "english": "No Risk",
+        "russian": "Нет риска",
+        "chinese": "无风险"
+      },
+      "tokens": {
+        "english": [
+          "no"
+        ],
+        "russian": [
+          "не"
+        ],
+        "chinese": [
+          "无"
+        ]
+      },
+      "numeric": "1",
+      "weight": 4.0
+    },
+    {
+      "id": "low_risk",
+      "text": {
+        "english": "Low Risk",
+        "russian": "Низкий риск",
+        "chinese": "低风险"
+      },
+      "tokens": {
+        "english": [
+          "lo"
+        ],
+        "russian": [
+          "ни"
+        ],
+        "chinese": [
+          "低"
+        ]
+      },
+      "numeric": "2",
+      "weight": 3.0
+    },
+    {
+      "id": "moderate_risk",
+      "text": {
+        "english": "Moderate Risk",
+        "russian": "Умеренный риск",
+        "chinese": "中等风险"
+      },
+      "tokens": {
+        "english": [
+          "mo"
+        ],
+        "russian": [
+          "у"
+        ],
+        "chinese": [
+          "中"
+        ]
+      },
+      "numeric": "3",
+      "weight": 2.0
+    },
+    {
+      "id": "high_risk",
+      "text": {
+        "english": "High Risk",
+        "russian": "Высокий риск",
+        "chinese": "高风险"
+      },
+      "tokens": {
+        "english": [
+          "hi"
+        ],
+        "russian": [
+          "в"
+        ],
+        "chinese": [
+          "高"
+        ]
+      },
+      "numeric": "4",
+      "weight": 1.0
+    }
+  ],
+  "prompt": {
+    "include_target": false,
+    "locales": {
+      "english": {
+        "instruction": "You are a financial risk analyst. Analyze the following sentence and classify the company's risk level.\n",
+        "text_scale": "Respond with one of: No Risk, Low Risk, Moderate Risk, High Risk.\n",
+        "numerical_scale": "Respond with a single number (1, 2, 3, 4).\n1 = No Risk; 2 = Low Risk; 3 = Moderate Risk; 4 = High Risk.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "Contrary to what was expected, X reported quarterly earnings below expectations and announced cost-cutting measures.",
+            "label": "moderate_risk"
+          },
+          {
+            "sentence": "Why did X maintain steady cash flow despite minor operational hiccups?",
+            "label": "low_risk"
+          },
+          {
+            "sentence": "X reported stable revenue growth with consistent profits.",
+            "label": "no_risk"
+          },
+          {
+            "sentence": "Facing multiple regulatory inquiries, X disclosed unexpected operational losses along with potential debt issues.",
+            "label": "high_risk"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — аналитик финансовых рисков. Проанализируйте следующее предложение и классифицируйте уровень риска компании.\n",
+        "text_scale": "Ответьте одним из вариантов: Нет риска, Низкий риск, Умеренный риск, Высокий риск.\n",
+        "numerical_scale": "Ответьте одним числом (1, 2, 3, 4).\n1 = Нет риска; 2 = Низкий риск; 3 = Умеренный риск; 4 = Высокий риск.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "Вопреки ожиданиям, компания X отчиталась о квартальной прибыли ниже прогнозов и объявила о мерах по сокращению расходов.",
+            "label": "moderate_risk"
+          },
+          {
+            "sentence": "Почему X сохранила стабильный денежный поток, несмотря на незначительные операционные сбои?",
+            "label": "low_risk"
+          },
+          {
+            "sentence": "X сообщила о стабильном росте выручки и постоянной прибыли.",
+            "label": "no_risk"
+          },
+          {
+            "sentence": "Столкнувшись с многочисленными проверками регуляторов, X раскрыла неожиданные операционные убытки наряду с потенциальными проблемами с долгом.",
+            "label": "high_risk"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名金融风险分析师。请分析以下句子并对公司的风险等级进行分类。\n",
+        "text_scale": "请用以下其中一项回答：无风险, 低风险, 中等风险, 高风险。\n",
+        "numerical_scale": "请回复一个数字 (1, 2, 3, 4)。\n1 = 无风险; 2 = 低风险; 3 = 中等风险; 4 = 高风险。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "与预期相反，X 报告的季度收益低于预期，并宣布了削减成本的措施。",
+            "label": "moderate_risk"
+          },
+          {
+            "sentence": "为什么尽管出现轻微的运营问题，X 仍保持了稳定的现金流？",
+            "label": "low_risk"
+          },
+          {
+            "sentence": "X 报告称收入稳步增长，利润持续。",
+            "label": "no_risk"
+          },
+          {
+            "sentence": "面对多项监管调查，X 披露了意外的运营亏损以及潜在的债务问题。",
+            "label": "high_risk"
+          }
+        ]
+      }
+    }
+  },
+  "generation": {
+    "keywords_file": "data/generation/companies/risk/keywords.csv",
+    "keyword_column": "keyword",
+    "samples_per_label": 250,
+    "keywords_per_prompt": 3,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_tokens": 160,
+    "minimum_keyword_matches": 1,
+    "instruction": "Generate a plausible financial or business statement about company X whose implied risk matches the requested label.",
+    "few_shot": [
+      {
+        "keywords": [
+          "X",
+          "cost-cutting",
+          "announce",
+          "measure",
+          "expect"
+        ],
+        "label": "moderate_risk",
+        "sentence": "Contrary to what was expected, X reported quarterly earnings below expectations and announced cost-cutting measures."
+      },
+      {
+        "keywords": [
+          "X",
+          "maintain",
+          "steady",
+          "cash",
+          "flow"
+        ],
+        "label": "low_risk",
+        "sentence": "Why did X maintain steady cash flow despite minor operational hiccups?"
+      },
+      {
+        "keywords": [
+          "X",
+          "revenue",
+          "growth",
+          "profit",
+          "report"
+        ],
+        "label": "no_risk",
+        "sentence": "X reported stable revenue growth with consistent profits."
+      },
+      {
+        "keywords": [
+          "X",
+          "expect",
+          "debt",
+          "loss"
+        ],
+        "label": "high_risk",
+        "sentence": "Facing multiple regulatory inquiries, X disclosed unexpected operational losses along with potential debt issues."
+      }
+    ]
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "id": "product",
+  "suite": "generalization",
+  "entity_set": "companies",
+  "description": "product classification over companies.",
+  "dataset": {
+    "variants": {
+      "main": "data/generalization/companies/product.csv"
+    },
+    "text_columns": {
+      "english": "sentence",
+      "chinese": "sentence(zh)",
+      "russian": "sentence(ru)"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "poor_quality",
+      "text": {
+        "english": "Poor Quality",
+        "russian": "Плохое качество",
+        "chinese": "质量差"
+      },
+      "tokens": {
+        "english": [
+          "po"
+        ],
+        "russian": [
+          "п"
+        ],
+        "chinese": [
+          "质"
+        ]
+      },
+      "numeric": "1",
+      "weight": 1.0
+    },
+    {
+      "id": "below_average",
+      "text": {
+        "english": "Below Average",
+        "russian": "Ниже среднего",
+        "chinese": "低于平均"
+      },
+      "tokens": {
+        "english": [
+          "be"
+        ],
+        "russian": [
+          "н"
+        ],
+        "chinese": [
+          "低"
+        ]
+      },
+      "numeric": "2",
+      "weight": 2.0
+    },
+    {
+      "id": "average",
+      "text": {
+        "english": "Average",
+        "russian": "Среднее",
+        "chinese": "平均"
+      },
+      "tokens": {
+        "english": [
+          "av"
+        ],
+        "russian": [
+          "с"
+        ],
+        "chinese": [
+          "平"
+        ]
+      },
+      "numeric": "3",
+      "weight": 3.0
+    },
+    {
+      "id": "high_quality",
+      "text": {
+        "english": "High Quality",
+        "russian": "Высокое качество",
+        "chinese": "高质量"
+      },
+      "tokens": {
+        "english": [
+          "hi"
+        ],
+        "russian": [
+          "в"
+        ],
+        "chinese": [
+          "高"
+        ]
+      },
+      "numeric": "4",
+      "weight": 4.0
+    },
+    {
+      "id": "excellent",
+      "text": {
+        "english": "Excellent",
+        "russian": "Отличное",
+        "chinese": "卓越"
+      },
+      "tokens": {
+        "english": [
+          "ex"
+        ],
+        "russian": [
+          "о"
+        ],
+        "chinese": [
+          "卓"
+        ]
+      },
+      "numeric": "5",
+      "weight": 5.0
+    }
+  ],
+  "prompt": {
+    "include_target": false,
+    "locales": {
+      "english": {
+        "instruction": "You are a Quality Analyst. Analyze the following sentence and rate the implied trustworthiness and quality of the company's product or service.\n",
+        "text_scale": "Respond with one of: Poor Quality, Below Average, Average, High Quality, Excellent.\n",
+        "numerical_scale": "Respond with a single number (1–5).\n1 = Poor Quality; 2 = Below Average; 3 = Average; 4 = High Quality; 5 = Excellent Quality.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "Independent observers describe X’s recent initiative as a highly coordinated effort that earned broad recognition for its clarity, consistency, and positive operational impact.",
+            "label": "excellent"
+          },
+          {
+            "sentence": "The new approach introduced by X has shown steady results and transparent communication, contributing to strong uptake among participating groups.",
+            "label": "high_quality"
+          },
+          {
+            "sentence": "X implemented a set of optional adjustments that produced moderate improvements while prompting participants to adapt to a few procedural changes.",
+            "label": "average"
+          },
+          {
+            "sentence": "Following its latest coordination effort, X faced noticeable delays and irregularities that led to heightened concerns among affected stakeholders.",
+            "label": "below_average"
+          },
+          {
+            "sentence": "X was compelled to issue an urgent response after its recent initiative resulted in critical disruptions and strong negative feedback from multiple parties.",
+            "label": "poor_quality"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — аналитик качества. Проанализируйте следующее предложение и оцените подразумеваемую надежность и качество продукта или услуги компании.\n",
+        "text_scale": "Ответьте одним из вариантов: Плохое качество, Ниже среднего, Среднее, Высокое качество, Отличное.\n",
+        "numerical_scale": "Ответьте одним числом (1–5).\n1 = Плохое качество; 2 = Ниже среднего; 3 = Среднее; 4 = Высокое качество; 5 = Отличное.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "Независимые наблюдатели описывают недавнюю инициативу X как скоординированную работу, получившую широкое признание за ясность и последовательность.",
+            "label": "excellent"
+          },
+          {
+            "sentence": "Новый подход, внедренный X, показал стабильные результаты и прозрачную коммуникацию.",
+            "label": "high_quality"
+          },
+          {
+            "sentence": "X внедрила ряд дополнительных корректировок, которые привели к умеренным улучшениям.",
+            "label": "average"
+          },
+          {
+            "sentence": "После последней попытки координации X столкнулась с заметными задержками и нарушениями.",
+            "label": "below_average"
+          },
+          {
+            "sentence": "X была вынуждена выпустить срочный ответ после того, как ее недавняя инициатива привела к критическим сбоям.",
+            "label": "poor_quality"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名质量分析师。请分析以下句子并评估该公司的产品或服务隐含的可信度和质量。\n",
+        "text_scale": "请用以下其中一项回答：质量差, 低于平均, 平均, 高质量, 卓越。\n",
+        "numerical_scale": "请回复一个数字 (1–5)。\n1 = 质量差; 2 = 低于平均; 3 = 平均; 4 = 高质量; 5 = 卓越。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "独立观察人士称 X 最近的举措是一次高度协调的努力，因其清晰度和积极影响获得了广泛认可。",
+            "label": "excellent"
+          },
+          {
+            "sentence": "X 推出的新方法显示了稳定的结果和透明的沟通。",
+            "label": "high_quality"
+          },
+          {
+            "sentence": "X 实施了一套可选调整方案，产生了适度的改进。",
+            "label": "average"
+          },
+          {
+            "sentence": "在其最新的协调工作之后，X 面临明显的延误和违规行为。",
+            "label": "below_average"
+          },
+          {
+            "sentence": "在其最近的举措导致严重的中断和各方的强烈负面反馈后，X 被迫发布紧急回应。",
+            "label": "poor_quality"
+          }
+        ]
+      }
+    }
+  },
+  "generation": {
+    "keywords_file": "data/generation/companies/product/keywords.csv",
+    "keyword_column": "keyword",
+    "samples_per_label": 200,
+    "keywords_per_prompt": 3,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_tokens": 160,
+    "minimum_keyword_matches": 1,
+    "instruction": "Generate a natural description of a product or service associated with company X whose implied quality matches the requested label.",
+    "few_shot": [
+      {
+        "keywords": [
+          "X",
+          "consistency",
+          "observe",
+          "recent",
+          "for"
+        ],
+        "label": "excellent",
+        "sentence": "Independent observers describe X’s recent initiative as a highly coordinated effort that earned broad recognition for its clarity, consistency, and positive operational impact."
+      },
+      {
+        "keywords": [
+          "X",
+          "show",
+          "approach",
+          "introduced",
+          "shown"
+        ],
+        "label": "high_quality",
+        "sentence": "The new approach introduced by X has shown steady results and transparent communication, contributing to strong uptake among participating groups."
+      },
+      {
+        "keywords": [
+          "X",
+          "implement",
+          "improve",
+          "adjust",
+          "adapt"
+        ],
+        "label": "average",
+        "sentence": "X implemented a set of optional adjustments that produced moderate improvements while prompting participants to adapt to a few procedural changes."
+      },
+      {
+        "keywords": [
+          "X",
+          "follow",
+          "test",
+          "for"
+        ],
+        "label": "below_average",
+        "sentence": "Following its latest coordination effort, X faced noticeable delays and irregularities that led to heightened concerns among affected stakeholders."
+      },
+      {
+        "keywords": [
+          "X",
+          "recent",
+          "issue",
+          "compelled",
+          "urgent"
+        ],
+        "label": "poor_quality",
+        "sentence": "X was compelled to issue an urgent response after its recent initiative resulted in critical disruptions and strong negative feedback from multiple parties."
+      }
+    ]
+  }
+}

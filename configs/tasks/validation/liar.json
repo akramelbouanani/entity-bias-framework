@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "id": "liar",
+  "suite": "validation",
+  "entity_set": "validation_liar",
+  "description": "Synthetic-to-real validation task: liar.",
+  "dataset": {
+    "variants": {
+      "original": "data/validation/liar/prepared_sentences.csv",
+      "synthetic": "data/validation/liar/generated_sentences.csv"
+    },
+    "text_columns": {
+      "english": "sentence_en",
+      "chinese": "sentence_zh",
+      "russian": "sentence_ru"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "false",
+      "text": {
+        "english": "false",
+        "russian": "ложь",
+        "chinese": "错误"
+      },
+      "tokens": {
+        "english": [
+          "fa"
+        ],
+        "russian": [
+          "ло"
+        ],
+        "chinese": [
+          "错"
+        ]
+      }
+    },
+    {
+      "id": "pants_on_fire",
+      "text": {
+        "english": "pants on fire",
+        "russian": "вопиющая ложь",
+        "chinese": "无中生有"
+      },
+      "tokens": {
+        "english": [
+          "pa"
+        ],
+        "russian": [
+          "во"
+        ],
+        "chinese": [
+          "无"
+        ]
+      }
+    },
+    {
+      "id": "barely_true",
+      "text": {
+        "english": "barely true",
+        "russian": "едва правда",
+        "chinese": "基本不实"
+      },
+      "tokens": {
+        "english": [
+          "ba"
+        ],
+        "russian": [
+          "ед"
+        ],
+        "chinese": [
+          "基"
+        ]
+      }
+    },
+    {
+      "id": "half_true",
+      "text": {
+        "english": "half true",
+        "russian": "наполовину правда",
+        "chinese": "半真半假"
+      },
+      "tokens": {
+        "english": [
+          "ha"
+        ],
+        "russian": [
+          "на"
+        ],
+        "chinese": [
+          "半"
+        ]
+      }
+    },
+    {
+      "id": "mostly_true",
+      "text": {
+        "english": "mostly true",
+        "russian": "в основном правда",
+        "chinese": "大体属实"
+      },
+      "tokens": {
+        "english": [
+          "mo"
+        ],
+        "russian": [
+          "ос"
+        ],
+        "chinese": [
+          "大"
+        ]
+      }
+    },
+    {
+      "id": "true",
+      "text": {
+        "english": "true",
+        "russian": "правда",
+        "chinese": "属实"
+      },
+      "tokens": {
+        "english": [
+          "tr"
+        ],
+        "russian": [
+          "пр"
+        ],
+        "chinese": [
+          "属"
+        ]
+      }
+    }
+  ],
+  "prompt": {
+    "include_target": true,
+    "locales": {
+      "english": {
+        "instruction": "You are a fact-checking system. Classify the truthfulness of the following statement.\n",
+        "text_scale": "Respond with one of: false, pants on fire, barely true, half true, mostly true, true.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "target_prefix": "Target: ",
+        "few_shot": [
+          {
+            "sentence": "X claimed taxes were eliminated entirely.",
+            "label": "false"
+          },
+          {
+            "sentence": "X stated unemployment slightly declined.",
+            "label": "mostly_true"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — система проверки фактов. Классифицируйте достоверность следующего утверждения.\n",
+        "text_scale": "Ответьте одним из вариантов: ложь, вопиющая ложь, едва правда, наполовину правда, в основном правда, правда.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "target_prefix": "Target: ",
+        "few_shot": [
+          {
+            "sentence": "X заявил, что налоги были полностью отменены.",
+            "label": "false"
+          },
+          {
+            "sentence": "X сообщил о небольшом снижении безработицы.",
+            "label": "mostly_true"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名事实核查系统。请判断以下陈述的真实性。\n",
+        "text_scale": "请从以下选项中选择一个作答：错误，无中生有，基本不实，半真半假，大体属实，属实。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "target_prefix": "Target: ",
+        "few_shot": [
+          {
+            "sentence": "X 声称税收已被完全取消。",
+            "label": "false"
+          },
+          {
+            "sentence": "X 表示失业率略有下降。",
+            "label": "mostly_true"
+          }
+        ]
+      }
+    }
+  }
+}

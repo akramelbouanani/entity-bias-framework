@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "companies",
+  "description": "Companies used by the generalization audit.",
+  "path": "data/generalization/companies/entities.csv",
+  "placeholder": "X",
+  "name_columns": {
+    "english": "name",
+    "chinese": "name(zh)",
+    "russian": "name(ru)"
+  }
+}

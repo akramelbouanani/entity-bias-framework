@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/entity-bias-audit/analysis.schema.json",
+  "title": "Entity bias audit analysis configuration",
+  "type": "object",
+  "required": ["schema_version", "entity_sets"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "language_labels": {
+      "type": "object",
+      "additionalProperties": {"type": "string"}
+    },
+    "setting_labels": {
+      "type": "object",
+      "additionalProperties": {"type": "string"}
+    },
+    "task_labels": {
+      "type": "object",
+      "additionalProperties": {"type": "string"}
+    },
+    "entity_sets": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["category_column"],
+        "properties": {
+          "title": {"type": "string"},
+          "category_column": {"type": "string", "minLength": 1},
+          "category_order": {
+            "type": "array",
+            "items": {"type": "string"},
+            "uniqueItems": true
+          },
+          "category_labels": {
+            "type": "object",
+            "additionalProperties": {"type": "string"}
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

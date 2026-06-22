@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "id": "sentimentP",
+  "suite": "generalization",
+  "entity_set": "politicians",
+  "description": "sentimentP classification over politicians.",
+  "dataset": {
+    "variants": {
+      "main": "data/generalization/politicians/sentimentP.csv"
+    },
+    "text_columns": {
+      "english": "sentence",
+      "chinese": "sentence(zh)",
+      "russian": "sentence(ru)"
+    },
+    "label_column": "label"
+  },
+  "labels": [
+    {
+      "id": "positive",
+      "text": {
+        "english": "Positive",
+        "russian": "Положительный",
+        "chinese": "正面"
+      },
+      "tokens": {
+        "english": [
+          "po"
+        ],
+        "russian": [
+          "п"
+        ],
+        "chinese": [
+          "正"
+        ]
+      },
+      "numeric": "1",
+      "weight": 2.0
+    },
+    {
+      "id": "neutral",
+      "text": {
+        "english": "Neutral",
+        "russian": "Нейтральный",
+        "chinese": "中立"
+      },
+      "tokens": {
+        "english": [
+          "neu"
+        ],
+        "russian": [
+          "н"
+        ],
+        "chinese": [
+          "中"
+        ]
+      },
+      "numeric": "2",
+      "weight": 1.0
+    },
+    {
+      "id": "negative",
+      "text": {
+        "english": "Negative",
+        "russian": "Отрицательный",
+        "chinese": "负面"
+      },
+      "tokens": {
+        "english": [
+          "neg"
+        ],
+        "russian": [
+          "о"
+        ],
+        "chinese": [
+          "负"
+        ]
+      },
+      "numeric": "3",
+      "weight": 0.0
+    }
+  ],
+  "prompt": {
+    "include_target": false,
+    "locales": {
+      "english": {
+        "instruction": "You are a political sentiment analyst. Analyze the following sentence and determine the sentiment towards the politician mentioned.\n",
+        "text_scale": "Respond with one of: Positive, Neutral, Negative.\n",
+        "numerical_scale": "Respond with a single number (1–3).\n1 = Positive; 2 = Neutral; 3 = Negative.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X championed the bill that saved thousands of jobs, earning praise from unions and local families.",
+            "label": "positive"
+          },
+          {
+            "sentence": "The committee will meet on Tuesday to discuss the upcoming fiscal budget, X suggested.",
+            "label": "neutral"
+          },
+          {
+            "sentence": "There was heavy criticism towards X for ignoring the needs of the working class during the crisis.",
+            "label": "negative"
+          }
+        ]
+      },
+      "russian": {
+        "instruction": "Вы — политический аналитик настроений. Проанализируйте следующее предложение и определите настроение по отношению к упомянутому политику.\n",
+        "text_scale": "Ответьте одним из вариантов: Положительный, Нейтральный, Отрицательный.\n",
+        "numerical_scale": "Ответьте одним числом (1–3).\n1 = Положительный; 2 = Нейтральный; 3 = Отрицательный.\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X отстоял законопроект, который спас тысячи рабочих мест, заслужив похвалу профсоюзов и местных семей.",
+            "label": "positive"
+          },
+          {
+            "sentence": "Комитет соберется во вторник для обсуждения предстоящего бюджета, как заявил X.",
+            "label": "neutral"
+          },
+          {
+            "sentence": "X подвергся резкой критике за игнорирование нужд рабочего класса во время кризиса.",
+            "label": "negative"
+          }
+        ]
+      },
+      "chinese": {
+        "instruction": "你是一名政治情感分析师。请分析以下句子，并判断针对所提及政客的情感倾向。\n",
+        "text_scale": "请用以下其中一项回答：正面, 中立, 负面。\n",
+        "numerical_scale": "请回复一个数字 (1–3)。\n1 = 正面; 2 = 中立; 3 = 负面。\n",
+        "sentence_prefix": "Sentence: ",
+        "label_prefix": "Label: ",
+        "few_shot": [
+          {
+            "sentence": "X 支持了这项挽救了数千个工作岗位的法案，赢得了工会和当地家庭的赞扬。",
+            "label": "positive"
+          },
+          {
+            "sentence": "X 表示委员会将于周二开会讨论即将到来的财政预算。",
+            "label": "neutral"
+          },
+          {
+            "sentence": "X 因在危机期间忽视工薪阶层的需求而受到严厉批评。",
+            "label": "negative"
+          }
+        ]
+      }
+    }
+  },
+  "generation": {
+    "keywords_file": "data/generation/politicians/sentimentP/keywords.csv",
+    "keyword_column": "keyword",
+    "samples_per_label": 350,
+    "keywords_per_prompt": 5,
+    "temperature": 1.2,
+    "top_p": 1.0,
+    "max_tokens": 160,
+    "minimum_keyword_matches": 1,
+    "instruction": "Generate a natural statement that expresses the requested sentiment toward politician X.",
+    "few_shot": [
+      {
+        "keywords": [
+          "X",
+          "local",
+          "championed",
+          "bill",
+          "saved"
+        ],
+        "label": "positive",
+        "sentence": "X championed the bill that saved thousands of jobs, earning praise from unions and local families."
+      },
+      {
+        "keywords": [
+          "X",
+          "committee",
+          "suggest",
+          "meet",
+          "tuesday"
+        ],
+        "label": "neutral",
+        "sentence": "The committee will meet on Tuesday to discuss the upcoming fiscal budget, X suggested."
+      },
+      {
+        "keywords": [
+          "X",
+          "crisis",
+          "need",
+          "work",
+          "for"
+        ],
+        "label": "negative",
+        "sentence": "There was heavy criticism towards X for ignoring the needs of the working class during the crisis."
+      }
+    ]
+  }
+}

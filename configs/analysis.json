@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "language_labels": {
+    "en": "English",
+    "ru": "Russian",
+    "zh": "Chinese"
+  },
+  "setting_labels": {
+    "1": "ZS-Text",
+    "2": "FS-Text",
+    "3": "ZS-Num",
+    "4": "FS-Num"
+  },
+  "task_labels": {
+    "product": "Product",
+    "risk": "Risk",
+    "sentimentCom": "Sentiment",
+    "violation": "Violation",
+    "credibility": "Credibility",
+    "law": "Law",
+    "sentimentCou": "Sentiment",
+    "urgency": "Urgency",
+    "intent": "Intent",
+    "leadership": "Leadership",
+    "misconduct": "Misconduct",
+    "sentimentP": "Sentiment"
+  },
+  "entity_sets": {
+    "politicians": {
+      "title": "Politicians (Alignment)",
+      "category_column": "Grouped Alignment",
+      "category_order": ["FL", "LL", "CL", "CC", "CR", "RR", "FR"],
+      "category_labels": {
+        "FL": "Far-Left",
+        "LL": "Left",
+        "CL": "Center-Left",
+        "CC": "Center",
+        "CR": "Center-Right",
+        "RR": "Right",
+        "FR": "Far-Right"
+      }
+    },
+    "countries": {
+      "title": "Countries (GDP)",
+      "category_column": "GDP_Quantile",
+      "category_order": ["Q4", "Q3", "Q2", "Q1"],
+      "category_labels": {
+        "Q4": "Richest (Q4)",
+        "Q3": "Rich (Q3)",
+        "Q2": "Poor (Q2)",
+        "Q1": "Poorest (Q1)"
+      }
+    },
+    "companies": {
+      "title": "Companies (Industry)",
+      "category_column": "domain",
+      "category_order": [],
+      "category_labels": {
+        "Manufacturing & Industrial Production": "Manufacturing",
+        "Information & Communications Technology": "ICT",
+        "Real Estate & Construction": "Real Estate",
+        "Agriculture & Natural Resources": "Agriculture",
+        "Transportation & Logistics": "Transport",
+        "Energy & Utilities": "Energy",
+        "Consumer Goods & Retail": "Retail",
+        "Financial Services": "Finance",
+        "Aerospace & Defense": "Defense",
+        "Pharmaceuticals & Healthcare": "Pharmaceuticals"
+      }
+    }
+  }
+}
