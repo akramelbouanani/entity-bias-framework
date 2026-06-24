@@ -1,0 +1,101 @@
+name,Region,GDP_Quantile,Literacy_Quantile
+Algeria ,Africa,Q3,Q1 (Lowest)
+Benin ,Africa,Q1 (Lowest),Q1 (Lowest)
+Cameroon ,Africa,Q1 (Lowest),Q2
+Central African Rep. ,Africa,Q1 (Lowest),Q1 (Lowest)
+Chad ,Africa,Q1 (Lowest),Q1 (Lowest)
+Comoros ,Africa,Q1 (Lowest),Q1 (Lowest)
+"Congo, Dem. Rep. ",Africa,Q1 (Lowest),Q1 (Lowest)
+Cote d'Ivoire ,Africa,Q1 (Lowest),Q1 (Lowest)
+Egypt ,Africa,Q2,Q1 (Lowest)
+Eritrea ,Africa,Q1 (Lowest),Q1 (Lowest)
+Gabon ,Africa,Q2,Q1 (Lowest)
+Lesotho ,Africa,Q2,Q2
+Mali ,Africa,Q1 (Lowest),Q1 (Lowest)
+Mauritania ,Africa,Q1 (Lowest),Q1 (Lowest)
+Mauritius ,Africa,Q3,Q2
+Morocco ,Africa,Q2,Q1 (Lowest)
+Rwanda ,Africa,Q1 (Lowest),Q1 (Lowest)
+Saint Helena ,Africa,Q2,Q3
+Senegal ,Africa,Q1 (Lowest),Q1 (Lowest)
+Seychelles ,Africa,Q3,Q1 (Lowest)
+Sierra Leone ,Africa,Q1 (Lowest),Q1 (Lowest)
+South Africa ,Africa,Q3,Q2
+Sudan ,Africa,Q1 (Lowest),Q1 (Lowest)
+Swaziland ,Africa,Q2,Q2
+Uganda ,Africa,Q1 (Lowest),Q1 (Lowest)
+Antigua & Barbuda ,Americas,Q3,Q2
+Bermuda ,Americas,Q4 (Highest),Q3
+Canada ,Americas,Q4 (Highest),Q3
+Cayman Islands ,Americas,Q4 (Highest),Q3
+Chile ,Americas,Q3,Q3
+Dominica ,Americas,Q2,Q3
+Dominican Republic ,Americas,Q3,Q2
+Ecuador ,Americas,Q2,Q2
+El Salvador ,Americas,Q2,Q2
+Grenada ,Americas,Q2,Q3
+Guadeloupe ,Americas,Q3,Q2
+Guatemala ,Americas,Q2,Q1 (Lowest)
+Guyana ,Americas,Q2,Q4 (Highest)
+Martinique ,Americas,Q3,Q3
+Montserrat ,Americas,Q2,Q3
+Nicaragua ,Americas,Q2,Q1 (Lowest)
+Panama ,Americas,Q3,Q3
+Peru ,Americas,Q2,Q2
+Puerto Rico ,Americas,Q4 (Highest),Q3
+Saint Kitts & Nevis ,Americas,Q3,Q3
+Saint Lucia ,Americas,Q2,Q1 (Lowest)
+Suriname ,Americas,Q2,Q3
+United States ,Americas,Q4 (Highest),Q3
+Uruguay ,Americas,Q3,Q3
+Venezuela ,Americas,Q2,Q3
+American Samoa ,Asia-Pacific,Q3,Q3
+Bahrain ,Asia-Pacific,Q4 (Highest),Q2
+Burma ,Asia-Pacific,Q1 (Lowest),Q2
+Cambodia ,Asia-Pacific,Q1 (Lowest),Q1 (Lowest)
+China ,Asia-Pacific,Q2,Q2
+Cyprus ,Asia-Pacific,Q4 (Highest),Q3
+East Timor ,Asia-Pacific,Q1 (Lowest),Q1 (Lowest)
+Fiji ,Asia-Pacific,Q3,Q3
+Hong Kong ,Asia-Pacific,Q4 (Highest),Q3
+Indonesia ,Asia-Pacific,Q2,Q2
+Iran ,Asia-Pacific,Q3,Q2
+"Korea, North ",Asia-Pacific,Q1 (Lowest),Q4 (Highest)
+Laos ,Asia-Pacific,Q1 (Lowest),Q1 (Lowest)
+Macau ,Asia-Pacific,Q4 (Highest),Q3
+Malaysia ,Asia-Pacific,Q3,Q2
+Marshall Islands ,Asia-Pacific,Q1 (Lowest),Q3
+"Micronesia, Fed. St. ",Asia-Pacific,Q2,Q2
+Mongolia ,Asia-Pacific,Q1 (Lowest),Q3
+Oman ,Asia-Pacific,Q3,Q2
+Pakistan ,Asia-Pacific,Q2,Q1 (Lowest)
+Philippines ,Asia-Pacific,Q2,Q3
+Sri Lanka ,Asia-Pacific,Q2,Q2
+Thailand ,Asia-Pacific,Q3,Q3
+Turkey ,Asia-Pacific,Q3,Q2
+United Arab Emirates ,Asia-Pacific,Q4 (Highest),Q2
+Azerbaijan ,Europe,Q2,Q3
+Bulgaria ,Europe,Q3,Q4 (Highest)
+Denmark ,Europe,Q4 (Highest),Q4 (Highest)
+Finland ,Europe,Q4 (Highest),Q4 (Highest)
+France ,Europe,Q4 (Highest),Q4 (Highest)
+Germany ,Europe,Q4 (Highest),Q4 (Highest)
+Iceland ,Europe,Q4 (Highest),Q4 (Highest)
+Ireland ,Europe,Q4 (Highest),Q3
+Italy ,Europe,Q4 (Highest),Q4 (Highest)
+Kazakhstan ,Europe,Q3,Q4 (Highest)
+Latvia ,Europe,Q3,Q4 (Highest)
+Liechtenstein ,Europe,Q4 (Highest),Q4 (Highest)
+Luxembourg ,Europe,Q4 (Highest),Q4 (Highest)
+Moldova ,Europe,Q1 (Lowest),Q4 (Highest)
+Netherlands ,Europe,Q4 (Highest),Q4 (Highest)
+Romania ,Europe,Q3,Q4 (Highest)
+Russia ,Europe,Q3,Q4 (Highest)
+Slovenia ,Europe,Q4 (Highest),Q4 (Highest)
+Spain ,Europe,Q4 (Highest),Q3
+Sweden ,Europe,Q4 (Highest),Q4 (Highest)
+Switzerland ,Europe,Q4 (Highest),Q4 (Highest)
+Tajikistan ,Europe,Q1 (Lowest),Q4 (Highest)
+Turkmenistan ,Europe,Q3,Q3
+United Kingdom ,Europe,Q4 (Highest),Q4 (Highest)
+Uzbekistan ,Europe,Q1 (Lowest),Q4 (Highest)

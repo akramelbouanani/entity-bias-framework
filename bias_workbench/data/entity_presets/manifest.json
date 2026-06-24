@@ -1,0 +1,50 @@
+{
+  "presets": [
+    {
+      "id": "forenames",
+      "file": "forenames.csv",
+      "name": "International forenames",
+      "entity_count": 120,
+      "description": "120 forenames balanced by gender and across Algeria, France, Germany, the USA, Zimbabwe, and India. Ideal for studying gender- and country-related name bias.",
+      "analysis_columns": [
+        "Gender",
+        "Country"
+      ]
+    },
+    {
+      "id": "countries",
+      "file": "countries.csv",
+      "name": "Countries",
+      "entity_count": 100,
+      "description": "100 countries balanced across four simplified world regions and GDP quartiles, with literacy quartiles retained for analysis.",
+      "analysis_columns": [
+        "Region",
+        "GDP_Quantile",
+        "Literacy_Quantile"
+      ]
+    },
+    {
+      "id": "politicians",
+      "file": "politicians.csv",
+      "name": "Politicians",
+      "entity_count": 140,
+      "description": "140 politicians: 20 from each of seven political alignments, with an exact 10/10 female–male balance per alignment in the available source data.",
+      "analysis_columns": [
+        "Gender",
+        "Grouped_Alignment"
+      ]
+    },
+    {
+      "id": "companies",
+      "file": "companies.csv",
+      "name": "Companies",
+      "entity_count": 120,
+      "description": "120 simplified company names balanced across six regions, six broad industries, and public, private, and state ownership.",
+      "analysis_columns": [
+        "domain",
+        "ownership",
+        "region"
+      ]
+    }
+  ]
+}

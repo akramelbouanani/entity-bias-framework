@@ -2,21 +2,17 @@
 
 This repository contains the data, execution code, and analysis pipelines for **“A Scalable Entity-Based Framework for Auditing Bias in LLMs”** (ACL 2026 Findings).
 
-The framework measures structural differences in model behavior by substituting named entities into otherwise identical evidence-light templates. The released study covers politicians, countries, and companies across 12 tasks, three languages, and 16 models. The same machinery can now be extended without adding task-specific Python code.
+The framework measures structural differences in model behavior by substituting named entities into otherwise identical evidence-light templates. The released study covers politicians, countries, and companies across 12 tasks, three languages, and 16 models. Tasks, entity sets, prompts, generation settings, and analyses are defined through reusable configuration files.
 
-## What changed
+## Architecture
 
-Task definitions are declarative. Prompts, localized labels, one-token matching rules, numerical labels, few-shot examples, score weights, datasets, and entity routing live in `configs/` rather than `utils_*.py`.
+The task registry is the framework's source of truth:
 
-The registry is now the single source of truth:
-
-- `configs/entities/*.json` defines an entity CSV and its localized name columns.
-- `configs/tasks/**/*.json` defines one complete task per file.
-- `src/bias_audit/` loads, validates, renders, expands, and executes those definitions.
-- `processing/` reads labels, weights, and task groups from the same registry.
-- The old `utils*.py` functions remain as small compatibility wrappers for notebooks and older scripts.
-
-This separation is intentional: adding a task or entity set should usually mean adding CSV and JSON files, not modifying framework internals.
+- `configs/entities/*.json` maps entity tables and localized name columns.
+- `configs/tasks/**/*.json` defines datasets, labels, prompts, examples, score weights, and generation settings.
+- `src/bias_audit/` validates configurations, renders prompts, expands datasets, runs inference, and creates figures.
+- `processing/` derives normalized scores, macro-F1 values, and prediction vectors from raw outputs.
+- `bias_workbench/` provides a local web interface for designing and running an audit end to end.
 
 ## Installation
 
@@ -28,15 +24,12 @@ source .venv/bin/activate
 pip install -e .
 ```
 
-On older system Python installations (for example, pip 22 with setuptools 59),
-install into the user environment without build isolation instead:
+For Python environments that do not support modern editable installs, install
+into the user environment without build isolation:
 
 ```bash
 python3 -m pip install --user -e . --no-build-isolation
 ```
-
-This command also repairs a stale `bias-audit` launcher whose editable-install
-metadata has been removed.
 
 For development tests:
 
@@ -77,10 +70,29 @@ src/run_generalization.py   Generalization execution entry point
 src/run_validation.py       Validation execution entry point
 slurm/                      Multi-model Slurm launchers and vLLM lifecycle helpers
 processing/                 Scores, F1, and prediction-vector pipelines
-analysis_notebooks/         Original exploratory paper notebooks
-plots/                      Generated ellipse, radar, and boxplot figures
-notebooks/                  Data preparation and earlier experiments
+bias_workbench/              Local end-to-end web interface
+tests/                       Configuration and framework tests
+plots/                       Generated ellipse, radar, and boxplot figures
 ```
+
+## Interactive workbench
+
+The local workbench guides a task through design, sentence generation,
+entity-cohort selection, model inference, and interactive analysis. It supports
+manual inputs, validated LLM-assisted task and entity generation, and bundled
+entity cohorts for forenames, countries, politicians, and companies.
+
+Install and start it from the repository root:
+
+```bash
+python3 -m pip install -e .
+python3 -m pip install -r bias_workbench/requirements.txt
+./bias_workbench/run.sh
+```
+
+Open [http://127.0.0.1:8010](http://127.0.0.1:8010). A vLLM server is expected
+on port `9714` by default. See [`bias_workbench/README.md`](bias_workbench/README.md)
+for the full workflow, input schemas, scoring method, and run artifacts.
 
 ## Inspecting the registered framework
 
@@ -122,9 +134,8 @@ The expanded rows have a stable contract:
 
 ## Generating evidence-light sentences
 
-Sentence generation is part of the same task registry as classification. There
-is no task-specific generation Python code and no external OpenAI/ChatGPT
-dependency. The generator sends concurrent requests to vLLM's OpenAI-compatible
+Sentence generation uses the same task registry as classification. The generator
+sends concurrent requests to vLLM's OpenAI-compatible
 `/v1/chat/completions` endpoint so instruction-tuned models receive their proper
 chat template. Classification continues to use `/v1/completions` because it
 requires first-token log probabilities.
@@ -557,7 +568,7 @@ python -m processing.vectors_processing \
   --models Meta-Llama-3-8B-Instruct
 ```
 
-The paper-compatible output names remain `{entity_set}_2.csv`, `{entity_set}_f1.csv`, and `{entity_set}_vs.csv`. Existing files are reused so missing columns can be filled incrementally.
+Processed outputs use the names `{entity_set}_2.csv`, `{entity_set}_f1.csv`, and `{entity_set}_vs.csv`. Existing files are reused so missing columns can be filled incrementally.
 
 Model numbers in processed column names (`m1`, `m2`, …) follow the order supplied to `--models`. Use the same order across processing runs when reproducing the paper.
 
@@ -568,9 +579,8 @@ processed.
 
 ## Analysis figures
 
-The three retained paper visualizations are available as reusable commands; the
-original notebooks are no longer required to produce them. They consume the
-wide CSVs from `processing/`, discover tasks through the registry, and use
+The analysis commands generate confidence ellipses, task radar plots, and
+boxplots. They consume the wide CSVs from `processing/`, discover tasks through the registry, and use
 `configs/analysis.json` only for entity grouping columns, category order, and
 display labels.
 
@@ -637,12 +647,11 @@ bias-audit analyze boxplots politicians \
 ```
 
 Use `--no-center` to show raw macro-F1, `--tasks` to choose task panels, and
-`--output figure.png` (or `.pdf`/`.svg`) to override the destination. For a
-legacy processed CSV that predates metadata sidecars, supply the exact original
-model order with `--models MODEL_1 MODEL_2 ...`; this is only needed for plots
-grouped by model.
+`--output figure.png` (or `.pdf`/`.svg`) to override the destination. When a
+processed CSV has no metadata sidecar, supply its model order with
+`--models MODEL_1 MODEL_2 ...`; this is only needed for plots grouped by model.
 
-The released defaults are deliberately small and editable:
+Default category mappings are defined in `configs/analysis.json`:
 
 ```json
 "politicians": {
@@ -680,12 +689,12 @@ prompt = build_prompt(
 frame = expand_task(task, entities, language="english", variant="main")
 ```
 
-This API is deliberately independent of the current model server. A later service or web interface can use the same registry, prompt renderer, and expansion code without re-encoding task behavior.
+The registry, prompt renderer, and dataset expansion APIs do not require a running model server.
 
 ## Reproducibility notes
 
-- The released prompt wording and few-shot examples were migrated verbatim into the task files.
+- Task files preserve the released prompt wording and few-shot examples.
 - The completion request uses seed 42, temperature 0, one generated token, and 20 top log probabilities.
 - Output-token matching is prefix-based for text labels and exact for numerical labels.
 - Probability columns are normalized to canonical English semantics during processing, using configured label identity rather than positional renaming.
-- Legacy utility modules are compatibility shims; new work should import `bias_audit` and edit `configs/`.
+- Python integrations should import the `bias_audit` package; task and entity definitions belong in `configs/`.

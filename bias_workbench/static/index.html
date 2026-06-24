@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bias Audit Workbench</title>
+    <meta name="description" content="Design and run an entity-based bias audit end to end." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2218%22 fill=%22%231d6f64%22/><text x=%2232%22 y=%2243%22 text-anchor=%22middle%22 font-size=%2232%22 fill=%22white%22>✦</text></svg>" />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <header class="topbar">
+      <a class="brand" href="/"><span>✦</span> Bias Audit Workbench</a>
+      <div class="local-pill">Local · vLLM</div>
+    </header>
+
+    <main>
+      <section id="landing" class="landing">
+        <div class="landing-copy">
+          <p class="eyebrow">From an idea to an empirical audit</p>
+          <h1>Test a task for<br /><em>entity bias</em> before<br />you ship it.</h1>
+          <p>
+            Describe your classification task. The workbench builds its dataset,
+            translates it, runs your entities through a local LLM, and turns the
+            disparities into a readable report.
+          </p>
+          <div class="landing-actions">
+            <button id="startButton" class="primary large">Start a new audit <span>→</span></button>
+            <button id="landingTaskAssist" class="secondary large">✦ Let AI design the task</button>
+          </div>
+        </div>
+        <div class="journey-card">
+          <p class="card-label">Your audit journey</p>
+          <ol>
+            <li><span>01</span><div><strong>Design</strong><small>Task, labels, weights and examples</small></div></li>
+            <li><span>02</span><div><strong>Generate</strong><small>Keywords, sentences and translations</small></div></li>
+            <li><span>03</span><div><strong>Bring entities</strong><small>Upload and validate your cohort</small></div></li>
+            <li><span>04</span><div><strong>Run</strong><small>Languages and prompting settings</small></div></li>
+            <li><span>05</span><div><strong>Understand</strong><small>Ellipses, rankings and new entities</small></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="workspace" class="workspace hidden">
+        <nav class="stepper" aria-label="Audit progress">
+          <button data-step="design" class="active"><span>1</span>Design</button>
+          <button data-step="generation" disabled><span>2</span>Generate</button>
+          <button data-step="entities" disabled><span>3</span>Entities</button>
+          <button data-step="experiment" disabled><span>4</span>Run</button>
+          <button data-step="report" disabled><span>5</span>Report</button>
+        </nav>
+
+        <section id="designStep" class="step-panel">
+          <header class="step-header">
+            <p class="eyebrow">Step 1 · Define the behavior</p>
+            <h2>What decision do you want to audit?</h2>
+            <p>Give the model enough context to create controlled, plausible situations.</p>
+            <button id="openTaskAssist" class="ghost assist-trigger">✦ Fill this task with AI</button>
+          </header>
+          <div class="panel-grid">
+            <div class="panel main-panel">
+              <label>Task name<input id="taskName" placeholder="e.g. Customer support quality" maxlength="100" /></label>
+              <label>Task description<textarea id="taskDescription" rows="4" placeholder="Describe what is being judged, the setting, and what evidence distinguishes the outcomes."></textarea></label>
+              <label>Classification prompt<textarea id="taskInstruction" rows="5" placeholder="Read the sentence about entity X and classify…"></textarea></label>
+            </div>
+            <aside class="panel tip-panel">
+              <span class="tip-icon">i</span>
+              <h3>Keep identity as the only variable</h3>
+              <p>Examples should use the literal placeholder <code>X</code>. Avoid evidence that only makes sense for one real entity.</p>
+              <p>The generated task will contain exactly 50 English sentences per label.</p>
+            </aside>
+          </div>
+
+          <div class="panel section-panel">
+            <div class="panel-title"><div><p class="eyebrow">Outcome scale</p><h3>Labels and semantic weights</h3></div><button id="addLabel" class="ghost">+ Add label</button></div>
+            <p class="helper">Weights range from −5 to +5. The optional category token is a prefix of the label’s first word; leave it blank to derive the shortest distinctive prefix automatically.</p>
+            <div class="direction-grid">
+              <label class="mapping-field">Lower weighted scores mean<input id="lowerWeightMeaning" maxlength="120" placeholder="e.g. lower approval likelihood" /></label>
+              <label class="mapping-field">Higher weighted scores mean<input id="higherWeightMeaning" maxlength="120" placeholder="e.g. higher approval likelihood" /></label>
+            </div>
+            <div id="labelRows" class="label-editor"></div>
+          </div>
+
+          <div class="panel section-panel">
+            <div class="panel-title"><div><p class="eyebrow">Show, don’t only tell</p><h3>Your example sentences</h3></div><button id="addExample" class="ghost">+ Add example</button></div>
+            <p class="helper">Provide at least one example for every label. Every sentence must contain standalone <code>X</code>.</p>
+            <div id="exampleRows" class="example-editor"></div>
+          </div>
+
+          <div class="panel section-panel language-panel">
+            <div><p class="eyebrow">Multilingual audit</p><h3>Generate and translate into</h3><p class="helper">English is the source language and is always included.</p></div>
+            <div id="generationLanguages" class="chip-grid"></div>
+          </div>
+
+          <div class="action-row">
+            <label class="port-control">vLLM port <input id="generationPort" type="number" value="9714" min="1" max="65535" /></label>
+            <div id="designError" class="error"></div>
+            <button id="generateButton" class="primary">Generate the audit dataset <span>→</span></button>
+          </div>
+        </section>
+
+        <section id="generationStep" class="step-panel hidden">
+          <header class="step-header"><p class="eyebrow">Step 2 · Dataset generated</p><h2>Review the model’s building blocks.</h2><p>All rows passed placeholder, keyword, completeness, and duplication checks.</p></header>
+          <div id="generationStats" class="metric-grid"></div>
+          <div class="panel section-panel">
+            <div class="panel-title"><div><p class="eyebrow">Task vocabulary</p><h3>100 model-generated keywords</h3></div><a id="downloadSentences" class="ghost link-button">Download CSV</a></div>
+            <div id="keywordCloud" class="keyword-cloud"></div>
+          </div>
+          <div class="panel section-panel"><p class="eyebrow">Quality sample</p><h3>Generated sentences by label</h3><div id="sentenceSamples" class="sentence-samples"></div></div>
+          <div class="action-row"><button class="secondary back-design">← Back</button><button id="toEntities" class="primary">Continue with entities <span>→</span></button></div>
+        </section>
+
+        <section id="entitiesStep" class="step-panel hidden">
+          <header class="step-header"><p class="eyebrow">Step 3 · Reference cohort</p><h2>Who should the model be tested on?</h2><p>Choose a ready cohort, generate one with AI, or upload your own CSV.</p><button id="openEntityAssist" class="ghost assist-trigger">✦ Generate an entity cohort with AI</button></header>
+          <div class="panel preset-panel">
+            <div class="panel-title"><div><p class="eyebrow">Ready immediately</p><h3>Use a curated entity set</h3><p class="helper">These balanced cohorts are bundled locally and require no generation.</p></div></div>
+            <div id="entityPresets" class="preset-grid"></div>
+          </div>
+          <div id="assistedEntityEditor" class="panel assisted-entity-editor hidden">
+            <div class="panel-title"><div><p class="eyebrow">Editable generated cohort</p><h3>Review every entity before using it</h3><p class="helper">Names are directly editable. Category cells use the validated values generated from your request.</p></div><span id="assistedEntityCount"></span></div>
+            <div class="table-wrap assisted-table-wrap"><table id="assistedEntityTable"></table></div>
+            <div class="action-row"><button id="discardAssistedEntities" class="secondary">Discard</button><button id="addAssistedEntity" class="ghost">+ Add entity</button><button id="useAssistedEntities" class="primary">Use this cohort <span>→</span></button></div>
+            <div id="assistedEntityError" class="error"></div>
+          </div>
+          <div id="dropZone" class="drop-zone">
+            <input id="entityFile" type="file" accept=".csv,text/csv" />
+            <div class="upload-icon">↑</div><h3>Drop your entity CSV here</h3><p>or click to browse · maximum 25 MB</p>
+          </div>
+          <div id="entitySchema" class="hidden">
+            <div id="entityStats" class="metric-grid"></div>
+            <div class="panel section-panel">
+              <p class="eyebrow">Column mapping</p><h3>Tell us what each column means</h3>
+              <div id="nameColumnMappings" class="mapping-grid"></div>
+              <div id="analysisCandidates" class="candidate-note"></div>
+              <div id="entityError" class="error"></div>
+            </div>
+            <div class="panel preview-panel"><p class="eyebrow">Data preview</p><div class="table-wrap"><table id="entityPreview"></table></div></div>
+            <div class="action-row"><button id="configureEntities" class="primary">Validate this cohort <span>→</span></button></div>
+          </div>
+        </section>
+
+        <section id="experimentStep" class="step-panel hidden">
+          <header class="step-header"><p class="eyebrow">Step 4 · Experiment matrix</p><h2>Choose the languages to test.</h2><p>Every run uses the task examples and named text labels. One matched setting is created per language.</p></header>
+          <div class="setting-columns single-setting">
+            <fieldset class="panel"><legend>Languages</legend><div id="experimentLanguages" class="toggle-list"></div></fieldset>
+          </div>
+          <div class="panel token-check-panel">
+            <div><p class="eyebrow">First-token safety check</p><h3>Verify category tokens before the full run</h3><p class="helper">The model is tested on one known example per label and selected setting. Every category token must appear among its first-token candidates.</p></div>
+            <button id="checkTokens" class="ghost">Check tokens</button>
+            <div id="tokenCheckStatus" class="token-check-status"></div>
+          </div>
+          <div class="run-summary panel"><div><p class="eyebrow">Estimated run</p><strong id="predictionEstimate">—</strong><span>model predictions</span></div><div><strong id="settingEstimate">—</strong><span>matched settings</span></div><div><strong id="entityEstimate">—</strong><span>entities</span></div></div>
+          <div class="action-row"><label class="port-control">vLLM port <input id="experimentPort" type="number" value="9714" /></label><div id="experimentError" class="error"></div><button id="runExperiment" class="primary">Run the complete audit <span>→</span></button></div>
+        </section>
+
+        <section id="reportStep" class="step-panel hidden">
+          <header class="step-header report-header"><div><p class="eyebrow">Step 5 · Audit report</p><h2 id="reportTitle">Your bias landscape</h2><p id="reportSubtitle"></p></div><div class="report-actions"><a id="downloadScores" class="ghost link-button">Download scores</a></div></header>
+          <div id="reportWarnings" class="warning-list"></div>
+          <div id="reportMetrics" class="metric-grid"></div>
+          <div class="panel analysis-builder">
+            <div><p class="eyebrow">Choose the comparison</p><h3>Generate an analysis by category</h3><p class="helper">You can change this column at any time without rerunning the model.</p></div>
+            <label class="mapping-field">Entity category<select id="analysisGroup"></select></label>
+            <button id="generateAnalysis" class="primary">Generate analysis <span>→</span></button>
+            <div id="analysisError" class="error"></div>
+          </div>
+          <div id="analysisPlots" class="hidden">
+          <div class="panel plot-panel distribution-panel">
+            <div class="panel-title"><div><p class="eyebrow">Score distribution</p><h3>All entity scores</h3><p class="helper">The active cohort is centered at zero. Hover a category to overlay its distribution and mean.</p></div></div>
+            <div class="plot-controls">
+              <label>Language<select id="plotLanguage"></select></label>
+            </div>
+            <div id="scoreDistribution" class="score-distribution"></div>
+            <div id="scoreExtremes" class="score-extremes"></div>
+          </div>
+          <div class="panel plot-panel">
+            <div class="panel-title"><div><p class="eyebrow">Confidence ellipses</p><h3>Average normalized bias by entity category</h3><p class="helper">Category means are centered on zero independently within each language.</p></div></div>
+            <div id="ellipsePlot" class="ellipse-plot"></div>
+          </div>
+          </div>
+
+          <div class="panel section-panel additional-panel">
+            <div><p class="eyebrow">Try one more name</p><h3>Place an additional entity in this landscape</h3><p class="helper">It will run on the completed task and settings, then be ranked and correlated against your uploaded cohort.</p></div>
+            <div id="additionalNames" class="mapping-grid"></div>
+            <div class="reference-filter-section">
+              <p class="eyebrow">Optional reference cohort</p><h3>Compare with a category or intersection</h3>
+              <p class="helper">Selections across columns are combined with AND. Leave every field on “All” to use the complete cohort.</p>
+              <div id="additionalFilters" class="filter-grid"></div>
+              <div id="filterMatchCount" class="filter-match-count"></div>
+            </div>
+            <div class="action-row"><label class="port-control">vLLM port <input id="additionalPort" type="number" value="9714" /></label><div id="additionalError" class="error"></div><button id="runAdditional" class="primary">Compare this entity <span>→</span></button></div>
+          </div>
+          <div id="additionalResult" class="hidden"></div>
+        </section>
+      </section>
+    </main>
+
+    <div id="progressModal" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="progress-dialog"><div class="orbit">✦</div><p id="progressStage" class="eyebrow">Working locally</p><h2 id="progressMessage">Starting…</h2><div class="progress-track"><div id="progressBar"></div></div><div class="progress-meta"><span id="progressPercent">0%</span><span id="progressEta"></span></div></div>
+    </div>
+    <div id="taskAssistModal" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="assist-dialog"><button class="assist-close" data-close="taskAssistModal">×</button><p class="eyebrow">AI task designer</p><h2>Describe the task in a few lines.</h2><p>Include desired labels if you have them. Otherwise, the model will usually design three balanced outcomes.</p><textarea id="taskAssistBrief" rows="6" placeholder="Example: Audit whether a manager recommends a candidate for promotion. I want labels Not ready, Ready soon, and Ready now…"></textarea><div id="taskAssistError" class="error"></div><div class="action-row"><button id="runTaskAssist" class="primary">Generate the complete task <span>→</span></button></div></div>
+    </div>
+    <div id="entityAssistModal" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="assist-dialog"><button class="assist-close" data-close="entityAssistModal">×</button><p class="eyebrow">AI cohort builder</p><h2>What entities and diversity do you need?</h2><p>Describe the entity kind and the categories you want to compare. The generated table remains editable.</p><textarea id="entityAssistBrief" rows="6" placeholder="Example: Personal names balanced across Female and Male genders and five countries: Algeria, France, Japan, Brazil, and Canada."></textarea><label class="mapping-field">Number of entities<input id="entityAssistCount" type="number" min="6" max="100" value="60" /></label><div id="entityAssistError" class="error"></div><div class="action-row"><button id="runEntityAssist" class="primary">Generate the cohort <span>→</span></button></div></div>
+    </div>
+    <script src="/static/app.js" defer></script>
+  </body>
+</html>
