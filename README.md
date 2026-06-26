@@ -698,3 +698,16 @@ The registry, prompt renderer, and dataset expansion APIs do not require a runni
 - Output-token matching is prefix-based for text labels and exact for numerical labels.
 - Probability columns are normalized to canonical English semantics during processing, using configured label identity rather than positional renaming.
 - Python integrations should import the `bias_audit` package; task and entity definitions belong in `configs/`.
+
+## Citation
+
+If you find this code or data useful for your research, please cite the following paper:
+
+```bibtex
+@article{elbouanani2026scalable,
+  title={A Scalable Entity-Based Framework for Auditing Bias in LLMs},
+  author={Elbouanani, Akram and Tuo, Aboubacar and Popescu, Adrian},
+  journal={arXiv preprint arXiv:2601.12374},
+  year={2026}
+}
+```
