@@ -4,6 +4,8 @@ This repository contains the data, execution code, and analysis pipelines for "*
 
 The framework measures structural differences in model behavior by substituting named entities into otherwise identical evidence-light templates. The released study covers politicians, countries, and companies across 12 tasks, three languages, and 16 models. Tasks, entity sets, prompts, generation settings, and analyses are defined through reusable configuration files.
 
+> **Note:** For additional information on deploying and serving **vLLM** models on an HPC cluster using **Slurm** (including launching models on a specified port) [see the companion repository.](https://github.com/akramelbouanani/slurm-vllm)
+
 ## Architecture
 
 The task registry is the framework's source of truth:
