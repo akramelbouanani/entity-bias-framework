@@ -1,6 +1,6 @@
 # A Scalable Entity-Based Framework for Auditing Bias in LLMs
 
-This repository contains the data, execution code, and analysis pipelines for **“A Scalable Entity-Based Framework for Auditing Bias in LLMs”** (ACL 2026 Findings).
+This repository contains the data, execution code, and analysis pipelines for "**[A Scalable Entity-Based Framework for Auditing Bias in Large Language Models](https://aclanthology.org/2026.findings-acl.1689.pdf)"** (ACL 2026 Findings).
 
 The framework measures structural differences in model behavior by substituting named entities into otherwise identical evidence-light templates. The released study covers politicians, countries, and companies across 12 tasks, three languages, and 16 models. Tasks, entity sets, prompts, generation settings, and analyses are defined through reusable configuration files.
 
@@ -704,10 +704,24 @@ The registry, prompt renderer, and dataset expansion APIs do not require a runni
 If you find this code or data useful for your research, please cite the following paper:
 
 ```bibtex
-@article{elbouanani2026scalable,
-  title={A Scalable Entity-Based Framework for Auditing Bias in LLMs},
-  author={Elbouanani, Akram and Tuo, Aboubacar and Popescu, Adrian},
-  journal={arXiv preprint arXiv:2601.12374},
-  year={2026}
+@inproceedings{elbouanani-etal-2026-scalable,
+    title = "A Scalable Entity-Based Framework for Auditing Bias in Large Language Models",
+    author = "Elbouanani, Akram  and
+      Tuo, Aboubacar  and
+      Popescu, Adrian",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.1689/",
+    doi = "10.18653/v1/2026.findings-acl.1689",
+    pages = "33823--33852",
+    ISBN = "979-8-89176-395-1",
+    abstract = "Existing approaches to bias evaluation in large language models (LLMs) trade ecological validity for statistical control, relying on artificial prompts that poorly reflect real-world use, or on naturalistic tasks that lack scale and rigor. We introduce a scalable bias-auditing framework using named entities as probes to measure structural disparities in model behavior. We show that synthetic data reliably reproduces bias patterns observed in natural text, enabling large-scale analysis. Using this approach, we conduct the largest bias audit to date, comprising 1.9 billion data points across multiple entity types, tasks, languages, models, and prompting strategies. Our results reveal systematic biases: models penalize right-wing politicians, favor left-wing politicians, prefer Western and wealthy nations over the Global South, favor Western companies, and penalize firms in the defense and pharmaceutical sectors. While instruction tuning reduces bias, increasing model scale amplifies it, and prompting in Chinese or Russian does not attenuate Western-aligned preferences. These results indicate that LLMs should undergo rigorous auditing before deployment in high-stakes applications."
 }
 ```
